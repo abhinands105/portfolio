@@ -1,0 +1,314 @@
+/* =====================================================
+   AI TERMINAL
+===================================================== */
+
+.terminal{
+
+    width:560px;
+    height:280px;
+
+    display:flex;
+    flex-direction:column;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    background:#09090f;
+
+    border:1px solid rgba(168,85,247,.25);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.45),
+        0 0 30px rgba(168,85,247,.12);
+
+    backdrop-filter:blur(16px);
+
+    user-select:none;
+
+    cursor:text;
+
+    transition:.35s;
+}
+
+.terminal:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 24px 70px rgba(0,0,0,.55),
+        0 0 35px rgba(168,85,247,.20);
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.terminal-header{
+
+    height:44px;
+
+    padding:0 16px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    background:#11111b;
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+.terminal-buttons{
+
+    display:flex;
+
+    gap:8px;
+}
+
+.terminal-buttons span{
+
+    width:11px;
+    height:11px;
+
+    border-radius:50%;
+}
+
+.red{
+
+    background:#ff5f57;
+}
+
+.yellow{
+
+    background:#febc2e;
+}
+
+.green{
+
+    background:#28c840;
+}
+
+.terminal-title{
+
+    color:#f3f4f6;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    letter-spacing:.8px;
+}
+
+.terminal-status{
+
+    color:#22c55e;
+
+    font-size:12px;
+
+    font-weight:600;
+}
+
+
+/* =====================================================
+   BODY
+===================================================== */
+
+.terminal-body{
+
+    flex:1;
+
+    padding:16px 18px;
+
+    overflow-y:auto;
+
+    font-family:
+        "JetBrains Mono",
+        "Fira Code",
+        Consolas,
+        monospace;
+
+    font-size:13px;
+
+    line-height:1.75;
+
+    color:#e5e7eb;
+}
+
+.terminal-body::-webkit-scrollbar{
+
+    width:6px;
+}
+
+.terminal-body::-webkit-scrollbar-thumb{
+
+    background:#444;
+
+    border-radius:10px;
+}
+
+
+/* =====================================================
+   OUTPUT
+===================================================== */
+
+.terminal-output{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+}
+
+.terminal-line{
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+.terminal-command{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+}
+
+.terminal-prompt{
+
+    color:#8b5cf6;
+
+    font-weight:700;
+
+    white-space:nowrap;
+}
+
+.terminal-input{
+
+    color:#ffffff;
+}
+
+.terminal-response{
+
+    margin-left:2px;
+
+    margin-top:6px;
+}
+
+.terminal-response-line{
+
+    color:#d1d5db;
+}
+
+
+/* =====================================================
+   ERROR
+===================================================== */
+
+.error .terminal-response-line{
+
+    color:#ef4444;
+}
+
+
+/* =====================================================
+   INPUT
+===================================================== */
+
+.terminal-input-row{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-top:18px;
+}
+
+.terminal-input-box{
+
+    flex:1;
+
+    background:transparent;
+
+    border:none;
+
+    outline:none;
+
+    color:#ffffff;
+
+    font-size:13px;
+
+    font-family:inherit;
+}
+
+.terminal-input-box::placeholder{
+
+    color:#6b7280;
+}
+
+
+/* =====================================================
+   CURSOR
+===================================================== */
+
+.terminal-input-box{
+
+    caret-color:#8b5cf6;
+}
+
+
+/* =====================================================
+   LINKS
+===================================================== */
+
+.terminal a{
+
+    color:#60a5fa;
+
+    text-decoration:none;
+}
+
+.terminal a:hover{
+
+    text-decoration:underline;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width:1200px){
+
+    .terminal{
+
+        width:100%;
+
+        max-width:560px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .terminal{
+
+        width:100%;
+
+        height:300px;
+    }
+
+    .terminal-title{
+
+        display:none;
+    }
+
+}

@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+:root{
+  --bg:#050510;
+  --card:#0d1020;
+  --purple:#7b2cbf;
+  --purple-light:#c77dff;
+  --purple-dark:#5a189a;
+  --text:#ffffff;
+  --muted:#bdbdbd;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+html,
+body,
+#root{
+  min-height:100%;
+}
+
+body{
+  font-family:"Inter",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  overflow-x:hidden;
+}
+
+/* ---------------- Scrollbar ---------------- */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#050510;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#7b2cbf;
+  border-radius:999px;
+}
+
+/* ---------------- Global ---------------- */
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+button{
+  min-height:48px;
+  transition:.25s;
+}
+
+button:hover{
+  transform:translateY(-2px);
+}
+
+/* ---------------- Layout ---------------- */
+
+.page-container{
+  max-width:1400px;
+  width:100%;
+  margin:auto;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(550px,1fr) 520px;
+  gap:60px;
+  align-items:start;
+  min-height:calc(100vh - 120px);
+}
+
+.hero-left{
+  width:100%;
+}
+
+.hero-right{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:28px;
+  width:100%;
+}
+
+/* ---------------- Avatar Section ---------------- */
+
+.avatar-section{
+  position:relative;
+  width:100%;
+  max-width:520px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.avatar-left-ui,
+.avatar-right-ui{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  pointer-events:none;
+}
+
+.avatar-left-ui{
+  left:-120px;
+}
+
+.avatar-right-ui{
+  right:-120px;
+}
+
+.avatar-card{
+  width:100%;
+  max-width:520px;
+  height:520px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  border-radius:28px;
+  overflow:hidden;
+
+  background:linear-gradient(
+      180deg,
+      rgba(12,14,30,.96),
+      rgba(5,6,15,.96)
+  );
+
+  position:relative;
+}
+
+/* ---------------- Terminal ---------------- */
+
+.terminal-wrapper{
+  width:100%;
+  max-width:520px;
+}
+
+.terminal{
+  width:100%;
+}
+
+.terminal pre{
+  overflow-x:auto;
+}
+
+/* ---------------- Stats ---------------- */
+
+.stats-section{
+  margin-top:70px;
+}
+
+.stats-grid{
+  display:grid;
+}
+
+/* ---------------- Glass ---------------- */
+
+.glass{
+  background:rgba(255,255,255,.03);
+  backdrop-filter:blur(15px);
+  -webkit-backdrop-filter:blur(15px);
+}
+
+.neon-border{
+  border:1px solid rgba(157,78,221,.25);
+
+  box-shadow:
+      0 0 20px rgba(157,78,221,.15),
+      inset 0 0 18px rgba(157,78,221,.05);
+}
+
+.glass:hover{
+  transform:translateY(-4px);
+
+  box-shadow:
+      0 10px 40px rgba(157,78,221,.18);
+}
+
+/* ---------------- Gradient ---------------- */
+
+.gradient-text{
+  background:linear-gradient(
+      90deg,
+      #7b2cbf,
+      #c77dff,
+      #9d4edd
+  );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* ---------------- Buttons ---------------- */
+
+.button-group{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+/* ---------------- Animation ---------------- */
+
+@keyframes fadeIn{
+
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+.fade-in{
+  animation:fadeIn .6s ease forwards;
+}
+
+@keyframes hologramFloat{
+
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-12px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+
+}
+
+/* ---------------- Responsive ---------------- */
+
+@media (max-width:1100px){
+
+  .hero-grid{
+
+    grid-template-columns:1fr;
+
+    justify-items:center;
+
+    text-align:center;
+
+    gap:40px;
+  }
+
+  .button-group{
+    justify-content:center;
+  }
+
+  .hero-right{
+    width:100%;
+  }
+
+  .avatar-left-ui,
+  .avatar-right-ui{
+    display:none;
+  }
+
+}
+
+@media (max-width:900px){
+
+  .page-container{
+    padding:20px !important;
+  }
+
+  .stats-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+@media (max-width:600px){
+
+  .stats-grid{
+    grid-template-columns:1fr;
+  }
+
+  .button-group{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+}

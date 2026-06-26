@@ -1,0 +1,874 @@
+/* ======================================================
+   HOME PAGE
+====================================================== */
+
+.page-container{
+    width:100%;
+    max-width:1450px;
+    margin:0 auto;
+    padding:0 30px 80px;
+}
+
+/* ======================================================
+   HERO SECTION
+====================================================== */
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:minmax(600px,1fr) 560px;
+
+    gap:64px;
+
+    align-items:center;
+
+    min-height:calc(100vh - 90px);
+}
+
+/* ======================================================
+   LEFT
+====================================================== */
+
+.hero-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    position:relative;
+
+    z-index:2;
+}
+
+/* ======================================================
+   RIGHT
+====================================================== */
+
+.hero-right{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+}
+
+/* ======================================================
+   TERMINAL
+====================================================== */
+
+.terminal-wrapper{
+
+    width:100%;
+
+    max-width:560px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    animation:terminalFloat 6s ease-in-out infinite;
+}
+
+@keyframes terminalFloat{
+
+    0%{
+
+        transform:translateY(0px);
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+    }
+
+    100%{
+
+        transform:translateY(0px);
+    }
+
+}
+
+/* ======================================================
+   STATS
+====================================================== */
+
+.stats-section{
+
+    margin-top:90px;
+
+    width:100%;
+}
+
+/* ======================================================
+   PARALLAX VARIABLES
+====================================================== */
+
+:root{
+
+    --mouse-x:0px;
+
+    --mouse-y:0px;
+}
+
+/* ======================================================
+   PARALLAX
+====================================================== */
+
+.hero-left{
+
+    transform:
+
+        translate3d(
+
+            calc(var(--mouse-x) * -.20),
+
+            calc(var(--mouse-y) * -.20),
+
+            0
+
+        );
+
+    transition:transform .12s linear;
+}
+
+.hero-right{
+
+    transform:
+
+        translate3d(
+
+            calc(var(--mouse-x) * .10),
+
+            calc(var(--mouse-y) * .10),
+
+            0
+
+        );
+
+    transition:transform .12s linear;
+}
+
+
+
+.stats-section{
+
+    transform:
+
+        translate3d(
+
+            calc(var(--mouse-x) * .06),
+
+            calc(var(--mouse-y) * .06),
+
+            0
+
+        );
+
+    transition:transform .12s linear;
+}
+
+/* ======================================================
+   TABLET
+====================================================== */
+
+@media (max-width:1200px){
+
+.hero-grid{
+
+grid-template-columns:1fr;
+
+gap:50px;
+
+}
+
+.hero-left{
+
+text-align:center;
+
+align-items:center;
+
+}
+
+.hero-right{
+
+justify-content:center;
+
+}
+
+.terminal-wrapper{
+
+width:100%;
+
+max-width:560px;
+
+}
+
+}
+
+/* ======================================================
+   MOBILE
+====================================================== */
+
+@media (max-width:768px){
+
+    .page-container{
+
+        padding:0 20px 60px;
+    }
+
+    .hero-grid{
+
+        gap:40px;
+    }
+
+    .terminal-wrapper{
+
+        width:100%;
+
+        max-width:100%;
+    }
+    .stats-section{
+
+        margin-top:60px;
+    }
+
+}
+
+/* ======================================================
+   SMALL DEVICES
+====================================================== */
+
+@media (max-width:500px){
+
+    .page-container{
+
+        padding:0 16px 40px;
+    }
+
+    .hero-grid{
+
+        gap:30px;
+    }
+
+}
+/* ======================================================
+   CERTIFICATIONS
+====================================================== */
+
+.certifications-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.certifications-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:24px;
+}
+
+.certification-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:22px;
+
+    padding:26px;
+
+    border-radius:22px;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.certification-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#9d4edd;
+
+    box-shadow:0 18px 40px rgba(157,78,221,.18);
+}
+
+.certification-badge{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    flex-shrink:0;
+
+    color:#fff;
+}
+
+.certification-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+}
+
+.certification-content h3{
+
+    font-size:18px;
+
+    color:#fff;
+
+    line-height:1.4;
+}
+
+.certification-content h4{
+
+    font-size:15px;
+
+    color:#9d4edd;
+
+    font-weight:600;
+}
+
+.certification-content span{
+
+    color:#9ca3af;
+
+    font-size:14px;
+}
+
+@media(max-width:768px){
+
+.certifications-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+/* ======================================================
+   GITHUB
+====================================================== */
+
+.github-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+}
+
+.github-layout{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:24px;
+}
+
+.github-profile-card{
+
+    padding:32px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    transition:.35s;
+}
+
+.github-profile-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 16px 40px rgba(157,78,221,.18);
+}
+
+.github-logo{
+
+    font-size:56px;
+
+    color:#9d4edd;
+
+    margin-bottom:18px;
+}
+
+.github-profile-card h3{
+
+    margin-bottom:10px;
+
+    font-size:24px;
+}
+
+.github-profile-card p{
+
+    margin-bottom:24px;
+
+    color:#bdbdbd;
+}
+
+.featured-projects{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:22px;
+}
+
+.featured-card{
+
+    padding:28px;
+
+    border-radius:20px;
+
+    transition:.35s;
+}
+
+.featured-card:hover{
+
+    transform:translateY(-6px);
+}
+
+.repo-icon{
+
+    font-size:26px;
+
+    color:#9d4edd;
+
+    margin-bottom:18px;
+}
+
+.featured-card h3{
+
+    margin-bottom:12px;
+
+    font-size:22px;
+}
+
+.featured-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.7;
+}
+
+@media(max-width:900px){
+
+.github-layout{
+
+grid-template-columns:1fr;
+
+}
+
+.featured-projects{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+/* ======================================================
+   AI LAB
+====================================================== */
+
+.ai-lab-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.lab-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:24px;
+}
+
+.lab-card{
+
+    padding:32px;
+
+    border-radius:22px;
+
+    transition:.35s;
+}
+
+.lab-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(157,78,221,.18);
+}
+
+.lab-icon{
+
+    font-size:44px;
+
+    color:#9d4edd;
+
+    margin-bottom:22px;
+}
+
+.lab-card h3{
+
+    margin-bottom:20px;
+
+    font-size:24px;
+}
+
+.lab-card ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+}
+
+.lab-card li{
+
+    padding:10px 0;
+
+    color:#d4d4d4;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.lab-card li:last-child{
+
+    border-bottom:none;
+}
+
+@media(max-width:900px){
+
+.lab-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+/* ======================================================
+   EDUCATION
+====================================================== */
+
+.education-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+}
+
+.education-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+}
+
+.education-card{
+
+    display:flex;
+
+    gap:28px;
+
+    padding:32px;
+
+    border-radius:22px;
+
+    transition:.35s;
+}
+
+.education-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 40px rgba(157,78,221,.18);
+}
+
+.education-icon{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(157,78,221,.10);
+
+    color:#9d4edd;
+
+    font-size:30px;
+
+    flex-shrink:0;
+}
+
+.education-content{
+
+    flex:1;
+}
+
+.education-period{
+
+    display:inline-block;
+
+    margin-bottom:12px;
+
+    color:#9d4edd;
+
+    font-size:14px;
+
+    font-weight:700;
+}
+
+.education-content h3{
+
+    font-size:24px;
+
+    margin-bottom:8px;
+}
+
+.education-content h4{
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    margin-bottom:6px;
+}
+
+.education-content h5{
+
+    color:#bdbdbd;
+
+    font-size:15px;
+
+    margin-bottom:18px;
+
+    font-weight:500;
+}
+
+.education-content p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+}
+
+@media(max-width:768px){
+
+.education-card{
+
+flex-direction:column;
+
+}
+
+}
+
+
+
+
+
+
+/* ======================================================
+   TIMELINE
+====================================================== */
+
+.timeline-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+}
+
+.timeline{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.timeline-card{
+
+    display:flex;
+
+    gap:24px;
+}
+
+.timeline-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    width:70px;
+}
+
+.timeline-circle{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(157,78,221,.15);
+
+    color:#9d4edd;
+
+    font-size:24px;
+
+    border:2px solid rgba(157,78,221,.4);
+
+    z-index:2;
+}
+
+.timeline-line{
+
+    width:2px;
+
+    flex:1;
+
+    background:rgba(157,78,221,.3);
+
+    margin-top:8px;
+}
+
+.timeline-card:last-child .timeline-line{
+
+    display:none;
+}
+
+.timeline-content{
+
+    flex:1;
+
+    padding:30px;
+
+    border-radius:22px;
+
+    transition:.35s;
+}
+
+.timeline-content:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 40px rgba(157,78,221,.18);
+}
+
+.timeline-year{
+
+    color:#9d4edd;
+
+    font-weight:700;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+}
+
+.timeline-content h3{
+
+    margin:12px 0 8px;
+
+    font-size:24px;
+}
+
+.timeline-content h4{
+
+    color:#bdbdbd;
+
+    margin-bottom:18px;
+
+    font-weight:500;
+}
+
+.timeline-content p{
+
+    color:#d4d4d4;
+
+    line-height:1.8;
+}
+
+@media(max-width:768px){
+
+.timeline-card{
+
+flex-direction:column;
+
+}
+
+.timeline-left{
+
+width:100%;
+
+flex-direction:row;
+
+justify-content:flex-start;
+
+}
+
+.timeline-line{
+
+display:none;
+
+}
+
+}

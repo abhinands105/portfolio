@@ -1,0 +1,225 @@
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.navbar{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    height:72px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 32px;
+
+    background:rgba(5,5,16,.85);
+
+    backdrop-filter:blur(14px);
+
+    -webkit-backdrop-filter:blur(14px);
+
+    border-bottom:1px solid rgba(157,78,221,.15);
+}
+
+/* ==========================================
+   LOGO
+========================================== */
+
+.navbar-logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#c77dff;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+}
+
+.navbar-diamond{
+
+    color:#00ffff;
+
+    font-size:16px;
+
+    animation:diamondPulse 2s infinite;
+}
+
+@keyframes diamondPulse{
+
+    0%{
+
+        opacity:.5;
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        opacity:1;
+        transform:scale(1.2);
+
+    }
+
+    100%{
+
+        opacity:.5;
+        transform:scale(1);
+
+    }
+
+}
+
+/* ==========================================
+   TERMINAL PATH
+========================================== */
+
+.navbar-terminal{
+
+    color:#00ff88;
+
+    font-size:14px;
+
+    font-family:
+        "JetBrains Mono",
+        "Fira Code",
+        Consolas,
+        monospace;
+
+    letter-spacing:.5px;
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.navbar-button{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:10px 22px;
+
+    border-radius:14px;
+
+    border:1px solid rgba(157,78,221,.35);
+
+    background:rgba(255,255,255,.03);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+}
+
+.navbar-button:hover{
+
+    background:rgba(157,78,221,.12);
+
+    border-color:#9d4edd;
+
+    transform:translateY(-2px);
+
+    box-shadow:
+
+        0 0 20px rgba(157,78,221,.20);
+}
+
+/* ==========================================
+   STATUS
+========================================== */
+
+.navbar-status{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:#00ff66;
+
+    box-shadow:
+
+        0 0 8px #00ff66,
+
+        0 0 18px #00ff66;
+
+    animation:statusBlink 1.8s infinite;
+}
+
+@keyframes statusBlink{
+
+    0%{
+
+        opacity:.4;
+
+    }
+
+    50%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:.4;
+
+    }
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:900px){
+
+    .navbar{
+
+        padding:0 18px;
+    }
+
+    .navbar-terminal{
+
+        display:none;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .navbar-logo{
+
+        font-size:12px;
+    }
+
+    .navbar-button{
+
+        padding:10px 16px;
+
+        font-size:13px;
+    }
+
+}

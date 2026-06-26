@@ -1,0 +1,140 @@
+/* ==========================================
+   STATS GRID
+========================================== */
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(190px,1fr));
+
+    gap:24px;
+
+    margin-top:70px;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.stats-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:30px;
+
+    border-radius:24px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.03),
+            rgba(255,255,255,.01)
+        );
+
+    transition:.35s ease;
+}
+
+.stats-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+        0 15px 40px rgba(157,78,221,.18);
+}
+
+/* ==========================================
+   ICON
+========================================== */
+
+.stats-icon{
+
+    font-size:30px;
+
+    margin-bottom:18px;
+}
+
+/* ==========================================
+   VALUE
+========================================== */
+
+.stats-value{
+
+    font-size:46px;
+
+    font-weight:900;
+
+    margin-bottom:10px;
+}
+
+/* ==========================================
+   LABEL
+========================================== */
+
+.stats-label{
+
+    color:#bdbdbd;
+
+    font-size:15px;
+
+    letter-spacing:.5px;
+}
+
+/* ==========================================
+   GLOW
+========================================== */
+
+.stats-glow{
+
+    position:absolute;
+
+    width:140px;
+    height:140px;
+
+    right:-45px;
+    top:-45px;
+
+    border-radius:50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(157,78,221,.22),
+            transparent 70%
+        );
+
+    filter:blur(22px);
+
+    pointer-events:none;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .stats-grid{
+
+        grid-template-columns:
+            repeat(2,minmax(0,1fr));
+    }
+
+}
+
+@media(max-width:520px){
+
+    .stats-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .stats-value{
+
+        font-size:38px;
+    }
+
+}

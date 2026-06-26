@@ -1,0 +1,26 @@
+.layout-main{
+    margin-left:88px;
+    min-height:100vh;
+    width:calc(100% - 88px);
+
+    background:#050510;
+    color:white;
+
+    overflow-x:hidden;
+}
+
+.page-container{
+    width:100%;
+    max-width:1400px;
+
+    margin:0 auto;
+
+    padding:0 24px;
+}
+@media(max-width:760px){
+    .layout-main{
+        margin-left:0;
+        width:100%;
+        padding-bottom:86px;
+    }
+}
