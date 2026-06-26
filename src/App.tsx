@@ -1,12 +1,12 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import RoutesConfig from "./routes";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <RoutesConfig />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
