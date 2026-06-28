@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 import "./Layout.css";
 
@@ -9,6 +10,7 @@ import ParticlesBackground from "../ui/ParticlesBackground";
 export default function Layout() {
   return (
     <>
+      <ScrollToTop />
       <ParticlesBackground />
 
       <Sidebar />

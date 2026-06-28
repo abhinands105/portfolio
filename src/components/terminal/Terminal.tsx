@@ -31,13 +31,17 @@ export default function Terminal() {
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    inputRef.current?.focus();
+    inputRef.current?.focus({
+      preventScroll: true,
+    });
   }, []);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({
-      behavior: "smooth",
-    });
+    const scroll = bottomRef.current?.parentElement;
+
+    if (scroll) {
+      scroll.scrollTop = scroll.scrollHeight;
+    }
   }, [lines]);
 
   function runCommand(value: string) {
@@ -119,9 +123,10 @@ export default function Terminal() {
       setInput("");
 
       requestAnimationFrame(() => {
-        inputRef.current?.focus();
+        inputRef.current?.focus({
+          preventScroll: true,
+        });
       });
-
       return;
     }
 
@@ -143,7 +148,9 @@ export default function Terminal() {
       setInput("");
 
       requestAnimationFrame(() => {
-        inputRef.current?.focus();
+        inputRef.current?.focus({
+          preventScroll: true,
+        });
       });
 
       return;
@@ -162,14 +169,20 @@ export default function Terminal() {
     setInput("");
 
     requestAnimationFrame(() => {
-      inputRef.current?.focus();
-    });
+      inputRef.current?.focus({
+        preventScroll: true,
+      });
+});
   }
 
   return (
     <div
       className="terminal"
-      onClick={() => inputRef.current?.focus()}
+      onClick={() =>
+        inputRef.current?.focus({
+          preventScroll: true,
+        })
+      }
     >
       {/* Header */}
 

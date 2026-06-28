@@ -1,36 +1,64 @@
 import "./Hero.css";
+import PortraitCanvas from "../portrait/PortraitCanvas";
+import Terminal from "../terminal/Terminal";
+import HeroStats from "./HeroStats";
 
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="hero-content">
-        <span className="hero-badge">
-          👋 Hello, I'm
-        </span>
+      <div className="hero-wrapper">
 
-        <h1>
-          Abhinand <span>Subramanian</span>
-        </h1>
+        {/* LEFT SIDE */}
+        <div className="hero-content">
 
-        <h2>
-          Generative AI • Machine Learning • Computer Vision
-        </h2>
+          <span className="hero-badge">
+            👋 Hello, I'm
+          </span>
 
-        <p>
-          B.Tech Artificial Intelligence & Data Science student passionate
-          about Generative AI, Computer Vision, Large Language Models, and
-          building intelligent software products.
-        </p>
+          <h1>
+            Abhinand <span>Subramanian</span>
+          </h1>
 
-        <div className="hero-buttons">
-          <a href="/projects" className="primary-btn">
-            View Projects
-          </a>
+          <h2>
+            Generative AI • Machine Learning • Computer Vision
+          </h2>
 
-          <a href="/contact" className="secondary-btn">
-            Contact Me
-          </a>
+          <p>
+            B.Tech Artificial Intelligence & Data Science student passionate
+            about Generative AI, Computer Vision, Large Language Models,
+            and building intelligent software products.
+          </p>
+
+          <div className="hero-buttons">
+            <a href="/projects" className="primary-btn">
+              View Projects
+            </a>
+
+            <a href="/contact" className="secondary-btn">
+              Contact Me
+            </a>
+          </div>
+
         </div>
+
+        {/* RIGHT SIDE */}
+        <div className="hero-right">
+
+          <div className="hero-portrait">
+            <PortraitCanvas />
+          </div>
+
+          <div className="hero-terminal">
+            <Terminal />
+          </div>
+
+        </div>
+
+        {/* STATS */}
+        <div className="hero-stats">
+          <HeroStats />
+        </div>
+
       </div>
     </section>
   );

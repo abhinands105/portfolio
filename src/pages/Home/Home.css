@@ -2,244 +2,81 @@
    HOME PAGE
 ====================================================== */
 
-.page-container{
-    width:100%;
-    max-width:1450px;
-    margin:0 auto;
-    padding:0 30px 80px;
+
+
+
+.home-page{
+    padding-bottom:80px;
 }
 
-/* ======================================================
-   HERO SECTION
-====================================================== */
+@media (max-width:500px){
 
-.hero-grid{
-
-    display:grid;
-
-    grid-template-columns:minmax(600px,1fr) 560px;
-
-    gap:64px;
-
-    align-items:center;
-
-    min-height:calc(100vh - 90px);
-}
-
-/* ======================================================
-   LEFT
-====================================================== */
-
-.hero-left{
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    position:relative;
-
-    z-index:2;
-}
-
-/* ======================================================
-   RIGHT
-====================================================== */
-
-.hero-right{
-
-    display:flex;
-
-    justify-content:flex-end;
-
-    align-items:center;
-}
-
-/* ======================================================
-   TERMINAL
-====================================================== */
-
-.terminal-wrapper{
-
-    width:100%;
-
-    max-width:560px;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    animation:terminalFloat 6s ease-in-out infinite;
-}
-
-@keyframes terminalFloat{
-
-    0%{
-
-        transform:translateY(0px);
-    }
-
-    50%{
-
-        transform:translateY(-10px);
-    }
-
-    100%{
-
-        transform:translateY(0px);
+    .home-page{
+        padding-bottom:40px;
     }
 
 }
-
 /* ======================================================
    STATS
 ====================================================== */
 
 .stats-section{
 
-    margin-top:90px;
-
     width:100%;
+
+    max-width:700px;
+
+    margin-top:24px;
+
+    display:flex;
+
+    justify-content:flex-start;
+
 }
 
+.stats-section .stats-grid{
+
+    width:100%;
+
+}
+
+@media (max-width:1100px){
+
+    .stats-section{
+
+        max-width:100%;
+
+        margin-top:24px;
+
+    }
+
+}
 /* ======================================================
    PARALLAX VARIABLES
 ====================================================== */
 
-:root{
-
-    --mouse-x:0px;
-
-    --mouse-y:0px;
-}
+ 
 
 /* ======================================================
    PARALLAX
 ====================================================== */
 
-.hero-left{
-
-    transform:
-
-        translate3d(
-
-            calc(var(--mouse-x) * -.20),
-
-            calc(var(--mouse-y) * -.20),
-
-            0
-
-        );
-
-    transition:transform .12s linear;
-}
-
-.hero-right{
-
-    transform:
-
-        translate3d(
-
-            calc(var(--mouse-x) * .10),
-
-            calc(var(--mouse-y) * .10),
-
-            0
-
-        );
-
-    transition:transform .12s linear;
-}
+ 
 
 
 
-.stats-section{
-
-    transform:
-
-        translate3d(
-
-            calc(var(--mouse-x) * .06),
-
-            calc(var(--mouse-y) * .06),
-
-            0
-
-        );
-
-    transition:transform .12s linear;
-}
+ 
 
 /* ======================================================
    TABLET
 ====================================================== */
 
-@media (max-width:1200px){
-
-.hero-grid{
-
-grid-template-columns:1fr;
-
-gap:50px;
-
-}
-
-.hero-left{
-
-text-align:center;
-
-align-items:center;
-
-}
-
-.hero-right{
-
-justify-content:center;
-
-}
-
-.terminal-wrapper{
-
-width:100%;
-
-max-width:560px;
-
-}
-
-}
-
+ 
 /* ======================================================
    MOBILE
 ====================================================== */
 
-@media (max-width:768px){
-
-    .page-container{
-
-        padding:0 20px 60px;
-    }
-
-    .hero-grid{
-
-        gap:40px;
-    }
-
-    .terminal-wrapper{
-
-        width:100%;
-
-        max-width:100%;
-    }
-    .stats-section{
-
-        margin-top:60px;
-    }
-
-}
-
+ 
 /* ======================================================
    SMALL DEVICES
 ====================================================== */
@@ -249,11 +86,7 @@ max-width:560px;
     .page-container{
 
         padding:0 16px 40px;
-    }
 
-    .hero-grid{
-
-        gap:30px;
     }
 
 }

@@ -7,7 +7,7 @@ import {
   FaBrain,
 } from "react-icons/fa";
 
-import profile from "../../../assets/images/profile.png";
+const profile = "/images/PROFILE.png";
 
 export default function ProfileCard() {
   return (
@@ -16,7 +16,7 @@ export default function ProfileCard() {
       <div className="profile-image-wrapper">
 
         <img
-          src={profile}
+          src="/images/PROFILE.png"
           alt="Abhinand S"
           className="profile-image"
         />

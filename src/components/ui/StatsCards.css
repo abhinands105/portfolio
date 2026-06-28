@@ -6,12 +6,12 @@
 
     display:grid;
 
-    grid-template-columns:
-        repeat(auto-fit,minmax(190px,1fr));
+    grid-template-columns:repeat(5,1fr);
 
-    gap:24px;
+    gap:16px;
 
-    margin-top:70px;
+    margin-top:20px;
+
 }
 
 /* ==========================================
@@ -24,9 +24,11 @@
 
     overflow:hidden;
 
-    padding:30px;
+    padding:18px;
 
-    border-radius:24px;
+    min-height:125px;
+
+    border-radius:18px;
 
     background:
         linear-gradient(
@@ -52,9 +54,9 @@
 
 .stats-icon{
 
-    font-size:30px;
+    font-size:22px;
 
-    margin-bottom:18px;
+    margin-bottom:10px;
 }
 
 /* ==========================================
@@ -63,13 +65,12 @@
 
 .stats-value{
 
-    font-size:46px;
+    font-size:34px;
 
     font-weight:900;
 
-    margin-bottom:10px;
+    margin-bottom:6px;
 }
-
 /* ==========================================
    LABEL
 ========================================== */
@@ -78,9 +79,11 @@
 
     color:#bdbdbd;
 
-    font-size:15px;
+    font-size:13px;
 
-    letter-spacing:.5px;
+    letter-spacing:.3px;
+
+    line-height:1.4;
 }
 
 /* ==========================================
@@ -119,8 +122,18 @@
 
     .stats-grid{
 
-        grid-template-columns:
-            repeat(2,minmax(0,1fr));
+        grid-template-columns:repeat(2,1fr);
+
+        gap:12px;
+
+    }
+
+    .stats-card{
+
+        padding:14px;
+
+        min-height:110px;
+
     }
 
 }
