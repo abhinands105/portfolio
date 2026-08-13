@@ -1,0 +1,2745 @@
+{
+  "project": "cartoonix",
+  "generatedAt": "2026-08-12T09:10:43",
+  "source": {
+    "dataset": "C:\\Users\\abhis\\OneDrive\\Desktop\\AI_WORKSPACE\\Projects\\project s8\\project_s8\\S8 OUTPUT\\group 9\\final dataset and output\\dataset",
+    "outputs": "C:\\Users\\abhis\\OneDrive\\Desktop\\AI_WORKSPACE\\Projects\\project s8\\project_s8\\S8 OUTPUT\\group 9\\final dataset and output\\output"
+  },
+  "policy": {
+    "datasetSamplesPerCategory": 12,
+    "outputSamplesPerCategory": 16,
+    "thumbnailFormat": "webp",
+    "thumbnailMaxEdge": 640,
+    "note": "Only optimized public samples are copied. Raw datasets remain local."
+  },
+  "datasetCount": 202,
+  "outputCount": 216,
+  "datasetSourceImageCount": 202,
+  "outputSourceImageCount": 216,
+  "datasetCategories": [
+    {
+      "name": "adventure_time",
+      "category": "adventure-time",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "alice_forever_after",
+      "category": "alice-forever-after",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "bugs_bunny",
+      "category": "bugs-bunny",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "donald_marvel",
+      "category": "donald-marvel",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "new skectechs",
+      "category": "new-skectechs",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "sourceCount": 10,
+      "publicSamples": 10
+    },
+    {
+      "name": "over_garden_wall",
+      "category": "over-garden-wall",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "peanut_strip",
+      "category": "peanut-strip",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "samurai_jack",
+      "category": "samurai-jack",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "steven_universe",
+      "category": "steven-universe",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "wrestle_heist",
+      "category": "wrestle-heist",
+      "sourceCount": 12,
+      "publicSamples": 12
+    }
+  ],
+  "outputCategories": [
+    {
+      "name": "ADV TIME",
+      "category": "adv-time",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "ALICE",
+      "category": "alice",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "AVATAR",
+      "category": "avatar",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "BUGS",
+      "category": "bugs",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "DEXTER",
+      "category": "dexter",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "DONALD DUCK",
+      "category": "donald-duck",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "GARFIELD",
+      "category": "garfield",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "LOONEY",
+      "category": "looney",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "OTW",
+      "category": "otw",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "PBJ",
+      "category": "pbj",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "PEANUT",
+      "category": "peanut",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "POWERPUFFS",
+      "category": "powerpuffs",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "SAMURAI",
+      "category": "samurai",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "SKETCHS",
+      "category": "sketchs",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "STVN UNI",
+      "category": "stvn-uni",
+      "sourceCount": 12,
+      "publicSamples": 12
+    },
+    {
+      "name": "WESTLE",
+      "category": "westle",
+      "sourceCount": 12,
+      "publicSamples": 12
+    }
+  ],
+  "datasets": [
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/001.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/002.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/003.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/004.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/005.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/006.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/007.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/008.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/009.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/010.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/011.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/adventure-time/012.webp",
+      "title": "adventure_time",
+      "category": "adventure-time",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/001.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/002.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/003.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/004.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/005.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/006.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/007.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/008.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/009.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/010.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/011.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/alice-forever-after/012.webp",
+      "title": "alice_forever_after",
+      "category": "alice-forever-after",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/001.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/002.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/003.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/004.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/005.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/006.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/007.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/008.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/009.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/010.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/011.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/avatar-last-airbender/012.webp",
+      "title": "avatar_last_airbender",
+      "category": "avatar-last-airbender",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/001.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/002.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/003.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/004.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/005.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/006.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/007.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/008.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/009.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/010.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/011.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/bugs-bunny/012.webp",
+      "title": "bugs_bunny",
+      "category": "bugs-bunny",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/001.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/002.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/003.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/004.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/005.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/006.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/007.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/008.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/009.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/010.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/011.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/dexters-laboratory/012.webp",
+      "title": "dexters_laboratory",
+      "category": "dexters-laboratory",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/001.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/002.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/003.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/004.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/005.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/006.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/007.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/008.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/009.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/010.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/011.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/donald-marvel/012.webp",
+      "title": "donald_marvel",
+      "category": "donald-marvel",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/001.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/002.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/003.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/004.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/005.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/006.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/007.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/008.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/009.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/010.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/011.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/garfield-minus-garfield/012.webp",
+      "title": "garfield_minus_garfield",
+      "category": "garfield-minus-garfield",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/001.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/002.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/003.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/004.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/005.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/006.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/007.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/008.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/009.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/010.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/011.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/looney-tunes-retro/012.webp",
+      "title": "looney_tunes_retro",
+      "category": "looney-tunes-retro",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/001.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/002.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/003.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/004.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/005.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/006.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/007.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/008.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/009.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/010.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/011.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/new-skectechs/012.webp",
+      "title": "new skectechs",
+      "category": "new-skectechs",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/001.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/002.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/003.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/004.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/005.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/006.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/007.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/008.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/009.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/newspaper-strip/010.webp",
+      "title": "NEWSPAPER STRIP",
+      "category": "newspaper-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/001.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/002.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/003.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/004.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/005.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/006.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/007.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/008.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/009.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/010.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/011.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/over-garden-wall/012.webp",
+      "title": "over_garden_wall",
+      "category": "over-garden-wall",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/001.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/002.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/003.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/004.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/005.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/006.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/007.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/008.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/009.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/010.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/011.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/pb-monkey-jelly/012.webp",
+      "title": "pb_monkey_jelly",
+      "category": "pb-monkey-jelly",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/001.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/002.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/003.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/004.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/005.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/006.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/007.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/008.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/009.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/010.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/011.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/peanut-strip/012.webp",
+      "title": "peanut_strip",
+      "category": "peanut-strip",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/001.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/002.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/003.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/004.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/005.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/006.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/007.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/008.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/009.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/010.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/011.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/powerpuff-girls/012.webp",
+      "title": "powerpuff_girls",
+      "category": "powerpuff-girls",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/001.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/002.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/003.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/004.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/005.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/006.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/007.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/008.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/009.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/010.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/011.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/samurai-jack/012.webp",
+      "title": "samurai_jack",
+      "category": "samurai-jack",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/001.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/002.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/003.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/004.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/005.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/006.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/007.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/008.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/009.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/010.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/011.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/steven-universe/012.webp",
+      "title": "steven_universe",
+      "category": "steven-universe",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/001.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/002.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/003.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/004.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/005.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/006.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/007.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/008.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/009.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/010.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/011.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    },
+    {
+      "src": "/public/projects/cartoonix/dataset/wrestle-heist/012.webp",
+      "title": "wrestle_heist",
+      "category": "wrestle-heist",
+      "kind": "dataset"
+    }
+  ],
+  "outputs": [
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/001.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/002.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/003.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/004.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/005.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/006.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/007.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/008.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/009.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/010.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/011.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/adv-time/012.webp",
+      "title": "ADV TIME",
+      "category": "adv-time",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/001.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/002.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/003.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/004.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/005.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/006.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/007.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/008.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/009.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/010.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/011.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/alice/012.webp",
+      "title": "ALICE",
+      "category": "alice",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/001.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/002.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/003.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/004.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/005.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/006.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/007.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/008.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/009.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/010.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/011.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/american-strips/012.webp",
+      "title": "AMERICAN STRIPS",
+      "category": "american-strips",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/001.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/002.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/003.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/004.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/005.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/006.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/007.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/008.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/009.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/010.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/011.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/avatar/012.webp",
+      "title": "AVATAR",
+      "category": "avatar",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/001.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/002.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/003.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/004.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/005.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/006.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/007.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/008.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/009.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/010.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/011.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/bugs/012.webp",
+      "title": "BUGS",
+      "category": "bugs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/001.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/002.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/003.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/004.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/005.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/006.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/007.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/008.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/009.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/010.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/011.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/dexter/012.webp",
+      "title": "DEXTER",
+      "category": "dexter",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/001.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/002.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/003.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/004.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/005.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/006.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/007.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/008.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/009.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/010.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/011.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/donald-duck/012.webp",
+      "title": "DONALD DUCK",
+      "category": "donald-duck",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/001.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/002.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/003.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/004.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/005.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/006.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/007.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/008.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/009.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/010.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/011.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/garfield/012.webp",
+      "title": "GARFIELD",
+      "category": "garfield",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/001.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/002.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/003.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/004.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/005.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/006.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/007.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/008.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/009.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/010.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/011.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/looney/012.webp",
+      "title": "LOONEY",
+      "category": "looney",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/001.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/002.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/003.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/004.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/005.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/006.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/007.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/008.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/009.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/010.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/011.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/mallu-newstrip/012.webp",
+      "title": "MALLU NEWSTRIP",
+      "category": "mallu-newstrip",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/001.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/002.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/003.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/004.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/005.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/006.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/007.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/008.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/009.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/010.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/011.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/otw/012.webp",
+      "title": "OTW",
+      "category": "otw",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/001.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/002.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/003.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/004.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/005.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/006.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/007.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/008.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/009.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/010.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/011.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/pbj/012.webp",
+      "title": "PBJ",
+      "category": "pbj",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/001.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/002.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/003.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/004.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/005.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/006.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/007.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/008.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/009.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/010.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/011.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/peanut/012.webp",
+      "title": "PEANUT",
+      "category": "peanut",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/001.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/002.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/003.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/004.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/005.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/006.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/007.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/008.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/009.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/010.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/011.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/powerpuffs/012.webp",
+      "title": "POWERPUFFS",
+      "category": "powerpuffs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/001.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/002.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/003.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/004.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/005.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/006.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/007.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/008.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/009.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/010.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/011.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/samurai/012.webp",
+      "title": "SAMURAI",
+      "category": "samurai",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/001.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/002.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/003.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/004.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/005.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/006.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/007.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/008.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/009.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/010.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/011.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/sketchs/012.webp",
+      "title": "SKETCHS",
+      "category": "sketchs",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/001.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/002.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/003.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/004.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/005.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/006.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/007.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/008.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/009.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/010.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/011.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/stvn-uni/012.webp",
+      "title": "STVN UNI",
+      "category": "stvn-uni",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/001.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/002.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/003.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/004.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/005.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/006.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/007.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/008.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/009.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/010.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/011.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    },
+    {
+      "src": "/public/projects/cartoonix/outputs/westle/012.webp",
+      "title": "WESTLE",
+      "category": "westle",
+      "kind": "output"
+    }
+  ]
+}

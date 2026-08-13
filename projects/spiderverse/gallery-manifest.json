@@ -1,0 +1,1513 @@
+{
+  "project": "spiderverse",
+  "generatedAt": "2026-08-12T09:11:11",
+  "source": {
+    "frames": "C:\\Users\\abhis\\OneDrive\\Desktop\\AI_WORKSPACE\\Projects\\project s8\\project_s8\\S8 OUTPUT\\group 9\\SpiderVerse_Frames",
+    "outputs": "C:\\Users\\abhis\\OneDrive\\Desktop\\AI_WORKSPACE\\Projects\\project s8\\project_s8\\S8 OUTPUT\\group 9\\SpiderVerse_output",
+    "gifOutputs": "C:\\Users\\abhis\\OneDrive\\Desktop\\AI_WORKSPACE\\Projects\\project s8\\project_s8\\S8 OUTPUT\\group 9\\SpiderVerse_output\\gif"
+  },
+  "policy": {
+    "frameSamples": 200,
+    "gifOutputSamples": 9,
+    "frameThumbnailFormat": "webp",
+    "frameThumbnailMaxEdge": 640,
+    "note": "The frame folder is already a manually/randomly curated showcase subset."
+  },
+  "frameCount": 200,
+  "outputCount": 9,
+  "frameSourceImageCount": 200,
+  "outputSourceCount": 9,
+  "datasets": [
+    {
+      "src": "/public/projects/spiderverse/frames/001.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000001_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/002.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000002_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/003.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000005_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/004.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000023_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/005.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000031_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/006.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000035_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/007.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000044_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/008.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000046_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/009.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000054_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/010.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000070_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/011.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000071_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/012.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000076_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/013.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000081_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/014.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000083_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/015.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000091_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/016.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000095_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/017.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000097_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/018.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000111_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/019.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000124_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/020.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000127_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/021.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000137_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/022.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000138_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/023.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000139_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/024.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000147_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/025.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000164_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/026.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000168_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/027.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000171_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/028.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000175_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/029.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000175_0011.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/030.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000187_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/031.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000194_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/032.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000196_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/033.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000201_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/034.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000207_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/035.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000212_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/036.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000218_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/037.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000229_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/038.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000244_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/039.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000245_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/040.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000270_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/041.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000276_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/042.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000279_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/043.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000280_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/044.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000287_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/045.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000288_0010.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/046.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000305_0010.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/047.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000310_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/048.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000310_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/049.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000317_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/050.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000319_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/051.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000323_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/052.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000329_0011.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/053.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000330_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/054.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000335_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/055.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000363_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/056.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000368_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/057.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000375_0013.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/058.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000376_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/059.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000377_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/060.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000386_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/061.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000389_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/062.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000391_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/063.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000392_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/064.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000398_0010.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/065.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000399_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/066.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000403_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/067.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000405_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/068.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000418_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/069.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000426_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/070.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000427_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/071.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000432_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/072.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000436_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/073.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000436_0010.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/074.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000438_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/075.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000445_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/076.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000448_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/077.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000470_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/078.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000471_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/079.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000475_0011.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/080.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000479_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/081.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000487_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/082.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000498_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/083.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000502_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/084.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000507_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/085.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000509_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/086.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000510_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/087.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000517_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/088.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000522_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/089.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000530_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/090.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000532_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/091.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000542_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/092.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000551_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/093.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000552_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/094.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000558_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/095.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000561_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/096.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000569_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/097.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000572_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/098.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000577_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/099.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000578_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/100.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000607_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/101.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000609_0012.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/102.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000611_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/103.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000615_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/104.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000631_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/105.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000633_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/106.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000639_0010.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/107.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000641_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/108.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000644_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/109.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000645_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/110.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000658_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/111.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000662_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/112.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000665_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/113.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000667_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/114.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000684_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/115.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000700_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/116.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000721_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/117.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000722_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/118.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000729_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/119.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000731_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/120.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000735_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/121.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000737_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/122.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000755_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/123.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000757_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/124.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000767_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/125.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000781_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/126.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000782_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/127.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000784_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/128.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000792_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/129.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000811_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/130.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000821_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/131.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000827_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/132.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000827_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/133.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000831_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/134.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000831_0013.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/135.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000841_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/136.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000842_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/137.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000851_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/138.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000852_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/139.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000890_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/140.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000893_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/141.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000893_0015.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/142.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000897_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/143.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000912_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/144.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000914_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/145.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000926_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/146.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000929_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/147.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000934_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/148.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000934_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/149.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000961_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/150.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000962_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/151.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000963_0012.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/152.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000964_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/153.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000966_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/154.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000974_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/155.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000993_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/156.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000996_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/157.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000997_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/158.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_000999_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/159.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001011_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/160.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001018_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/161.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001023_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/162.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001033_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/163.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001036_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/164.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001037_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/165.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001040_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/166.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001041_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/167.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001059_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/168.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001059_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/169.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001059_0012.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/170.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001069_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/171.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001082_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/172.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001088_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/173.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001092_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/174.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001095_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/175.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001096_0009.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/176.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001102_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/177.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001104_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/178.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001106_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/179.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001113_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/180.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001126_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/181.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001127_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/182.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001141_0002.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/183.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001142_0008.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/184.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001143_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/185.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001146_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/186.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001153_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/187.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001154_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/188.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001155_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/189.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001165_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/190.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001166_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/191.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001171_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/192.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001185_0003.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/193.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001188_0005.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/194.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001188_0007.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/195.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001198_0013.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/196.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001212_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/197.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001214_0006.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/198.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001221_0001.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/199.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001230_0004.jpg"
+    },
+    {
+      "src": "/public/projects/spiderverse/frames/200.webp",
+      "title": "SpiderVerse frame",
+      "category": "spiderverse-frames",
+      "kind": "dataset",
+      "source": "SV_001237_0006.jpg"
+    }
+  ],
+  "outputs": [
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00006_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00006_.gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00009_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00009_.gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00010_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00010_.gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00011_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00011_.gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00012_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00012_.gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00016_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00016_.gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00018_ (1).gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00018_ (1).gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00019_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00019_.gif"
+    },
+    {
+      "src": "/public/projects/spiderverse/outputs/ComfyUI_00020_.gif",
+      "title": "SpiderVerse generated animation",
+      "category": "wan-2-1",
+      "kind": "output",
+      "source": "ComfyUI_00020_.gif"
+    }
+  ],
+  "training": [
+    {
+      "src": "/projects/spiderverse/training/comfyui-workflow.png",
+      "title": "ComfyUI Workflow",
+      "category": "training-evidence",
+      "kind": "training"
+    },
+    {
+      "src": "/projects/spiderverse/training/generation-config.png",
+      "title": "Generation Configuration",
+      "category": "training-evidence",
+      "kind": "training"
+    },
+    {
+      "src": "/projects/spiderverse/training/dataset-frames.png",
+      "title": "Dataset Frames",
+      "category": "training-evidence",
+      "kind": "training"
+    },
+    {
+      "src": "/projects/spiderverse/training/training-config.png",
+      "title": "Training Configuration",
+      "category": "training-evidence",
+      "kind": "training"
+    }
+  ]
+}
