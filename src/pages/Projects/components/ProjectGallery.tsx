@@ -13,32 +13,82 @@ type GalleryItem = {
   kind: "dataset" | "output" | "training";
 };
 
-const TRAINING_ITEMS: GalleryItem[] = [
-  {
-    src: "/projects/cartoonix/training/training-run.png",
-    title: "Training Run",
-    category: "Training",
-    kind: "training",
-  },
-  {
-    src: "/projects/cartoonix/training/training-config.png",
-    title: "Training Configuration",
-    category: "Training",
-    kind: "training",
-  },
-  {
-    src: "/projects/cartoonix/training/training-run-details.png",
-    title: "Training Run Details",
-    category: "Training",
-    kind: "training",
-  },
-  {
-    src: "/projects/cartoonix/training/training-progress.png",
-    title: "Training Progress",
-    category: "Training",
-    kind: "training",
-  },
-];
+const TRAINING_ITEMS_BY_PROJECT: Record<string, GalleryItem[]> = {
+  cartoonix: [
+    {
+      src: "/projects/cartoonix/training/training-run.png",
+      title: "Training Run",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/cartoonix/training/training-config.png",
+      title: "Training Configuration",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/cartoonix/training/training-run-details.png",
+      title: "Training Run Details",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/cartoonix/training/training-progress.png",
+      title: "Training Progress",
+      category: "Training",
+      kind: "training",
+    },
+  ],
+
+  pixellora: [
+    {
+      src: "/projects/pixellora/training/dataset-overview.png",
+      title: "Dataset Overview",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/pixellora/training/training-config.png",
+      title: "Training Configuration",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/pixellora/training/training-progress.png",
+      title: "Training Progress",
+      category: "Training",
+      kind: "training",
+    },
+  ],
+
+  spiderverse: [
+    {
+      src: "/projects/spiderverse/training/comfyui-workflow.png",
+      title: "ComfyUI Workflow",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/spiderverse/training/generation-config.png",
+      title: "Generation Configuration",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/spiderverse/training/dataset-frames.png",
+      title: "Dataset Frames",
+      category: "Training",
+      kind: "training",
+    },
+    {
+      src: "/projects/spiderverse/training/training-config.png",
+      title: "Training Configuration",
+      category: "Training",
+      kind: "training",
+    },
+  ],
+};
 
 
 type GalleryManifest = {
@@ -363,13 +413,19 @@ function Gallery({
   );
 }
 
-function TrainingGallery() {
+function TrainingGallery({
+  projectSlug,
+}: {
+  projectSlug: string;
+}) {
+  const items = TRAINING_ITEMS_BY_PROJECT[projectSlug] ?? [];
+
   return (
     <Gallery
       id="training-gallery"
       title="TRAINING EVIDENCE"
       description="Dataset preparation, training configuration, training progress and recorded LoRA training evidence."
-      items={TRAINING_ITEMS}
+      items={items}
       emptyText="No training evidence has been added yet."
     />
   );
@@ -381,6 +437,11 @@ export default function ProjectGallery({
 }: {
   manifestUrl: string;
 }) {
+  const projectSlug =
+    window.location.pathname
+      .split("/")
+      .filter(Boolean)
+      .pop() || "";
   const [manifest, setManifest] =
     useState<GalleryManifest | null>(null);
 
@@ -524,7 +585,7 @@ export default function ProjectGallery({
             <span>02</span>
             TRAINING
             <small>
-              {TRAINING_ITEMS.length} evidence assets
+              {(TRAINING_ITEMS_BY_PROJECT[projectSlug] ?? []).length} evidence assets
             </small>
           </button>
 
@@ -586,7 +647,7 @@ export default function ProjectGallery({
         )}
 
         {activeView === "training" && (
-          <TrainingGallery />
+          <TrainingGallery projectSlug={projectSlug} />
         )}
 
       </div>
