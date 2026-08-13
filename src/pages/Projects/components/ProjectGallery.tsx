@@ -434,14 +434,11 @@ function TrainingGallery({
 
 export default function ProjectGallery({
   manifestUrl,
+  projectSlug,
 }: {
   manifestUrl: string;
+  projectSlug: string;
 }) {
-  const projectSlug =
-    window.location.pathname
-      .split("/")
-      .filter(Boolean)
-      .pop() || "";
   const [manifest, setManifest] =
     useState<GalleryManifest | null>(null);
 

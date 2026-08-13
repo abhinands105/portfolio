@@ -348,6 +348,7 @@ export default function ProjectDetail() {
         project.slug === "pixellora" ||
         project.slug === "spiderverse") && (
         <ProjectGallery
+          projectSlug={project.slug}
           manifestUrl={`${
             import.meta.env.BASE_URL
           }projects/${
@@ -362,40 +363,41 @@ export default function ProjectDetail() {
         videos={youtubeVideos}
       />
 
-      {project.media.some(
-        (media) =>
-          media.type !== "placeholder" && Boolean(media.src)
-      ) && (
-        <section className="detail-media-intro">
-          <div className="section-heading">
-            <span className="section-label">
-              OUTPUTS / EVIDENCE
-            </span>
+      {!["cartoonix", "pixellora", "spiderverse"].includes(project.slug) &&
+        project.media.some(
+          (media) =>
+            media.type !== "placeholder" && Boolean(media.src)
+        ) && (
+          <section className="detail-media-intro">
+            <div className="section-heading">
+              <span className="section-label">
+                OUTPUTS / EVIDENCE
+              </span>
 
-            <h2>
-              Show the result, then show how it was made.
-            </h2>
+              <h2>
+                Show the result, then show how it was made.
+              </h2>
 
-            <p className="section-description">
-              Selected project media and implementation evidence.
-            </p>
-          </div>
+              <p className="section-description">
+                Selected project media and implementation evidence.
+              </p>
+            </div>
 
-          <div className="media-grid">
-            {project.media
-              .filter(
-                (media) =>
-                  media.type !== "placeholder" && Boolean(media.src)
-              )
-              .map((media) => (
-                <MediaCard
-                  key={media.title}
-                  {...media}
-                />
-              ))}
-          </div>
-        </section>
-      )}
+            <div className="media-grid">
+              {project.media
+                .filter(
+                  (media) =>
+                    media.type !== "placeholder" && Boolean(media.src)
+                )
+                .map((media) => (
+                  <MediaCard
+                    key={media.title}
+                    {...media}
+                  />
+                ))}
+            </div>
+          </section>
+        )}
 
       <section className="detail-sections">
         {project.sections.map(
