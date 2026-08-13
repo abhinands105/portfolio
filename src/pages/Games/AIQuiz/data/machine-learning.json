@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "What is the primary goal of Machine Learning?",
+    "options": [
+      "Design computer hardware",
+      "Enable computers to learn patterns from data",
+      "Increase internet speed",
+      "Develop operating systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Machine Learning enables computers to learn from data and make predictions or decisions without being explicitly programmed.",
+    "points": 10,
+    "tags": ["machine-learning", "basics"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Machine Learning is a subset of:",
+    "options": [
+      "Cybersecurity",
+      "Artificial Intelligence",
+      "Cloud Computing",
+      "Computer Graphics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Machine Learning is a branch of Artificial Intelligence focused on learning from data.",
+    "points": 10,
+    "tags": ["ai", "basics"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "In Machine Learning, what is data?",
+    "options": [
+      "Instructions for hardware",
+      "Raw facts and observations used for learning",
+      "Only images",
+      "Only numbers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data consists of raw observations that machine learning algorithms use to identify patterns.",
+    "points": 10,
+    "tags": ["data"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "What is a feature in Machine Learning?",
+    "options": [
+      "An output prediction",
+      "An input variable used for learning",
+      "A loss function",
+      "A neural network"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Features are the input variables or attributes used by a machine learning model.",
+    "points": 10,
+    "tags": ["features"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "What is a label in supervised learning?",
+    "options": [
+      "The correct target value",
+      "A feature",
+      "A dataset",
+      "An optimizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A label is the correct output or target that the model learns to predict.",
+    "points": 10,
+    "tags": ["labels", "supervised-learning"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "A collection of training examples is called:",
+    "options": [
+      "Dataset",
+      "Optimizer",
+      "Gradient",
+      "Epoch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A dataset is a collection of samples used for training and evaluating models.",
+    "points": 10,
+    "tags": ["dataset"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "What is the purpose of a training dataset?",
+    "options": [
+      "Train the model",
+      "Measure internet speed",
+      "Deploy the model",
+      "Visualize data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Training data is used to teach the model patterns in the data.",
+    "points": 10,
+    "tags": ["training-data"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Why is a test dataset used?",
+    "options": [
+      "To train the model",
+      "To evaluate the model on unseen data",
+      "To increase dataset size",
+      "To tune hyperparameters"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A test dataset measures how well the model generalizes to new data.",
+    "points": 10,
+    "tags": ["test-data"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "A validation dataset is mainly used to:",
+    "options": [
+      "Tune model settings",
+      "Replace training data",
+      "Store predictions",
+      "Increase accuracy automatically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Validation data helps tune hyperparameters and select the best model.",
+    "points": 10,
+    "tags": ["validation"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Supervised learning requires:",
+    "options": [
+      "Labeled data",
+      "No data",
+      "Only images",
+      "Only videos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Supervised learning uses labeled examples to learn the mapping between inputs and outputs.",
+    "points": 10,
+    "tags": ["supervised-learning"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Which type of learning uses unlabeled data?",
+    "options": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Transfer Learning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unsupervised learning discovers patterns without labeled outputs.",
+    "points": 10,
+    "tags": ["unsupervised-learning"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Reinforcement Learning is based on:",
+    "options": [
+      "Rewards and penalties",
+      "Labeled datasets",
+      "Clustering",
+      "Regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An agent learns by receiving rewards or penalties for its actions.",
+    "points": 10,
+    "tags": ["reinforcement-learning"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Classification predicts:",
+    "options": [
+      "Continuous values",
+      "Categories or classes",
+      "Images only",
+      "Videos only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Classification assigns inputs to predefined categories.",
+    "points": 10,
+    "tags": ["classification"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Regression predicts:",
+    "options": [
+      "Categories",
+      "Continuous numerical values",
+      "Only text",
+      "Clusters"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regression models predict continuous outputs such as prices or temperatures.",
+    "points": 10,
+    "tags": ["regression"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Clustering is mainly used to:",
+    "options": [
+      "Group similar data points",
+      "Predict labels",
+      "Generate images",
+      "Optimize networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clustering groups similar samples without using labels.",
+    "points": 10,
+    "tags": ["clustering"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "A prediction made by a trained model is called:",
+    "options": [
+      "Inference",
+      "Gradient",
+      "Epoch",
+      "Feature"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inference is the process of making predictions using a trained model.",
+    "points": 10,
+    "tags": ["inference"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "In Machine Learning, a model is:",
+    "options": [
+      "A learned mathematical representation",
+      "A database",
+      "A programming language",
+      "A graphics card"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A model learns relationships from data and uses them to make predictions.",
+    "points": 10,
+    "tags": ["model"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "An algorithm in Machine Learning is:",
+    "options": [
+      "A procedure used to learn patterns from data",
+      "A storage device",
+      "A network cable",
+      "A web browser"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithms define how a model learns from data.",
+    "points": 10,
+    "tags": ["algorithm"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "Training a model means:",
+    "options": [
+      "Learning from data",
+      "Deleting the dataset",
+      "Installing software",
+      "Compressing files"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Training adjusts model parameters using training data.",
+    "points": 10,
+    "tags": ["training"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "One complete pass through the entire training dataset is called:",
+    "options": [
+      "Epoch",
+      "Batch",
+      "Iteration",
+      "Gradient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An epoch represents one full pass through the training dataset.",
+    "points": 10,
+    "tags": ["epoch"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "A batch is:",
+    "options": [
+      "A subset of training samples processed together",
+      "The entire dataset",
+      "A loss function",
+      "A prediction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Training data is often processed in smaller groups called batches.",
+    "points": 10,
+    "tags": ["batch"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "An iteration refers to:",
+    "options": [
+      "One parameter update using a batch",
+      "One complete training run",
+      "The test phase",
+      "A validation step"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Each iteration updates model parameters using one batch of data.",
+    "points": 10,
+    "tags": ["iteration"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "The learning rate controls:",
+    "options": [
+      "The size of parameter updates",
+      "The dataset size",
+      "The number of features",
+      "The number of labels"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The learning rate determines how large each optimization step is.",
+    "points": 10,
+    "tags": ["learning-rate"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "The purpose of a loss function is to:",
+    "options": [
+      "Measure prediction error",
+      "Store datasets",
+      "Visualize graphs",
+      "Split data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The loss function measures how far predictions are from the true values.",
+    "points": 10,
+    "tags": ["loss-function"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "machine-learning",
+    "difficulty": "easy",
+    "question": "The objective of training is to:",
+    "options": [
+      "Minimize the loss function",
+      "Increase file size",
+      "Reduce RAM capacity",
+      "Remove features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Training aims to minimize the loss so that the model makes accurate predictions.",
+    "points": 10,
+    "tags": ["training", "optimization"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of Linear Regression?",
+  "options": [
+    "Predict continuous numerical values",
+    "Cluster similar data",
+    "Classify images",
+    "Reduce dimensionality"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Linear Regression models the relationship between input features and a continuous target variable.",
+  "points": 20,
+  "tags": ["linear-regression"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Logistic Regression is mainly used for:",
+  "options": [
+    "Classification tasks",
+    "Regression problems only",
+    "Image generation",
+    "Clustering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Despite its name, Logistic Regression is primarily used for classification problems.",
+  "points": 20,
+  "tags": ["logistic-regression","classification"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "A Decision Tree makes predictions by:",
+  "options": [
+    "Following a sequence of decision rules",
+    "Computing matrix inverses",
+    "Using only gradients",
+    "Generating latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Decision Trees split data using feature-based decision rules until a prediction is reached.",
+  "points": 20,
+  "tags": ["decision-tree"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Random Forest improves Decision Trees by:",
+  "options": [
+    "Combining predictions from multiple trees",
+    "Removing training data",
+    "Using only one feature",
+    "Replacing labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Random Forest is an ensemble method that averages predictions from many decision trees.",
+  "points": 20,
+  "tags": ["random-forest","ensemble"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "K-Nearest Neighbors (KNN) predicts based on:",
+  "options": [
+    "The nearest training samples",
+    "Random guessing",
+    "Gradient descent",
+    "Feature scaling only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "KNN predicts using the labels or values of the nearest neighboring samples.",
+  "points": 20,
+  "tags": ["knn"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Naive Bayes is based on:",
+  "options": [
+    "Bayes' theorem with feature independence assumptions",
+    "Decision trees",
+    "Neural networks",
+    "Reinforcement learning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Naive Bayes assumes that features are conditionally independent given the class.",
+  "points": 20,
+  "tags": ["naive-bayes"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Support Vector Machines (SVMs) aim to:",
+  "options": [
+    "Find the optimal separating hyperplane",
+    "Generate synthetic images",
+    "Reduce dataset size",
+    "Create decision trees"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SVMs maximize the margin between different classes using an optimal hyperplane.",
+  "points": 20,
+  "tags": ["svm"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "The goal of K-Means is to:",
+  "options": [
+    "Partition data into K clusters",
+    "Predict stock prices",
+    "Generate labels",
+    "Reduce model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "K-Means groups similar data points into a predefined number of clusters.",
+  "points": 20,
+  "tags": ["k-means","clustering"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "DBSCAN differs from K-Means because it:",
+  "options": [
+    "Finds clusters based on density",
+    "Requires labelled data",
+    "Uses regression",
+    "Always creates spherical clusters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DBSCAN identifies dense regions and can detect arbitrarily shaped clusters and noise.",
+  "points": 20,
+  "tags": ["dbscan"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Hierarchical clustering builds:",
+  "options": [
+    "A hierarchy of nested clusters",
+    "Regression models",
+    "Decision boundaries",
+    "Neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hierarchical clustering creates a tree-like structure called a dendrogram.",
+  "points": 20,
+  "tags": ["hierarchical-clustering"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Principal Component Analysis (PCA) is mainly used for:",
+  "options": [
+    "Dimensionality reduction",
+    "Classification",
+    "Image generation",
+    "Model deployment"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PCA reduces the number of features while preserving most of the variance.",
+  "points": 20,
+  "tags": ["pca"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Why is feature scaling often performed?",
+  "options": [
+    "To bring features to comparable ranges",
+    "To increase dataset size",
+    "To reduce labels",
+    "To create clusters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature scaling helps algorithms converge faster and prevents large-valued features from dominating.",
+  "points": 20,
+  "tags": ["feature-scaling"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Standardization typically transforms data to have:",
+  "options": [
+    "Mean 0 and standard deviation 1",
+    "Values between 0 and 255",
+    "Only positive values",
+    "Integer values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Standardization centers data around zero with unit variance.",
+  "points": 20,
+  "tags": ["standardization"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Normalization commonly scales feature values to:",
+  "options": [
+    "A fixed range such as 0 to 1",
+    "Mean 0 only",
+    "Negative values only",
+    "Random values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Normalization rescales features into a predefined range, commonly between 0 and 1.",
+  "points": 20,
+  "tags": ["normalization"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Cross-validation is mainly used to:",
+  "options": [
+    "Estimate model performance reliably",
+    "Generate synthetic data",
+    "Increase GPU speed",
+    "Compress datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross-validation evaluates models using multiple train-validation splits.",
+  "points": 20,
+  "tags": ["cross-validation"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "A train-test split is used to:",
+  "options": [
+    "Evaluate generalization on unseen data",
+    "Increase dataset size",
+    "Reduce features",
+    "Generate predictions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Separating training and testing data provides an unbiased estimate of model performance.",
+  "points": 20,
+  "tags": ["train-test-split"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Bias in machine learning refers to:",
+  "options": [
+    "Error caused by overly simple assumptions",
+    "The number of features",
+    "Training speed",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "High bias often leads to underfitting because the model is too simple.",
+  "points": 20,
+  "tags": ["bias"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Variance in machine learning measures:",
+  "options": [
+    "Sensitivity of a model to training data changes",
+    "Dataset storage size",
+    "Learning rate",
+    "Prediction speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "High variance often causes overfitting because the model memorizes training data.",
+  "points": 20,
+  "tags": ["variance"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Underfitting occurs when:",
+  "options": [
+    "The model fails to capture underlying patterns",
+    "The model memorizes training data",
+    "The dataset is too large",
+    "The GPU is slow"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An underfit model performs poorly on both training and testing data.",
+  "points": 20,
+  "tags": ["underfitting"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Overfitting occurs when:",
+  "options": [
+    "The model learns training data too closely and generalizes poorly",
+    "The model ignores training data",
+    "The dataset is too small to load",
+    "The optimizer stops working"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Overfitted models perform well on training data but poorly on unseen data.",
+  "points": 20,
+  "tags": ["overfitting"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Regularization helps by:",
+  "options": [
+    "Reducing model complexity to improve generalization",
+    "Increasing dataset size",
+    "Removing all features",
+    "Replacing labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Regularization discourages overly complex models that overfit the training data.",
+  "points": 20,
+  "tags": ["regularization"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "L1 regularization is also known as:",
+  "options": [
+    "Lasso",
+    "Ridge",
+    "ElasticNet",
+    "Dropout"
+  ],
+  "correctAnswer": 0,
+  "explanation": "L1 regularization (Lasso) can shrink some coefficients exactly to zero.",
+  "points": 20,
+  "tags": ["l1","lasso"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "L2 regularization is commonly called:",
+  "options": [
+    "Ridge",
+    "Lasso",
+    "AdaBoost",
+    "Bagging"
+  ],
+  "correctAnswer": 0,
+  "explanation": "L2 regularization (Ridge) penalizes large weights without forcing them exactly to zero.",
+  "points": 20,
+  "tags": ["l2","ridge"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Hyperparameters are:",
+  "options": [
+    "Settings chosen before training begins",
+    "Model predictions",
+    "Training labels",
+    "Output classes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hyperparameters include values such as learning rate, batch size, and tree depth that are set before training.",
+  "points": 20,
+  "tags": ["hyperparameters"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "machine-learning",
+  "difficulty": "medium",
+  "question": "Grid Search is primarily used for:",
+  "options": [
+    "Hyperparameter tuning",
+    "Image segmentation",
+    "Dataset compression",
+    "Feature extraction"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Grid Search systematically evaluates combinations of hyperparameter values to find the best-performing model.",
+  "points": 20,
+  "tags": ["grid-search","hyperparameter-tuning"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Accuracy measures:",
+  "options": [
+    "The proportion of correct predictions",
+    "Only true positives",
+    "Training speed",
+    "Model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Accuracy is the ratio of correctly classified samples to the total number of samples.",
+  "points": 30,
+  "tags": ["accuracy","evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Precision measures:",
+  "options": [
+    "The proportion of predicted positives that are actually positive",
+    "The proportion of actual positives detected",
+    "Overall prediction accuracy",
+    "Training loss"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Precision = TP / (TP + FP). It measures the reliability of positive predictions.",
+  "points": 30,
+  "tags": ["precision","evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Recall measures:",
+  "options": [
+    "The proportion of actual positives correctly identified",
+    "Overall accuracy",
+    "Training time",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Recall = TP / (TP + FN). It measures how many actual positive cases are found.",
+  "points": 30,
+  "tags": ["recall","evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "The F1 Score is the:",
+  "options": [
+    "Harmonic mean of precision and recall",
+    "Average prediction time",
+    "Difference between TP and FP",
+    "Mean squared error"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The F1 Score balances precision and recall, making it useful for imbalanced datasets.",
+  "points": 30,
+  "tags": ["f1-score","evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "A confusion matrix summarizes:",
+  "options": [
+    "Prediction results using TP, TN, FP, and FN",
+    "Feature importance",
+    "Training speed",
+    "Gradient values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A confusion matrix provides counts of correct and incorrect predictions for classification tasks.",
+  "points": 30,
+  "tags": ["confusion-matrix"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "The ROC curve plots:",
+  "options": [
+    "True Positive Rate against False Positive Rate",
+    "Precision against Recall",
+    "Loss against Accuracy",
+    "Learning Rate against Epochs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The ROC curve evaluates classifier performance across different decision thresholds.",
+  "points": 30,
+  "tags": ["roc-curve"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "AUC represents:",
+  "options": [
+    "Area Under the ROC Curve",
+    "Average Update Count",
+    "Adaptive Utility Coefficient",
+    "Automatic User Classification"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AUC measures a classifier's ability to distinguish between classes. Higher values indicate better performance.",
+  "points": 30,
+  "tags": ["auc","roc"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "RMSE stands for:",
+  "options": [
+    "Root Mean Squared Error",
+    "Relative Model Scaling Error",
+    "Random Mean Standard Error",
+    "Regression Model Statistical Evaluation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RMSE is a common regression metric that penalizes large prediction errors.",
+  "points": 30,
+  "tags": ["rmse","regression"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "MAE stands for:",
+  "options": [
+    "Mean Absolute Error",
+    "Maximum Accuracy Estimate",
+    "Model Analysis Engine",
+    "Mean Average Evaluation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MAE measures the average absolute difference between predictions and actual values.",
+  "points": 30,
+  "tags": ["mae","regression"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "MSE stands for:",
+  "options": [
+    "Mean Squared Error",
+    "Model Selection Evaluation",
+    "Maximum Standard Error",
+    "Mean Scaling Estimate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MSE measures the average squared difference between predicted and actual values.",
+  "points": 30,
+  "tags": ["mse","regression"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Gradient Descent is primarily used to:",
+  "options": [
+    "Minimize a loss function",
+    "Increase dataset size",
+    "Generate synthetic data",
+    "Reduce GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradient Descent iteratively updates parameters to reduce the loss function.",
+  "points": 30,
+  "tags": ["gradient-descent","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Stochastic Gradient Descent (SGD) updates model parameters using:",
+  "options": [
+    "One training sample at a time",
+    "The entire dataset",
+    "Only the validation set",
+    "A fixed random value"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SGD performs parameter updates after processing each individual training sample.",
+  "points": 30,
+  "tags": ["sgd","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Mini-batch Gradient Descent updates parameters using:",
+  "options": [
+    "Small batches of training samples",
+    "The full dataset",
+    "Only one feature",
+    "Only validation data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mini-batch Gradient Descent balances the efficiency of batch GD with the speed of SGD.",
+  "points": 30,
+  "tags": ["mini-batch-gradient-descent"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Adam optimizer combines:",
+  "options": [
+    "Momentum and adaptive learning rates",
+    "Decision Trees and SVMs",
+    "PCA and K-Means",
+    "Bagging and Boosting"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Adam combines momentum with adaptive learning rates for fast and stable optimization.",
+  "points": 30,
+  "tags": ["adam","optimizer"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "RMSProp primarily adjusts:",
+  "options": [
+    "Learning rates based on recent gradients",
+    "Dataset size",
+    "Batch size",
+    "Number of classes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RMSProp adapts the learning rate using a moving average of squared gradients.",
+  "points": 30,
+  "tags": ["rmsprop","optimizer"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Momentum optimization helps by:",
+  "options": [
+    "Accelerating convergence and reducing oscillations",
+    "Increasing dataset size",
+    "Removing features",
+    "Replacing the optimizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Momentum accumulates previous gradients to speed up optimization and smooth updates.",
+  "points": 30,
+  "tags": ["momentum","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Early stopping is mainly used to:",
+  "options": [
+    "Reduce overfitting",
+    "Increase epochs indefinitely",
+    "Reduce dataset size",
+    "Remove labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Early stopping halts training when validation performance stops improving.",
+  "points": 30,
+  "tags": ["early-stopping"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Feature engineering refers to:",
+  "options": [
+    "Creating or transforming useful input features",
+    "Deleting all features",
+    "Compressing datasets",
+    "Building GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature engineering improves model performance by creating informative features.",
+  "points": 30,
+  "tags": ["feature-engineering"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Feature selection aims to:",
+  "options": [
+    "Choose the most relevant input variables",
+    "Generate synthetic labels",
+    "Increase model complexity",
+    "Replace optimization algorithms"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature selection reduces redundancy and improves efficiency by keeping only useful features.",
+  "points": 30,
+  "tags": ["feature-selection"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Dimensionality reduction primarily helps to:",
+  "options": [
+    "Reduce the number of input features",
+    "Increase model size",
+    "Generate labels",
+    "Train without data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dimensionality reduction simplifies datasets while preserving important information.",
+  "points": 30,
+  "tags": ["dimensionality-reduction"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Ensemble learning improves performance by:",
+  "options": [
+    "Combining multiple models",
+    "Using a single feature",
+    "Removing training data",
+    "Training fewer epochs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Ensemble methods combine predictions from multiple models to improve accuracy and robustness.",
+  "points": 30,
+  "tags": ["ensemble-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Bagging mainly reduces:",
+  "options": [
+    "Variance",
+    "Bias",
+    "Dataset size",
+    "Learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bagging trains multiple models on bootstrap samples to reduce variance.",
+  "points": 30,
+  "tags": ["bagging"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "Boosting primarily works by:",
+  "options": [
+    "Training models sequentially to correct previous errors",
+    "Training all models independently",
+    "Reducing feature dimensions",
+    "Increasing batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Boosting focuses new models on correcting mistakes made by earlier models.",
+  "points": 30,
+  "tags": ["boosting"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "XGBoost is best described as a:",
+  "options": [
+    "Gradient boosting framework",
+    "Clustering algorithm",
+    "Dimensionality reduction technique",
+    "Neural network architecture"
+  ],
+  "correctAnswer": 0,
+  "explanation": "XGBoost is an optimized implementation of gradient boosting widely used in machine learning competitions.",
+  "points": 30,
+  "tags": ["xgboost","boosting"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "machine-learning",
+  "difficulty": "hard",
+  "question": "LightGBM is known for:",
+  "options": [
+    "Fast and efficient gradient boosting on large datasets",
+    "Generating images",
+    "Speech synthesis",
+    "Clustering text"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LightGBM is a high-performance gradient boosting framework designed for speed and scalability.",
+  "points": 30,
+  "tags": ["lightgbm","boosting"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "CatBoost is a gradient boosting library that is particularly effective for:",
+  "options": [
+    "Handling categorical features with minimal preprocessing",
+    "Generating synthetic images",
+    "Clustering text documents",
+    "Reducing image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CatBoost efficiently handles categorical variables and reduces prediction bias using ordered boosting.",
+  "points": 40,
+  "tags": ["catboost","gradient-boosting"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "What is the primary goal of AutoML?",
+  "options": [
+    "Automate model selection and hyperparameter tuning",
+    "Replace datasets",
+    "Generate synthetic labels",
+    "Increase GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AutoML automates tasks such as feature engineering, model selection, and hyperparameter optimization.",
+  "points": 40,
+  "tags": ["automl"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Explainable AI (XAI) primarily aims to:",
+  "options": [
+    "Make machine learning models easier to understand",
+    "Increase training speed",
+    "Reduce dataset size",
+    "Replace neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "XAI helps humans understand how machine learning models make predictions.",
+  "points": 40,
+  "tags": ["xai","interpretability"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "SHAP values are mainly used to:",
+  "options": [
+    "Explain the contribution of each feature to a prediction",
+    "Cluster datasets",
+    "Optimize learning rates",
+    "Generate synthetic data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SHAP provides consistent feature importance values based on Shapley values from game theory.",
+  "points": 40,
+  "tags": ["shap","xai"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "LIME explains predictions by:",
+  "options": [
+    "Approximating complex models locally with simpler interpretable models",
+    "Training larger neural networks",
+    "Replacing the optimizer",
+    "Removing features"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LIME creates local surrogate models to explain individual predictions.",
+  "points": 40,
+  "tags": ["lime","xai"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "A machine learning pipeline is:",
+  "options": [
+    "A sequence of data processing and model training steps",
+    "A database connection",
+    "A GPU driver",
+    "A programming language"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ML pipelines organize preprocessing, training, evaluation, and deployment into a repeatable workflow.",
+  "points": 40,
+  "tags": ["ml-pipeline"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Data leakage occurs when:",
+  "options": [
+    "Information unavailable during real-world prediction is used during training",
+    "The dataset is compressed",
+    "The GPU overheats",
+    "Training is stopped early"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Data leakage leads to overly optimistic evaluation because future or test information unintentionally influences training.",
+  "points": 40,
+  "tags": ["data-leakage"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Class imbalance refers to:",
+  "options": [
+    "One class having significantly more samples than another",
+    "Unequal image sizes",
+    "Different feature names",
+    "Missing GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Imbalanced datasets can bias models toward the majority class.",
+  "points": 40,
+  "tags": ["class-imbalance"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "SMOTE is primarily used to:",
+  "options": [
+    "Generate synthetic samples for minority classes",
+    "Reduce image resolution",
+    "Compress datasets",
+    "Optimize neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SMOTE addresses class imbalance by creating synthetic minority class examples.",
+  "points": 40,
+  "tags": ["smote","imbalance"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Transfer Learning involves:",
+  "options": [
+    "Reusing knowledge from a pretrained model for a new task",
+    "Transferring datasets between servers",
+    "Replacing optimizers",
+    "Generating labels automatically"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transfer Learning speeds up training and improves performance by leveraging pretrained models.",
+  "points": 40,
+  "tags": ["transfer-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Active Learning is most useful when:",
+  "options": [
+    "Labelling data is expensive and only informative samples are selected",
+    "Datasets are already fully labelled",
+    "No training data exists",
+    "Models require no human input"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Active Learning reduces labelling effort by selecting the most informative examples.",
+  "points": 40,
+  "tags": ["active-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Online Learning differs from batch learning because it:",
+  "options": [
+    "Updates the model continuously as new data arrives",
+    "Requires the entire dataset at once",
+    "Works only with images",
+    "Cannot use neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Online Learning continuously adapts to incoming data streams.",
+  "points": 40,
+  "tags": ["online-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Semi-supervised learning uses:",
+  "options": [
+    "A combination of labelled and unlabelled data",
+    "Only labelled data",
+    "Only reinforcement learning",
+    "Only synthetic data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semi-supervised learning leverages both labelled and unlabelled samples to improve performance.",
+  "points": 40,
+  "tags": ["semi-supervised-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Self-supervised learning primarily learns from:",
+  "options": [
+    "Automatically generated labels derived from the data itself",
+    "Human-labelled datasets only",
+    "Random predictions",
+    "Hardware sensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-supervised learning creates supervisory signals directly from unlabelled data.",
+  "points": 40,
+  "tags": ["self-supervised-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Federated Learning enables models to:",
+  "options": [
+    "Train across multiple devices without centralizing raw data",
+    "Replace cloud computing",
+    "Train without datasets",
+    "Generate synthetic labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Federated Learning preserves privacy by keeping training data on local devices.",
+  "points": 40,
+  "tags": ["federated-learning","privacy"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Machine learning deployment refers to:",
+  "options": [
+    "Making trained models available for real-world use",
+    "Training larger datasets",
+    "Collecting labels",
+    "Creating feature vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deployment integrates trained models into production systems where they can make predictions.",
+  "points": 40,
+  "tags": ["deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Why is ONNX commonly used in machine learning?",
+  "options": [
+    "To provide a portable model format across frameworks",
+    "To generate datasets",
+    "To improve internet speed",
+    "To replace Python"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX enables trained models to run across different frameworks and inference engines.",
+  "points": 40,
+  "tags": ["onnx","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "TensorRT is mainly used to:",
+  "options": [
+    "Optimize deep learning inference on NVIDIA GPUs",
+    "Label datasets",
+    "Train decision trees",
+    "Perform clustering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT accelerates inference using graph optimizations and reduced precision execution.",
+  "points": 40,
+  "tags": ["tensorrt","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Edge Machine Learning focuses on:",
+  "options": [
+    "Running models directly on local devices",
+    "Training only in cloud data centres",
+    "Replacing GPUs with CPUs",
+    "Using only regression models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Edge ML enables low-latency inference on smartphones, IoT devices, and embedded systems.",
+  "points": 40,
+  "tags": ["edge-ml"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Model quantization primarily aims to:",
+  "options": [
+    "Reduce model size and improve inference efficiency",
+    "Increase dataset size",
+    "Generate new features",
+    "Improve internet bandwidth"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization converts model weights to lower-precision formats while maintaining acceptable accuracy.",
+  "points": 40,
+  "tags": ["quantization","optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Model pruning works by:",
+  "options": [
+    "Removing unnecessary parameters from a trained model",
+    "Deleting training datasets",
+    "Reducing feature dimensions",
+    "Changing learning rates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pruning reduces model complexity and improves inference efficiency by removing less important weights.",
+  "points": 40,
+  "tags": ["pruning","optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Concept drift occurs when:",
+  "options": [
+    "The statistical properties of incoming data change over time",
+    "The dataset becomes larger",
+    "GPU memory increases",
+    "Labels are removed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Concept drift can reduce model accuracy because the underlying data distribution changes.",
+  "points": 40,
+  "tags": ["concept-drift"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Model monitoring is important because it:",
+  "options": [
+    "Detects performance degradation after deployment",
+    "Increases dataset size",
+    "Removes labels",
+    "Changes hardware automatically"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Monitoring helps identify issues such as concept drift, latency, and declining prediction accuracy.",
+  "points": 40,
+  "tags": ["model-monitoring","mlops"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Which of the following is a common real-world application of machine learning?",
+  "options": [
+    "Fraud detection, recommendation systems, and medical diagnosis",
+    "Formatting spreadsheets only",
+    "Compiling operating systems only",
+    "Replacing programming languages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Machine learning is widely used in finance, healthcare, e-commerce, cybersecurity, and many other domains.",
+  "points": 40,
+  "tags": ["applications"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "machine-learning",
+  "difficulty": "expert",
+  "question": "Which practice is generally recommended for building reliable machine learning systems?",
+  "options": [
+    "Use high-quality data, proper validation, monitoring, and regular model updates",
+    "Train only once and never update the model",
+    "Ignore evaluation metrics",
+    "Deploy models without testing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reliable ML systems require good data quality, rigorous evaluation, deployment monitoring, and periodic retraining when necessary.",
+  "points": 40,
+  "tags": ["best-practices","mlops"],
+  "timeLimit": 75
+}
+]

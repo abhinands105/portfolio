@@ -1,0 +1,1704 @@
+[
+{
+  "id": 1,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Statistics is the science of:",
+  "options": [
+    "Collecting, analyzing, and interpreting data",
+    "Writing computer programs",
+    "Designing databases",
+    "Building neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Statistics involves collecting, organizing, analyzing, and interpreting data.",
+  "points": 10,
+  "tags": ["basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "A complete collection of individuals or observations is called a:",
+  "options": [
+    "Population",
+    "Sample",
+    "Dataset",
+    "Variable"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A population includes every member under study.",
+  "points": 10,
+  "tags": ["population"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "A subset selected from a population is called a:",
+  "options": [
+    "Sample",
+    "Variable",
+    "Frequency",
+    "Class"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A sample is a smaller group selected from the population.",
+  "points": 10,
+  "tags": ["sample"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "A characteristic measured on each observation is called a:",
+  "options": [
+    "Variable",
+    "Population",
+    "Mean",
+    "Median"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Variables represent measurable characteristics.",
+  "points": 10,
+  "tags": ["variable"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which type of variable represents categories?",
+  "options": [
+    "Qualitative",
+    "Quantitative",
+    "Continuous",
+    "Discrete"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Qualitative variables describe categories or labels.",
+  "points": 10,
+  "tags": ["qualitative"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which variable represents numerical values?",
+  "options": [
+    "Quantitative",
+    "Nominal",
+    "Ordinal",
+    "Categorical"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantitative variables are measured numerically.",
+  "points": 10,
+  "tags": ["quantitative"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which quantitative variable can take only whole-number values?",
+  "options": [
+    "Discrete",
+    "Continuous",
+    "Nominal",
+    "Ordinal"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Discrete variables have countable values.",
+  "points": 10,
+  "tags": ["discrete"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Height and weight are examples of:",
+  "options": [
+    "Continuous variables",
+    "Discrete variables",
+    "Nominal variables",
+    "Binary variables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous variables can take infinitely many values within a range.",
+  "points": 10,
+  "tags": ["continuous"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Statistics that summarize collected data are called:",
+  "options": [
+    "Descriptive statistics",
+    "Inferential statistics",
+    "Bayesian statistics",
+    "Predictive statistics"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Descriptive statistics summarize and present data.",
+  "points": 10,
+  "tags": ["descriptive"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Statistics used to draw conclusions about a population are called:",
+  "options": [
+    "Inferential statistics",
+    "Descriptive statistics",
+    "Exploratory statistics",
+    "Computational statistics"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Inferential statistics generalize sample results to populations.",
+  "points": 10,
+  "tags": ["inferential"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "The average of a dataset is called the:",
+  "options": [
+    "Mean",
+    "Median",
+    "Mode",
+    "Range"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The arithmetic mean is the sum divided by the number of observations.",
+  "points": 10,
+  "tags": ["mean"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "The middle value of ordered data is the:",
+  "options": [
+    "Median",
+    "Mean",
+    "Mode",
+    "Variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The median is the central observation after sorting.",
+  "points": 10,
+  "tags": ["median"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "The most frequently occurring value is called the:",
+  "options": [
+    "Mode",
+    "Median",
+    "Mean",
+    "Range"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mode is the value with the highest frequency.",
+  "points": 10,
+  "tags": ["mode"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which measure of central tendency is most affected by extreme values?",
+  "options": [
+    "Mean",
+    "Median",
+    "Mode",
+    "Quartile"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The mean changes significantly due to outliers.",
+  "points": 10,
+  "tags": ["mean"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which measure is least affected by outliers?",
+  "options": [
+    "Median",
+    "Mean",
+    "Range",
+    "Variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Median is resistant to extreme observations.",
+  "points": 10,
+  "tags": ["median"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "The difference between the maximum and minimum value is called:",
+  "options": [
+    "Range",
+    "Variance",
+    "Mean",
+    "Frequency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Range measures the spread of the data.",
+  "points": 10,
+  "tags": ["range"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "A table showing the number of occurrences of each value is a:",
+  "options": [
+    "Frequency table",
+    "Scatter plot",
+    "Pie chart",
+    "Histogram"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Frequency tables summarize counts of observations.",
+  "points": 10,
+  "tags": ["frequency"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which graph is commonly used for categorical data?",
+  "options": [
+    "Bar chart",
+    "Histogram",
+    "Scatter plot",
+    "Box plot"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bar charts compare frequencies across categories.",
+  "points": 10,
+  "tags": ["bar-chart"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which graph is mainly used for continuous numerical data?",
+  "options": [
+    "Histogram",
+    "Pie chart",
+    "Bar chart",
+    "Flowchart"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Histograms display the distribution of continuous data.",
+  "points": 10,
+  "tags": ["histogram"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which chart is commonly used to show proportions of a whole?",
+  "options": [
+    "Pie chart",
+    "Scatter plot",
+    "Histogram",
+    "Box plot"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pie charts display percentages of a whole.",
+  "points": 10,
+  "tags": ["pie-chart"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which plot is mainly used to study the relationship between two numerical variables?",
+  "options": [
+    "Scatter plot",
+    "Pie chart",
+    "Histogram",
+    "Bar chart"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Scatter plots help visualize relationships between variables.",
+  "points": 10,
+  "tags": ["scatter-plot"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "The number of times a value occurs is called its:",
+  "options": [
+    "Frequency",
+    "Variance",
+    "Probability",
+    "Median"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Frequency counts occurrences of values.",
+  "points": 10,
+  "tags": ["frequency"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "The arithmetic mean is calculated by:",
+  "options": [
+    "Sum of observations divided by total observations",
+    "Middle value",
+    "Most frequent value",
+    "Maximum minus minimum"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mean is computed by dividing the total sum by the number of observations.",
+  "points": 10,
+  "tags": ["arithmetic-mean"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which branch of statistics is mainly concerned with summarizing datasets?",
+  "options": [
+    "Descriptive statistics",
+    "Inferential statistics",
+    "Bayesian statistics",
+    "Computational statistics"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Descriptive statistics summarize and organize data.",
+  "points": 10,
+  "tags": ["descriptive"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "statistics",
+  "difficulty": "easy",
+  "question": "Which measure of central tendency can have more than one value in a dataset?",
+  "options": [
+    "Mode",
+    "Mean",
+    "Median",
+    "Range"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A dataset can be bimodal or multimodal.",
+  "points": 10,
+  "tags": ["mode"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Variance measures:",
+  "options": [
+    "The spread of data around the mean",
+    "The average value",
+    "The middle value",
+    "The maximum value"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Variance measures how far observations are spread from the mean.",
+  "points": 20,
+  "tags": ["variance"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Standard deviation is:",
+  "options": [
+    "The square root of variance",
+    "The square of the mean",
+    "The average frequency",
+    "The median of the dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Standard deviation is the square root of variance and has the same units as the data.",
+  "points": 20,
+  "tags": ["standard-deviation"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Which dataset has greater variability?",
+  "options": [
+    "The one with the larger standard deviation",
+    "The one with the smaller mean",
+    "The one with the smaller sample size",
+    "The one with the larger median"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Larger standard deviation indicates greater spread.",
+  "points": 20,
+  "tags": ["variability"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "A population includes:",
+  "options": [
+    "Every member of interest",
+    "Only selected observations",
+    "Only numerical data",
+    "Only training data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A population contains every observation under study.",
+  "points": 20,
+  "tags": ["population"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "A sample is:",
+  "options": [
+    "A subset of a population",
+    "The entire population",
+    "A probability value",
+    "A frequency table"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Samples are used to estimate population characteristics.",
+  "points": 20,
+  "tags": ["sample"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "The first quartile (Q1) represents:",
+  "options": [
+    "The 25th percentile",
+    "The 50th percentile",
+    "The 75th percentile",
+    "The maximum value"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Q1 divides off the lowest 25% of the data.",
+  "points": 20,
+  "tags": ["quartiles"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "The second quartile (Q2) is equal to the:",
+  "options": [
+    "Median",
+    "Mean",
+    "Mode",
+    "Variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Q2 corresponds to the median or 50th percentile.",
+  "points": 20,
+  "tags": ["quartiles"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "The third quartile (Q3) corresponds to the:",
+  "options": [
+    "75th percentile",
+    "25th percentile",
+    "90th percentile",
+    "Maximum value"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Q3 marks the point below which 75% of observations fall.",
+  "points": 20,
+  "tags": ["quartiles"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "A percentile indicates:",
+  "options": [
+    "The percentage of observations below a value",
+    "The average of the data",
+    "The total frequency",
+    "The standard deviation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Percentiles divide data into 100 equal parts.",
+  "points": 20,
+  "tags": ["percentiles"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "The Interquartile Range (IQR) is calculated as:",
+  "options": [
+    "Q3 − Q1",
+    "Q1 − Q3",
+    "Maximum − Minimum",
+    "Mean − Median"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IQR measures the spread of the middle 50% of the data.",
+  "points": 20,
+  "tags": ["iqr"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "A box plot primarily displays:",
+  "options": [
+    "The distribution of a dataset",
+    "Only the mean",
+    "Only frequencies",
+    "Regression results"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Box plots summarize quartiles, median, spread, and outliers.",
+  "points": 20,
+  "tags": ["boxplot"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Right-skewed data has:",
+  "options": [
+    "A longer tail on the right",
+    "A longer tail on the left",
+    "No tail",
+    "Equal tails"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Positive skew means the distribution extends farther to the right.",
+  "points": 20,
+  "tags": ["skewness"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Left-skewed data has:",
+  "options": [
+    "A longer tail on the left",
+    "A longer tail on the right",
+    "No tail",
+    "Equal tails"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Negative skew has a longer left tail.",
+  "points": 20,
+  "tags": ["skewness"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Kurtosis measures:",
+  "options": [
+    "The shape and tail heaviness of a distribution",
+    "The average value",
+    "The sample size",
+    "The number of variables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kurtosis describes how heavy or light the distribution tails are.",
+  "points": 20,
+  "tags": ["kurtosis"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "The normal distribution is commonly known as the:",
+  "options": [
+    "Bell curve",
+    "Pie curve",
+    "Box curve",
+    "Step curve"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The normal distribution has a bell-shaped symmetric curve.",
+  "points": 20,
+  "tags": ["normal-distribution"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Approximately what percentage of data lies within one standard deviation of the mean in a normal distribution?",
+  "options": [
+    "68%",
+    "50%",
+    "95%",
+    "99.7%"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Empirical Rule states that about 68% lies within one standard deviation.",
+  "points": 20,
+  "tags": ["empirical-rule"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Approximately what percentage of observations lie within two standard deviations in a normal distribution?",
+  "options": [
+    "95%",
+    "68%",
+    "80%",
+    "99.7%"
+  ],
+  "correctAnswer": 0,
+  "explanation": "About 95% of values fall within two standard deviations.",
+  "points": 20,
+  "tags": ["empirical-rule"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "A z-score indicates:",
+  "options": [
+    "How many standard deviations a value is from the mean",
+    "The sample size",
+    "The correlation coefficient",
+    "The variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Z-scores standardize observations relative to the mean.",
+  "points": 20,
+  "tags": ["z-score"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "An unusually distant observation is called an:",
+  "options": [
+    "Outlier",
+    "Average",
+    "Quartile",
+    "Frequency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Outliers differ significantly from most observations.",
+  "points": 20,
+  "tags": ["outlier"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Covariance measures:",
+  "options": [
+    "How two variables change together",
+    "The average of one variable",
+    "The median value",
+    "The sample size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Covariance describes the joint variability of two variables.",
+  "points": 20,
+  "tags": ["covariance"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Correlation measures:",
+  "options": [
+    "The strength and direction of a relationship",
+    "The total frequency",
+    "The mean",
+    "The variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Correlation quantifies linear relationships between variables.",
+  "points": 20,
+  "tags": ["correlation"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Pearson correlation is mainly used for:",
+  "options": [
+    "Linear relationships",
+    "Categorical variables only",
+    "Decision trees",
+    "Image classification"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pearson's coefficient measures linear association.",
+  "points": 20,
+  "tags": ["pearson"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Spearman correlation is based on:",
+  "options": [
+    "Ranks of observations",
+    "Means only",
+    "Variances",
+    "Probability distributions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Spearman's correlation measures monotonic relationships using ranks.",
+  "points": 20,
+  "tags": ["spearman"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "A correlation coefficient close to +1 indicates:",
+  "options": [
+    "A strong positive relationship",
+    "A strong negative relationship",
+    "No relationship",
+    "Random data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Values near +1 indicate a strong positive linear relationship.",
+  "points": 20,
+  "tags": ["positive-correlation"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "statistics",
+  "difficulty": "medium",
+  "question": "Which statement is true?",
+  "options": [
+    "Correlation does not imply causation",
+    "Correlation always proves causation",
+    "Correlation only applies to categorical variables",
+    "Correlation cannot be negative"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A statistical association alone cannot establish a cause-and-effect relationship.",
+  "points": 20,
+  "tags": ["correlation-vs-causation"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Probability is a measure of:",
+  "options": [
+    "The likelihood of an event occurring",
+    "The average of a dataset",
+    "The spread of observations",
+    "The sample size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Probability measures how likely an event is to occur, ranging from 0 to 1.",
+  "points": 30,
+  "tags": ["probability"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The set of all possible outcomes of an experiment is called the:",
+  "options": [
+    "Sample space",
+    "Population",
+    "Random variable",
+    "Distribution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The sample space contains every possible outcome of an experiment.",
+  "points": 30,
+  "tags": ["sample-space"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "An event in probability is:",
+  "options": [
+    "A subset of the sample space",
+    "The entire population",
+    "A frequency table",
+    "A confidence interval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An event consists of one or more outcomes from the sample space.",
+  "points": 30,
+  "tags": ["events"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Conditional probability refers to:",
+  "options": [
+    "The probability of an event given another event has occurred",
+    "The probability of impossible events",
+    "The probability of the sample mean",
+    "The probability of all outcomes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Conditional probability measures probabilities under known conditions.",
+  "points": 30,
+  "tags": ["conditional-probability"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Bayes' Theorem is mainly used to:",
+  "options": [
+    "Update probabilities using new evidence",
+    "Calculate averages",
+    "Measure correlation",
+    "Compute variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bayes' Theorem revises probabilities after observing evidence.",
+  "points": 30,
+  "tags": ["bayes-theorem"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "A random variable assigns:",
+  "options": [
+    "A numerical value to each outcome",
+    "A probability to each sample",
+    "A graph to each dataset",
+    "A histogram to each event"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Random variables map outcomes of random experiments to numbers.",
+  "points": 30,
+  "tags": ["random-variable"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "A Bernoulli random variable has:",
+  "options": [
+    "Two possible outcomes",
+    "Three outcomes",
+    "Continuous values",
+    "Infinite outcomes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bernoulli trials have only success or failure outcomes.",
+  "points": 30,
+  "tags": ["bernoulli"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The Binomial distribution models:",
+  "options": [
+    "The number of successes in independent Bernoulli trials",
+    "The waiting time between events",
+    "Continuous measurements",
+    "Random rankings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Binomial distribution counts successes in repeated independent trials.",
+  "points": 30,
+  "tags": ["binomial"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The Poisson distribution is commonly used to model:",
+  "options": [
+    "The number of events occurring in a fixed interval",
+    "Continuous heights",
+    "Student grades",
+    "Random rankings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Poisson distribution models rare events over time or space.",
+  "points": 30,
+  "tags": ["poisson"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "A Uniform distribution has:",
+  "options": [
+    "Equal probability across its range",
+    "Bell-shaped probabilities",
+    "Two outcomes only",
+    "Only integer values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Every value in a uniform distribution is equally likely.",
+  "points": 30,
+  "tags": ["uniform"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The Exponential distribution is commonly used to model:",
+  "options": [
+    "Waiting times between events",
+    "Student grades",
+    "Dice rolls",
+    "Survey responses"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The exponential distribution models the time until the next event.",
+  "points": 30,
+  "tags": ["exponential"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The Normal distribution is characterized by:",
+  "options": [
+    "A symmetric bell-shaped curve",
+    "Two peaks",
+    "Uniform probabilities",
+    "Only positive values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The normal distribution is symmetric around its mean.",
+  "points": 30,
+  "tags": ["normal-distribution"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The Central Limit Theorem states that:",
+  "options": [
+    "The sampling distribution of the sample mean approaches normality as sample size increases",
+    "Every dataset is normally distributed",
+    "The population must be normal",
+    "Variance always decreases to zero"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CLT is one of the most important results in statistics.",
+  "points": 30,
+  "tags": ["clt"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "A sampling distribution describes:",
+  "options": [
+    "The distribution of a sample statistic",
+    "The original dataset",
+    "Population frequencies",
+    "The confidence interval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sampling distributions describe statistics such as sample means.",
+  "points": 30,
+  "tags": ["sampling-distribution"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Standard Error measures:",
+  "options": [
+    "The variability of a sample statistic",
+    "The spread of raw observations",
+    "The sample size",
+    "The probability of an event"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Standard error quantifies uncertainty in a sample estimate.",
+  "points": 30,
+  "tags": ["standard-error"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "A confidence interval provides:",
+  "options": [
+    "A range likely to contain the population parameter",
+    "The exact population value",
+    "The sample variance",
+    "The correlation coefficient"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Confidence intervals estimate plausible values for unknown parameters.",
+  "points": 30,
+  "tags": ["confidence-interval"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The margin of error indicates:",
+  "options": [
+    "The maximum expected sampling error",
+    "The dataset size",
+    "The sample variance",
+    "The number of variables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Margin of error reflects uncertainty in an estimate.",
+  "points": 30,
+  "tags": ["margin-of-error"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Sampling bias occurs when:",
+  "options": [
+    "The sample is not representative of the population",
+    "The sample is random",
+    "The sample size is large",
+    "The mean equals the median"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Biased samples lead to misleading conclusions.",
+  "points": 30,
+  "tags": ["sampling-bias"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Random sampling helps to:",
+  "options": [
+    "Reduce sampling bias",
+    "Increase bias",
+    "Eliminate variance",
+    "Reduce population size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Random sampling gives every member an equal chance of selection.",
+  "points": 30,
+  "tags": ["random-sampling"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "The Law of Large Numbers states that:",
+  "options": [
+    "Sample averages approach the population mean as sample size increases",
+    "Large samples always have zero variance",
+    "Probability increases with sample size",
+    "Means become medians"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Large samples tend to produce more accurate estimates.",
+  "points": 30,
+  "tags": ["law-of-large-numbers"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Expected value is:",
+  "options": [
+    "The long-run average outcome of a random variable",
+    "The largest observation",
+    "The median of a distribution",
+    "The sample variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Expected value represents the theoretical average over repeated experiments.",
+  "points": 30,
+  "tags": ["expected-value"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Which probability distribution is discrete?",
+  "options": [
+    "Binomial",
+    "Normal",
+    "Uniform (continuous)",
+    "Exponential"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Binomial distribution models discrete counts of successes.",
+  "points": 30,
+  "tags": ["discrete-distribution"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Which probability distribution is continuous?",
+  "options": [
+    "Normal",
+    "Binomial",
+    "Bernoulli",
+    "Poisson"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The normal distribution is continuous over the real numbers.",
+  "points": 30,
+  "tags": ["continuous-distribution"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "A fair coin toss is an example of:",
+  "options": [
+    "A Bernoulli trial",
+    "A Poisson process",
+    "A Normal distribution",
+    "A Confidence interval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A Bernoulli trial has exactly two possible outcomes.",
+  "points": 30,
+  "tags": ["bernoulli"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "statistics",
+  "difficulty": "hard",
+  "question": "Which theorem forms the foundation of many statistical inference methods?",
+  "options": [
+    "Central Limit Theorem",
+    "Pythagorean Theorem",
+    "Green's Theorem",
+    "Euler's Theorem"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Central Limit Theorem enables normal approximations for sampling distributions.",
+  "points": 30,
+  "tags": ["clt"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Hypothesis testing is primarily used to:",
+  "options": [
+    "Make decisions about population parameters using sample data",
+    "Calculate descriptive statistics",
+    "Visualize datasets",
+    "Create databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hypothesis testing uses sample evidence to evaluate claims about a population.",
+  "points": 40,
+  "tags": ["hypothesis-testing"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The null hypothesis is commonly represented by:",
+  "options": [
+    "H₀",
+    "H₁",
+    "μ",
+    "σ"
+  ],
+  "correctAnswer": 0,
+  "explanation": "H₀ represents the default assumption tested in hypothesis testing.",
+  "points": 40,
+  "tags": ["null-hypothesis"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The alternative hypothesis is denoted by:",
+  "options": [
+    "H₁",
+    "H₀",
+    "β",
+    "α"
+  ],
+  "correctAnswer": 0,
+  "explanation": "H₁ represents the claim supported if sufficient evidence exists against H₀.",
+  "points": 40,
+  "tags": ["alternative-hypothesis"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The significance level is commonly represented by:",
+  "options": [
+    "α",
+    "β",
+    "μ",
+    "ρ"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Alpha (α) is the probability threshold for rejecting the null hypothesis.",
+  "points": 40,
+  "tags": ["alpha"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "A commonly used significance level is:",
+  "options": [
+    "0.05",
+    "0.5",
+    "0.95",
+    "1.0"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A significance level of 0.05 is widely used in statistical analysis.",
+  "points": 40,
+  "tags": ["significance-level"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The p-value represents:",
+  "options": [
+    "The probability of observing results at least as extreme assuming H₀ is true",
+    "The probability that H₀ is true",
+    "The confidence level",
+    "The sample size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A smaller p-value indicates stronger evidence against the null hypothesis.",
+  "points": 40,
+  "tags": ["p-value"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "A Type I error occurs when:",
+  "options": [
+    "A true null hypothesis is rejected",
+    "A false null hypothesis is accepted",
+    "A sample is biased",
+    "A dataset is incomplete"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A Type I error is a false positive.",
+  "points": 40,
+  "tags": ["type-i-error"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "A Type II error occurs when:",
+  "options": [
+    "A false null hypothesis is not rejected",
+    "A true null hypothesis is rejected",
+    "The mean is incorrect",
+    "The sample size is too large"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A Type II error is a false negative.",
+  "points": 40,
+  "tags": ["type-ii-error"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The statistical power of a test is:",
+  "options": [
+    "The probability of correctly rejecting a false null hypothesis",
+    "The significance level",
+    "The sample variance",
+    "The confidence interval width"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Power equals 1 − β and measures a test's ability to detect real effects.",
+  "points": 40,
+  "tags": ["power"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "A t-test is primarily used to:",
+  "options": [
+    "Compare means",
+    "Measure correlation",
+    "Predict classes",
+    "Estimate variance only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "t-tests evaluate whether mean differences are statistically significant.",
+  "points": 40,
+  "tags": ["t-test"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The Chi-Square test is commonly applied to:",
+  "options": [
+    "Categorical data",
+    "Continuous regression",
+    "Time-series forecasting",
+    "Neural network training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chi-square tests examine categorical frequencies and independence.",
+  "points": 40,
+  "tags": ["chi-square"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "ANOVA is mainly used to:",
+  "options": [
+    "Compare the means of three or more groups",
+    "Measure correlation",
+    "Compute confidence intervals",
+    "Calculate medians"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Analysis of Variance (ANOVA) compares multiple group means.",
+  "points": 40,
+  "tags": ["anova"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Linear regression predicts:",
+  "options": [
+    "A continuous outcome variable",
+    "A categorical class",
+    "A probability distribution",
+    "A confidence interval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Linear regression models relationships between variables with continuous outputs.",
+  "points": 40,
+  "tags": ["linear-regression"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Multiple regression differs from simple regression because it uses:",
+  "options": [
+    "Multiple predictor variables",
+    "Multiple response variables",
+    "Only categorical variables",
+    "Only one observation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multiple regression includes two or more independent variables.",
+  "points": 40,
+  "tags": ["multiple-regression"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Logistic regression is primarily used for:",
+  "options": [
+    "Classification problems",
+    "Continuous prediction",
+    "Clustering",
+    "Dimensionality reduction"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Logistic regression predicts probabilities for categorical outcomes.",
+  "points": 40,
+  "tags": ["logistic-regression"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Residuals in regression are:",
+  "options": [
+    "Differences between observed and predicted values",
+    "Training samples",
+    "Regression coefficients",
+    "Confidence intervals"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Residuals measure prediction errors.",
+  "points": 40,
+  "tags": ["residuals"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The coefficient of determination (R²) measures:",
+  "options": [
+    "The proportion of variance explained by the model",
+    "The regression slope",
+    "The significance level",
+    "The sample size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher R² generally indicates a better fit to the data.",
+  "points": 40,
+  "tags": ["r-squared"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "A confusion matrix is mainly used to evaluate:",
+  "options": [
+    "Classification models",
+    "Regression models",
+    "Clustering models",
+    "Optimization algorithms"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Confusion matrices summarize classification predictions.",
+  "points": 40,
+  "tags": ["confusion-matrix"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Precision is calculated as:",
+  "options": [
+    "TP / (TP + FP)",
+    "TP / (TP + FN)",
+    "TN / (TN + FP)",
+    "(TP + TN) / Total"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Precision measures how many predicted positives are actually positive.",
+  "points": 40,
+  "tags": ["precision"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Recall is calculated as:",
+  "options": [
+    "TP / (TP + FN)",
+    "TP / (TP + FP)",
+    "TN / (TN + FP)",
+    "FP / (FP + TN)"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Recall measures the proportion of actual positives correctly identified.",
+  "points": 40,
+  "tags": ["recall"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The F1-score is:",
+  "options": [
+    "The harmonic mean of precision and recall",
+    "The arithmetic mean of accuracy and recall",
+    "The geometric mean of TP and TN",
+    "The median of precision and recall"
+  ],
+  "correctAnswer": 0,
+  "explanation": "F1-score balances precision and recall.",
+  "points": 40,
+  "tags": ["f1-score"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "The ROC curve plots:",
+  "options": [
+    "True Positive Rate against False Positive Rate",
+    "Precision against Recall",
+    "Accuracy against Loss",
+    "Mean against Variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ROC curves evaluate classifier performance across thresholds.",
+  "points": 40,
+  "tags": ["roc"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "AUC stands for:",
+  "options": [
+    "Area Under the Curve",
+    "Average Utility Coefficient",
+    "Automatic Update Curve",
+    "Approximate Utility Calculation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AUC summarizes ROC performance into a single value.",
+  "points": 40,
+  "tags": ["auc"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Cross-validation is primarily used to:",
+  "options": [
+    "Estimate model generalization performance",
+    "Increase training accuracy only",
+    "Reduce dataset size",
+    "Normalize variables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross-validation evaluates how well a model performs on unseen data.",
+  "points": 40,
+  "tags": ["cross-validation"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "statistics",
+  "difficulty": "expert",
+  "question": "Statistics is essential in Artificial Intelligence because it:",
+  "options": [
+    "Provides the mathematical foundation for data analysis, inference, and machine learning",
+    "Replaces programming languages",
+    "Eliminates the need for data",
+    "Guarantees perfect predictions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Statistics underpins probability, learning algorithms, model evaluation, and decision-making in AI and machine learning.",
+  "points": 40,
+  "tags": ["ai", "machine-learning", "statistics"]
+  ,
+  "timeLimit": 75
+}
+
+]

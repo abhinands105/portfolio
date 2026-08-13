@@ -1,0 +1,1702 @@
+[
+{
+  "id": 1,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "What is Deep Learning?",
+  "options": [
+    "A subset of machine learning that uses multi-layer neural networks",
+    "A database management system",
+    "A computer programming language",
+    "A cloud storage technology"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deep learning is a branch of machine learning that uses neural networks with multiple layers to learn complex patterns from data.",
+  "points": 10,
+  "tags": ["deep-learning","basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Which statement correctly describes the relationship between AI, Machine Learning, and Deep Learning?",
+  "options": [
+    "Deep Learning is a subset of Machine Learning, which is a subset of Artificial Intelligence",
+    "Machine Learning is a subset of Deep Learning",
+    "Artificial Intelligence is a subset of Deep Learning",
+    "They are all identical fields"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Artificial Intelligence is the broadest field, Machine Learning is a subset of AI, and Deep Learning is a subset of Machine Learning.",
+  "points": 10,
+  "tags": ["ai","ml","deep-learning"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "What does ANN stand for?",
+  "options": [
+    "Artificial Neural Network",
+    "Advanced Neural Node",
+    "Artificial Numeric Network",
+    "Automatic Neural Navigation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ANN stands for Artificial Neural Network, a computational model inspired by biological neurons.",
+  "points": 10,
+  "tags": ["ann","neural-network"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Artificial neural networks are primarily inspired by:",
+  "options": [
+    "The human brain",
+    "Computer processors",
+    "Hard disk drives",
+    "Database systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Artificial neural networks are inspired by the structure and functioning of biological neurons in the human brain.",
+  "points": 10,
+  "tags": ["brain","neurons"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "In an artificial neural network, a neuron primarily performs:",
+  "options": [
+    "A weighted computation followed by an activation function",
+    "Database indexing",
+    "Image compression",
+    "Network routing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A neuron computes a weighted sum of inputs, adds a bias, and applies an activation function.",
+  "points": 10,
+  "tags": ["neuron","computation"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "What is the purpose of the input layer in a neural network?",
+  "options": [
+    "To receive the input features",
+    "To calculate the loss",
+    "To update the weights",
+    "To generate predictions only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The input layer receives raw input features and passes them to the hidden layers.",
+  "points": 10,
+  "tags": ["input-layer","ann"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Hidden layers in a neural network are responsible for:",
+  "options": [
+    "Learning intermediate representations of the data",
+    "Storing the dataset",
+    "Displaying the output",
+    "Managing GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hidden layers learn increasingly complex patterns and representations from the input data.",
+  "points": 10,
+  "tags": ["hidden-layer","representation-learning"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "The output layer of a neural network is used to:",
+  "options": [
+    "Produce the final prediction",
+    "Store model parameters",
+    "Normalize the data",
+    "Shuffle the dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The output layer generates the model's final prediction, such as a class label or numerical value.",
+  "points": 10,
+  "tags": ["output-layer","prediction"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "In a neural network, weights determine:",
+  "options": [
+    "The importance of each input connection",
+    "The number of training samples",
+    "The GPU memory usage",
+    "The number of output classes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Weights control the influence of input features on the neuron's output and are learned during training.",
+  "points": 10,
+  "tags": ["weights","training"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Why is a bias term added to a neuron?",
+  "options": [
+    "To shift the activation function and improve learning flexibility",
+    "To increase the dataset size",
+    "To reduce GPU memory usage",
+    "To normalize the input"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The bias allows the neuron to produce non-zero outputs even when all inputs are zero, improving model flexibility.",
+  "points": 10,
+  "tags": ["bias","neuron"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "What is the primary purpose of an activation function?",
+  "options": [
+    "Introduce non-linearity into the neural network",
+    "Store training data",
+    "Reduce image resolution",
+    "Sort the dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Activation functions allow neural networks to learn complex, non-linear relationships.",
+  "points": 10,
+  "tags": ["activation-function","non-linearity"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Which activation function maps values into the range 0 to 1?",
+  "options": [
+    "Sigmoid",
+    "ReLU",
+    "Leaky ReLU",
+    "Tanh"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The sigmoid function outputs values between 0 and 1, making it useful for binary classification outputs.",
+  "points": 10,
+  "tags": ["sigmoid","activation"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "The output range of the tanh activation function is:",
+  "options": [
+    "-1 to 1",
+    "0 to 1",
+    "0 to infinity",
+    "-infinity to 0"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The hyperbolic tangent (tanh) activation function outputs values between -1 and 1.",
+  "points": 10,
+  "tags": ["tanh","activation"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Which activation function outputs the input directly when it is positive and zero otherwise?",
+  "options": [
+    "ReLU",
+    "Sigmoid",
+    "Tanh",
+    "Softmax"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ReLU (Rectified Linear Unit) returns max(0, x), making it one of the most widely used activation functions.",
+  "points": 10,
+  "tags": ["relu","activation"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Why is Leaky ReLU preferred over ReLU in some cases?",
+  "options": [
+    "It allows a small gradient for negative inputs",
+    "It always outputs values between 0 and 1",
+    "It eliminates the need for backpropagation",
+    "It reduces the number of network layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Leaky ReLU reduces the 'dying ReLU' problem by allowing a small non-zero output for negative inputs.",
+  "points": 10,
+  "tags": ["leaky-relu","activation"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Which activation function is commonly used in the output layer of multi-class classification models?",
+  "options": [
+    "Softmax",
+    "ReLU",
+    "Tanh",
+    "Leaky ReLU"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Softmax converts raw scores into probabilities that sum to 1 across all classes.",
+  "points": 10,
+  "tags": ["softmax","classification"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "What happens during forward propagation?",
+  "options": [
+    "Input data flows through the network to generate predictions",
+    "Weights are randomly initialized",
+    "Training data is shuffled",
+    "Gradients are reset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Forward propagation computes the output of the network by passing inputs through each layer.",
+  "points": 10,
+  "tags": ["forward-propagation","ann"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "What is the primary purpose of a loss function?",
+  "options": [
+    "Measure the difference between predictions and actual values",
+    "Store model parameters",
+    "Initialize weights",
+    "Normalize the dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A loss function quantifies prediction errors so the model can improve during training.",
+  "points": 10,
+  "tags": ["loss-function","training"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Mean Squared Error (MSE) is primarily used for:",
+  "options": [
+    "Regression problems",
+    "Image segmentation",
+    "Language translation",
+    "Clustering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MSE measures the average squared difference between predicted and actual continuous values.",
+  "points": 10,
+  "tags": ["mse","regression"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "Cross Entropy Loss is most commonly used for:",
+  "options": [
+    "Classification tasks",
+    "Regression tasks",
+    "Sorting algorithms",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross Entropy Loss measures how well predicted probability distributions match the true class labels.",
+  "points": 10,
+  "tags": ["cross-entropy","classification"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "What is an epoch in deep learning?",
+  "options": [
+    "One complete pass through the entire training dataset",
+    "A single training example",
+    "One gradient value",
+    "The number of hidden layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An epoch means the model has processed every sample in the training dataset once.",
+  "points": 10,
+  "tags": ["epoch","training"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "In deep learning, a batch is:",
+  "options": [
+    "A group of training samples processed together",
+    "A collection of hidden layers",
+    "A set of model parameters",
+    "A group of GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Training samples are processed in batches to improve computational efficiency.",
+  "points": 10,
+  "tags": ["batch","training"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "A mini-batch is:",
+  "options": [
+    "A smaller subset of the training data processed in one step",
+    "The smallest neural network",
+    "A compressed dataset",
+    "A validation dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mini-batches balance memory usage and training stability better than full-batch or single-sample training.",
+  "points": 10,
+  "tags": ["mini-batch","training"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "An iteration is:",
+  "options": [
+    "One parameter update after processing a batch",
+    "One complete training run",
+    "A hidden layer computation",
+    "A model evaluation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each iteration processes one batch and updates the model parameters once.",
+  "points": 10,
+  "tags": ["iteration","optimization"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "deep-learning",
+  "difficulty": "easy",
+  "question": "In neural network training, a gradient represents:",
+  "options": [
+    "The direction and rate at which parameters should change to reduce loss",
+    "The output of the softmax layer",
+    "The size of the dataset",
+    "The number of neurons"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradients indicate how each parameter affects the loss and guide optimization algorithms such as gradient descent.",
+  "points": 10,
+  "tags": ["gradient","backpropagation","optimization"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "What is the primary objective of Gradient Descent?",
+  "options": [
+    "Minimize the loss function by updating model parameters",
+    "Increase the number of neurons",
+    "Reduce the dataset size",
+    "Normalize the input data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradient Descent updates model parameters in the direction that reduces the loss function.",
+  "points": 20,
+  "tags": ["gradient-descent","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "How does Stochastic Gradient Descent (SGD) differ from standard Gradient Descent?",
+  "options": [
+    "It updates parameters using one training sample at a time",
+    "It processes the entire dataset before each update",
+    "It does not use gradients",
+    "It only works with CNNs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SGD updates parameters after processing each individual training example, making it faster but noisier.",
+  "points": 20,
+  "tags": ["sgd","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Mini-batch Gradient Descent updates model parameters after processing:",
+  "options": [
+    "A small subset of training samples",
+    "The entire dataset",
+    "Exactly one sample",
+    "Only validation data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mini-batch Gradient Descent balances computational efficiency and stable convergence.",
+  "points": 20,
+  "tags": ["mini-batch","gradient-descent"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "The learning rate determines:",
+  "options": [
+    "The size of each parameter update during optimization",
+    "The number of hidden layers",
+    "The dataset size",
+    "The number of neurons"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A learning rate controls how large each optimization step is during training.",
+  "points": 20,
+  "tags": ["learning-rate","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Backpropagation is primarily used to:",
+  "options": [
+    "Compute gradients for updating neural network weights",
+    "Initialize network parameters",
+    "Generate training data",
+    "Compress model weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Backpropagation efficiently computes gradients of the loss with respect to each parameter.",
+  "points": 20,
+  "tags": ["backpropagation","training"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Backpropagation relies heavily on which mathematical principle?",
+  "options": [
+    "Chain Rule",
+    "Bayes' Theorem",
+    "Pythagorean Theorem",
+    "Linear Search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The chain rule allows gradients to be propagated backward through multiple layers.",
+  "points": 20,
+  "tags": ["chain-rule","calculus"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "What is the vanishing gradient problem?",
+  "options": [
+    "Gradients become extremely small, slowing or stopping learning",
+    "Gradients become infinitely large",
+    "The model loses training data",
+    "The GPU runs out of memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Very small gradients make it difficult for earlier layers to learn effectively.",
+  "points": 20,
+  "tags": ["vanishing-gradient","deep-learning"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "The exploding gradient problem occurs when:",
+  "options": [
+    "Gradients become excessively large during training",
+    "Gradients become zero",
+    "The dataset grows automatically",
+    "The model removes hidden layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Large gradients can cause unstable parameter updates and prevent convergence.",
+  "points": 20,
+  "tags": ["exploding-gradient","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Xavier (Glorot) Initialization is designed to:",
+  "options": [
+    "Maintain stable activation variance across layers",
+    "Increase model size",
+    "Reduce dataset dimensions",
+    "Replace dropout"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Xavier initialization helps prevent vanishing and exploding activations in deep networks.",
+  "points": 20,
+  "tags": ["xavier","weight-initialization"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "He Initialization is particularly suitable for networks using:",
+  "options": [
+    "ReLU-based activation functions",
+    "Softmax only",
+    "Sigmoid only",
+    "Tanh only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "He initialization is optimized for ReLU activations to maintain signal variance during training.",
+  "points": 20,
+  "tags": ["he-initialization","relu"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of Batch Normalization?",
+  "options": [
+    "Normalize layer activations to improve training stability",
+    "Increase dataset size",
+    "Reduce the number of neurons",
+    "Replace activation functions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Batch Normalization speeds up convergence and stabilizes training by normalizing activations.",
+  "points": 20,
+  "tags": ["batch-normalization","training"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Layer Normalization differs from Batch Normalization because it normalizes:",
+  "options": [
+    "Features within each individual sample",
+    "The entire dataset",
+    "Only output neurons",
+    "Model parameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Layer Normalization computes statistics across features of a single sample rather than across a batch.",
+  "points": 20,
+  "tags": ["layer-normalization","transformers"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Dropout is mainly used to:",
+  "options": [
+    "Reduce overfitting by randomly disabling neurons during training",
+    "Increase the learning rate",
+    "Replace backpropagation",
+    "Compress datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dropout improves generalization by preventing neurons from becoming overly dependent on one another.",
+  "points": 20,
+  "tags": ["dropout","regularization"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "What is the primary goal of regularization in deep learning?",
+  "options": [
+    "Reduce overfitting and improve generalization",
+    "Increase the number of hidden layers",
+    "Reduce GPU memory usage",
+    "Increase the dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Regularization techniques help models generalize better by reducing their tendency to memorize training data.",
+  "points": 20,
+  "tags": ["regularization","generalization"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "L1 regularization adds which term to the loss function?",
+  "options": [
+    "The sum of the absolute values of the weights",
+    "The sum of the squared weights",
+    "The average of the gradients",
+    "The number of neurons"
+  ],
+  "correctAnswer": 0,
+  "explanation": "L1 regularization encourages sparsity by penalizing the absolute values of model weights.",
+  "points": 20,
+  "tags": ["l1","regularization"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "L2 regularization penalizes:",
+  "options": [
+    "The squared values of the weights",
+    "The absolute values of the weights",
+    "The number of training samples",
+    "The learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "L2 regularization discourages large weights by adding their squared values to the loss function.",
+  "points": 20,
+  "tags": ["l2","weight-decay"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "What is the purpose of Early Stopping?",
+  "options": [
+    "Stop training when validation performance stops improving",
+    "Reduce the batch size",
+    "Skip gradient computation",
+    "Initialize model weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Early stopping prevents overfitting by ending training before the model begins memorizing the training data.",
+  "points": 20,
+  "tags": ["early-stopping","training"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Overfitting occurs when a model:",
+  "options": [
+    "Performs well on training data but poorly on unseen data",
+    "Cannot learn the training data",
+    "Has too few parameters",
+    "Uses a small batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An overfitted model memorizes training examples instead of learning general patterns.",
+  "points": 20,
+  "tags": ["overfitting","generalization"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Underfitting happens when a model:",
+  "options": [
+    "Fails to learn the underlying patterns in the data",
+    "Memorizes the training data perfectly",
+    "Uses too much GPU memory",
+    "Has excessive training samples"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An underfitted model is too simple or insufficiently trained to capture important relationships in the data.",
+  "points": 20,
+  "tags": ["underfitting","model-performance"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "What is the main purpose of a validation set?",
+  "options": [
+    "Evaluate model performance during training and tune hyperparameters",
+    "Train the model weights",
+    "Replace the test dataset",
+    "Increase the training dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A validation set helps monitor training progress and choose the best hyperparameters without using the test set.",
+  "points": 20,
+  "tags": ["validation-set","evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Why is a train/test split used in machine learning?",
+  "options": [
+    "To evaluate model performance on unseen data",
+    "To reduce the learning rate",
+    "To increase the number of model parameters",
+    "To eliminate overfitting completely"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Separating training and testing data provides an unbiased estimate of model performance.",
+  "points": 20,
+  "tags": ["train-test-split","evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "Data augmentation is primarily used to:",
+  "options": [
+    "Generate additional training examples through transformations",
+    "Reduce the number of classes",
+    "Compress the model",
+    "Increase GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Data augmentation improves generalization by applying transformations such as rotation, flipping, or cropping to training data.",
+  "points": 20,
+  "tags": ["data-augmentation","computer-vision"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "A learning rate scheduler is used to:",
+  "options": [
+    "Adjust the learning rate during training",
+    "Shuffle the dataset",
+    "Normalize the input data",
+    "Store model checkpoints"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Learning rate schedulers change the learning rate according to a predefined strategy to improve convergence.",
+  "points": 20,
+  "tags": ["learning-rate-scheduler","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "What is an optimizer in deep learning?",
+  "options": [
+    "An algorithm that updates model parameters to minimize the loss",
+    "A tool for compressing datasets",
+    "A visualization library",
+    "A neural network layer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Optimizers such as SGD and Adam use gradients to adjust model parameters during training.",
+  "points": 20,
+  "tags": ["optimizer","training"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "deep-learning",
+  "difficulty": "medium",
+  "question": "How does Momentum improve gradient descent?",
+  "options": [
+    "It accumulates previous gradients to speed up convergence and reduce oscillations",
+    "It increases the number of epochs automatically",
+    "It removes the need for backpropagation",
+    "It guarantees perfect accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Momentum uses an exponentially weighted average of previous gradients to produce smoother and faster optimization.",
+  "points": 20,
+  "tags": ["momentum","gradient-descent","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What is the primary advantage of the Adam optimizer?",
+  "options": [
+    "It adapts the learning rate for each parameter using first and second moment estimates",
+    "It eliminates the need for gradients",
+    "It only works for CNNs",
+    "It requires no hyperparameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Adam combines Momentum and RMSProp to provide adaptive learning rates and faster convergence.",
+  "points": 30,
+  "tags": ["adam","optimizer"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "RMSProp improves optimization by:",
+  "options": [
+    "Using a moving average of squared gradients to adapt learning rates",
+    "Removing backpropagation",
+    "Increasing the number of neurons",
+    "Normalizing the dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RMSProp scales parameter updates based on recent gradient magnitudes, improving convergence.",
+  "points": 30,
+  "tags": ["rmsprop","optimizer"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What is a key characteristic of the AdaGrad optimizer?",
+  "options": [
+    "It reduces the learning rate for frequently updated parameters",
+    "It increases the learning rate over time",
+    "It only supports binary classification",
+    "It requires no gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AdaGrad adapts learning rates individually for each parameter based on historical gradients.",
+  "points": 30,
+  "tags": ["adagrad","optimizer"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What does CNN stand for?",
+  "options": [
+    "Convolutional Neural Network",
+    "Continuous Neural Network",
+    "Central Network Node",
+    "Connected Numeric Network"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CNNs are deep learning models designed especially for image and spatial data processing.",
+  "points": 30,
+  "tags": ["cnn","computer-vision"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "The primary role of a convolution layer is to:",
+  "options": [
+    "Extract local features from the input",
+    "Store training data",
+    "Normalize the output",
+    "Perform model evaluation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Convolution layers detect features such as edges, textures, and patterns using learnable filters.",
+  "points": 30,
+  "tags": ["convolution","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "In a CNN, a kernel (filter) is:",
+  "options": [
+    "A small matrix used to detect specific patterns in the input",
+    "The final output layer",
+    "A GPU scheduling algorithm",
+    "A learning rate parameter"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Filters slide across the input to identify visual patterns such as edges and textures.",
+  "points": 30,
+  "tags": ["kernel","filter","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What does the stride parameter control in a convolution layer?",
+  "options": [
+    "How many pixels the filter moves at each step",
+    "The number of convolution filters",
+    "The number of hidden layers",
+    "The learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Stride determines the movement of the filter across the input feature map.",
+  "points": 30,
+  "tags": ["stride","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Why is padding used in convolutional neural networks?",
+  "options": [
+    "To preserve spatial dimensions and reduce information loss at the borders",
+    "To increase the number of classes",
+    "To reduce the batch size",
+    "To normalize gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Padding adds extra values around the input so edge information is preserved after convolution.",
+  "points": 30,
+  "tags": ["padding","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What is the main purpose of a pooling layer?",
+  "options": [
+    "Reduce feature map dimensions while retaining important information",
+    "Increase image resolution",
+    "Initialize network weights",
+    "Store model parameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pooling layers reduce computational cost and improve translation invariance.",
+  "points": 30,
+  "tags": ["pooling","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Max Pooling works by:",
+  "options": [
+    "Selecting the maximum value from each pooling region",
+    "Calculating the average value",
+    "Summing all values",
+    "Removing all negative values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Max Pooling keeps the strongest activation within each pooling window.",
+  "points": 30,
+  "tags": ["max-pooling","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Average Pooling computes:",
+  "options": [
+    "The average value within each pooling window",
+    "The largest value",
+    "The smallest value",
+    "The variance of the feature map"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Average Pooling summarizes each region by calculating its mean value.",
+  "points": 30,
+  "tags": ["average-pooling","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of a Fully Connected (Dense) layer?",
+  "options": [
+    "Combine extracted features to produce final predictions",
+    "Perform convolution operations",
+    "Reduce image dimensions",
+    "Normalize the input"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fully connected layers use the extracted features to perform classification or regression.",
+  "points": 30,
+  "tags": ["dense-layer","fully-connected"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Why is a Flatten layer commonly used before a Fully Connected layer?",
+  "options": [
+    "To convert multi-dimensional feature maps into a one-dimensional vector",
+    "To increase image resolution",
+    "To normalize gradients",
+    "To reduce the learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Flatten reshapes feature maps into a vector so they can be processed by dense layers.",
+  "points": 30,
+  "tags": ["flatten","cnn","dense-layer"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "In a Convolutional Neural Network (CNN), the receptive field refers to:",
+  "options": [
+    "The region of the input that influences a neuron's output",
+    "The number of filters in a layer",
+    "The size of the training dataset",
+    "The learning rate of the model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The receptive field defines the portion of the input image that contributes to the activation of a neuron.",
+  "points": 30,
+  "tags": ["receptive-field","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Recurrent Neural Networks (RNNs) are primarily designed to process:",
+  "options": [
+    "Sequential data",
+    "Relational databases",
+    "Computer graphics",
+    "Hash tables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RNNs maintain hidden states that allow them to process sequences such as text, speech, and time-series data.",
+  "points": 30,
+  "tags": ["rnn","sequence-models"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What problem was the Long Short-Term Memory (LSTM) architecture primarily designed to address?",
+  "options": [
+    "The vanishing gradient problem in long sequences",
+    "GPU memory fragmentation",
+    "Image compression",
+    "Dataset imbalance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LSTMs use gated memory cells to preserve information over long sequences, reducing vanishing gradients.",
+  "points": 30,
+  "tags": ["lstm","rnn"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Compared to LSTMs, Gated Recurrent Units (GRUs) generally:",
+  "options": [
+    "Use fewer gates and fewer parameters",
+    "Require more memory and computation",
+    "Cannot process sequential data",
+    "Replace attention mechanisms"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GRUs combine certain gates found in LSTMs, making them computationally simpler while remaining effective.",
+  "points": 30,
+  "tags": ["gru","rnn"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of an attention mechanism?",
+  "options": [
+    "Focus on the most relevant parts of the input when making predictions",
+    "Increase image resolution",
+    "Reduce the number of neurons",
+    "Initialize model weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Attention enables models to assign different importance to different parts of the input.",
+  "points": 30,
+  "tags": ["attention","deep-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Self-attention differs from standard attention because it:",
+  "options": [
+    "Computes relationships among elements within the same sequence",
+    "Uses only convolutional layers",
+    "Eliminates positional information",
+    "Works only for images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-attention allows every token in a sequence to attend to every other token in the same sequence.",
+  "points": 30,
+  "tags": ["self-attention","transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "The Transformer architecture is primarily built upon:",
+  "options": [
+    "Self-attention mechanisms",
+    "Convolution operations only",
+    "Recurrent loops only",
+    "Decision trees"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformers replace recurrent computations with self-attention, enabling efficient parallel processing.",
+  "points": 30,
+  "tags": ["transformer","attention"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "Why is positional encoding added to Transformer models?",
+  "options": [
+    "To provide information about token order",
+    "To reduce GPU memory usage",
+    "To normalize gradients",
+    "To replace embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Since Transformers process tokens in parallel, positional encodings supply sequence order information.",
+  "points": 30,
+  "tags": ["positional-encoding","transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "In the original Transformer architecture, the encoder primarily:",
+  "options": [
+    "Processes the input sequence into contextual representations",
+    "Generates the final output tokens",
+    "Computes the loss function",
+    "Stores training data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The encoder converts the input into contextual embeddings that are used by the decoder.",
+  "points": 30,
+  "tags": ["encoder","transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "The decoder in a Transformer is mainly responsible for:",
+  "options": [
+    "Generating output tokens using encoded information",
+    "Loading the training dataset",
+    "Applying data augmentation",
+    "Initializing model weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The decoder predicts output tokens by attending to both previous outputs and encoder representations.",
+  "points": 30,
+  "tags": ["decoder","transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "What is the main advantage of Multi-Head Attention?",
+  "options": [
+    "It learns different types of relationships simultaneously using multiple attention heads",
+    "It eliminates the need for embeddings",
+    "It replaces feed-forward networks",
+    "It reduces the vocabulary size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each attention head can capture different semantic or positional relationships within the sequence.",
+  "points": 30,
+  "tags": ["multi-head-attention","transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "deep-learning",
+  "difficulty": "hard",
+  "question": "In a Transformer block, the Feed Forward Network (FFN) primarily:",
+  "options": [
+    "Applies non-linear transformations independently to each token representation",
+    "Calculates positional encodings",
+    "Computes attention scores",
+    "Generates training labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The FFN processes each token's representation after attention, increasing the model's expressive power.",
+  "points": 30,
+  "tags": ["ffn","transformer","feed-forward"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What is the main idea behind a Vision Transformer (ViT)?",
+  "options": [
+    "Treat an image as a sequence of patches processed by a Transformer",
+    "Replace attention with convolution",
+    "Process only grayscale images",
+    "Use recurrent layers for image recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vision Transformers split images into patches, embed them as tokens, and process them using Transformer encoder layers.",
+  "points": 40,
+  "tags": ["vision-transformer","vit","transformer"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What is the primary purpose of CLIP?",
+  "options": [
+    "Learn a shared representation of images and text",
+    "Compress neural networks",
+    "Generate synthetic datasets",
+    "Perform image segmentation only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CLIP jointly trains on image-text pairs so both modalities can be compared in the same embedding space.",
+  "points": 40,
+  "tags": ["clip","multimodal","vision-language"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "An autoencoder is primarily used to:",
+  "options": [
+    "Learn compressed representations by reconstructing the input",
+    "Classify images into categories",
+    "Optimize learning rates",
+    "Generate random labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Autoencoders consist of an encoder and decoder that learn efficient latent representations of input data.",
+  "points": 40,
+  "tags": ["autoencoder","representation-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "How does a Variational Autoencoder (VAE) differ from a standard autoencoder?",
+  "options": [
+    "It learns a probabilistic latent distribution for data generation",
+    "It removes the decoder",
+    "It only works with text",
+    "It replaces gradient descent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "VAEs learn probability distributions in latent space, enabling generation of new samples by sampling from that space.",
+  "points": 40,
+  "tags": ["vae","generative-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What is the main idea behind a Generative Adversarial Network (GAN)?",
+  "options": [
+    "A generator and discriminator compete during training",
+    "Two CNNs perform image classification",
+    "A Transformer predicts the next token",
+    "A decision tree learns latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs train a generator to produce realistic data while a discriminator learns to distinguish real from generated samples.",
+  "points": 40,
+  "tags": ["gan","generative-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "In a GAN, the generator's objective is to:",
+  "options": [
+    "Produce synthetic data that fools the discriminator",
+    "Classify real images",
+    "Reduce GPU memory usage",
+    "Normalize input data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The generator learns to create realistic samples that the discriminator cannot distinguish from real data.",
+  "points": 40,
+  "tags": ["generator","gan"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "The discriminator in a GAN is responsible for:",
+  "options": [
+    "Distinguishing real samples from generated samples",
+    "Generating synthetic images",
+    "Compressing model weights",
+    "Scheduling the learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The discriminator acts as a binary classifier that evaluates whether a sample is real or generated.",
+  "points": 40,
+  "tags": ["discriminator","gan"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Diffusion models generate images by:",
+  "options": [
+    "Gradually removing noise from random noise through iterative denoising",
+    "Using adversarial training only",
+    "Applying recurrent neural networks",
+    "Sorting image pixels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Diffusion models learn to reverse a noising process, progressively generating realistic images from noise.",
+  "points": 40,
+  "tags": ["diffusion","image-generation"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Why is the U-Net architecture widely used in diffusion models?",
+  "options": [
+    "It efficiently predicts and removes noise using encoder-decoder skip connections",
+    "It replaces attention completely",
+    "It only performs image classification",
+    "It eliminates the latent space"
+  ],
+  "correctAnswer": 0,
+  "explanation": "U-Net combines multi-scale features with skip connections, making it effective for denoising tasks.",
+  "points": 40,
+  "tags": ["u-net","diffusion"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What is the primary advantage of Latent Diffusion Models?",
+  "options": [
+    "They perform diffusion in a compressed latent space for faster and more efficient generation",
+    "They generate images without neural networks",
+    "They remove the decoder from the model",
+    "They require no training data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Operating in latent space greatly reduces computational cost while maintaining high image quality.",
+  "points": 40,
+  "tags": ["latent-diffusion","generative-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Stable Diffusion is best described as a:",
+  "options": [
+    "Latent diffusion model for text-to-image generation",
+    "CNN image classifier",
+    "Database indexing algorithm",
+    "Speech recognition model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Stable Diffusion generates images from text prompts using latent diffusion guided by text embeddings.",
+  "points": 40,
+  "tags": ["stable-diffusion","text-to-image"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What is the primary purpose of LoRA (Low-Rank Adaptation)?",
+  "options": [
+    "Fine-tune large models efficiently by training a small number of additional parameters",
+    "Replace Transformer architectures",
+    "Compress datasets",
+    "Increase image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA injects trainable low-rank matrices into existing layers, reducing memory and compute requirements during fine-tuning.",
+  "points": 40,
+  "tags": ["lora","fine-tuning","llm"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What distinguishes QLoRA from standard LoRA?",
+  "options": [
+    "It combines low-rank adaptation with quantized model weights",
+    "It trains the entire model from scratch",
+    "It removes the attention mechanism",
+    "It only supports CNNs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "QLoRA uses quantized base model weights together with LoRA adapters, enabling efficient fine-tuning of very large models on limited hardware.",
+  "points": 40,
+  "tags": ["qlora","quantization","fine-tuning"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What is the primary goal of fine-tuning a pre-trained deep learning model?",
+  "options": [
+    "Adapt the model to a specific task using additional training",
+    "Reduce the dataset size",
+    "Replace all model weights randomly",
+    "Remove hidden layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fine-tuning starts from a pre-trained model and updates its parameters using task-specific data, reducing training time and improving performance.",
+  "points": 40,
+  "tags": ["fine-tuning","transfer-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Transfer learning is the process of:",
+  "options": [
+    "Using knowledge learned from one task to improve performance on another task",
+    "Moving datasets between computers",
+    "Transferring model weights to a GPU",
+    "Converting CNNs into Transformers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transfer learning leverages representations learned from large datasets to solve related problems with less training data.",
+  "points": 40,
+  "tags": ["transfer-learning","pretrained-models"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Knowledge distillation involves:",
+  "options": [
+    "Training a smaller student model using the predictions of a larger teacher model",
+    "Removing duplicate training samples",
+    "Compressing image files",
+    "Splitting datasets into batches"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Knowledge distillation transfers knowledge from a large model to a smaller one by matching output distributions.",
+  "points": 40,
+  "tags": ["knowledge-distillation","teacher-student"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Model quantization primarily aims to:",
+  "options": [
+    "Reduce model size and improve inference speed using lower-precision numbers",
+    "Increase the number of parameters",
+    "Generate synthetic training data",
+    "Replace gradient descent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization converts model weights and activations from high precision (such as FP32) to lower precision (such as INT8) to reduce memory usage and accelerate inference.",
+  "points": 40,
+  "tags": ["quantization","model-optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Neural network pruning is used to:",
+  "options": [
+    "Remove unnecessary weights or neurons to create a smaller model",
+    "Increase the number of hidden layers",
+    "Normalize training data",
+    "Replace attention mechanisms"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pruning removes redundant parameters while attempting to preserve model accuracy.",
+  "points": 40,
+  "tags": ["pruning","compression"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Mixed precision training combines:",
+  "options": [
+    "Different numerical precisions such as FP16 and FP32 during training",
+    "Different neural network architectures",
+    "Training and testing datasets",
+    "CNNs and decision trees"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mixed precision training speeds up computation and reduces memory usage while maintaining numerical stability.",
+  "points": 40,
+  "tags": ["mixed-precision","fp16","training"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Distributed training enables deep learning by:",
+  "options": [
+    "Training a model across multiple computing devices simultaneously",
+    "Reducing dataset size",
+    "Removing hidden layers",
+    "Converting images into text"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Distributed training uses multiple GPUs or machines to accelerate the training of large models.",
+  "points": 40,
+  "tags": ["distributed-training","multi-gpu"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "In model parallelism, a neural network is:",
+  "options": [
+    "Split across multiple devices so different parts run on different hardware",
+    "Duplicated on every GPU",
+    "Compressed before training",
+    "Converted into a recurrent network"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model parallelism distributes different layers or components of a model across multiple devices when a single device cannot hold the entire model.",
+  "points": 40,
+  "tags": ["model-parallelism","distributed-training"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Data parallelism works by:",
+  "options": [
+    "Replicating the model on multiple devices while each processes different batches of data",
+    "Splitting the model across devices",
+    "Using multiple optimizers simultaneously",
+    "Compressing datasets before training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each device computes gradients on different mini-batches, which are then synchronized to update the shared model.",
+  "points": 40,
+  "tags": ["data-parallelism","distributed-training"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "Tensor parallelism is primarily used to:",
+  "options": [
+    "Split large tensor operations across multiple devices",
+    "Compress tensors into lower dimensions",
+    "Replace batch normalization",
+    "Increase image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensor parallelism divides large matrix operations among multiple GPUs, enabling efficient training of extremely large models.",
+  "points": 40,
+  "tags": ["tensor-parallelism","llm","distributed-training"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "What is the primary advantage of a Mixture of Experts (MoE) model?",
+  "options": [
+    "Only a subset of expert networks is activated for each input, improving efficiency",
+    "Every layer is removed during inference",
+    "The model trains without gradients",
+    "It only works for computer vision"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MoE architectures use a gating network to activate only the most relevant expert models for a given input, enabling larger models with efficient computation.",
+  "points": 40,
+  "tags": ["mixture-of-experts","moe","llm"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "deep-learning",
+  "difficulty": "expert",
+  "question": "In Retrieval-Augmented Generation (RAG), deep learning models primarily use retrieved documents to:",
+  "options": [
+    "Generate more accurate and context-aware responses",
+    "Replace the training dataset permanently",
+    "Reduce the number of model parameters",
+    "Train without embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG combines neural retrieval with language generation so that external knowledge can improve factual accuracy and provide up-to-date information.",
+  "points": 40,
+  "tags": ["rag","retrieval-augmented-generation","llm","deep-learning"],
+  "timeLimit": 75
+}
+]

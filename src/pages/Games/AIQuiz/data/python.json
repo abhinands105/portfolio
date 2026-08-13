@@ -1,0 +1,1702 @@
+[
+{
+  "id": 1,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Who created the Python programming language?",
+  "options": [
+    "Guido van Rossum",
+    "James Gosling",
+    "Dennis Ritchie",
+    "Bjarne Stroustrup"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Python was created by Guido van Rossum and first released in 1991.",
+  "points": 10,
+  "tags": ["history"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Python is primarily classified as a:",
+  "options": [
+    "High-level programming language",
+    "Assembly language",
+    "Markup language",
+    "Database language"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Python is a high-level, interpreted programming language.",
+  "points": 10,
+  "tags": ["basics"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which function displays output in Python?",
+  "options": [
+    "print()",
+    "echo()",
+    "display()",
+    "printf()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The print() function writes output to the console.",
+  "points": 10,
+  "tags": ["functions"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which function accepts user input in Python?",
+  "options": [
+    "input()",
+    "scan()",
+    "read()",
+    "accept()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "input() reads text entered by the user.",
+  "points": 10,
+  "tags": ["input"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Python source files typically have which extension?",
+  "options": [
+    ".py",
+    ".pt",
+    ".python",
+    ".pyt"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Python programs are stored in .py files.",
+  "points": 10,
+  "tags": ["files"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Python is an:",
+  "options": [
+    "Interpreted language",
+    "Compiled-only language",
+    "Markup language",
+    "Database system"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Python code is executed by an interpreter.",
+  "points": 10,
+  "tags": ["interpreter"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which symbol begins a comment in Python?",
+  "options": [
+    "#",
+    "//",
+    "/*",
+    "--"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Single-line comments begin with #.",
+  "points": 10,
+  "tags": ["comments"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which keyword defines a function?",
+  "options": [
+    "def",
+    "func",
+    "function",
+    "define"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Functions are declared using the def keyword.",
+  "points": 10,
+  "tags": ["functions"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which keyword creates a class?",
+  "options": [
+    "class",
+    "object",
+    "struct",
+    "new"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The class keyword defines a class.",
+  "points": 10,
+  "tags": ["oop"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which data type stores whole numbers?",
+  "options": [
+    "int",
+    "float",
+    "str",
+    "bool"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The int type stores integers.",
+  "points": 10,
+  "tags": ["types"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which data type stores decimal numbers?",
+  "options": [
+    "float",
+    "int",
+    "str",
+    "tuple"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Floating-point values are stored using float.",
+  "points": 10,
+  "tags": ["types"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which data type stores text?",
+  "options": [
+    "str",
+    "int",
+    "list",
+    "bool"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Strings store textual data.",
+  "points": 10,
+  "tags": ["string"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Boolean values in Python are:",
+  "options": [
+    "True and False",
+    "Yes and No",
+    "1 and 0 only",
+    "On and Off"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Python uses the Boolean literals True and False.",
+  "points": 10,
+  "tags": ["boolean"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which operator performs assignment?",
+  "options": [
+    "=",
+    "==",
+    ":=",
+    "=>"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The = operator assigns values to variables.",
+  "points": 10,
+  "tags": ["operators"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which operator checks equality?",
+  "options": [
+    "==",
+    "=",
+    "!=",
+    "is"
+  ],
+  "correctAnswer": 0,
+  "explanation": "== compares two values for equality.",
+  "points": 10,
+  "tags": ["comparison"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which statement is used for conditional execution?",
+  "options": [
+    "if",
+    "for",
+    "while",
+    "switch"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The if statement executes code based on a condition.",
+  "points": 10,
+  "tags": ["control-flow"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which loop repeats over a sequence?",
+  "options": [
+    "for",
+    "repeat",
+    "loop",
+    "iterate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The for loop iterates over iterable objects.",
+  "points": 10,
+  "tags": ["loops"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which loop runs while a condition is true?",
+  "options": [
+    "while",
+    "for",
+    "repeat",
+    "loop"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A while loop continues until its condition becomes false.",
+  "points": 10,
+  "tags": ["loops"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which keyword exits a loop immediately?",
+  "options": [
+    "break",
+    "continue",
+    "exit",
+    "stop"
+  ],
+  "correctAnswer": 0,
+  "explanation": "break terminates the nearest loop.",
+  "points": 10,
+  "tags": ["loops"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which keyword skips the current loop iteration?",
+  "options": [
+    "continue",
+    "break",
+    "pass",
+    "skip"
+  ],
+  "correctAnswer": 0,
+  "explanation": "continue moves to the next iteration of the loop.",
+  "points": 10,
+  "tags": ["loops"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which keyword does nothing and acts as a placeholder?",
+  "options": [
+    "pass",
+    "continue",
+    "break",
+    "return"
+  ],
+  "correctAnswer": 0,
+  "explanation": "pass is a null statement used where syntax requires a statement.",
+  "points": 10,
+  "tags": ["pass"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which collection type is ordered and mutable?",
+  "options": [
+    "list",
+    "tuple",
+    "set",
+    "frozenset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lists preserve order and can be modified.",
+  "points": 10,
+  "tags": ["list"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which collection type stores key-value pairs?",
+  "options": [
+    "dictionary",
+    "tuple",
+    "list",
+    "set"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dictionaries map keys to values.",
+  "points": 10,
+  "tags": ["dictionary"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which collection automatically removes duplicate elements?",
+  "options": [
+    "set",
+    "list",
+    "tuple",
+    "dictionary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sets store only unique values.",
+  "points": 10,
+  "tags": ["set"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "python",
+  "difficulty": "easy",
+  "question": "Which keyword imports a module?",
+  "options": [
+    "import",
+    "include",
+    "using",
+    "require"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The import keyword loads modules into a Python program.",
+  "points": 10,
+  "tags": ["modules"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "What is the purpose of a function in Python?",
+  "options": [
+    "To group reusable code",
+    "To store files",
+    "To create variables",
+    "To compile programs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Functions allow code to be reused and organized into logical blocks.",
+  "points": 20,
+  "tags": ["functions"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which keyword returns a value from a function?",
+  "options": [
+    "return",
+    "yield",
+    "pass",
+    "break"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The return statement exits a function and optionally sends back a value.",
+  "points": 20,
+  "tags": ["return"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "A function parameter is:",
+  "options": [
+    "A variable defined in the function declaration",
+    "The returned value",
+    "A module",
+    "A file"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Parameters receive values passed into a function.",
+  "points": 20,
+  "tags": ["parameters"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Values passed to a function are called:",
+  "options": [
+    "Arguments",
+    "Objects",
+    "Methods",
+    "Modules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Arguments are the actual values supplied during a function call.",
+  "points": 20,
+  "tags": ["arguments"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Default arguments allow:",
+  "options": [
+    "Optional parameter values",
+    "Mandatory parameters only",
+    "Functions without names",
+    "Automatic recursion"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Default values are used when no argument is supplied.",
+  "points": 20,
+  "tags": ["default-arguments"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which symbol collects multiple positional arguments?",
+  "options": [
+    "*args",
+    "**kwargs",
+    "&args",
+    "#args"
+  ],
+  "correctAnswer": 0,
+  "explanation": "*args collects variable-length positional arguments.",
+  "points": 20,
+  "tags": ["args"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which syntax collects keyword arguments?",
+  "options": [
+    "**kwargs",
+    "*kwargs",
+    "&kwargs",
+    "#kwargs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "**kwargs stores variable keyword arguments as a dictionary.",
+  "points": 20,
+  "tags": ["kwargs"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "A local variable is accessible:",
+  "options": [
+    "Only inside the function where it is defined",
+    "Anywhere in the program",
+    "Only outside functions",
+    "Only inside loops"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Local variables exist only during the execution of their function.",
+  "points": 20,
+  "tags": ["scope"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which keyword allows modification of a global variable inside a function?",
+  "options": [
+    "global",
+    "public",
+    "static",
+    "extern"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The global keyword references a global variable inside a function.",
+  "points": 20,
+  "tags": ["global"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "A Python module is:",
+  "options": [
+    "A file containing Python code",
+    "A compiled executable",
+    "A database",
+    "An operating system"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modules organize reusable Python code into files.",
+  "points": 20,
+  "tags": ["modules"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "A package is:",
+  "options": [
+    "A collection of related Python modules",
+    "A Python function",
+    "A loop",
+    "A variable"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Packages organize multiple related modules.",
+  "points": 20,
+  "tags": ["packages"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which keyword is used to handle exceptions?",
+  "options": [
+    "try",
+    "catch",
+    "handle",
+    "error"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The try block contains code that may raise exceptions.",
+  "points": 20,
+  "tags": ["exceptions"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which block executes when an exception occurs?",
+  "options": [
+    "except",
+    "finally",
+    "raise",
+    "return"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The except block catches and handles exceptions.",
+  "points": 20,
+  "tags": ["exceptions"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which keyword raises an exception manually?",
+  "options": [
+    "raise",
+    "throw",
+    "except",
+    "catch"
+  ],
+  "correctAnswer": 0,
+  "explanation": "raise is used to generate exceptions explicitly.",
+  "points": 20,
+  "tags": ["raise"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which block always executes regardless of exceptions?",
+  "options": [
+    "finally",
+    "except",
+    "raise",
+    "try"
+  ],
+  "correctAnswer": 0,
+  "explanation": "finally executes whether or not an exception occurs.",
+  "points": 20,
+  "tags": ["finally"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which function is commonly used to open a file?",
+  "options": [
+    "open()",
+    "file()",
+    "load()",
+    "read()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The open() function returns a file object.",
+  "points": 20,
+  "tags": ["files"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which mode opens a file for reading?",
+  "options": [
+    "r",
+    "w",
+    "a",
+    "x"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mode 'r' opens a file for reading.",
+  "points": 20,
+  "tags": ["file-handling"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which mode opens a file for writing and overwrites existing content?",
+  "options": [
+    "w",
+    "r",
+    "a",
+    "rb"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The 'w' mode overwrites an existing file or creates a new one.",
+  "points": 20,
+  "tags": ["file-handling"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "A list comprehension is primarily used to:",
+  "options": [
+    "Create lists concisely",
+    "Read files",
+    "Handle exceptions",
+    "Import modules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "List comprehensions provide a compact syntax for generating lists.",
+  "points": 20,
+  "tags": ["list-comprehension"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "A lambda function is:",
+  "options": [
+    "An anonymous function",
+    "A recursive function",
+    "A built-in module",
+    "A package"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lambda creates small anonymous functions in a single expression.",
+  "points": 20,
+  "tags": ["lambda"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "The map() function applies:",
+  "options": [
+    "A function to every item in an iterable",
+    "Sorting to a list",
+    "A filter to a file",
+    "An exception handler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "map() transforms each element using a specified function.",
+  "points": 20,
+  "tags": ["map"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "The filter() function returns:",
+  "options": [
+    "Items satisfying a condition",
+    "Only integers",
+    "A sorted list",
+    "A dictionary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "filter() selects elements for which a function returns True.",
+  "points": 20,
+  "tags": ["filter"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "Which module provides the reduce() function?",
+  "options": [
+    "functools",
+    "itertools",
+    "collections",
+    "math"
+  ],
+  "correctAnswer": 0,
+  "explanation": "reduce() is available in Python's functools module.",
+  "points": 20,
+  "tags": ["reduce", "functools"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "An iterator is an object that:",
+  "options": [
+    "Returns one element at a time",
+    "Stores only integers",
+    "Creates threads",
+    "Compiles Python code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Iterators implement the iterator protocol using __iter__() and __next__().",
+  "points": 20,
+  "tags": ["iterator"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "python",
+  "difficulty": "medium",
+  "question": "A generator function is identified by the use of:",
+  "options": [
+    "yield",
+    "return",
+    "pass",
+    "break"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The yield keyword creates generators that produce values lazily.",
+  "points": 20,
+  "tags": ["generator", "yield"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Object-Oriented Programming (OOP) is primarily based on:",
+  "options": [
+    "Objects and classes",
+    "Functions only",
+    "SQL queries",
+    "Binary trees"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OOP organizes programs using classes and objects that encapsulate data and behavior.",
+  "points": 30,
+  "tags": ["oop"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "A class in Python is:",
+  "options": [
+    "A blueprint for creating objects",
+    "An executable file",
+    "A package manager",
+    "A loop"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Classes define the attributes and methods shared by their objects.",
+  "points": 30,
+  "tags": ["class"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "An object is:",
+  "options": [
+    "An instance of a class",
+    "A Python module",
+    "A function",
+    "A package"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Objects are created from classes and contain data and behavior.",
+  "points": 30,
+  "tags": ["object"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Which method acts as the constructor in Python classes?",
+  "options": [
+    "__init__",
+    "__newclass__",
+    "__constructor__",
+    "__start__"
+  ],
+  "correctAnswer": 0,
+  "explanation": "__init__ initializes newly created objects.",
+  "points": 30,
+  "tags": ["constructor"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Inheritance allows a class to:",
+  "options": [
+    "Reuse properties and methods of another class",
+    "Store files",
+    "Create databases",
+    "Import modules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Inheritance enables code reuse and extension of existing classes.",
+  "points": 30,
+  "tags": ["inheritance"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Polymorphism allows:",
+  "options": [
+    "Different objects to respond to the same method differently",
+    "Only one class in a program",
+    "Multiple databases",
+    "Changing Python syntax"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Polymorphism enables the same interface to work with different object types.",
+  "points": 30,
+  "tags": ["polymorphism"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Encapsulation refers to:",
+  "options": [
+    "Bundling data and methods together",
+    "Removing variables",
+    "Compiling Python code",
+    "Executing SQL queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Encapsulation protects data by combining it with related methods.",
+  "points": 30,
+  "tags": ["encapsulation"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Abstraction focuses on:",
+  "options": [
+    "Hiding implementation details while exposing essential features",
+    "Increasing execution speed",
+    "Reducing memory",
+    "Writing SQL"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Abstraction simplifies complex systems by hiding unnecessary details.",
+  "points": 30,
+  "tags": ["abstraction"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Methods whose names begin and end with double underscores are called:",
+  "options": [
+    "Dunder (magic) methods",
+    "Anonymous methods",
+    "Lambda methods",
+    "Abstract methods"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dunder methods implement built-in behavior like addition and printing.",
+  "points": 30,
+  "tags": ["dunder"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Which dunder method defines the string representation used by print()?",
+  "options": [
+    "__str__",
+    "__repr__",
+    "__call__",
+    "__iter__"
+  ],
+  "correctAnswer": 0,
+  "explanation": "__str__ returns a user-friendly string representation of an object.",
+  "points": 30,
+  "tags": ["str"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "A decorator in Python is primarily used to:",
+  "options": [
+    "Modify or extend a function without changing its source code",
+    "Create classes",
+    "Import modules",
+    "Handle exceptions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Decorators wrap functions to add extra functionality.",
+  "points": 30,
+  "tags": ["decorators"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "The @ symbol is commonly used with:",
+  "options": [
+    "Decorators",
+    "Loops",
+    "Lists",
+    "Modules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Decorators are applied using the @ syntax.",
+  "points": 30,
+  "tags": ["decorator"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "An iterable is an object that:",
+  "options": [
+    "Can be iterated over using a loop",
+    "Can only store integers",
+    "Runs threads",
+    "Creates processes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lists, tuples, dictionaries, and sets are examples of iterables.",
+  "points": 30,
+  "tags": ["iterable"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "A generator expression differs from a list comprehension because it:",
+  "options": [
+    "Generates values lazily",
+    "Consumes more memory",
+    "Cannot iterate",
+    "Returns dictionaries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Generator expressions produce values one at a time, saving memory.",
+  "points": 30,
+  "tags": ["generator"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "The main advantage of generators is:",
+  "options": [
+    "Lower memory usage",
+    "Faster compilation",
+    "Larger executable files",
+    "Automatic multithreading"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Generators compute values only when needed.",
+  "points": 30,
+  "tags": ["generators"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "A context manager is commonly used to:",
+  "options": [
+    "Manage resources such as files automatically",
+    "Create loops",
+    "Build databases",
+    "Generate embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Context managers ensure resources are properly acquired and released.",
+  "points": 30,
+  "tags": ["context-manager"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Which keyword is used with context managers?",
+  "options": [
+    "with",
+    "using",
+    "manage",
+    "resource"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The with statement automatically handles resource cleanup.",
+  "points": 30,
+  "tags": ["with"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "The threading module is mainly used for:",
+  "options": [
+    "Concurrent execution using threads",
+    "Creating databases",
+    "Compiling Python",
+    "Installing packages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Threads allow multiple tasks to run concurrently within a process.",
+  "points": 30,
+  "tags": ["threading"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "For CPU-intensive tasks, Python generally benefits more from:",
+  "options": [
+    "multiprocessing",
+    "threading",
+    "lambda",
+    "decorators"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multiprocessing bypasses the Global Interpreter Lock by using separate processes.",
+  "points": 30,
+  "tags": ["multiprocessing"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "The asyncio library is designed for:",
+  "options": [
+    "Asynchronous programming",
+    "Machine learning",
+    "Database management",
+    "Image processing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "asyncio enables efficient asynchronous I/O operations.",
+  "points": 30,
+  "tags": ["asyncio"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "The async keyword is used to:",
+  "options": [
+    "Define an asynchronous coroutine",
+    "Import modules",
+    "Create threads",
+    "Handle exceptions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Functions declared with async can be awaited.",
+  "points": 30,
+  "tags": ["async"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "The await keyword is used to:",
+  "options": [
+    "Pause execution until an asynchronous operation completes",
+    "Exit a loop",
+    "Return a value",
+    "Raise an exception"
+  ],
+  "correctAnswer": 0,
+  "explanation": "await waits for an awaitable object such as a coroutine.",
+  "points": 30,
+  "tags": ["await"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "Type hints in Python are mainly intended to:",
+  "options": [
+    "Improve code readability and static analysis",
+    "Increase runtime speed",
+    "Replace variables",
+    "Compile Python"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Type hints help IDEs, linters, and static type checkers understand code.",
+  "points": 30,
+  "tags": ["typing"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "The @dataclass decorator is provided by which module?",
+  "options": [
+    "dataclasses",
+    "typing",
+    "collections",
+    "functools"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The dataclasses module automatically generates methods such as __init__ and __repr__.",
+  "points": 30,
+  "tags": ["dataclass"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "python",
+  "difficulty": "hard",
+  "question": "A virtual environment is primarily used to:",
+  "options": [
+    "Isolate project-specific Python packages and dependencies",
+    "Increase CPU speed",
+    "Compile Python into machine code",
+    "Store databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Virtual environments prevent dependency conflicts between different Python projects.",
+  "points": 30,
+  "tags": ["venv", "virtual-environment"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "NumPy is primarily used for:",
+  "options": [
+    "Numerical computing with arrays",
+    "Building web applications",
+    "Managing databases",
+    "Creating GUIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NumPy provides efficient multidimensional arrays and mathematical operations.",
+  "points": 40,
+  "tags": ["numpy"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "The core data structure in Pandas for tabular data is the:",
+  "options": [
+    "DataFrame",
+    "Array",
+    "Tensor",
+    "Dictionary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A DataFrame stores data in rows and columns with labeled axes.",
+  "points": 40,
+  "tags": ["pandas"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Matplotlib is mainly used for:",
+  "options": [
+    "Data visualization",
+    "Database management",
+    "Web scraping",
+    "Networking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Matplotlib is Python's most widely used plotting library.",
+  "points": 40,
+  "tags": ["matplotlib"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which library is commonly used to send HTTP requests in Python?",
+  "options": [
+    "requests",
+    "urllib3",
+    "socket",
+    "httpx"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The requests library provides a simple API for making HTTP requests.",
+  "points": 40,
+  "tags": ["requests"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Flask is best described as a:",
+  "options": [
+    "Lightweight web framework",
+    "Machine learning library",
+    "Testing framework",
+    "Package manager"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Flask is a minimal web framework for building web applications and APIs.",
+  "points": 40,
+  "tags": ["flask"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "FastAPI is especially popular for:",
+  "options": [
+    "Building high-performance REST APIs",
+    "Desktop GUI development",
+    "Game development",
+    "Spreadsheet processing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FastAPI provides automatic validation, OpenAPI documentation, and excellent performance.",
+  "points": 40,
+  "tags": ["fastapi"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Django follows which architectural pattern?",
+  "options": [
+    "Model-Template-View (MTV)",
+    "MVC",
+    "Layered Architecture",
+    "Client-Server"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Django organizes applications using the Model-Template-View architecture.",
+  "points": 40,
+  "tags": ["django"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "SQLAlchemy is primarily used for:",
+  "options": [
+    "Object-Relational Mapping (ORM)",
+    "Image processing",
+    "Neural networks",
+    "GUI programming"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SQLAlchemy maps Python objects to relational database tables.",
+  "points": 40,
+  "tags": ["sqlalchemy", "orm"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "pytest is commonly used for:",
+  "options": [
+    "Testing Python applications",
+    "Database migration",
+    "Package installation",
+    "Web scraping"
+  ],
+  "correctAnswer": 0,
+  "explanation": "pytest is a popular testing framework supporting unit and integration testing.",
+  "points": 40,
+  "tags": ["pytest"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "The primary purpose of pip is to:",
+  "options": [
+    "Install and manage Python packages",
+    "Compile Python code",
+    "Manage databases",
+    "Create virtual machines"
+  ],
+  "correctAnswer": 0,
+  "explanation": "pip is Python's standard package installer.",
+  "points": 40,
+  "tags": ["pip"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Poetry is mainly used for:",
+  "options": [
+    "Dependency and project management",
+    "Building neural networks",
+    "Image editing",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Poetry manages dependencies, virtual environments, and packaging.",
+  "points": 40,
+  "tags": ["poetry"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "The uv tool is primarily designed to:",
+  "options": [
+    "Provide fast Python package and environment management",
+    "Generate plots",
+    "Compile C programs",
+    "Create Docker containers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "uv is a modern, high-performance Python package and environment manager.",
+  "points": 40,
+  "tags": ["uv"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "A wheel (.whl) file is:",
+  "options": [
+    "A built Python package ready for installation",
+    "A virtual environment",
+    "A source code editor",
+    "A compiled executable"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Wheel is the standard built-package format for Python.",
+  "points": 40,
+  "tags": ["packaging"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "PyTorch is widely used for:",
+  "options": [
+    "Deep learning and neural networks",
+    "Spreadsheet processing",
+    "Database administration",
+    "Operating system development"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch is a popular deep learning framework developed by Meta.",
+  "points": 40,
+  "tags": ["pytorch"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "TensorFlow was primarily developed by:",
+  "options": [
+    "Google",
+    "Microsoft",
+    "Meta",
+    "Apple"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow is an open-source machine learning framework created by Google.",
+  "points": 40,
+  "tags": ["tensorflow"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which library is commonly used for computer vision in Python?",
+  "options": [
+    "OpenCV",
+    "BeautifulSoup",
+    "SQLAlchemy",
+    "Flask"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenCV provides image processing and computer vision algorithms.",
+  "points": 40,
+  "tags": ["opencv"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "BeautifulSoup is primarily used for:",
+  "options": [
+    "Parsing HTML and XML documents",
+    "Training machine learning models",
+    "Creating APIs",
+    "Database management"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BeautifulSoup extracts and navigates data from HTML and XML.",
+  "points": 40,
+  "tags": ["beautifulsoup", "web-scraping"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which Python library is widely used for data analysis?",
+  "options": [
+    "Pandas",
+    "pygame",
+    "Tkinter",
+    "asyncio"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pandas provides powerful data manipulation and analysis tools.",
+  "points": 40,
+  "tags": ["pandas", "data-analysis"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which package is commonly used for interactive notebooks?",
+  "options": [
+    "Jupyter",
+    "pytest",
+    "pip",
+    "uv"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Jupyter Notebook enables interactive Python development and visualization.",
+  "points": 40,
+  "tags": ["jupyter"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "PEP 8 is:",
+  "options": [
+    "The official Python style guide",
+    "A package manager",
+    "A testing framework",
+    "A machine learning library"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PEP 8 defines coding conventions for readable Python code.",
+  "points": 40,
+  "tags": ["pep8", "style"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which tool automatically formats Python code according to a consistent style?",
+  "options": [
+    "Black",
+    "pytest",
+    "NumPy",
+    "Flask"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Black is an opinionated Python code formatter.",
+  "points": 40,
+  "tags": ["black", "formatter"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which tool is commonly used to detect code quality issues in Python?",
+  "options": [
+    "Pylint",
+    "Matplotlib",
+    "Tkinter",
+    "Requests"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pylint performs static code analysis and enforces coding standards.",
+  "points": 40,
+  "tags": ["pylint", "linting"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which principle encourages writing simple and readable Python code?",
+  "options": [
+    "The Zen of Python",
+    "SOLID",
+    "DRY only",
+    "Agile Manifesto"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Zen of Python (PEP 20) summarizes Python's design philosophy.",
+  "points": 40,
+  "tags": ["zen-of-python"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "What is generally considered a Python best practice?",
+  "options": [
+    "Write clear, readable, and modular code",
+    "Avoid using functions",
+    "Use global variables everywhere",
+    "Ignore exceptions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Readable, maintainable, and modular code is a core Python philosophy.",
+  "points": 40,
+  "tags": ["best-practices"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "python",
+  "difficulty": "expert",
+  "question": "Which statement best summarizes Python's philosophy?",
+  "options": [
+    "Readability and simplicity are more important than unnecessary complexity",
+    "Performance is always more important than readability",
+    "Every program should use global variables",
+    "All code should be written in one file"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Python emphasizes readability, simplicity, and maintainability, as reflected in the Zen of Python.",
+  "points": 40,
+  "tags": ["python-philosophy", "best-practices"],
+  "timeLimit": 75
+}
+]

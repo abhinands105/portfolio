@@ -1,0 +1,1703 @@
+[
+  {
+    "id": 1,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Who introduced the Transformer architecture?",
+    "options": [
+      "Google Research",
+      "OpenAI",
+      "Meta",
+      "Microsoft"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Transformer architecture was introduced by Google researchers in the paper 'Attention Is All You Need' (2017).",
+    "points": 10,
+    "tags": ["history"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which paper introduced the Transformer architecture?",
+    "options": [
+      "Attention Is All You Need",
+      "AlexNet",
+      "ResNet",
+      "GANs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Transformer was introduced in the paper 'Attention Is All You Need'.",
+    "points": 10,
+    "tags": ["paper"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "What is the main building block of a Transformer?",
+    "options": [
+      "Self-Attention",
+      "Convolution",
+      "Pooling",
+      "LSTM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transformers primarily rely on self-attention mechanisms.",
+    "points": 10,
+    "tags": ["attention"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Transformers replaced which sequence models?",
+    "options": [
+      "RNNs and LSTMs",
+      "CNNs",
+      "Decision Trees",
+      "SVMs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transformers largely replaced recurrent architectures for NLP tasks.",
+    "points": 10,
+    "tags": ["history"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which mechanism allows Transformers to focus on important words?",
+    "options": [
+      "Attention",
+      "Pooling",
+      "Normalization",
+      "Activation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Attention assigns importance to different tokens.",
+    "points": 10,
+    "tags": ["attention"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "What does Q stand for in QKV?",
+    "options": [
+      "Query",
+      "Queue",
+      "Quality",
+      "Quantum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Q represents the Query vector.",
+    "points": 10,
+    "tags": ["qkv"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "What does K stand for in QKV?",
+    "options": [
+      "Key",
+      "Kernel",
+      "Knowledge",
+      "Keras"
+    ],
+    "correctAnswer": 0,
+    "explanation": "K represents the Key vector.",
+    "points": 10,
+    "tags": ["qkv"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "What does V stand for in QKV?",
+    "options": [
+      "Value",
+      "Vector",
+      "Variable",
+      "Vision"
+    ],
+    "correctAnswer": 0,
+    "explanation": "V represents the Value vector.",
+    "points": 10,
+    "tags": ["qkv"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which operation calculates attention scores?",
+    "options": [
+      "Dot Product",
+      "Addition",
+      "Subtraction",
+      "Convolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Attention scores are computed using the dot product of Query and Key vectors.",
+    "points": 10,
+    "tags": ["attention"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Why are positional encodings used?",
+    "options": [
+      "Represent token order",
+      "Reduce GPU memory",
+      "Increase dataset size",
+      "Normalize gradients"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transformers need positional information because attention is permutation invariant.",
+    "points": 10,
+    "tags": ["position"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which activation function is commonly used in Transformer feed-forward networks?",
+    "options": [
+      "GELU",
+      "Sigmoid",
+      "Softmax",
+      "Tanh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Modern Transformer models commonly use GELU.",
+    "points": 10,
+    "tags": ["activation"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which normalization technique is used in Transformers?",
+    "options": [
+      "Layer Normalization",
+      "Batch Normalization",
+      "Instance Normalization",
+      "Group Normalization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LayerNorm is standard in Transformer architectures.",
+    "points": 10,
+    "tags": ["layernorm"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "What follows the attention layer in a Transformer block?",
+    "options": [
+      "Feed Forward Network",
+      "CNN",
+      "Pooling",
+      "RNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Each Transformer block includes attention followed by a feed-forward network.",
+    "points": 10,
+    "tags": ["ffn"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which function converts attention scores into probabilities?",
+    "options": [
+      "Softmax",
+      "ReLU",
+      "Sigmoid",
+      "GELU"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Softmax normalizes attention scores into probabilities.",
+    "points": 10,
+    "tags": ["softmax"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which Transformer model is encoder-only?",
+    "options": [
+      "BERT",
+      "GPT",
+      "Llama",
+      "Mistral"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BERT uses only the encoder stack.",
+    "points": 10,
+    "tags": ["bert"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which Transformer model is decoder-only?",
+    "options": [
+      "GPT",
+      "BERT",
+      "RoBERTa",
+      "ALBERT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GPT uses only the decoder stack.",
+    "points": 10,
+    "tags": ["gpt"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which architecture is used by T5?",
+    "options": [
+      "Encoder-Decoder",
+      "Encoder Only",
+      "Decoder Only",
+      "CNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "T5 uses a sequence-to-sequence encoder-decoder architecture.",
+    "points": 10,
+    "tags": ["t5"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Multi-head attention allows the model to:",
+    "options": [
+      "Learn multiple relationships simultaneously",
+      "Use multiple GPUs",
+      "Train multiple datasets",
+      "Reduce vocabulary size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Different attention heads learn different relationships between tokens.",
+    "points": 10,
+    "tags": ["multi-head"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which layer converts token IDs into vectors?",
+    "options": [
+      "Embedding Layer",
+      "Pooling Layer",
+      "Output Layer",
+      "Normalization Layer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The embedding layer maps token IDs to dense vectors.",
+    "points": 10,
+    "tags": ["embedding"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Residual connections mainly help:",
+    "options": [
+      "Gradient flow",
+      "Image generation",
+      "Tokenization",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Residual connections improve gradient propagation in deep networks.",
+    "points": 10,
+    "tags": ["residual"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Attention weights determine:",
+    "options": [
+      "Importance of tokens",
+      "Dataset size",
+      "GPU usage",
+      "Vocabulary size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Higher attention weights indicate greater importance.",
+    "points": 10,
+    "tags": ["attention"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "What is the purpose of masking in decoder attention?",
+    "options": [
+      "Prevent seeing future tokens",
+      "Increase context length",
+      "Reduce embeddings",
+      "Normalize attention"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Causal masking prevents information leakage from future tokens.",
+    "points": 10,
+    "tags": ["masking"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which Transformer architecture powers most modern LLMs?",
+    "options": [
+      "Decoder Only",
+      "Encoder Only",
+      "CNN",
+      "RNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Modern LLMs like GPT, Llama and Mistral use decoder-only Transformers.",
+    "points": 10,
+    "tags": ["llms"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "The attention mechanism primarily captures:",
+    "options": [
+      "Relationships between tokens",
+      "Image colors",
+      "Audio frequencies",
+      "GPU temperature"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Attention models dependencies between different tokens in a sequence.",
+    "points": 10,
+    "tags": ["attention"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "transformers",
+    "difficulty": "easy",
+    "question": "Which operation combines attention outputs from multiple heads?",
+    "options": [
+      "Concatenation followed by Linear Projection",
+      "Average Pooling",
+      "Max Pooling",
+      "Convolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Outputs from all attention heads are concatenated and projected through a linear layer.",
+    "points": 10,
+    "tags": ["multi-head"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "transformers",
+  "difficulty": "easy",
+  "question": "Which vectors are multiplied to compute attention scores?",
+  "options": [
+    "Query and Key",
+    "Key and Value",
+    "Query and Value",
+    "Embedding and Value"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Attention scores are computed from the dot product of Query and Key vectors.",
+  "points": 10,
+  "tags": ["qkv"],
+  "timeLimit": 30
+},
+{
+  "id": 27,
+  "category": "transformers",
+  "difficulty": "easy",
+  "question": "After attention scores are calculated, which function normalizes them?",
+  "options": [
+    "Softmax",
+    "ReLU",
+    "Sigmoid",
+    "Tanh"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Softmax converts attention scores into probabilities.",
+  "points": 10,
+  "tags": ["attention"],
+  "timeLimit": 30
+},
+{
+  "id": 28,
+  "category": "transformers",
+  "difficulty": "easy",
+  "question": "Which vectors are weighted by the attention scores?",
+  "options": [
+    "Value vectors",
+    "Query vectors",
+    "Key vectors",
+    "Position vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Attention probabilities are multiplied with Value vectors to produce outputs.",
+  "points": 10,
+  "tags": ["attention"],
+  "timeLimit": 30
+},
+{
+  "id": 29,
+  "category": "transformers",
+  "difficulty": "easy",
+  "question": "Why is the attention score divided by √dk?",
+  "options": [
+    "To stabilize gradients",
+    "To reduce vocabulary",
+    "To increase context length",
+    "To reduce parameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Scaling prevents extremely large dot products that would make Softmax unstable.",
+  "points": 10,
+  "tags": ["scaled-dot-product"],
+  "timeLimit": 30
+},
+{
+  "id": 30,
+  "category": "transformers",
+  "difficulty": "easy",
+  "question": "What is the main advantage of Transformers over RNNs?",
+  "options": [
+    "Parallel processing",
+    "Smaller datasets",
+    "Lower RAM usage",
+    "No tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformers process all tokens simultaneously instead of sequentially.",
+  "points": 10,
+  "tags": ["advantages"],
+  "timeLimit": 30
+},
+{
+  "id": 31,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "What is self-attention?",
+  "options": [
+    "Attention among tokens in the same sequence",
+    "Attention across multiple GPUs",
+    "Attention between images",
+    "Attention between datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-attention allows every token to attend to other tokens within the same sequence.",
+  "points": 20,
+  "tags": ["self-attention"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Cross-attention is primarily used in:",
+  "options": [
+    "Encoder-Decoder architectures",
+    "CNNs",
+    "Decision Trees",
+    "GANs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross-attention lets the decoder attend to encoder outputs.",
+  "points": 20,
+  "tags": ["cross-attention"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "BERT is trained using which objective?",
+  "options": [
+    "Masked Language Modeling",
+    "Next Frame Prediction",
+    "Image Classification",
+    "Object Detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BERT learns by predicting masked tokens.",
+  "points": 20,
+  "tags": ["bert"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "GPT is trained using which objective?",
+  "options": [
+    "Next Token Prediction",
+    "Masked Token Prediction",
+    "Image Segmentation",
+    "Sentence Classification"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPT predicts the next token in an autoregressive manner.",
+  "points": 20,
+  "tags": ["gpt"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "RoBERTa is primarily an improvement over:",
+  "options": [
+    "BERT",
+    "GPT",
+    "T5",
+    "ViT"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RoBERTa improves BERT through modified training procedures.",
+  "points": 20,
+  "tags": ["roberta"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "DistilBERT mainly aims to:",
+  "options": [
+    "Reduce model size while retaining performance",
+    "Increase context length",
+    "Improve image quality",
+    "Replace tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DistilBERT uses knowledge distillation to create a smaller BERT model.",
+  "points": 20,
+  "tags": ["distillation"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "ALBERT reduces parameters primarily through:",
+  "options": [
+    "Weight sharing",
+    "Removing attention",
+    "Smaller vocabulary",
+    "Removing embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ALBERT shares parameters across layers to reduce model size.",
+  "points": 20,
+  "tags": ["albert"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which Transformer architecture is widely used in image classification?",
+  "options": [
+    "Vision Transformer (ViT)",
+    "GPT",
+    "BERT",
+    "T5"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ViT applies Transformer architecture to image patches.",
+  "points": 20,
+  "tags": ["vit"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "In Vision Transformers, an image is first divided into:",
+  "options": [
+    "Patches",
+    "Frames",
+    "Pixels",
+    "Channels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Images are split into fixed-size patches before embedding.",
+  "points": 20,
+  "tags": ["vit"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which positional encoding is widely used in modern LLMs?",
+  "options": [
+    "Rotary Positional Embedding (RoPE)",
+    "Absolute CNN Encoding",
+    "Batch Encoding",
+    "Layer Encoding"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RoPE is used by many modern decoder-only language models.",
+  "points": 20,
+  "tags": ["rope"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "The feed-forward network (FFN) is applied:",
+  "options": [
+    "Independently to each token",
+    "Across multiple sentences",
+    "Only to CLS token",
+    "Only during inference"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each token passes independently through the same FFN.",
+  "points": 20,
+  "tags": ["ffn"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which layer helps stabilize deep Transformer training?",
+  "options": [
+    "Layer Normalization",
+    "Max Pooling",
+    "Average Pooling",
+    "Convolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LayerNorm stabilizes activations and gradients.",
+  "points": 20,
+  "tags": ["layernorm"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Residual connections mainly help prevent:",
+  "options": [
+    "Vanishing gradients",
+    "Overfitting",
+    "Underfitting",
+    "Tokenization errors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Residual paths improve gradient flow in deep networks.",
+  "points": 20,
+  "tags": ["residual"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which Transformer family is designed as a text-to-text model?",
+  "options": [
+    "T5",
+    "BERT",
+    "RoBERTa",
+    "ALBERT"
+  ],
+  "correctAnswer": 0,
+  "explanation": "T5 frames every NLP task as text-to-text.",
+  "points": 20,
+  "tags": ["t5"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "BART combines:",
+  "options": [
+    "BERT-like encoder and GPT-like decoder",
+    "CNN and RNN",
+    "GAN and Diffusion",
+    "LSTM and CNN"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BART is an encoder-decoder Transformer for sequence generation.",
+  "points": 20,
+  "tags": ["bart"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which attention mechanism prevents future token access?",
+  "options": [
+    "Causal Attention",
+    "Cross Attention",
+    "Global Attention",
+    "Sparse Attention"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Causal attention masks future tokens during autoregressive generation.",
+  "points": 20,
+  "tags": ["causal"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "What is the computational complexity of standard self-attention with sequence length n?",
+  "options": [
+    "O(n²)",
+    "O(n)",
+    "O(log n)",
+    "O(n log n)"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-attention computes interactions between every pair of tokens.",
+  "points": 20,
+  "tags": ["complexity"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which component usually consumes the most memory for long-context inference?",
+  "options": [
+    "KV Cache",
+    "Tokenizer",
+    "Embedding Layer",
+    "Output Layer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Key-Value cache grows with sequence length and batch size.",
+  "points": 20,
+  "tags": ["kv-cache"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which technique is commonly used to adapt pretrained Transformers with few trainable parameters?",
+  "options": [
+    "LoRA",
+    "Dropout",
+    "Pooling",
+    "BatchNorm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA enables parameter-efficient fine-tuning.",
+  "points": 20,
+  "tags": ["lora"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "transformers",
+  "difficulty": "medium",
+  "question": "Which library is most commonly used to load pretrained Transformer models in Python?",
+  "options": [
+    "Hugging Face Transformers",
+    "OpenCV",
+    "NumPy",
+    "Pandas"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Hugging Face Transformers library provides access to a wide variety of pretrained models.",
+  "points": 20,
+  "tags": ["huggingface"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "What is Flash Attention primarily designed to improve?",
+  "options": [
+    "Memory efficiency and inference speed",
+    "Tokenizer accuracy",
+    "Vocabulary size",
+    "Image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Flash Attention optimizes memory access patterns to accelerate attention computation.",
+  "points": 30,
+  "tags": ["flash-attention"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Flash Attention mainly reduces:",
+  "options": [
+    "HBM memory access",
+    "Model parameters",
+    "Vocabulary size",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "It minimizes expensive GPU memory reads and writes.",
+  "points": 30,
+  "tags": ["optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "What does KV Cache store during autoregressive inference?",
+  "options": [
+    "Keys and Values from previous tokens",
+    "Gradients",
+    "Training labels",
+    "Optimizer states"
+  ],
+  "correctAnswer": 0,
+  "explanation": "KV Cache avoids recomputing attention for previously generated tokens.",
+  "points": 30,
+  "tags": ["kv-cache"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "The main benefit of KV Cache is:",
+  "options": [
+    "Faster text generation",
+    "Better BLEU score",
+    "Smaller tokenizer",
+    "Higher embedding dimension"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Caching previous attention states significantly speeds up inference.",
+  "points": 30,
+  "tags": ["inference"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "RoPE stands for:",
+  "options": [
+    "Rotary Positional Embedding",
+    "Random Positional Encoder",
+    "Recursive Positional Estimator",
+    "Rotational Projection Encoder"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RoPE is a positional encoding technique used in many modern LLMs.",
+  "points": 30,
+  "tags": ["rope"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which attention variant shares Keys and Values across attention heads?",
+  "options": [
+    "Multi-Query Attention",
+    "Cross Attention",
+    "Sparse Attention",
+    "Self Attention"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MQA shares a single set of Key and Value projections across heads.",
+  "points": 30,
+  "tags": ["mqa"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Grouped Query Attention (GQA) is mainly used to:",
+  "options": [
+    "Reduce inference memory while maintaining quality",
+    "Increase vocabulary size",
+    "Replace positional encoding",
+    "Improve tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GQA groups query heads while sharing key-value heads for efficiency.",
+  "points": 30,
+  "tags": ["gqa"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which recent open LLM family uses GQA?",
+  "options": [
+    "Llama 2 and Llama 3",
+    "BERT",
+    "ALBERT",
+    "DistilBERT"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Recent Llama models use Grouped Query Attention for efficient inference.",
+  "points": 30,
+  "tags": ["llama"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Sparse Attention primarily addresses:",
+  "options": [
+    "Quadratic attention complexity",
+    "Tokenizer efficiency",
+    "Embedding dimension",
+    "GPU clock speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sparse attention reduces computation by attending to selected tokens.",
+  "points": 30,
+  "tags": ["sparse-attention"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Longformer extends context by using:",
+  "options": [
+    "Sparse local attention",
+    "CNN layers",
+    "Pooling",
+    "RNN cells"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Longformer combines local and selected global attention.",
+  "points": 30,
+  "tags": ["longformer"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Transformer-XL mainly improves:",
+  "options": [
+    "Long-context modeling",
+    "Image classification",
+    "Speech synthesis",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformer-XL introduces recurrence to better model long sequences.",
+  "points": 30,
+  "tags": ["transformer-xl"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Mixture of Experts (MoE) activates:",
+  "options": [
+    "Only selected expert networks",
+    "Every neuron",
+    "Only embedding layers",
+    "Only normalization layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MoE routes each token through a subset of expert networks.",
+  "points": 30,
+  "tags": ["moe"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "The gating network in MoE determines:",
+  "options": [
+    "Which experts process each token",
+    "Learning rate",
+    "Vocabulary size",
+    "Context length"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The gate selects the most appropriate experts for each token.",
+  "points": 30,
+  "tags": ["moe"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Speculative decoding is intended to:",
+  "options": [
+    "Reduce inference latency",
+    "Increase model size",
+    "Improve tokenizer accuracy",
+    "Reduce dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Speculative decoding accelerates generation using a draft model.",
+  "points": 30,
+  "tags": ["decoding"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "What is the main bottleneck for very long-context Transformers?",
+  "options": [
+    "Attention computation and memory",
+    "Tokenizer speed",
+    "Embedding lookup",
+    "Vocabulary size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Attention computation grows rapidly with sequence length.",
+  "points": 30,
+  "tags": ["complexity"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which optimization is commonly paired with Flash Attention?",
+  "options": [
+    "Fused CUDA kernels",
+    "Decision Trees",
+    "PCA",
+    "SVM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Flash Attention often relies on fused GPU kernels for performance.",
+  "points": 30,
+  "tags": ["cuda"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which library provides optimized Transformer inference for NVIDIA GPUs?",
+  "options": [
+    "TensorRT-LLM",
+    "OpenCV",
+    "Pandas",
+    "Matplotlib"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT-LLM optimizes Transformer inference on NVIDIA hardware.",
+  "points": 30,
+  "tags": ["deployment"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "vLLM is primarily known for:",
+  "options": [
+    "High-throughput LLM serving",
+    "Image editing",
+    "Speech recognition",
+    "Object tracking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "vLLM is an optimized inference engine for serving large language models.",
+  "points": 30,
+  "tags": ["vllm"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "PagedAttention is associated with:",
+  "options": [
+    "vLLM",
+    "TensorFlow",
+    "PyTorch Lightning",
+    "ONNX Runtime"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PagedAttention is a key optimization introduced in vLLM.",
+  "points": 30,
+  "tags": ["pagedattention"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Why are Transformer models well suited for distributed training?",
+  "options": [
+    "Parallel computation across tokens",
+    "No gradients",
+    "No optimizer",
+    "No embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformers parallelize computations more effectively than recurrent models.",
+  "points": 30,
+  "tags": ["distributed"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "DeepSpeed is primarily used for:",
+  "options": [
+    "Large-scale Transformer training",
+    "Image annotation",
+    "Video editing",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DeepSpeed enables efficient training and inference of very large Transformer models.",
+  "points": 30,
+  "tags": ["deepspeed"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "FSDP stands for:",
+  "options": [
+    "Fully Sharded Data Parallel",
+    "Fast Sparse Data Pipeline",
+    "Feature Shared Distributed Processing",
+    "Full Sequence Data Processing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FSDP shards model parameters across devices for efficient distributed training.",
+  "points": 30,
+  "tags": ["fsdp"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which optimization reduces Transformer memory during training by recomputing activations?",
+  "options": [
+    "Gradient Checkpointing",
+    "Dropout",
+    "BatchNorm",
+    "Weight Decay"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradient checkpointing trades computation for lower memory usage.",
+  "points": 30,
+  "tags": ["training"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which file format is commonly used for quantized LLMs in llama.cpp?",
+  "options": [
+    "GGUF",
+    "JPEG",
+    "CSV",
+    "XML"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GGUF is a common format for efficient local inference with llama.cpp.",
+  "points": 30,
+  "tags": ["gguf"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "The primary goal of modern Transformer optimization is:",
+  "options": [
+    "Increase speed while reducing memory usage",
+    "Increase vocabulary size",
+    "Remove embeddings",
+    "Reduce dataset quality"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production Transformer systems focus on improving throughput, latency, and memory efficiency.",
+  "points": 30,
+  "tags": ["optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Scaling laws for Transformers mainly describe the relationship between:",
+  "options": [
+    "Model size, data, compute and performance",
+    "GPU temperature and accuracy",
+    "Image size and latency",
+    "Learning rate and tokenizer size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Scaling laws study how increasing parameters, data, and compute affects model performance.",
+  "points": 30,
+  "tags": ["scaling-laws"],
+  "timeLimit": 60
+},
+{
+  "id": 77,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which optimization is commonly used to reduce Transformer inference latency?",
+  "options": [
+    "Operator Fusion",
+    "Data Augmentation",
+    "Dropout",
+    "Gradient Clipping"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Operator fusion combines multiple GPU operations into fewer kernels.",
+  "points": 30,
+  "tags": ["optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 78,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which precision is commonly used for modern Transformer inference?",
+  "options": [
+    "FP16/BF16",
+    "FP64",
+    "INT128",
+    "FP80"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FP16 and BF16 provide faster inference with lower memory usage.",
+  "points": 30,
+  "tags": ["mixed-precision"],
+  "timeLimit": 60
+},
+{
+  "id": 79,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which quantization level is widely used in QLoRA?",
+  "options": [
+    "4-bit",
+    "64-bit",
+    "32-bit",
+    "24-bit"
+  ],
+  "correctAnswer": 0,
+  "explanation": "QLoRA typically uses 4-bit quantization for efficient fine-tuning.",
+  "points": 30,
+  "tags": ["qlora"],
+  "timeLimit": 60
+},
+{
+  "id": 80,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Tensor Parallelism distributes:",
+  "options": [
+    "Individual tensor operations across devices",
+    "Datasets across users",
+    "Vocabulary across tokenizers",
+    "Prompts across APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensor Parallelism splits tensor computations among multiple GPUs.",
+  "points": 30,
+  "tags": ["parallelism"],
+  "timeLimit": 60
+},
+{
+  "id": 81,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Pipeline Parallelism divides:",
+  "options": [
+    "Model layers across devices",
+    "Datasets into folders",
+    "Embeddings into vectors",
+    "Attention heads into tokens"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pipeline Parallelism assigns different model stages to different GPUs.",
+  "points": 30,
+  "tags": ["pipeline-parallelism"],
+  "timeLimit": 60
+},
+{
+  "id": 82,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Data Parallelism distributes:",
+  "options": [
+    "Training batches across GPUs",
+    "Attention heads",
+    "Vocabulary",
+    "Tokenizer files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each GPU processes different batches while synchronizing gradients.",
+  "points": 30,
+  "tags": ["ddp"],
+  "timeLimit": 60
+},
+{
+  "id": 83,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "What is the main purpose of activation checkpointing?",
+  "options": [
+    "Reduce GPU memory usage",
+    "Increase dataset size",
+    "Improve tokenization",
+    "Reduce vocabulary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Activations are recomputed during backpropagation to save memory.",
+  "points": 30,
+  "tags": ["checkpointing"],
+  "timeLimit": 60
+},
+{
+  "id": 84,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which attention type allows every token to attend to every other token?",
+  "options": [
+    "Full Attention",
+    "Sparse Attention",
+    "Window Attention",
+    "Local Attention"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Standard Transformer attention is full self-attention.",
+  "points": 30,
+  "tags": ["attention"],
+  "timeLimit": 60
+},
+{
+  "id": 85,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Window Attention is mainly used to:",
+  "options": [
+    "Reduce computational cost",
+    "Increase vocabulary",
+    "Replace embeddings",
+    "Compress datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Windowed attention limits computation to nearby tokens.",
+  "points": 30,
+  "tags": ["window-attention"],
+  "timeLimit": 60
+},
+{
+  "id": 86,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which vision architecture introduced shifted windows?",
+  "options": [
+    "Swin Transformer",
+    "ViT",
+    "ResNet",
+    "AlexNet"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Swin Transformer introduced shifted-window attention.",
+  "points": 30,
+  "tags": ["swin-transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 87,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Why is Swin Transformer computationally efficient?",
+  "options": [
+    "It limits attention to local windows",
+    "It removes embeddings",
+    "It avoids LayerNorm",
+    "It removes attention completely"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Local window attention significantly reduces computation.",
+  "points": 30,
+  "tags": ["vision-transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 88,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which component usually dominates Transformer inference time?",
+  "options": [
+    "Attention and Matrix Multiplication",
+    "Tokenizer",
+    "Softmax alone",
+    "Embedding lookup only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Matrix multiplications in attention and FFNs dominate computation.",
+  "points": 30,
+  "tags": ["performance"],
+  "timeLimit": 60
+},
+{
+  "id": 89,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Why are decoder-only Transformers preferred for LLMs?",
+  "options": [
+    "Efficient autoregressive generation",
+    "Smaller vocabulary",
+    "No embeddings",
+    "Lower dataset requirements"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Decoder-only architectures naturally support next-token generation.",
+  "points": 30,
+  "tags": ["decoder"],
+  "timeLimit": 60
+},
+{
+  "id": 90,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which technique improves factuality by retrieving external information?",
+  "options": [
+    "Retrieval-Augmented Generation",
+    "Pooling",
+    "LayerNorm",
+    "BatchNorm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG grounds responses using retrieved documents.",
+  "points": 30,
+  "tags": ["rag"],
+  "timeLimit": 60
+},
+{
+  "id": 91,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which metric is commonly used to compare embedding vectors?",
+  "options": [
+    "Cosine Similarity",
+    "Accuracy",
+    "Recall",
+    "BLEU"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cosine similarity measures semantic similarity between embeddings.",
+  "points": 30,
+  "tags": ["embeddings"],
+  "timeLimit": 60
+},
+{
+  "id": 92,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which deployment format is optimized for NVIDIA inference?",
+  "options": [
+    "TensorRT Engine",
+    "CSV",
+    "XML",
+    "JPEG"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT engines optimize Transformer execution on NVIDIA GPUs.",
+  "points": 30,
+  "tags": ["deployment"],
+  "timeLimit": 60
+},
+{
+  "id": 93,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of ONNX in Transformer deployment?",
+  "options": [
+    "Interoperable model representation",
+    "Image labeling",
+    "Prompt engineering",
+    "Dataset versioning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX provides a framework-independent model exchange format.",
+  "points": 30,
+  "tags": ["onnx"],
+  "timeLimit": 60
+},
+{
+  "id": 94,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which open-source framework is popular for optimized Transformer serving?",
+  "options": [
+    "vLLM",
+    "OpenCV",
+    "TensorBoard",
+    "Matplotlib"
+  ],
+  "correctAnswer": 0,
+  "explanation": "vLLM is designed for efficient high-throughput Transformer inference.",
+  "points": 30,
+  "tags": ["vllm"],
+  "timeLimit": 60
+},
+{
+  "id": 95,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Transformer architectures are primarily designed for:",
+  "options": [
+    "Sequence modeling",
+    "Database indexing",
+    "Compiler optimization",
+    "Operating systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformers excel at modeling sequential and contextual relationships.",
+  "points": 30,
+  "tags": ["fundamentals"],
+  "timeLimit": 60
+},
+{
+  "id": 96,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "The biggest challenge of standard attention for long sequences is:",
+  "options": [
+    "Quadratic complexity",
+    "Tokenization",
+    "Vocabulary size",
+    "Batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Standard attention requires computation between every pair of tokens.",
+  "points": 30,
+  "tags": ["complexity"],
+  "timeLimit": 60
+},
+{
+  "id": 97,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which optimization technique reduces model memory without changing architecture?",
+  "options": [
+    "Quantization",
+    "Pooling",
+    "LayerNorm",
+    "Attention Masking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization stores weights using lower precision.",
+  "points": 30,
+  "tags": ["quantization"],
+  "timeLimit": 60
+},
+{
+  "id": 98,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which modern LLM component is responsible for selecting expert networks in MoE models?",
+  "options": [
+    "Router (Gate)",
+    "Tokenizer",
+    "Optimizer",
+    "Embedding Layer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The router determines which experts process each token.",
+  "points": 30,
+  "tags": ["moe"],
+  "timeLimit": 60
+},
+{
+  "id": 99,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Which capability has made Transformers dominant across NLP, vision, audio, and multimodal AI?",
+  "options": [
+    "Learning long-range contextual relationships",
+    "Using fewer datasets",
+    "Eliminating tokenization",
+    "Removing embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The attention mechanism enables Transformers to model complex relationships across many domains.",
+  "points": 30,
+  "tags": ["multimodal"],
+  "timeLimit": 60
+},
+{
+  "id": 100,
+  "category": "transformers",
+  "difficulty": "hard",
+  "question": "Why are Transformers considered the foundation of modern Generative AI?",
+  "options": [
+    "They power today's LLMs, multimodal models, and diffusion backbones",
+    "They replace GPUs",
+    "They eliminate training data",
+    "They only work for text"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformer architectures underpin many state-of-the-art generative AI systems across multiple modalities.",
+  "points": 30,
+  "tags": ["generative-ai"],
+  "timeLimit": 60
+}
+
+]

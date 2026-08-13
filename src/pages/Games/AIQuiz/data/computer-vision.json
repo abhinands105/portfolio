@@ -1,0 +1,1702 @@
+[
+{
+  "id": 1,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What is Computer Vision?",
+  "options": [
+    "A field of AI that enables computers to understand images and videos",
+    "A computer programming language",
+    "A database management system",
+    "A cloud storage service"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Computer Vision enables machines to acquire, process, analyze, and interpret visual information from images and videos.",
+  "points": 10,
+  "tags": ["computer-vision","introduction"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Which type of data is primarily processed in Computer Vision?",
+  "options": [
+    "Images and videos",
+    "Audio signals",
+    "Text documents",
+    "SQL databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Computer Vision algorithms mainly analyze visual information such as images and videos.",
+  "points": 10,
+  "tags": ["images","videos"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What is a pixel?",
+  "options": [
+    "The smallest unit of a digital image",
+    "A graphics card",
+    "A camera lens",
+    "A video codec"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A pixel (picture element) is the smallest addressable unit in a digital image.",
+  "points": 10,
+  "tags": ["pixel"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Image resolution refers to:",
+  "options": [
+    "The number of pixels in an image",
+    "The image file size",
+    "The camera battery level",
+    "The monitor refresh rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Resolution is usually expressed as width × height in pixels, indicating the amount of image detail.",
+  "points": 10,
+  "tags": ["resolution"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What does RGB stand for?",
+  "options": [
+    "Red, Green, Blue",
+    "Red, Gray, Black",
+    "Random Graphic Buffer",
+    "Raster Grid Block"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RGB is the most common color model where colors are formed using Red, Green, and Blue channels.",
+  "points": 10,
+  "tags": ["rgb","color"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "How many channels does a standard RGB image have?",
+  "options": [
+    "3",
+    "1",
+    "2",
+    "4"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RGB images contain three channels: Red, Green, and Blue.",
+  "points": 10,
+  "tags": ["channels","rgb"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "A grayscale image typically contains:",
+  "options": [
+    "One intensity channel",
+    "Three RGB channels",
+    "Four channels",
+    "No pixels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Grayscale images represent brightness using a single intensity value for each pixel.",
+  "points": 10,
+  "tags": ["grayscale"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Which Python library is widely used for Computer Vision?",
+  "options": [
+    "OpenCV",
+    "NumPy",
+    "Flask",
+    "Requests"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenCV is one of the most popular open-source libraries for computer vision and image processing.",
+  "points": 10,
+  "tags": ["opencv"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Which Python library is commonly used for basic image manipulation?",
+  "options": [
+    "Pillow (PIL)",
+    "TensorRT",
+    "FastAPI",
+    "Redis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pillow is a popular Python imaging library for opening, editing, and saving image files.",
+  "points": 10,
+  "tags": ["pillow","pil"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What is image preprocessing?",
+  "options": [
+    "Preparing images before further analysis",
+    "Compressing ZIP files",
+    "Installing GPU drivers",
+    "Writing image captions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Image preprocessing improves image quality or prepares images for computer vision algorithms.",
+  "points": 10,
+  "tags": ["preprocessing"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Why is image resizing commonly performed?",
+  "options": [
+    "To standardize image dimensions for processing",
+    "To increase monitor size",
+    "To change file extensions",
+    "To install camera drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Many computer vision models require images with fixed input dimensions.",
+  "points": 10,
+  "tags": ["resize"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What is an image histogram?",
+  "options": [
+    "A graph showing the distribution of pixel intensity values",
+    "A camera specification",
+    "A neural network layer",
+    "A video codec"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Histograms visualize how pixel intensities are distributed throughout an image.",
+  "points": 10,
+  "tags": ["histogram"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Which operation converts a color image into grayscale?",
+  "options": [
+    "Color space conversion",
+    "Object detection",
+    "Image segmentation",
+    "Feature matching"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Color space conversion transforms RGB values into a single grayscale intensity channel.",
+  "points": 10,
+  "tags": ["grayscale","color-conversion"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What is image filtering?",
+  "options": [
+    "Applying mathematical operations to modify or enhance an image",
+    "Deleting unwanted images",
+    "Compressing image files",
+    "Uploading images to the cloud"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Image filtering is used to smooth, sharpen, detect edges, or reduce noise in images.",
+  "points": 10,
+  "tags": ["image-filtering"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Why is blurring applied to an image?",
+  "options": [
+    "To reduce noise and small details",
+    "To increase image resolution",
+    "To detect objects",
+    "To change image format"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Blurring smooths pixel values and helps remove noise before further processing.",
+  "points": 10,
+  "tags": ["blur","noise-reduction"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Which filter is commonly used for blurring images?",
+  "options": [
+    "Gaussian Filter",
+    "Sobel Filter",
+    "Laplacian Filter",
+    "Harris Filter"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gaussian Blur reduces image noise using a Gaussian kernel.",
+  "points": 10,
+  "tags": ["gaussian-blur"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What is image sharpening used for?",
+  "options": [
+    "Enhancing edges and fine details",
+    "Reducing image size",
+    "Changing image colors",
+    "Removing metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sharpening increases contrast around edges to make details more visible.",
+  "points": 10,
+  "tags": ["sharpening"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Thresholding converts an image into:",
+  "options": [
+    "A binary image",
+    "A 3D model",
+    "A video",
+    "A colour palette"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Thresholding separates foreground and background by assigning pixels to either black or white.",
+  "points": 10,
+  "tags": ["thresholding","binary-image"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Edge detection is primarily used to:",
+  "options": [
+    "Identify object boundaries in an image",
+    "Compress image files",
+    "Increase image brightness",
+    "Rotate images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Edge detection finds sharp intensity changes that often correspond to object boundaries.",
+  "points": 10,
+  "tags": ["edge-detection"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "A contour in Computer Vision represents:",
+  "options": [
+    "The outline or boundary of an object",
+    "The image background",
+    "The image resolution",
+    "The camera settings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Contours describe the boundaries of detected shapes or objects in an image.",
+  "points": 10,
+  "tags": ["contours"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Morphological operations are mainly applied to:",
+  "options": [
+    "Binary images",
+    "Audio signals",
+    "Text files",
+    "Database records"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Morphological operations process binary images to remove noise or modify object shapes.",
+  "points": 10,
+  "tags": ["morphology"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Which morphological operation expands white regions in a binary image?",
+  "options": [
+    "Dilation",
+    "Erosion",
+    "Thresholding",
+    "Segmentation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dilation enlarges foreground regions and can fill small gaps.",
+  "points": 10,
+  "tags": ["dilation"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "Which morphological operation shrinks white regions in a binary image?",
+  "options": [
+    "Erosion",
+    "Dilation",
+    "Histogram Equalization",
+    "Template Matching"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Erosion removes pixels from object boundaries and is useful for eliminating small noise.",
+  "points": 10,
+  "tags": ["erosion"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "What does ROI stand for in Computer Vision?",
+  "options": [
+    "Region of Interest",
+    "Range of Images",
+    "Raster Object Index",
+    "Real Output Interface"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A Region of Interest (ROI) is a selected portion of an image used for focused analysis.",
+  "points": 10,
+  "tags": ["roi"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "computer-vision",
+  "difficulty": "easy",
+  "question": "In object detection, what is a bounding box?",
+  "options": [
+    "A rectangle that encloses a detected object",
+    "The image border",
+    "A neural network layer",
+    "A type of image filter"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bounding boxes indicate the location of detected objects within an image.",
+  "points": 10,
+  "tags": ["bounding-box","object-detection"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of the Sobel operator?",
+  "options": [
+    "Detect image edges by computing intensity gradients",
+    "Compress image files",
+    "Convert images to grayscale",
+    "Resize images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Sobel operator calculates image gradients in the horizontal and vertical directions to highlight edges.",
+  "points": 20,
+  "tags": ["sobel","edge-detection"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "The Sobel operator commonly uses which kernel size?",
+  "options": [
+    "3×3",
+    "2×2",
+    "5×1",
+    "7×7"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The standard Sobel filter uses 3×3 convolution kernels for gradient computation.",
+  "points": 20,
+  "tags": ["sobel","kernel"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Which edge detection algorithm uses gradient calculation followed by non-maximum suppression and hysteresis thresholding?",
+  "options": [
+    "Canny Edge Detector",
+    "Gaussian Blur",
+    "ORB",
+    "FAST"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Canny algorithm is a multi-stage edge detector known for accurate and clean edge extraction.",
+  "points": 20,
+  "tags": ["canny","edge-detection"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Why is Gaussian Blur applied before Canny edge detection?",
+  "options": [
+    "To reduce image noise and false edge detections",
+    "To sharpen the image",
+    "To detect corners",
+    "To compress the image"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Noise reduction improves the accuracy of edge detection by eliminating unwanted gradients.",
+  "points": 20,
+  "tags": ["canny","gaussian-blur"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "The Laplacian operator detects:",
+  "options": [
+    "Regions with rapid intensity changes",
+    "Image colours",
+    "Video frames",
+    "Camera calibration parameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Laplacian is a second-order derivative operator commonly used for edge detection.",
+  "points": 20,
+  "tags": ["laplacian"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "The Hough Transform is primarily used to detect:",
+  "options": [
+    "Geometric shapes such as lines and circles",
+    "Image colours",
+    "Text files",
+    "Neural network weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Hough Transform identifies parameterized shapes like straight lines and circles in images.",
+  "points": 20,
+  "tags": ["hough-transform"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "What does SIFT stand for?",
+  "options": [
+    "Scale-Invariant Feature Transform",
+    "Simple Image Filtering Technique",
+    "Scale Image Feature Tracker",
+    "Smart Image Feature Tool"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SIFT extracts distinctive local features that are invariant to scale and rotation.",
+  "points": 20,
+  "tags": ["sift","features"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "A key advantage of SIFT features is that they are:",
+  "options": [
+    "Invariant to scale and rotation",
+    "Limited to grayscale images only",
+    "Designed only for videos",
+    "Used exclusively for segmentation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SIFT descriptors remain reliable even when objects appear at different sizes or orientations.",
+  "points": 20,
+  "tags": ["sift"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "SURF was developed primarily to:",
+  "options": [
+    "Provide a faster alternative to SIFT",
+    "Replace OpenCV",
+    "Improve image compression",
+    "Generate synthetic images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SURF (Speeded-Up Robust Features) improves computational efficiency while maintaining robust feature detection.",
+  "points": 20,
+  "tags": ["surf"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Which feature detector is free from patent restrictions and widely used in OpenCV?",
+  "options": [
+    "ORB",
+    "SURF",
+    "SIFT Classic",
+    "Haar Cascade"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ORB combines FAST keypoint detection with BRIEF descriptors and is efficient and open for commercial use.",
+  "points": 20,
+  "tags": ["orb","opencv"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Harris Corner Detection is designed to identify:",
+  "options": [
+    "Interest points where intensity changes significantly in multiple directions",
+    "Image colours",
+    "Audio frequencies",
+    "Object classes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Corners are distinctive image features useful for matching and tracking.",
+  "points": 20,
+  "tags": ["harris-corner"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "FAST is mainly used for:",
+  "options": [
+    "Fast corner detection",
+    "Object segmentation",
+    "Image compression",
+    "Noise removal"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAST (Features from Accelerated Segment Test) efficiently detects corner points in real time.",
+  "points": 20,
+  "tags": ["fast","corner-detection"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "BRIEF is primarily used as a:",
+  "options": [
+    "Feature descriptor",
+    "Segmentation algorithm",
+    "Classification model",
+    "Noise reduction filter"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BRIEF generates compact binary descriptors for efficient feature matching.",
+  "points": 20,
+  "tags": ["brief","feature-descriptor"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "What is feature matching in Computer Vision?",
+  "options": [
+    "Finding corresponding keypoints between two images",
+    "Compressing two images together",
+    "Converting RGB images to grayscale",
+    "Resizing images to the same dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature matching identifies corresponding keypoints or descriptors across images for tasks such as object recognition and image stitching.",
+  "points": 20,
+  "tags": ["feature-matching"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Which matcher directly compares feature descriptors using a distance metric?",
+  "options": [
+    "Brute-Force (BF) Matcher",
+    "Gaussian Filter",
+    "Canny Detector",
+    "Hough Transform"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Brute-Force Matcher compares every descriptor in one image with every descriptor in another to find the best matches.",
+  "points": 20,
+  "tags": ["bf-matcher"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "FLANN is primarily designed for:",
+  "options": [
+    "Fast approximate nearest-neighbour feature matching",
+    "Image compression",
+    "Image segmentation",
+    "Camera calibration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FLANN (Fast Library for Approximate Nearest Neighbors) accelerates feature matching for large datasets.",
+  "points": 20,
+  "tags": ["flann","feature-matching"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "What is optical flow?",
+  "options": [
+    "The apparent motion of objects between consecutive image frames",
+    "The colour distribution of an image",
+    "The brightness adjustment process",
+    "The compression ratio of a video"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Optical flow estimates pixel movement across video frames and is widely used for motion analysis and tracking.",
+  "points": 20,
+  "tags": ["optical-flow"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "The Lucas-Kanade algorithm is commonly used for:",
+  "options": [
+    "Sparse optical flow estimation",
+    "Image segmentation",
+    "Face recognition",
+    "Object classification"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lucas-Kanade tracks selected feature points efficiently between consecutive frames.",
+  "points": 20,
+  "tags": ["lucas-kanade","optical-flow"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Farneback Optical Flow estimates:",
+  "options": [
+    "Dense optical flow for nearly every pixel",
+    "Image histograms",
+    "Camera intrinsic parameters",
+    "Object categories"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Farneback computes dense motion vectors across the entire image rather than only selected feature points.",
+  "points": 20,
+  "tags": ["farneback","dense-optical-flow"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Background subtraction is mainly used to:",
+  "options": [
+    "Detect moving objects in video sequences",
+    "Increase image resolution",
+    "Compress videos",
+    "Correct image colours"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Background subtraction separates moving foreground objects from a relatively static background.",
+  "points": 20,
+  "tags": ["background-subtraction"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Haar Cascade classifiers are widely known for:",
+  "options": [
+    "Real-time face detection",
+    "Image caption generation",
+    "Semantic segmentation",
+    "Depth estimation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Haar Cascade classifiers use Haar-like features and cascade classifiers for fast object detection, especially faces.",
+  "points": 20,
+  "tags": ["haar-cascade","face-detection"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "What does HOG stand for?",
+  "options": [
+    "Histogram of Oriented Gradients",
+    "High Order Geometry",
+    "Hybrid Object Generator",
+    "Hierarchical Optical Graph"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HOG describes local object appearance by counting gradient orientations and is commonly used for pedestrian detection.",
+  "points": 20,
+  "tags": ["hog","feature-descriptor"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Template matching is used to:",
+  "options": [
+    "Locate a small template image inside a larger image",
+    "Train convolutional neural networks",
+    "Estimate camera pose",
+    "Generate synthetic images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Template matching slides a template across an image and measures similarity to find matching regions.",
+  "points": 20,
+  "tags": ["template-matching"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "Camera calibration is primarily performed to:",
+  "options": [
+    "Estimate intrinsic and extrinsic camera parameters",
+    "Increase camera battery life",
+    "Reduce image file size",
+    "Improve internet connectivity"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Calibration estimates camera parameters and lens distortion for accurate geometric measurements.",
+  "points": 20,
+  "tags": ["camera-calibration"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "computer-vision",
+  "difficulty": "medium",
+  "question": "A homography matrix is mainly used to:",
+  "options": [
+    "Map corresponding points between two views of the same planar surface",
+    "Detect image noise",
+    "Classify images",
+    "Compress feature descriptors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Homography describes a perspective transformation between two images of the same plane and is widely used in image stitching and perspective correction.",
+  "points": 20,
+  "tags": ["homography","perspective-transform"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What is a Convolutional Neural Network (CNN)?",
+  "options": [
+    "A deep learning model designed for processing images and visual data",
+    "A database indexing algorithm",
+    "A video compression technique",
+    "A cloud computing service"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CNNs automatically learn hierarchical visual features using convolutional layers, making them highly effective for computer vision tasks.",
+  "points": 30,
+  "tags": ["cnn","deep-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of a convolution operation in a CNN?",
+  "options": [
+    "Extract meaningful features from input images",
+    "Resize images",
+    "Compress datasets",
+    "Increase GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Convolution applies learnable filters to detect patterns such as edges, textures, and shapes.",
+  "points": 30,
+  "tags": ["convolution"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "In CNNs, a kernel (filter) is:",
+  "options": [
+    "A small matrix used to detect visual patterns",
+    "The operating system core",
+    "A GPU driver",
+    "A dataset partition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A kernel slides across an image to compute feature maps by performing convolution.",
+  "points": 30,
+  "tags": ["kernel","filter"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What is the purpose of padding in convolution?",
+  "options": [
+    "Preserve spatial dimensions and reduce information loss at image borders",
+    "Increase image brightness",
+    "Compress feature maps",
+    "Reduce the number of channels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Padding adds pixels around the image boundary so edge information is retained during convolution.",
+  "points": 30,
+  "tags": ["padding"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What does the stride parameter control in a convolution layer?",
+  "options": [
+    "The number of pixels the kernel moves at each step",
+    "The image colour depth",
+    "The number of output classes",
+    "The learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A larger stride reduces the spatial size of the output feature map.",
+  "points": 30,
+  "tags": ["stride"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Why are pooling layers used in CNNs?",
+  "options": [
+    "To reduce feature map dimensions while retaining important information",
+    "To increase image resolution",
+    "To generate captions",
+    "To normalize pixel values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pooling reduces computation, memory usage, and helps improve robustness to small translations.",
+  "points": 30,
+  "tags": ["pooling"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Which pooling operation selects the largest value within each pooling window?",
+  "options": [
+    "Max Pooling",
+    "Average Pooling",
+    "Global Pooling",
+    "Adaptive Pooling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Max Pooling preserves the strongest activation within each region of the feature map.",
+  "points": 30,
+  "tags": ["max-pooling"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What is the role of the ReLU activation function?",
+  "options": [
+    "Introduce non-linearity by replacing negative values with zero",
+    "Normalize images",
+    "Resize feature maps",
+    "Reduce dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ReLU (Rectified Linear Unit) is computationally efficient and helps deep networks learn complex patterns.",
+  "points": 30,
+  "tags": ["relu","activation"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Why is Batch Normalization used in CNNs?",
+  "options": [
+    "To stabilize and accelerate model training",
+    "To increase image resolution",
+    "To compress model weights",
+    "To detect object boundaries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Batch Normalization normalizes layer inputs, improving training stability and convergence.",
+  "points": 30,
+  "tags": ["batch-normalization"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What is the main purpose of Dropout?",
+  "options": [
+    "Reduce overfitting by randomly disabling neurons during training",
+    "Increase image quality",
+    "Improve camera calibration",
+    "Resize feature maps"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dropout prevents the network from relying too heavily on specific neurons, improving generalization.",
+  "points": 30,
+  "tags": ["dropout","regularization"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Why is a Flatten layer used in CNNs?",
+  "options": [
+    "Convert multi-dimensional feature maps into a one-dimensional vector",
+    "Reduce image noise",
+    "Normalize pixel values",
+    "Increase image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Flatten prepares convolutional features for input into fully connected layers.",
+  "points": 30,
+  "tags": ["flatten"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Fully Connected (Dense) layers are primarily responsible for:",
+  "options": [
+    "Making final predictions based on extracted features",
+    "Performing image preprocessing",
+    "Detecting image edges",
+    "Capturing video frames"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dense layers combine learned features to perform tasks such as image classification.",
+  "points": 30,
+  "tags": ["dense-layer","classification"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Which activation function is most commonly used in the output layer for multi-class image classification?",
+  "options": [
+    "Softmax",
+    "ReLU",
+    "Leaky ReLU",
+    "Sigmoid"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Softmax converts output scores into a probability distribution across multiple classes.",
+  "points": 30,
+  "tags": ["softmax","classification"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Which loss function is most commonly used for multi-class image classification?",
+  "options": [
+    "Categorical Cross-Entropy Loss",
+    "Mean Absolute Error",
+    "Huber Loss",
+    "Cosine Similarity"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Categorical Cross-Entropy compares predicted class probabilities with the true class labels and is widely used in image classification.",
+  "points": 30,
+  "tags": ["loss-function","cross-entropy"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What is the purpose of backpropagation in a CNN?",
+  "options": [
+    "Update model weights by propagating prediction errors backward",
+    "Resize feature maps",
+    "Generate image captions",
+    "Normalize input images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Backpropagation computes gradients of the loss function so that weights can be updated during training.",
+  "points": 30,
+  "tags": ["backpropagation"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Gradient Descent is an optimization algorithm used to:",
+  "options": [
+    "Minimize the loss function by updating model parameters",
+    "Increase image resolution",
+    "Detect image edges",
+    "Compress neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradient Descent adjusts model weights in the direction that reduces prediction error.",
+  "points": 30,
+  "tags": ["gradient-descent","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What is Transfer Learning?",
+  "options": [
+    "Using a pre-trained model as the starting point for a new task",
+    "Moving datasets between servers",
+    "Copying images between folders",
+    "Training multiple GPUs together"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transfer Learning reduces training time and improves performance by reusing knowledge from large pre-trained models.",
+  "points": 30,
+  "tags": ["transfer-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Which CNN architecture became well known for using very small 3×3 convolution filters?",
+  "options": [
+    "VGG",
+    "ResNet",
+    "AlexNet",
+    "MobileNet"
+  ],
+  "correctAnswer": 0,
+  "explanation": "VGG demonstrated that stacking multiple 3×3 convolutions could achieve excellent image classification performance.",
+  "points": 30,
+  "tags": ["vgg","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "What major innovation was introduced by ResNet?",
+  "options": [
+    "Residual (skip) connections",
+    "Attention mechanisms",
+    "Capsule routing",
+    "Optical flow estimation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Residual connections help train very deep neural networks by reducing the vanishing gradient problem.",
+  "points": 30,
+  "tags": ["resnet","residual-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "EfficientNet primarily improves performance by:",
+  "options": [
+    "Scaling network depth, width, and resolution in a balanced manner",
+    "Using only larger convolution kernels",
+    "Removing pooling layers",
+    "Replacing CNNs with RNNs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "EfficientNet uses compound scaling to efficiently improve model accuracy while controlling computational cost.",
+  "points": 30,
+  "tags": ["efficientnet"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "MobileNet is specifically designed for:",
+  "options": [
+    "Efficient deployment on mobile and edge devices",
+    "Satellite communication",
+    "Database indexing",
+    "Video streaming"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MobileNet uses depthwise separable convolutions to reduce computation and model size.",
+  "points": 30,
+  "tags": ["mobilenet","edge-ai"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Vision Transformer (ViT) processes an image by:",
+  "options": [
+    "Splitting it into patches and applying a Transformer architecture",
+    "Using only convolution operations",
+    "Performing histogram equalization",
+    "Extracting Haar features"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ViT divides an image into fixed-size patches and treats them similarly to tokens in natural language processing.",
+  "points": 30,
+  "tags": ["vision-transformer","vit"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "CLIP is notable because it learns relationships between:",
+  "options": [
+    "Images and text",
+    "Audio and video",
+    "Images and databases",
+    "Videos and spreadsheets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CLIP jointly learns image and text representations, enabling zero-shot image classification and retrieval.",
+  "points": 30,
+  "tags": ["clip","vision-language"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Semantic segmentation assigns:",
+  "options": [
+    "A class label to every pixel in an image",
+    "A single label to the entire image",
+    "A caption to an image",
+    "A confidence score to a video"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic segmentation performs pixel-level classification, identifying the class of every pixel.",
+  "points": 30,
+  "tags": ["semantic-segmentation"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "computer-vision",
+  "difficulty": "hard",
+  "question": "Which neural network architecture is widely used for biomedical image segmentation?",
+  "options": [
+    "U-Net",
+    "AlexNet",
+    "GoogLeNet",
+    "LeNet-5"
+  ],
+  "correctAnswer": 0,
+  "explanation": "U-Net's encoder-decoder architecture with skip connections makes it highly effective for pixel-level segmentation tasks.",
+  "points": 30,
+  "tags": ["u-net","segmentation"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "What is the primary purpose of YOLO (You Only Look Once)?",
+  "options": [
+    "Real-time object detection",
+    "Image compression",
+    "Image denoising",
+    "Video encoding"
+  ],
+  "correctAnswer": 0,
+  "explanation": "YOLO performs object localization and classification in a single forward pass, enabling real-time detection.",
+  "points": 40,
+  "tags": ["yolo","object-detection"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "What distinguishes YOLO from two-stage object detectors like Faster R-CNN?",
+  "options": [
+    "YOLO performs detection in a single stage",
+    "YOLO only works on grayscale images",
+    "YOLO cannot detect multiple objects",
+    "YOLO requires manual feature extraction"
+  ],
+  "correctAnswer": 0,
+  "explanation": "YOLO predicts bounding boxes and class probabilities simultaneously in one pass, making it much faster.",
+  "points": 40,
+  "tags": ["yolo","single-stage"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "What is the main role of Faster R-CNN?",
+  "options": [
+    "Two-stage object detection using a Region Proposal Network (RPN)",
+    "Semantic segmentation",
+    "Image caption generation",
+    "Image super-resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Faster R-CNN first proposes candidate object regions and then classifies them with refined bounding boxes.",
+  "points": 40,
+  "tags": ["faster-r-cnn","object-detection"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Mask R-CNN extends Faster R-CNN by adding:",
+  "options": [
+    "Pixel-level instance segmentation masks",
+    "Speech recognition",
+    "Video compression",
+    "Language translation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mask R-CNN predicts object masks in addition to bounding boxes and class labels.",
+  "points": 40,
+  "tags": ["mask-r-cnn","instance-segmentation"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Detectron2 is primarily a:",
+  "options": [
+    "Computer vision framework for detection and segmentation",
+    "Database management system",
+    "Video editing software",
+    "Cloud storage platform"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Detectron2 is Meta's open-source framework supporting state-of-the-art object detection and segmentation models.",
+  "points": 40,
+  "tags": ["detectron2"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "The Segment Anything Model (SAM) is designed to:",
+  "options": [
+    "Generate segmentation masks for almost any object from prompts",
+    "Generate image captions",
+    "Perform OCR only",
+    "Train CNN models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SAM can segment objects using prompts such as points, boxes, or masks with strong zero-shot performance.",
+  "points": 40,
+  "tags": ["sam","segmentation"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Grounding DINO is primarily used for:",
+  "options": [
+    "Open-vocabulary object detection using text prompts",
+    "Image compression",
+    "Video stabilization",
+    "Camera calibration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Grounding DINO detects objects described by natural language instead of relying only on fixed class labels.",
+  "points": 40,
+  "tags": ["grounding-dino","open-vocabulary"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Microsoft Florence-2 is best described as a:",
+  "options": [
+    "Vision foundation model supporting multiple vision tasks",
+    "Video codec",
+    "Dataset annotation tool",
+    "GPU driver"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Florence-2 performs tasks such as captioning, detection, OCR, and visual grounding using a unified architecture.",
+  "points": 40,
+  "tags": ["florence-2","foundation-model"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "OWL-ViT is primarily designed for:",
+  "options": [
+    "Open-vocabulary object detection using vision-language learning",
+    "Image compression",
+    "Noise removal",
+    "Camera pose estimation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OWL-ViT enables detection of objects specified through text without retraining for predefined categories.",
+  "points": 40,
+  "tags": ["owl-vit","vision-language"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "BLIP-2 is widely used for:",
+  "options": [
+    "Vision-language understanding and image captioning",
+    "Object tracking only",
+    "Image compression",
+    "Camera calibration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BLIP-2 connects vision encoders with large language models for multimodal reasoning and image understanding.",
+  "points": 40,
+  "tags": ["blip-2","vision-language"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "OCR stands for:",
+  "options": [
+    "Optical Character Recognition",
+    "Object Classification Ranking",
+    "Open Camera Rendering",
+    "Optical Colour Restoration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OCR extracts machine-readable text from scanned documents, images, or photographs.",
+  "points": 40,
+  "tags": ["ocr"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Which OCR framework is specifically designed for high-accuracy multilingual text recognition?",
+  "options": [
+    "PaddleOCR",
+    "NumPy",
+    "Scikit-learn",
+    "OpenGL"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PaddleOCR provides detection, recognition, and layout analysis with support for many languages.",
+  "points": 40,
+  "tags": ["paddleocr","ocr"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "EasyOCR is primarily used for:",
+  "options": [
+    "Extracting text from images with minimal setup",
+    "Training CNN models",
+    "Generating synthetic images",
+    "Performing semantic segmentation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "EasyOCR is a lightweight OCR library that supports many languages and is simple to integrate into Python applications.",
+  "points": 40,
+  "tags": ["easyocr","ocr"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "What does IoU (Intersection over Union) measure?",
+  "options": [
+    "The overlap between the predicted and ground-truth bounding boxes",
+    "The speed of object detection",
+    "The number of detected objects",
+    "The image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IoU is the ratio of the overlapping area to the combined area of predicted and ground-truth bounding boxes.",
+  "points": 40,
+  "tags": ["iou","evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "In object detection, Precision measures:",
+  "options": [
+    "The proportion of predicted positive detections that are correct",
+    "The proportion of missed objects",
+    "The inference speed",
+    "The image quality"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Precision = TP / (TP + FP), indicating how many detected objects are actually correct.",
+  "points": 40,
+  "tags": ["precision","metrics"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Recall measures:",
+  "options": [
+    "The proportion of actual objects that were successfully detected",
+    "The number of images processed",
+    "The GPU memory usage",
+    "The model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Recall = TP / (TP + FN), measuring the ability to detect all relevant objects.",
+  "points": 40,
+  "tags": ["recall","metrics"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "The F1 Score is:",
+  "options": [
+    "The harmonic mean of Precision and Recall",
+    "The average image resolution",
+    "The object detection speed",
+    "The confidence threshold"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The F1 Score balances Precision and Recall into a single performance metric.",
+  "points": 40,
+  "tags": ["f1-score","evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "What does mAP stand for?",
+  "options": [
+    "Mean Average Precision",
+    "Maximum Accuracy Prediction",
+    "Model Assessment Parameter",
+    "Multi-layer Average Pooling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "mAP is the standard evaluation metric for object detection models across different classes and IoU thresholds.",
+  "points": 40,
+  "tags": ["map","object-detection"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Why is Non-Maximum Suppression (NMS) used in object detection?",
+  "options": [
+    "To remove duplicate overlapping bounding boxes",
+    "To increase image resolution",
+    "To train CNNs faster",
+    "To improve OCR accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NMS keeps the highest-confidence detection while suppressing redundant overlapping boxes.",
+  "points": 40,
+  "tags": ["nms","object-detection"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Edge AI refers to:",
+  "options": [
+    "Running AI models directly on local devices instead of cloud servers",
+    "Using only cloud GPUs",
+    "Training neural networks on CPUs",
+    "Editing images at the edge of the frame"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Edge AI enables low-latency inference and improved privacy by processing data on local devices.",
+  "points": 40,
+  "tags": ["edge-ai","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "TensorRT is primarily used to:",
+  "options": [
+    "Optimize deep learning models for high-performance NVIDIA GPU inference",
+    "Train CNN models",
+    "Label datasets",
+    "Capture camera images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT performs optimizations such as layer fusion and reduced precision to accelerate inference.",
+  "points": 40,
+  "tags": ["tensorrt","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "What is the primary purpose of the ONNX format?",
+  "options": [
+    "Enable interoperability between different deep learning frameworks",
+    "Store image datasets",
+    "Compress video files",
+    "Annotate images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX (Open Neural Network Exchange) allows models to be exported and executed across multiple frameworks and runtimes.",
+  "points": 40,
+  "tags": ["onnx","interoperability"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "OpenVINO is mainly designed to:",
+  "options": [
+    "Optimize AI inference on Intel hardware",
+    "Generate synthetic images",
+    "Train transformer models",
+    "Create image datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenVINO improves inference performance for computer vision and AI workloads on Intel CPUs, GPUs, and VPUs.",
+  "points": 40,
+  "tags": ["openvino","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Which sequence best represents a production computer vision pipeline?",
+  "options": [
+    "Data Collection → Annotation → Training → Validation → Deployment → Monitoring",
+    "Training → Annotation → Deployment",
+    "Inference → Training → Dataset Creation",
+    "Deployment → Annotation → Testing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A production pipeline begins with quality data and continues through deployment and continuous monitoring.",
+  "points": 40,
+  "tags": ["pipeline","mlops","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "computer-vision",
+  "difficulty": "expert",
+  "question": "Which combination best represents a modern end-to-end Computer Vision deployment stack?",
+  "options": [
+    "Dataset → Annotation → Training → Evaluation → ONNX/TensorRT/OpenVINO Optimization → API Deployment → Monitoring",
+    "Dataset → ZIP File → GPU Driver → Monitor",
+    "Training → PDF Report → Deployment",
+    "Image → OCR → Database Only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern computer vision systems include data preparation, model training, evaluation, optimization, deployment, and continuous monitoring for reliable production performance.",
+  "points": 40,
+  "tags": ["deployment","production","computer-vision","mlops"],
+  "timeLimit": 75
+}
+]

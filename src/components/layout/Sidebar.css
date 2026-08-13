@@ -1,0 +1,53 @@
+
+
+@media (max-width:1100px){
+
+.sidebar{
+
+    width:70px;
+
+}
+
+.sidebar-logo{
+
+    display:none;
+
+}
+
+.sidebar-socials{
+
+    display:none;
+
+}
+
+.sidebar-menu{
+
+    width:100%;
+
+}
+
+.sidebar-item{
+
+    width:54px;
+
+    height:54px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border:none;
+
+    background:transparent;
+
+}
+
+.sidebar-item span{
+
+    display:none;
+
+}
+
+}

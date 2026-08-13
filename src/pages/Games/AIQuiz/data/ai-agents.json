@@ -1,0 +1,1703 @@
+[
+{
+  "id": 1,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "What is an AI Agent?",
+  "options": [
+    "A system that perceives its environment, makes decisions, and performs actions to achieve goals",
+    "A neural network used only for image classification",
+    "A database for storing AI models",
+    "A programming language for machine learning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An AI agent observes its environment, reasons about the information, and performs actions to achieve specific objectives.",
+  "points": 10,
+  "tags": ["introduction","agent"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which of the following best describes an AI Agent?",
+  "options": [
+    "An autonomous system capable of making decisions and taking actions",
+    "A GPU driver",
+    "A vector database",
+    "A programming compiler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI agents operate autonomously by perceiving information, reasoning, and acting toward goals.",
+  "points": 10,
+  "tags": ["basics"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which cycle represents the basic workflow of an AI Agent?",
+  "options": [
+    "Observe → Think → Act",
+    "Train → Deploy → Shutdown",
+    "Read → Write → Delete",
+    "Store → Compress → Retrieve"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Most AI agents continuously observe the environment, reason about it, and perform actions.",
+  "points": 10,
+  "tags": ["agent-loop"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "What is the primary goal of an AI Agent?",
+  "options": [
+    "Achieve a specified objective through intelligent decision-making",
+    "Train neural networks",
+    "Generate random outputs",
+    "Store datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agents are designed to accomplish goals by selecting appropriate actions based on available information.",
+  "points": 10,
+  "tags": ["goal"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which component allows an AI Agent to understand its surroundings?",
+  "options": [
+    "Sensors",
+    "Actuators",
+    "Database",
+    "Compiler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sensors collect information from the environment, allowing the agent to perceive its surroundings.",
+  "points": 10,
+  "tags": ["sensors"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which component enables an AI Agent to interact with the environment?",
+  "options": [
+    "Actuators",
+    "Embeddings",
+    "Tokenizers",
+    "Schedulers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Actuators execute actions such as moving a robot, calling an API, or sending a message.",
+  "points": 10,
+  "tags": ["actuators"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "What does PEAS stand for in AI?",
+  "options": [
+    "Performance Measure, Environment, Actuators, Sensors",
+    "Performance Measure, Embeddings, Agents, Systems",
+    "Planning, Evaluation, Algorithms, Search",
+    "Processing, Execution, Actions, States"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PEAS is a framework used to specify AI agent tasks and environments.",
+  "points": 10,
+  "tags": ["peas"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "In the PEAS model, what does 'P' represent?",
+  "options": [
+    "Performance Measure",
+    "Planning",
+    "Processing",
+    "Prediction"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Performance Measure defines how the success of an AI agent is evaluated.",
+  "points": 10,
+  "tags": ["peas","performance"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which type of agent acts only on the current percept without considering history?",
+  "options": [
+    "Simple Reflex Agent",
+    "Learning Agent",
+    "Goal-Based Agent",
+    "Utility-Based Agent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Simple Reflex Agents use condition-action rules based solely on the current percept.",
+  "points": 10,
+  "tags": ["reflex-agent"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which AI Agent maintains an internal representation of the world?",
+  "options": [
+    "Model-Based Reflex Agent",
+    "Simple Reflex Agent",
+    "Random Agent",
+    "Static Agent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model-Based Reflex Agents use an internal model to handle partially observable environments.",
+  "points": 10,
+  "tags": ["model-based-agent"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which type of AI Agent chooses actions based on achieving predefined goals?",
+  "options": [
+    "Goal-Based Agent",
+    "Simple Reflex Agent",
+    "Random Agent",
+    "Reactive Agent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Goal-Based Agents evaluate possible actions according to whether they help achieve desired goals.",
+  "points": 10,
+  "tags": ["goal-based"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which AI Agent selects actions that maximise overall usefulness or satisfaction?",
+  "options": [
+    "Utility-Based Agent",
+    "Simple Reflex Agent",
+    "Model-Based Agent",
+    "Reactive Agent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Utility-Based Agents evaluate outcomes using a utility function and choose the most beneficial action.",
+  "points": 10,
+  "tags": ["utility-agent"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which type of AI Agent improves its performance through experience?",
+  "options": [
+    "Learning Agent",
+    "Simple Reflex Agent",
+    "Static Agent",
+    "Rule-Based Agent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Learning Agents adapt over time by learning from interactions and feedback.",
+  "points": 10,
+  "tags": ["learning-agent"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "A Rational Agent is one that:",
+  "options": [
+    "Chooses actions that maximize the expected performance measure",
+    "Always follows fixed rules",
+    "Never makes mistakes",
+    "Requires human supervision for every action"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A rational agent selects the action that is expected to maximize its performance measure based on its knowledge.",
+  "points": 10,
+  "tags": ["rational-agent"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "An agent environment is considered fully observable when:",
+  "options": [
+    "The agent can perceive all information needed for decision-making",
+    "The agent has no sensors",
+    "Only humans can observe the environment",
+    "The environment never changes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "In a fully observable environment, the agent has access to all relevant information required to make optimal decisions.",
+  "points": 10,
+  "tags": ["environment","observable"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which environment requires an internal model because the agent cannot observe everything?",
+  "options": [
+    "Partially Observable Environment",
+    "Fully Observable Environment",
+    "Static Environment",
+    "Deterministic Environment"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Partially observable environments require the agent to maintain an internal representation of missing information.",
+  "points": 10,
+  "tags": ["partial-observable"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "A deterministic environment is one where:",
+  "options": [
+    "The next state is completely determined by the current state and action",
+    "The outcome is random",
+    "The environment changes automatically",
+    "The agent cannot observe anything"
+  ],
+  "correctAnswer": 0,
+  "explanation": "In deterministic environments, actions always produce predictable results.",
+  "points": 10,
+  "tags": ["deterministic"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which type of environment includes uncertainty in action outcomes?",
+  "options": [
+    "Stochastic Environment",
+    "Deterministic Environment",
+    "Static Environment",
+    "Discrete Environment"
+  ],
+  "correctAnswer": 0,
+  "explanation": "In stochastic environments, the same action may lead to different outcomes due to randomness.",
+  "points": 10,
+  "tags": ["stochastic"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "In an episodic environment:",
+  "options": [
+    "Each decision is independent of previous decisions",
+    "Current actions affect all future states",
+    "The environment is always dynamic",
+    "Agents cannot learn"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Episodic tasks consist of independent episodes where one action does not influence future episodes.",
+  "points": 10,
+  "tags": ["episodic"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "A chess-playing AI operates in which type of environment?",
+  "options": [
+    "Sequential",
+    "Episodic",
+    "Static",
+    "Continuous"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chess is sequential because every move influences future decisions and game states.",
+  "points": 10,
+  "tags": ["sequential"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "A static environment is one where:",
+  "options": [
+    "The environment does not change while the agent is making a decision",
+    "The environment changes every second",
+    "The agent cannot move",
+    "Only one action is allowed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "In static environments, the world remains unchanged during the agent's reasoning process.",
+  "points": 10,
+  "tags": ["static"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which environment changes while the agent is deciding what to do?",
+  "options": [
+    "Dynamic Environment",
+    "Static Environment",
+    "Deterministic Environment",
+    "Fully Observable Environment"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dynamic environments continue changing even while the agent is thinking.",
+  "points": 10,
+  "tags": ["dynamic"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "A robotic arm moving through continuous space operates in which type of environment?",
+  "options": [
+    "Continuous",
+    "Discrete",
+    "Static",
+    "Episodic"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous environments have infinitely many possible states or actions, such as positions in physical space.",
+  "points": 10,
+  "tags": ["continuous"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which of the following is the best example of an LLM-powered AI agent?",
+  "options": [
+    "An assistant that searches the web, reasons, and uses tools to complete tasks",
+    "A calculator that only performs arithmetic",
+    "A static HTML webpage",
+    "A PDF document reader without reasoning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern LLM agents combine reasoning with external tools such as web search, APIs, databases, and code execution.",
+  "points": 10,
+  "tags": ["llm-agent"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "ai-agents",
+  "difficulty": "easy",
+  "question": "Which statement best summarizes a modern AI agent?",
+  "options": [
+    "It observes, reasons, plans, uses tools, remembers context, and performs actions to achieve goals",
+    "It only predicts the next word",
+    "It only stores embeddings",
+    "It is simply a database server"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern AI agents extend LLMs with planning, memory, tool use, and autonomous decision-making to solve complex tasks.",
+  "points": 10,
+  "tags": ["modern-agent","interview"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of LangChain Agents?",
+  "options": [
+    "Allow LLMs to reason and use tools dynamically",
+    "Train transformer models",
+    "Store embeddings",
+    "Generate datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangChain Agents enable an LLM to decide which tools to use and in what order to accomplish a task.",
+  "points": 20,
+  "tags": ["langchain","agents"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "What is a Tool in an AI Agent framework?",
+  "options": [
+    "A callable function or external capability the agent can use",
+    "A language model",
+    "A vector database",
+    "A prompt template"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tools allow agents to interact with APIs, databases, calculators, search engines, and other external systems.",
+  "points": 20,
+  "tags": ["tools"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Why do AI Agents use Tool Calling?",
+  "options": [
+    "To perform actions beyond the LLM's internal knowledge",
+    "To increase GPU memory",
+    "To compress prompts",
+    "To generate embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tool Calling enables an agent to access external information and perform real-world operations.",
+  "points": 20,
+  "tags": ["tool-calling"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Which framework is specifically designed for building graph-based AI agent workflows?",
+  "options": [
+    "LangGraph",
+    "TensorFlow",
+    "OpenCV",
+    "Scikit-learn"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangGraph represents workflows as graphs, making it suitable for complex stateful and multi-agent systems.",
+  "points": 20,
+  "tags": ["langgraph"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "CrewAI is mainly used for:",
+  "options": [
+    "Coordinating multiple AI agents with different roles",
+    "Image generation",
+    "Database indexing",
+    "GPU optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CrewAI enables multiple specialized agents to collaborate on solving complex tasks.",
+  "points": 20,
+  "tags": ["crewai"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "In CrewAI, what is a Crew?",
+  "options": [
+    "A team of collaborating AI agents",
+    "A vector database",
+    "A language model",
+    "A prompt template"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A Crew consists of multiple agents working together toward a common objective.",
+  "points": 20,
+  "tags": ["crewai"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "What is an Agent Role in CrewAI?",
+  "options": [
+    "A specific responsibility assigned to an agent",
+    "A GPU configuration",
+    "A vector embedding",
+    "A Python package"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Roles define the expertise and responsibilities of each agent within a Crew.",
+  "points": 20,
+  "tags": ["roles"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Microsoft AutoGen is primarily designed for:",
+  "options": [
+    "Building conversational multi-agent systems",
+    "Training CNN models",
+    "Image segmentation",
+    "Database administration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AutoGen enables multiple AI agents and humans to collaborate through conversations.",
+  "points": 20,
+  "tags": ["autogen"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "The OpenAI Agents SDK is mainly used to:",
+  "options": [
+    "Build production-ready AI agents with tools and workflows",
+    "Train LLMs from scratch",
+    "Create vector databases",
+    "Generate datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The SDK provides primitives for building agentic applications with models, tools, memory, and orchestration.",
+  "points": 20,
+  "tags": ["openai-agents-sdk"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "What is Semantic Kernel?",
+  "options": [
+    "Microsoft's framework for AI orchestration",
+    "A vector database",
+    "A programming language",
+    "An operating system"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic Kernel integrates AI models, planners, memory, and plugins into applications.",
+  "points": 20,
+  "tags": ["semantic-kernel"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "PydanticAI primarily focuses on:",
+  "options": [
+    "Building type-safe AI agents in Python",
+    "Training image models",
+    "Managing GPUs",
+    "Optimizing CUDA kernels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PydanticAI emphasizes structured outputs, validation, and type safety for AI applications.",
+  "points": 20,
+  "tags": ["pydanticai"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "SmolAgents is best known for:",
+  "options": [
+    "Lightweight AI agents with minimal code",
+    "Large-scale distributed training",
+    "Image synthesis",
+    "Speech recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SmolAgents focuses on creating simple, lightweight agent workflows with concise implementations.",
+  "points": 20,
+  "tags": ["smolagents"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Which feature is common across modern AI agent frameworks?",
+  "options": [
+    "Tool use, reasoning, planning, and memory",
+    "Only image generation",
+    "Only SQL processing",
+    "Only model training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern agent frameworks provide capabilities such as reasoning, memory, planning, and tool integration.",
+  "points": 20,
+  "tags": ["frameworks","comparison"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Why is memory important in AI Agents?",
+  "options": [
+    "It allows agents to remember previous interactions and context",
+    "It increases GPU VRAM",
+    "It compresses prompts",
+    "It trains neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Memory enables agents to maintain context across multiple interactions, improving long-term task performance.",
+  "points": 20,
+  "tags": ["memory"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "What is Short-Term Memory in an AI Agent?",
+  "options": [
+    "Temporary context used during the current task",
+    "A permanent knowledge base",
+    "A vector database",
+    "A Python cache"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Short-term memory stores recent interactions required to complete the current objective.",
+  "points": 20,
+  "tags": ["short-term-memory"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Long-Term Memory allows an AI Agent to:",
+  "options": [
+    "Retain knowledge across multiple sessions",
+    "Increase GPU speed",
+    "Generate embeddings",
+    "Replace prompt templates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Long-term memory stores information that can be reused in future conversations or tasks.",
+  "points": 20,
+  "tags": ["long-term-memory"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Reflection in AI Agents refers to:",
+  "options": [
+    "Reviewing previous actions to improve future decisions",
+    "Mirroring images",
+    "Reducing token count",
+    "Compressing embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reflection enables an agent to analyse its past reasoning and refine future behaviour.",
+  "points": 20,
+  "tags": ["reflection"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Planning enables an AI Agent to:",
+  "options": [
+    "Break a complex goal into smaller executable steps",
+    "Increase model size",
+    "Reduce GPU usage",
+    "Train embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Planning decomposes large objectives into manageable subtasks.",
+  "points": 20,
+  "tags": ["planning"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Task Decomposition is the process of:",
+  "options": [
+    "Splitting a large problem into smaller tasks",
+    "Deleting completed tasks",
+    "Compressing prompts",
+    "Building vector indexes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Breaking complex problems into smaller subtasks helps agents solve them more effectively.",
+  "points": 20,
+  "tags": ["task-decomposition"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Function Calling enables an AI Agent to:",
+  "options": [
+    "Invoke predefined functions with structured arguments",
+    "Train transformer models",
+    "Store embeddings",
+    "Replace APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Function calling lets agents interact with external code and services in a structured manner.",
+  "points": 20,
+  "tags": ["function-calling"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "The ReAct framework combines:",
+  "options": [
+    "Reasoning and acting",
+    "Retrieval and compression",
+    "Planning and training",
+    "Embedding and indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ReAct alternates reasoning steps with actions such as tool usage.",
+  "points": 20,
+  "tags": ["react"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Chain of Thought prompting primarily encourages an AI model to:",
+  "options": [
+    "Reason through intermediate steps before answering",
+    "Generate shorter responses",
+    "Ignore previous context",
+    "Avoid using tools"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chain of Thought prompting improves reasoning by encouraging intermediate reasoning steps.",
+  "points": 20,
+  "tags": ["chain-of-thought"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "In a multi-agent system, a Supervisor Agent usually:",
+  "options": [
+    "Coordinates tasks among worker agents",
+    "Stores embeddings",
+    "Generates images",
+    "Acts as a vector database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Supervisor agents distribute work, monitor progress, and combine results from worker agents.",
+  "points": 20,
+  "tags": ["supervisor-agent"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Worker Agents are responsible for:",
+  "options": [
+    "Executing specialized subtasks assigned by a supervisor",
+    "Training foundation models",
+    "Managing operating systems",
+    "Hosting APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Worker agents perform domain-specific tasks such as coding, searching, analysing, or writing.",
+  "points": 20,
+  "tags": ["worker-agent"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "ai-agents",
+  "difficulty": "medium",
+  "question": "Which combination best represents a modern production AI Agent?",
+  "options": [
+    "Planning + Memory + Tool Use + Reasoning + Reflection",
+    "GPU + SQL + HTML + CSS",
+    "CNN + OCR + Image Segmentation",
+    "Tokenizer + Embeddings + Compiler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production-grade agents combine planning, memory, reasoning, reflection, and tool usage to solve complex real-world tasks.",
+  "points": 20,
+  "tags": ["production","interview"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "What is Agentic RAG?",
+  "options": [
+    "A RAG system where an AI agent plans, retrieves, reasons, and iteratively refines answers",
+    "A vector database",
+    "A GPU optimization technique",
+    "A prompt engineering method only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agentic RAG extends traditional RAG by allowing agents to plan retrieval, evaluate results, and decide whether additional searches are needed.",
+  "points": 30,
+  "tags": ["agentic-rag","rag"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "How does Agentic RAG differ from traditional RAG?",
+  "options": [
+    "It enables planning and multiple retrieval iterations before producing an answer",
+    "It removes vector databases",
+    "It never uses tools",
+    "It only supports PDFs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Unlike traditional RAG, Agentic RAG allows an agent to reason, plan, retrieve again if necessary, and validate information.",
+  "points": 30,
+  "tags": ["rag","comparison"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Which capability is most important in Agentic RAG?",
+  "options": [
+    "Planning",
+    "Image generation",
+    "GPU overclocking",
+    "Database normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Planning allows the agent to decide which information to retrieve and how to solve complex problems.",
+  "points": 30,
+  "tags": ["planning"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "A Browser Agent is primarily used to:",
+  "options": [
+    "Navigate websites and interact with web pages autonomously",
+    "Train language models",
+    "Generate embeddings",
+    "Manage GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Browser agents can search, click, fill forms, and extract information from websites.",
+  "points": 30,
+  "tags": ["browser-agent"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "A Coding Agent mainly assists with:",
+  "options": [
+    "Writing, debugging, and improving source code",
+    "Generating images",
+    "Managing databases",
+    "Compressing videos"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Coding agents automate software development tasks such as code generation, debugging, and testing.",
+  "points": 30,
+  "tags": ["coding-agent"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "A Research Agent is designed to:",
+  "options": [
+    "Collect, analyse, and summarize information from multiple sources",
+    "Train CNNs",
+    "Build vector databases",
+    "Generate images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Research agents perform web searches, document analysis, and evidence synthesis.",
+  "points": 30,
+  "tags": ["research-agent"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Why are vector databases useful for AI agents?",
+  "options": [
+    "They provide semantic memory through similarity search",
+    "They replace language models",
+    "They improve GPU speed",
+    "They compress prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector databases store embeddings that agents can search to retrieve relevant knowledge.",
+  "points": 30,
+  "tags": ["vector-db","memory"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "What is semantic memory in an AI agent?",
+  "options": [
+    "Long-term knowledge stored using embeddings",
+    "GPU cache",
+    "Temporary prompt history",
+    "Model weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic memory stores facts and knowledge that can be retrieved across sessions.",
+  "points": 30,
+  "tags": ["semantic-memory"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "What does MCP stand for?",
+  "options": [
+    "Model Context Protocol",
+    "Machine Control Pipeline",
+    "Memory Computing Platform",
+    "Model Compression Process"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model Context Protocol standardizes communication between AI models and external tools or resources.",
+  "points": 30,
+  "tags": ["mcp"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "The main purpose of MCP is to:",
+  "options": [
+    "Provide a standardized interface for connecting AI agents to external tools",
+    "Train language models",
+    "Generate embeddings",
+    "Optimize CUDA kernels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MCP enables interoperability between AI agents and external systems through a common protocol.",
+  "points": 30,
+  "tags": ["mcp","tools"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "In multi-agent systems, Agent-to-Agent (A2A) communication allows agents to:",
+  "options": [
+    "Exchange information and coordinate tasks",
+    "Train each other's models",
+    "Share GPU memory",
+    "Merge embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A2A communication enables collaboration by sharing messages, task assignments, and results.",
+  "points": 30,
+  "tags": ["a2a","multi-agent"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "What is the main advantage of using multiple AI agents instead of one?",
+  "options": [
+    "Different agents can specialize in different tasks",
+    "It removes the need for language models",
+    "It eliminates prompts",
+    "It guarantees perfect accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Specialized agents often perform better than a single general-purpose agent when solving complex workflows.",
+  "points": 30,
+  "tags": ["multi-agent"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Which workflow best represents an Agentic RAG pipeline?",
+  "options": [
+    "User → Planner → Retriever → Reasoner → Tool → Validator → Final Answer",
+    "User → GPU → SQL → Output",
+    "User → CNN → OCR → Response",
+    "User → Embedding → Image Generator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agentic RAG combines planning, retrieval, reasoning, tool usage, validation, and final response generation.",
+  "points": 30,
+  "tags": ["agentic-rag","architecture"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of Tree of Thoughts (ToT)?",
+  "options": [
+    "Explore multiple reasoning paths before selecting the best solution",
+    "Store embeddings in a tree structure",
+    "Optimize GPU memory usage",
+    "Train multiple language models simultaneously"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tree of Thoughts extends Chain of Thought by exploring multiple reasoning branches and evaluating them before making a final decision.",
+  "points": 30,
+  "tags": ["tree-of-thoughts","reasoning"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Graph of Thoughts (GoT) differs from Tree of Thoughts because it:",
+  "options": [
+    "Allows interconnected reasoning paths instead of a strict tree",
+    "Uses only one reasoning step",
+    "Removes planning completely",
+    "Works only for image generation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Graph of Thoughts enables reasoning paths to merge and interact, making it more flexible than a tree structure.",
+  "points": 30,
+  "tags": ["graph-of-thoughts","reasoning"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Why are reflection loops useful in AI agents?",
+  "options": [
+    "They allow agents to evaluate and improve their previous outputs",
+    "They increase GPU memory",
+    "They eliminate the need for prompts",
+    "They replace vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reflection helps agents identify mistakes and improve future reasoning and decision-making.",
+  "points": 30,
+  "tags": ["reflection","self-improvement"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Self-correction in AI agents refers to:",
+  "options": [
+    "Automatically identifying and fixing mistakes before returning a response",
+    "Training a new model",
+    "Increasing context length",
+    "Generating embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-correcting agents review their reasoning and revise incorrect or incomplete answers.",
+  "points": 30,
+  "tags": ["self-correction"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "In a Planner-Executor architecture, the Planner is responsible for:",
+  "options": [
+    "Creating a strategy and dividing work into subtasks",
+    "Executing API calls directly",
+    "Storing embeddings",
+    "Generating datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Planner decomposes complex goals into manageable tasks for execution.",
+  "points": 30,
+  "tags": ["planner"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "In the Planner-Executor architecture, the Executor primarily:",
+  "options": [
+    "Carries out the subtasks assigned by the Planner",
+    "Creates new training data",
+    "Optimizes GPU resources",
+    "Manages databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Executor performs the planned actions, such as tool usage, retrieval, or code execution.",
+  "points": 30,
+  "tags": ["executor"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "What is the primary role of a Supervisor Agent in a large multi-agent system?",
+  "options": [
+    "Coordinate, monitor, and assign work to specialized agents",
+    "Generate embeddings",
+    "Train foundation models",
+    "Replace all worker agents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Supervisor agents oversee workflow execution and coordinate collaboration among worker agents.",
+  "points": 30,
+  "tags": ["supervisor","multi-agent"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Human-in-the-Loop (HITL) systems are mainly designed to:",
+  "options": [
+    "Allow humans to review or approve important agent decisions",
+    "Replace AI agents entirely",
+    "Improve GPU performance",
+    "Increase embedding dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HITL adds human oversight for sensitive, high-risk, or uncertain decisions.",
+  "points": 30,
+  "tags": ["hitl","human-in-the-loop"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Which design pattern improves the reliability of production AI agents?",
+  "options": [
+    "Planning → Execution → Reflection → Validation",
+    "Prompt → GPU → SQL",
+    "Embedding → OCR → CNN",
+    "Training → Compression → Deployment"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reliable production agents typically plan tasks, execute them, reflect on the results, and validate outputs before responding.",
+  "points": 30,
+  "tags": ["production","workflow"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Why is task delegation important in multi-agent systems?",
+  "options": [
+    "It allows specialized agents to solve subtasks more efficiently",
+    "It eliminates memory usage",
+    "It replaces planning",
+    "It guarantees perfect accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Delegating tasks to specialized agents improves scalability, modularity, and solution quality.",
+  "points": 30,
+  "tags": ["delegation","multi-agent"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "Which capability is most critical for production-grade autonomous agents?",
+  "options": [
+    "Robust error handling and recovery",
+    "Higher screen resolution",
+    "Faster keyboard input",
+    "More desktop icons"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production agents must detect failures, recover gracefully, and continue operating reliably.",
+  "points": 30,
+  "tags": ["production","reliability"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "ai-agents",
+  "difficulty": "hard",
+  "question": "During an AI agent interview, which architecture is most commonly recommended for solving complex enterprise workflows?",
+  "options": [
+    "Planner + Supervisor + Specialized Worker Agents + Reflection + Memory",
+    "Single LLM without tools",
+    "CNN with OCR",
+    "Vector Database only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Enterprise agent systems typically combine planning, orchestration, specialized workers, memory, and reflection to solve complex multi-step tasks.",
+  "points": 30,
+  "tags": ["interview","enterprise","architecture"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "What is AgentOps primarily concerned with?",
+  "options": [
+    "Monitoring, evaluating, and managing AI agents in production",
+    "Training foundation models",
+    "Building GPUs",
+    "Creating vector embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AgentOps applies operational best practices such as monitoring, logging, evaluation, and debugging to AI agents.",
+  "points": 40,
+  "tags": ["agentops","production"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Why is observability important for AI agents?",
+  "options": [
+    "It helps developers understand, debug, and improve agent behaviour",
+    "It increases GPU memory",
+    "It reduces prompt length",
+    "It trains embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Observability provides visibility into decisions, tool calls, latency, failures, and reasoning steps.",
+  "points": 40,
+  "tags": ["observability"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "LangSmith is primarily used for:",
+  "options": [
+    "Tracing, debugging, evaluating, and monitoring AI applications",
+    "Training transformer models",
+    "Managing Kubernetes clusters",
+    "Generating embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangSmith provides execution traces, experiment tracking, evaluation, and debugging for LangChain-based applications.",
+  "points": 40,
+  "tags": ["langsmith"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "OpenTelemetry helps AI systems by:",
+  "options": [
+    "Collecting logs, metrics, and traces across distributed systems",
+    "Training LLMs",
+    "Generating prompts",
+    "Building embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenTelemetry is an open standard for monitoring distributed applications, including AI agent systems.",
+  "points": 40,
+  "tags": ["opentelemetry","monitoring"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "What is the purpose of evaluation in AI agents?",
+  "options": [
+    "Measure quality, correctness, and reliability",
+    "Increase GPU speed",
+    "Reduce tokenization",
+    "Replace planning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Evaluation measures how well agents perform tasks and helps identify weaknesses for improvement.",
+  "points": 40,
+  "tags": ["evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Guardrails in AI agents are mainly used to:",
+  "options": [
+    "Restrict unsafe or undesirable behaviour",
+    "Train larger models",
+    "Increase context length",
+    "Compress responses"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Guardrails enforce policies, validate outputs, and prevent harmful or incorrect actions.",
+  "points": 40,
+  "tags": ["guardrails","safety"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Why is sandboxing recommended for autonomous agents?",
+  "options": [
+    "To isolate execution and reduce security risks",
+    "To increase GPU VRAM",
+    "To improve embeddings",
+    "To speed up inference"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sandboxing limits the impact of potentially unsafe code or actions performed by an agent.",
+  "points": 40,
+  "tags": ["sandbox","security"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which security practice is most important when agents use external APIs?",
+  "options": [
+    "Secure API key management and least-privilege access",
+    "Disable authentication",
+    "Store keys in source code",
+    "Allow unrestricted internet access"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Secrets should be stored securely and agents should only have the permissions they require.",
+  "points": 40,
+  "tags": ["security","api"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Docker is commonly used with AI agents because it:",
+  "options": [
+    "Packages applications into portable containers",
+    "Trains language models",
+    "Creates embeddings",
+    "Acts as a vector database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Docker ensures consistent environments for development, testing, and deployment.",
+  "points": 40,
+  "tags": ["docker"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Kubernetes primarily helps by:",
+  "options": [
+    "Managing and scaling containerized AI applications",
+    "Generating prompts",
+    "Training models",
+    "Building datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kubernetes automates deployment, scaling, networking, and recovery of containerized services.",
+  "points": 40,
+  "tags": ["kubernetes"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which deployment pattern provides high availability for AI agents?",
+  "options": [
+    "Load balancing across multiple agent instances",
+    "Running one instance only",
+    "Disabling monitoring",
+    "Removing backups"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Load balancing distributes requests across multiple agent instances for reliability and scalability.",
+  "points": 40,
+  "tags": ["deployment","scaling"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which production metric is most useful for monitoring AI agents?",
+  "options": [
+    "Latency, success rate, token usage, and tool failures",
+    "Wallpaper resolution",
+    "Keyboard brightness",
+    "GPU colour"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Operational metrics help evaluate performance, cost, reliability, and user experience.",
+  "points": 40,
+  "tags": ["metrics","monitoring"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Why should AI agent workflows include logging?",
+  "options": [
+    "To debug failures, audit actions, and analyse performance",
+    "To increase context length",
+    "To improve GPU performance",
+    "To replace memory systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Logs provide a record of decisions, tool usage, errors, and execution flow for troubleshooting and compliance.",
+  "points": 40,
+  "tags": ["logging","production"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "What is Blue-Green Deployment?",
+  "options": [
+    "Maintaining two identical production environments and switching traffic between them",
+    "Training two language models together",
+    "Running two GPUs simultaneously",
+    "Using two vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Blue-Green deployment reduces downtime and deployment risk by switching traffic between two identical environments.",
+  "points": 40,
+  "tags": ["blue-green","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "What is the purpose of a Canary Deployment?",
+  "options": [
+    "Gradually release a new version to a small percentage of users",
+    "Deploy only to developers",
+    "Deploy without testing",
+    "Replace monitoring tools"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Canary deployments reduce deployment risk by exposing a new version to a limited audience before full rollout.",
+  "points": 40,
+  "tags": ["canary","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Why is CI/CD important for AI agent applications?",
+  "options": [
+    "It automates testing, integration, and deployment of updates",
+    "It replaces language models",
+    "It stores embeddings",
+    "It increases GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous Integration and Continuous Deployment enable faster, safer, and more reliable software releases.",
+  "points": 40,
+  "tags": ["cicd","devops"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Why should production AI agents implement rate limiting?",
+  "options": [
+    "To prevent abuse and protect system resources",
+    "To increase model size",
+    "To reduce embedding dimensions",
+    "To eliminate authentication"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rate limiting protects services from excessive requests and improves system stability.",
+  "points": 40,
+  "tags": ["rate-limiting","security"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which strategy helps reduce the operational cost of AI agents?",
+  "options": [
+    "Caching frequent responses and optimizing model usage",
+    "Using the largest model for every request",
+    "Disabling monitoring",
+    "Increasing token limits unnecessarily"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Caching, routing requests to appropriate models, and minimizing unnecessary token usage reduce operational costs.",
+  "points": 40,
+  "tags": ["cost-optimization","production"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "When should a Human Approval Workflow be included in an AI agent system?",
+  "options": [
+    "Before high-risk or irreversible actions",
+    "Only during model training",
+    "Only for image generation",
+    "Never"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Human approval is recommended before actions such as financial transactions, deleting data, or executing critical operations.",
+  "points": 40,
+  "tags": ["human-approval","governance"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "What is the primary goal of disaster recovery for AI systems?",
+  "options": [
+    "Restore services quickly after failures with minimal data loss",
+    "Increase GPU frequency",
+    "Reduce embedding size",
+    "Replace monitoring systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Disaster recovery planning ensures business continuity by recovering systems, data, and services after outages.",
+  "points": 40,
+  "tags": ["disaster-recovery","reliability"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which architecture is commonly used for enterprise AI agent platforms?",
+  "options": [
+    "API Gateway → Planner → Supervisor → Worker Agents → Tools → Memory → Monitoring",
+    "GPU → Keyboard → Monitor",
+    "CNN → OCR → Image Generator",
+    "Single prompt only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Enterprise AI systems typically include gateways, orchestration, specialized agents, memory, external tools, and observability components.",
+  "points": 40,
+  "tags": ["enterprise","architecture"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "What is one of the biggest challenges in autonomous AI agent systems?",
+  "options": [
+    "Ensuring reliable reasoning and safe execution",
+    "Displaying larger fonts",
+    "Increasing screen brightness",
+    "Reducing keyboard latency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Autonomous agents must reason accurately, recover from failures, and avoid unsafe or unintended actions.",
+  "points": 40,
+  "tags": ["autonomous-agents","safety"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which practice best improves trust in production AI agents?",
+  "options": [
+    "Transparent reasoning, logging, evaluation, and human oversight",
+    "Removing monitoring",
+    "Disabling validation",
+    "Ignoring failures"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Trustworthy AI systems rely on observability, evaluation, governance, and appropriate human oversight.",
+  "points": 40,
+  "tags": ["trustworthy-ai","governance"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which combination best represents a production-ready AI agent lifecycle?",
+  "options": [
+    "Plan → Retrieve → Reason → Tool Use → Reflect → Validate → Monitor → Improve",
+    "Prompt → Output",
+    "Train → Stop",
+    "Embed → Deploy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern AI agents continuously plan, execute, validate, monitor, and improve based on feedback and operational data.",
+  "points": 40,
+  "tags": ["lifecycle","production"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "ai-agents",
+  "difficulty": "expert",
+  "question": "Which set of capabilities best defines a state-of-the-art AI agent?",
+  "options": [
+    "Reasoning, planning, memory, tool use, collaboration, reflection, evaluation, and safe deployment",
+    "Only prompt engineering",
+    "Only vector databases",
+    "Only language model inference"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern AI agents integrate advanced reasoning, planning, memory, external tools, multi-agent collaboration, reflection, evaluation, and production-grade safety practices.",
+  "points": 40,
+  "tags": ["capstone","advanced","production"]
+  ,
+  "timeLimit": 75
+}
+]

@@ -1,0 +1,1703 @@
+[
+  {
+    "id": 1,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "What does NLP stand for?",
+    "options": [
+      "Natural Language Processing",
+      "Neural Logic Programming",
+      "Natural Learning Process",
+      "Network Language Processing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Natural Language Processing (NLP) is the branch of AI that enables computers to understand, process, and generate human language.",
+    "points": 10,
+    "tags": ["nlp", "basics"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Which of the following is an application of NLP?",
+    "options": [
+      "Machine Translation",
+      "Image Segmentation",
+      "Object Detection",
+      "Speech Amplification"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Machine translation converts text from one language to another using NLP techniques.",
+    "points": 10,
+    "tags": ["applications"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Natural language refers to:",
+    "options": [
+      "Human languages like English and Hindi",
+      "Programming languages",
+      "Assembly language",
+      "Machine code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Natural languages are spoken and written by humans.",
+    "points": 10,
+    "tags": ["language"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "A corpus in NLP is:",
+    "options": [
+      "A collection of text documents",
+      "A neural network",
+      "A tokenizer",
+      "A programming language"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A corpus is a structured collection of text used for NLP research and training.",
+    "points": 10,
+    "tags": ["corpus"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "In NLP, a document is:",
+    "options": [
+      "A unit of text such as an article or email",
+      "A dataset only",
+      "A model checkpoint",
+      "A tokenizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A document is any text sample processed by an NLP system.",
+    "points": 10,
+    "tags": ["document"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "A token is:",
+    "options": [
+      "A basic text unit like a word or subword",
+      "A sentence",
+      "A paragraph",
+      "A document"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tokens are the units processed by NLP models.",
+    "points": 10,
+    "tags": ["token"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Tokenization is the process of:",
+    "options": [
+      "Splitting text into smaller units",
+      "Translating text",
+      "Generating text",
+      "Compressing text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tokenization breaks text into words, subwords, or characters.",
+    "points": 10,
+    "tags": ["tokenization"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Sentence tokenization splits text into:",
+    "options": [
+      "Sentences",
+      "Characters",
+      "Numbers",
+      "Paragraphs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sentence tokenization identifies sentence boundaries.",
+    "points": 10,
+    "tags": ["sentence-tokenization"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Word tokenization divides text into:",
+    "options": [
+      "Individual words",
+      "Paragraphs",
+      "Documents",
+      "Languages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Word tokenization separates text into individual words.",
+    "points": 10,
+    "tags": ["word-tokenization"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Stop words are:",
+    "options": [
+      "Frequently occurring words with little meaning",
+      "Programming keywords",
+      "Model parameters",
+      "Special characters"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Words like 'the', 'is', and 'and' are often removed during preprocessing.",
+    "points": 10,
+    "tags": ["stop-words"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Why is punctuation often removed during preprocessing?",
+    "options": [
+      "To simplify text analysis",
+      "To increase document length",
+      "To improve grammar",
+      "To generate images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Removing unnecessary punctuation simplifies many NLP tasks.",
+    "points": 10,
+    "tags": ["preprocessing"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Text normalization aims to:",
+    "options": [
+      "Standardize text representation",
+      "Increase vocabulary",
+      "Translate documents",
+      "Encrypt text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Normalization makes text more consistent before processing.",
+    "points": 10,
+    "tags": ["normalization"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Lowercasing converts text into:",
+    "options": [
+      "Lowercase letters",
+      "Uppercase letters",
+      "Numbers",
+      "Symbols"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lowercasing reduces vocabulary size by treating 'Apple' and 'apple' as the same word.",
+    "points": 10,
+    "tags": ["lowercase"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Stemming produces:",
+    "options": [
+      "Word roots by removing suffixes",
+      "Complete dictionary words",
+      "Sentences",
+      "Embeddings"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stemming reduces words like 'running' to 'run' or 'runn'.",
+    "points": 10,
+    "tags": ["stemming"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Lemmatization differs from stemming because it:",
+    "options": [
+      "Produces valid dictionary words",
+      "Always removes prefixes",
+      "Only works for verbs",
+      "Creates embeddings"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lemmatization considers grammar to return the correct base word.",
+    "points": 10,
+    "tags": ["lemmatization"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "A vocabulary in NLP is:",
+    "options": [
+      "The set of unique tokens",
+      "A collection of images",
+      "A neural network",
+      "A tokenizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vocabulary contains all unique tokens known by a model.",
+    "points": 10,
+    "tags": ["vocabulary"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Bag of Words (BoW) represents text using:",
+    "options": [
+      "Word occurrence counts",
+      "Word order",
+      "Grammar rules",
+      "Sentence meaning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BoW ignores word order and records the frequency of words.",
+    "points": 10,
+    "tags": ["bow"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "An n-gram is:",
+    "options": [
+      "A sequence of n consecutive tokens",
+      "A neural network",
+      "A sentence",
+      "A dataset"
+    ],
+    "correctAnswer": 0,
+    "explanation": "N-grams capture local word order information.",
+    "points": 10,
+    "tags": ["ngrams"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "A unigram contains:",
+    "options": [
+      "One token",
+      "Two tokens",
+      "Three tokens",
+      "Four tokens"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A unigram is the simplest form of an n-gram.",
+    "points": 10,
+    "tags": ["unigram"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "A bigram consists of:",
+    "options": [
+      "Two consecutive tokens",
+      "Three consecutive tokens",
+      "One token",
+      "Four tokens"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bigrams capture relationships between adjacent words.",
+    "points": 10,
+    "tags": ["bigram"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "A trigram contains:",
+    "options": [
+      "Three consecutive tokens",
+      "One token",
+      "Two tokens",
+      "Five tokens"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trigrams provide more contextual information than unigrams or bigrams.",
+    "points": 10,
+    "tags": ["trigram"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Term Frequency (TF) measures:",
+    "options": [
+      "How often a word appears in a document",
+      "The number of documents",
+      "Vocabulary size",
+      "Sentence length"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TF indicates the importance of a word within a document.",
+    "points": 10,
+    "tags": ["tf"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "Inverse Document Frequency (IDF) reduces the importance of:",
+    "options": [
+      "Very common words across documents",
+      "Rare words",
+      "Named entities",
+      "Numbers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Common words receive lower IDF scores because they carry less distinguishing information.",
+    "points": 10,
+    "tags": ["idf"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "TF-IDF combines:",
+    "options": [
+      "Term Frequency and Inverse Document Frequency",
+      "TF and Word2Vec",
+      "BoW and Transformers",
+      "CNN and RNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TF-IDF highlights words that are important within a document but uncommon across the corpus.",
+    "points": 10,
+    "tags": ["tfidf"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "nlp",
+    "difficulty": "easy",
+    "question": "One-hot encoding represents a word as:",
+    "options": [
+      "A sparse vector with one active value",
+      "A dense embedding vector",
+      "A sentence",
+      "A paragraph"
+    ],
+    "correctAnswer": 0,
+    "explanation": "One-hot encoding assigns each vocabulary item a unique binary vector containing a single 1.",
+    "points": 10,
+    "tags": ["one-hot-encoding"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "What are word embeddings?",
+  "options": [
+    "Dense vector representations of words",
+    "Collections of documents",
+    "Programming languages",
+    "Neural network layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Word embeddings represent words as dense vectors that capture semantic relationships.",
+  "points": 20,
+  "tags": ["embeddings"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Word2Vec is primarily used to:",
+  "options": [
+    "Learn word embeddings",
+    "Translate languages",
+    "Compress text files",
+    "Generate images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Word2Vec learns distributed word representations from large text corpora.",
+  "points": 20,
+  "tags": ["word2vec"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "The CBOW architecture predicts:",
+  "options": [
+    "A target word from surrounding words",
+    "The next sentence",
+    "Document categories",
+    "Named entities"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous Bag of Words (CBOW) predicts the center word using surrounding context.",
+  "points": 20,
+  "tags": ["cbow"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "The Skip-Gram model predicts:",
+  "options": [
+    "Context words from a target word",
+    "The next paragraph",
+    "Document length",
+    "Sentence boundaries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Skip-Gram learns embeddings by predicting nearby words from a center word.",
+  "points": 20,
+  "tags": ["skip-gram"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "GloVe embeddings are based on:",
+  "options": [
+    "Global word co-occurrence statistics",
+    "Random vectors",
+    "Decision trees",
+    "Image features"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GloVe combines matrix factorization with global co-occurrence information.",
+  "points": 20,
+  "tags": ["glove"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "FastText improves word embeddings by using:",
+  "options": [
+    "Subword information",
+    "Only full words",
+    "Image embeddings",
+    "Grammar rules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FastText represents words using character n-grams, helping with rare words.",
+  "points": 20,
+  "tags": ["fasttext"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Cosine similarity measures:",
+  "options": [
+    "The angle between two vectors",
+    "The length of a document",
+    "The number of tokens",
+    "Sentence complexity"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cosine similarity is commonly used to compare embeddings.",
+  "points": 20,
+  "tags": ["cosine-similarity"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Euclidean distance measures:",
+  "options": [
+    "The straight-line distance between vectors",
+    "Sentence length",
+    "Document frequency",
+    "Token count"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Euclidean distance calculates the geometric distance between vectors.",
+  "points": 20,
+  "tags": ["euclidean-distance"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Sentence embeddings represent:",
+  "options": [
+    "Entire sentences as dense vectors",
+    "Only single words",
+    "Characters only",
+    "Grammar rules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sentence embeddings capture the semantic meaning of complete sentences.",
+  "points": 20,
+  "tags": ["sentence-embeddings"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "POS tagging identifies:",
+  "options": [
+    "Parts of speech for words",
+    "Document titles",
+    "Sentence lengths",
+    "Language families"
+  ],
+  "correctAnswer": 0,
+  "explanation": "POS tagging labels words as nouns, verbs, adjectives, etc.",
+  "points": 20,
+  "tags": ["pos-tagging"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Named Entity Recognition (NER) detects:",
+  "options": [
+    "Names of people, places, organizations, and other entities",
+    "Programming errors",
+    "Stop words",
+    "Grammar mistakes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NER identifies important real-world entities in text.",
+  "points": 20,
+  "tags": ["ner"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Dependency parsing identifies:",
+  "options": [
+    "Relationships between words in a sentence",
+    "Document topics",
+    "Sentence language",
+    "Text encoding"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dependency parsing analyzes grammatical relationships among words.",
+  "points": 20,
+  "tags": ["dependency-parsing"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Constituency parsing produces:",
+  "options": [
+    "A phrase structure tree",
+    "Word embeddings",
+    "Token IDs",
+    "Translation scores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Constituency parsing groups words into hierarchical phrases.",
+  "points": 20,
+  "tags": ["constituency-parsing"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Chunking in NLP is used to:",
+  "options": [
+    "Group words into meaningful phrases",
+    "Split documents into files",
+    "Reduce vocabulary",
+    "Generate embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chunking identifies phrases like noun phrases and verb phrases.",
+  "points": 20,
+  "tags": ["chunking"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Text classification assigns:",
+  "options": [
+    "Predefined labels to text",
+    "Word embeddings",
+    "Grammar rules",
+    "Programming languages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Examples include spam detection and topic classification.",
+  "points": 20,
+  "tags": ["text-classification"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Sentiment analysis determines:",
+  "options": [
+    "The emotional tone of text",
+    "Language translation",
+    "Document length",
+    "Token frequency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sentiment analysis classifies opinions as positive, negative, or neutral.",
+  "points": 20,
+  "tags": ["sentiment-analysis"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Spam detection is an example of:",
+  "options": [
+    "Text classification",
+    "Image segmentation",
+    "Speech synthesis",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Spam filters classify emails into spam or non-spam categories.",
+  "points": 20,
+  "tags": ["spam-detection"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Language detection identifies:",
+  "options": [
+    "The language of a text",
+    "The author",
+    "The sentiment",
+    "The grammar"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Language detection determines whether text is English, French, Hindi, etc.",
+  "points": 20,
+  "tags": ["language-detection"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Machine translation converts:",
+  "options": [
+    "Text from one language to another",
+    "Speech into images",
+    "Documents into PDFs",
+    "Images into videos"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Machine translation systems automatically translate between languages.",
+  "points": 20,
+  "tags": ["machine-translation"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "BLEU is primarily used to evaluate:",
+  "options": [
+    "Machine translation quality",
+    "Speech recognition speed",
+    "Text compression",
+    "Image classification"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BLEU compares machine-translated text with reference translations.",
+  "points": 20,
+  "tags": ["bleu"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "ROUGE is commonly used to evaluate:",
+  "options": [
+    "Text summarization",
+    "Image generation",
+    "Speech synthesis",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ROUGE measures overlap between generated and reference summaries.",
+  "points": 20,
+  "tags": ["rouge"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Perplexity is a metric used to evaluate:",
+  "options": [
+    "Language models",
+    "Image classifiers",
+    "Object detectors",
+    "Speech microphones"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lower perplexity generally indicates better language model performance.",
+  "points": 20,
+  "tags": ["perplexity"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "A language model predicts:",
+  "options": [
+    "The probability of word sequences",
+    "Image labels",
+    "Video frames",
+    "Database queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Language models estimate the likelihood of sequences of words or tokens.",
+  "points": 20,
+  "tags": ["language-model"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "A statistical language model is based on:",
+  "options": [
+    "Probabilities learned from text",
+    "Image features",
+    "Decision trees only",
+    "Audio signals"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Statistical language models estimate probabilities using observed text data.",
+  "points": 20,
+  "tags": ["statistical-language-model"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "nlp",
+  "difficulty": "medium",
+  "question": "Hidden Markov Models (HMMs) are commonly used for:",
+  "options": [
+    "Sequence modeling tasks such as POS tagging",
+    "Image segmentation",
+    "3D rendering",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HMMs model hidden states that generate observable sequences and were widely used in classical NLP.",
+  "points": 20,
+  "tags": ["hmm"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of a Recurrent Neural Network (RNN)?",
+  "options": [
+    "Process sequential data",
+    "Generate images",
+    "Sort databases",
+    "Compress files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RNNs process sequential information by maintaining a hidden state across time steps.",
+  "points": 30,
+  "tags": ["rnn"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "The vanishing gradient problem mainly affects:",
+  "options": [
+    "Training deep recurrent networks",
+    "Image resizing",
+    "Tokenization",
+    "Text normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradients become extremely small during backpropagation, making learning difficult.",
+  "points": 30,
+  "tags": ["vanishing-gradient"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "LSTM networks were introduced to:",
+  "options": [
+    "Address long-term dependency problems",
+    "Replace tokenization",
+    "Improve stemming",
+    "Reduce vocabulary size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LSTMs use memory cells and gates to preserve important information over long sequences.",
+  "points": 30,
+  "tags": ["lstm"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Compared to LSTMs, GRUs:",
+  "options": [
+    "Use fewer gates and are computationally simpler",
+    "Cannot process sequences",
+    "Only work with images",
+    "Require no training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GRUs combine gates to create a simpler architecture than LSTMs.",
+  "points": 30,
+  "tags": ["gru"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "An encoder-decoder architecture is commonly used for:",
+  "options": [
+    "Sequence-to-sequence tasks",
+    "Image segmentation",
+    "Database indexing",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Encoder-decoder models convert one sequence into another, such as translation.",
+  "points": 30,
+  "tags": ["encoder-decoder"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Seq2Seq models are primarily designed for:",
+  "options": [
+    "Mapping one sequence to another",
+    "Image enhancement",
+    "Video compression",
+    "Speech recording"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sequence-to-sequence models are widely used in translation and summarization.",
+  "points": 30,
+  "tags": ["seq2seq"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "The attention mechanism helps a model by:",
+  "options": [
+    "Focusing on the most relevant input tokens",
+    "Reducing dataset size",
+    "Removing stop words",
+    "Increasing vocabulary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Attention allows models to weigh different parts of the input differently.",
+  "points": 30,
+  "tags": ["attention"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Self-attention computes relationships:",
+  "options": [
+    "Among tokens within the same sequence",
+    "Between images",
+    "Across databases",
+    "Between GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-attention enables each token to attend to every other token in the sequence.",
+  "points": 30,
+  "tags": ["self-attention"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Multi-head attention allows a transformer to:",
+  "options": [
+    "Learn different relationships simultaneously",
+    "Use multiple GPUs only",
+    "Train several datasets",
+    "Generate images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multiple attention heads capture different contextual patterns.",
+  "points": 30,
+  "tags": ["multi-head-attention"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Positional encoding provides transformers with:",
+  "options": [
+    "Information about token order",
+    "Image coordinates",
+    "GPU memory",
+    "Word frequency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformers require positional encodings because self-attention alone is order-independent.",
+  "points": 30,
+  "tags": ["positional-encoding"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "The Transformer architecture primarily relies on:",
+  "options": [
+    "Self-attention mechanisms",
+    "Convolution only",
+    "Decision trees",
+    "Hidden Markov Models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformers replace recurrence with self-attention for efficient parallel processing.",
+  "points": 30,
+  "tags": ["transformer"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "BERT is primarily trained using:",
+  "options": [
+    "Masked Language Modeling",
+    "Image classification",
+    "Reinforcement learning only",
+    "GAN training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BERT predicts masked words using bidirectional context.",
+  "points": 30,
+  "tags": ["bert"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "GPT models generate text using:",
+  "options": [
+    "Autoregressive next-token prediction",
+    "Image segmentation",
+    "Dependency parsing",
+    "Speech recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPT predicts one token at a time based on previous tokens.",
+  "points": 30,
+  "tags": ["gpt"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "T5 treats NLP tasks as:",
+  "options": [
+    "Text-to-text problems",
+    "Image classification",
+    "Audio processing",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "T5 converts every NLP task into a unified text input and output format.",
+  "points": 30,
+  "tags": ["t5"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "RoBERTa improves upon BERT mainly by:",
+  "options": [
+    "Using improved training strategies",
+    "Replacing transformers with CNNs",
+    "Removing attention",
+    "Using only character embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RoBERTa modifies BERT's training procedure for better performance.",
+  "points": 30,
+  "tags": ["roberta"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "DistilBERT is designed to:",
+  "options": [
+    "Provide a smaller and faster version of BERT",
+    "Replace GPT",
+    "Perform image recognition",
+    "Reduce vocabulary only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DistilBERT retains much of BERT's performance while reducing model size.",
+  "points": 30,
+  "tags": ["distilbert"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "XLNet differs from BERT because it uses:",
+  "options": [
+    "Permutation-based language modeling",
+    "Only masked tokens",
+    "Convolutional layers",
+    "Rule-based parsing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "XLNet captures bidirectional context without masking input tokens.",
+  "points": 30,
+  "tags": ["xlnet"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "ELECTRA trains by:",
+  "options": [
+    "Detecting replaced tokens",
+    "Generating images",
+    "Removing stop words",
+    "Building vocabularies"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ELECTRA learns efficiently by identifying whether tokens were replaced.",
+  "points": 30,
+  "tags": ["electra"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Masked Language Modeling (MLM) trains a model to:",
+  "options": [
+    "Predict hidden words in a sentence",
+    "Translate text",
+    "Summarize documents",
+    "Detect objects"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MLM randomly masks tokens and trains the model to recover them.",
+  "points": 30,
+  "tags": ["mlm"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Next Sentence Prediction (NSP) determines whether:",
+  "options": [
+    "One sentence logically follows another",
+    "A word belongs to a dictionary",
+    "A token is masked",
+    "A document contains images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NSP was one of BERT's original pretraining objectives.",
+  "points": 30,
+  "tags": ["nsp"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Beam search improves text generation by:",
+  "options": [
+    "Keeping multiple candidate sequences",
+    "Selecting random words",
+    "Removing attention",
+    "Ignoring probabilities"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Beam search explores multiple likely sequences before selecting the best output.",
+  "points": 30,
+  "tags": ["beam-search"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Greedy decoding selects:",
+  "options": [
+    "The highest-probability token at each step",
+    "A random token",
+    "Multiple sequences simultaneously",
+    "The least probable token"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Greedy decoding makes the locally optimal choice at every generation step.",
+  "points": 30,
+  "tags": ["greedy-decoding"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Increasing the temperature during text generation generally makes output:",
+  "options": [
+    "More diverse and random",
+    "Always shorter",
+    "More deterministic",
+    "Faster to train"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher temperature increases randomness by flattening the probability distribution.",
+  "points": 30,
+  "tags": ["temperature"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Top-k sampling limits token selection to:",
+  "options": [
+    "The k most probable tokens",
+    "The first k words in a sentence",
+    "Random vocabulary words",
+    "Only stop words"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Top-k sampling randomly selects from only the k highest-probability tokens.",
+  "points": 30,
+  "tags": ["top-k"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "nlp",
+  "difficulty": "hard",
+  "question": "Top-p (nucleus) sampling selects tokens from:",
+  "options": [
+    "The smallest set whose cumulative probability exceeds p",
+    "The first p tokens",
+    "The least probable tokens",
+    "The entire vocabulary equally"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Top-p sampling dynamically chooses the candidate set based on cumulative probability.",
+  "points": 30,
+  "tags": ["top-p", "nucleus-sampling"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "A Large Language Model (LLM) is:",
+  "options": [
+    "A transformer-based model trained on massive text corpora",
+    "A database engine",
+    "A speech synthesizer",
+    "A computer vision model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LLMs learn language patterns from enormous datasets to perform many NLP tasks.",
+  "points": 40,
+  "tags": ["llm"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Prompt engineering is the practice of:",
+  "options": [
+    "Designing effective prompts for AI models",
+    "Training neural networks",
+    "Building datasets",
+    "Compressing embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Well-designed prompts significantly improve LLM responses.",
+  "points": 40,
+  "tags": ["prompt-engineering"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "In-context learning enables an LLM to:",
+  "options": [
+    "Learn from examples provided within the prompt",
+    "Update its model weights",
+    "Create new datasets",
+    "Retrain automatically"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The model adapts its responses using examples in the prompt without parameter updates.",
+  "points": 40,
+  "tags": ["in-context-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Chain-of-Thought prompting encourages a model to:",
+  "options": [
+    "Reason through intermediate steps",
+    "Generate images",
+    "Reduce vocabulary",
+    "Ignore context"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chain-of-Thought prompting can improve reasoning on complex tasks.",
+  "points": 40,
+  "tags": ["chain-of-thought"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Instruction tuning improves a model by:",
+  "options": [
+    "Fine-tuning it on instruction-following datasets",
+    "Changing its tokenizer",
+    "Removing attention layers",
+    "Reducing vocabulary size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Instruction tuning teaches models to better follow natural language instructions.",
+  "points": 40,
+  "tags": ["instruction-tuning"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "RLHF stands for:",
+  "options": [
+    "Reinforcement Learning from Human Feedback",
+    "Recursive Language Hybrid Framework",
+    "Robust Learning Hardware Framework",
+    "Random Linear Hidden Features"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RLHF aligns language models with human preferences using feedback.",
+  "points": 40,
+  "tags": ["rlhf"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "PEFT is mainly used for:",
+  "options": [
+    "Parameter-efficient fine-tuning",
+    "Image enhancement",
+    "Speech recognition",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PEFT adapts large models using only a small number of trainable parameters.",
+  "points": 40,
+  "tags": ["peft"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "LoRA fine-tuning works by:",
+  "options": [
+    "Adding low-rank adapter matrices to model layers",
+    "Replacing transformer layers",
+    "Reducing sequence length",
+    "Removing attention"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA fine-tunes large models efficiently without modifying all parameters.",
+  "points": 40,
+  "tags": ["lora"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "QLoRA primarily combines LoRA with:",
+  "options": [
+    "Model quantization",
+    "Knowledge graphs",
+    "Image segmentation",
+    "Neural architecture search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "QLoRA enables efficient fine-tuning using quantized models.",
+  "points": 40,
+  "tags": ["qlora"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Embedding models convert text into:",
+  "options": [
+    "Dense numerical vectors",
+    "Images",
+    "Audio signals",
+    "Programming code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embeddings capture semantic meaning in vector form.",
+  "points": 40,
+  "tags": ["embedding-models"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Vector embeddings are mainly used for:",
+  "options": [
+    "Semantic similarity search",
+    "Database normalization",
+    "Tokenization",
+    "Grammar correction"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embedding vectors enable semantic comparison between text samples.",
+  "points": 40,
+  "tags": ["embeddings"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Semantic search retrieves documents based on:",
+  "options": [
+    "Meaning rather than exact keywords",
+    "Alphabetical order",
+    "File size",
+    "Publication date only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic search compares embeddings to find conceptually similar content.",
+  "points": 40,
+  "tags": ["semantic-search"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Retrieval-Augmented Generation (RAG) improves LLM responses by:",
+  "options": [
+    "Retrieving external knowledge before generation",
+    "Increasing GPU memory",
+    "Replacing tokenization",
+    "Removing embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG grounds responses using relevant retrieved documents.",
+  "points": 40,
+  "tags": ["rag"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "A Cross Encoder is commonly used for:",
+  "options": [
+    "Accurate relevance scoring between query-document pairs",
+    "Generating images",
+    "Speech recognition",
+    "Tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross encoders jointly encode inputs, producing highly accurate similarity scores.",
+  "points": 40,
+  "tags": ["cross-encoder"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "A Bi Encoder is primarily used for:",
+  "options": [
+    "Efficient embedding generation for retrieval",
+    "Image segmentation",
+    "Grammar correction",
+    "Video generation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bi encoders independently encode inputs, making large-scale retrieval efficient.",
+  "points": 40,
+  "tags": ["bi-encoder"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "An LLM hallucination occurs when the model:",
+  "options": [
+    "Generates incorrect information presented as factual",
+    "Stops generating text",
+    "Runs out of memory",
+    "Fails tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hallucinations are fabricated or unsupported outputs that appear convincing.",
+  "points": 40,
+  "tags": ["hallucination"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "The context window defines:",
+  "options": [
+    "The maximum number of tokens a model can process at once",
+    "The model size",
+    "The vocabulary size",
+    "The GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Context windows determine how much information an LLM can consider simultaneously.",
+  "points": 40,
+  "tags": ["context-window"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "A token limit specifies:",
+  "options": [
+    "The maximum number of tokens allowed for processing",
+    "The number of model parameters",
+    "The GPU count",
+    "The number of documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Inputs and outputs together must generally fit within a model's token limit.",
+  "points": 40,
+  "tags": ["token-limit"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Function calling allows an LLM to:",
+  "options": [
+    "Invoke external tools or APIs using structured outputs",
+    "Rewrite its own weights",
+    "Train another model",
+    "Generate images only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Function calling enables LLMs to interact with software systems and external services.",
+  "points": 40,
+  "tags": ["function-calling"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "AI agent memory is used to:",
+  "options": [
+    "Store information across interactions or tasks",
+    "Increase GPU speed",
+    "Reduce tokenization time",
+    "Translate languages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Memory enables AI agents to maintain context and improve long-running workflows.",
+  "points": 40,
+  "tags": ["agent-memory"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "Multimodal NLP combines language with:",
+  "options": [
+    "Other data types such as images, audio, or video",
+    "Databases only",
+    "Operating systems",
+    "Compilers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multimodal models process and reason across multiple input modalities.",
+  "points": 40,
+  "tags": ["multimodal"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "LLM evaluation measures:",
+  "options": [
+    "The quality, correctness, and usefulness of model outputs",
+    "GPU temperature",
+    "Database speed",
+    "Network bandwidth"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Evaluation can include benchmarks, human assessment, and automated metrics.",
+  "points": 40,
+  "tags": ["llm-evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "AI guardrails are designed to:",
+  "options": [
+    "Reduce unsafe or undesirable model behaviour",
+    "Increase GPU memory",
+    "Compress datasets",
+    "Replace embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Guardrails help enforce policies, improve safety, and reduce harmful outputs.",
+  "points": 40,
+  "tags": ["guardrails"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "AI safety in NLP focuses on:",
+  "options": [
+    "Building reliable, fair, secure, and responsible language models",
+    "Increasing model size only",
+    "Reducing vocabulary",
+    "Improving internet speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI safety addresses fairness, robustness, privacy, security, and responsible deployment.",
+  "points": 40,
+  "tags": ["ai-safety"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "nlp",
+  "difficulty": "expert",
+  "question": "The future of NLP is expected to emphasize:",
+  "options": [
+    "Multimodal, agentic, and more capable language models",
+    "Rule-based systems only",
+    "Removing transformers",
+    "Avoiding foundation models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Future NLP research focuses on multimodal reasoning, AI agents, better efficiency, improved safety, and stronger reasoning capabilities.",
+  "points": 40,
+  "tags": ["future", "nlp"],
+  "timeLimit": 75
+}
+
+]

@@ -1,0 +1,165 @@
+/* ==========================================
+   HERO STATS
+========================================== */
+
+.hero-stats{
+    width:100%;
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(5,minmax(0,1fr));
+    gap:16px;
+    width:100%;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.stat-card{
+    position:relative;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+
+    min-height:96px;
+    padding:18px;
+
+    border-radius:18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(26,26,40,.88),
+            rgba(18,18,28,.82)
+        );
+
+    border:1px solid rgba(157,78,221,.18);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    overflow:hidden;
+
+    transition:
+        transform .35s ease,
+        border-color .35s ease,
+        box-shadow .35s ease;
+}
+
+/* Glow Overlay */
+
+.stat-card::before{
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(157,78,221,.16),
+            transparent 60%
+        );
+
+    opacity:.9;
+
+    pointer-events:none;
+}
+
+/* Hover */
+
+.stat-card:hover{
+
+    transform:translateY(-4px);
+
+    border-color:rgba(157,78,221,.45);
+
+    box-shadow:
+        0 10px 30px rgba(157,78,221,.16),
+        inset 0 0 30px rgba(157,78,221,.04);
+}
+
+/* ==========================================
+   TEXT
+========================================== */
+
+.stat-card h4{
+
+    margin:0 0 6px;
+
+    font-size:11px;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+    color:#ffffff;
+
+    opacity:.85;
+
+    z-index:2;
+}
+
+.stat-card h3{
+
+    margin:0 0 6px;
+
+    font-size:22px;
+
+    line-height:1;
+
+    font-weight:700;
+
+    color:#b86cff;
+
+    z-index:2;
+}
+
+.stat-card p{
+
+    margin:0;
+
+    font-size:10px;
+
+    line-height:1.4;
+
+    color:#b8b8c8;
+
+    z-index:2;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:1100px){
+
+    .stats-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:600px){
+
+    .stats-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

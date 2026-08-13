@@ -1,0 +1,1703 @@
+[
+{
+  "id": 1,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow is primarily a:",
+  "options": [
+    "Machine learning framework",
+    "Database management system",
+    "Web browser",
+    "Operating system"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow is an open-source framework for machine learning and deep learning.",
+  "points": 10,
+  "tags": ["basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow was originally developed by:",
+  "options": [
+    "Google",
+    "Meta",
+    "Microsoft",
+    "Amazon"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow was developed by the Google Brain team.",
+  "points": 10,
+  "tags": ["google"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow is released as:",
+  "options": [
+    "Open-source software",
+    "Commercial software only",
+    "Paid subscription software",
+    "Closed-source software"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow is an open-source machine learning framework.",
+  "points": 10,
+  "tags": ["open-source"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "The primary programming language used with TensorFlow is:",
+  "options": [
+    "Python",
+    "Java",
+    "C#",
+    "PHP"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Python is the most commonly used language for TensorFlow development.",
+  "points": 10,
+  "tags": ["python"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow is mainly used for:",
+  "options": [
+    "Machine learning and deep learning",
+    "Web hosting",
+    "Video editing",
+    "Database administration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow provides tools for building and deploying ML models.",
+  "points": 10,
+  "tags": ["ml"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "A tensor is:",
+  "options": [
+    "A multi-dimensional array",
+    "A database table",
+    "A web server",
+    "A programming language"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensors are the fundamental data structures in TensorFlow.",
+  "points": 10,
+  "tags": ["tensor"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "A scalar in TensorFlow is a tensor of rank:",
+  "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A scalar has no dimensions and therefore rank 0.",
+  "points": 10,
+  "tags": ["scalar"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "A vector is a tensor of rank:",
+  "options": [
+    "1",
+    "0",
+    "2",
+    "3"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A vector is a one-dimensional tensor.",
+  "points": 10,
+  "tags": ["vector"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "A matrix is a tensor of rank:",
+  "options": [
+    "2",
+    "1",
+    "0",
+    "4"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Matrices are two-dimensional tensors.",
+  "points": 10,
+  "tags": ["matrix"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "The dimensions of a tensor are called its:",
+  "options": [
+    "Shape",
+    "Type",
+    "Layer",
+    "Kernel"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Shape specifies the size of each tensor dimension.",
+  "points": 10,
+  "tags": ["shape"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow 2.x enables which execution mode by default?",
+  "options": [
+    "Eager Execution",
+    "Graph Execution only",
+    "Lazy Execution",
+    "Sequential Execution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow 2.x executes operations immediately using eager execution.",
+  "points": 10,
+  "tags": ["eager-execution"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "Which TensorFlow module is widely used for high-level deep learning?",
+  "options": [
+    "Keras",
+    "NumPy",
+    "Pandas",
+    "SciPy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Keras is TensorFlow's official high-level API.",
+  "points": 10,
+  "tags": ["keras"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "The main purpose of Keras is to:",
+  "options": [
+    "Build and train neural networks easily",
+    "Create databases",
+    "Develop websites",
+    "Compile Python code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Keras simplifies neural network creation and training.",
+  "points": 10,
+  "tags": ["keras"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "Which TensorFlow object stores numerical data?",
+  "options": [
+    "Tensor",
+    "Optimizer",
+    "Layer",
+    "Model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensors hold numerical values used in computations.",
+  "points": 10,
+  "tags": ["tensor"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "Which hardware significantly speeds up TensorFlow training?",
+  "options": [
+    "GPU",
+    "Printer",
+    "Monitor",
+    "Keyboard"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPUs accelerate parallel tensor computations.",
+  "points": 10,
+  "tags": ["gpu"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow can run on:",
+  "options": [
+    "CPU and GPU",
+    "CPU only",
+    "GPU only",
+    "Cloud only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow supports CPUs, GPUs, and TPUs.",
+  "points": 10,
+  "tags": ["hardware"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "A neural network is built using:",
+  "options": [
+    "Layers",
+    "Files",
+    "Folders",
+    "Tables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Layers are combined to build deep learning models.",
+  "points": 10,
+  "tags": ["layers"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "The input layer receives:",
+  "options": [
+    "Input features",
+    "Model predictions",
+    "Loss values",
+    "Gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The input layer accepts data into the neural network.",
+  "points": 10,
+  "tags": ["input-layer"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "Hidden layers perform:",
+  "options": [
+    "Feature extraction and transformations",
+    "Data storage",
+    "File compression",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hidden layers learn increasingly complex representations.",
+  "points": 10,
+  "tags": ["hidden-layer"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "The output layer produces:",
+  "options": [
+    "Final predictions",
+    "Training data",
+    "Optimizer settings",
+    "Loss functions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The output layer provides the model's predictions.",
+  "points": 10,
+  "tags": ["output-layer"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "Which TensorFlow API is commonly used to create Sequential models?",
+  "options": [
+    "tf.keras.Sequential",
+    "tf.math.Sequential",
+    "tf.data.Sequential",
+    "tf.image.Sequential"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.keras.Sequential builds models layer by layer.",
+  "points": 10,
+  "tags": ["sequential"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "Training a TensorFlow model mainly means:",
+  "options": [
+    "Learning patterns from data",
+    "Installing TensorFlow",
+    "Writing Python syntax",
+    "Creating folders"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Training adjusts model parameters using data.",
+  "points": 10,
+  "tags": ["training"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "The process of making predictions using a trained model is called:",
+  "options": [
+    "Inference",
+    "Compilation",
+    "Serialization",
+    "Optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Inference applies a trained model to new data.",
+  "points": 10,
+  "tags": ["inference"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow is widely used for:",
+  "options": [
+    "Computer vision and NLP",
+    "Spreadsheet editing",
+    "Word processing",
+    "Operating system development"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow supports image, text, speech, and many other AI applications.",
+  "points": 10,
+  "tags": ["applications"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "tensorflow",
+  "difficulty": "easy",
+  "question": "TensorFlow models can be deployed to:",
+  "options": [
+    "Servers, mobile devices, and browsers",
+    "Printers only",
+    "USB drives only",
+    "Keyboards only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow supports deployment across cloud, mobile, edge, and web platforms.",
+  "points": 10,
+  "tags": ["deployment"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which function creates an immutable tensor in TensorFlow?",
+  "options": [
+    "tf.constant()",
+    "tf.Variable()",
+    "tf.Tensor()",
+    "tf.create()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.constant() creates a tensor whose value cannot be modified.",
+  "points": 20,
+  "tags": ["tf.constant"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which TensorFlow object is designed for trainable parameters?",
+  "options": [
+    "tf.Variable",
+    "tf.constant",
+    "tf.TensorShape",
+    "tf.function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.Variable stores mutable values updated during training.",
+  "points": 20,
+  "tags": ["tf.Variable"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which TensorFlow object is typically updated by gradient descent?",
+  "options": [
+    "tf.Variable",
+    "tf.constant",
+    "Python list",
+    "Tuple"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model weights are stored as tf.Variable objects.",
+  "points": 20,
+  "tags": ["variables"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which operator performs element-wise tensor addition?",
+  "options": [
+    "+",
+    "@",
+    "//",
+    "%"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The + operator performs element-wise addition on compatible tensors.",
+  "points": 20,
+  "tags": ["tensor-operations"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which function returns the shape of a tensor?",
+  "options": [
+    "tf.shape()",
+    "tf.rank()",
+    "tf.size()",
+    "tf.dtype()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.shape() returns the dimensions of a tensor.",
+  "points": 20,
+  "tags": ["shape"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which function returns the rank (number of dimensions) of a tensor?",
+  "options": [
+    "tf.rank()",
+    "tf.shape()",
+    "tf.size()",
+    "tf.range()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.rank() returns the number of tensor dimensions.",
+  "points": 20,
+  "tags": ["rank"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Tensor broadcasting allows:",
+  "options": [
+    "Operations on tensors with compatible shapes",
+    "Only tensors with identical shapes",
+    "Network communication",
+    "GPU sharing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Broadcasting automatically expands compatible dimensions during operations.",
+  "points": 20,
+  "tags": ["broadcasting"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which API records operations for automatic differentiation?",
+  "options": [
+    "tf.GradientTape",
+    "tf.Dataset",
+    "tf.Session",
+    "tf.Graph"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GradientTape records computations to calculate gradients automatically.",
+  "points": 20,
+  "tags": ["gradienttape"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Automatic differentiation is mainly used for:",
+  "options": [
+    "Computing gradients",
+    "Loading datasets",
+    "Saving models",
+    "Creating tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradients are required for backpropagation during training.",
+  "points": 20,
+  "tags": ["autograd"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "A computational graph represents:",
+  "options": [
+    "The flow of tensor operations",
+    "A database schema",
+    "A file system",
+    "A network topology"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Graphs describe computations as connected operations.",
+  "points": 20,
+  "tags": ["graph"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "What is the main purpose of tf.function?",
+  "options": [
+    "Convert Python code into optimized TensorFlow graphs",
+    "Create tensors",
+    "Download datasets",
+    "Visualize models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.function improves execution speed by tracing Python functions into graphs.",
+  "points": 20,
+  "tags": ["tf.function"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which module provides efficient data pipelines?",
+  "options": [
+    "tf.data",
+    "tf.image",
+    "tf.linalg",
+    "tf.math"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.data simplifies efficient loading and preprocessing of datasets.",
+  "points": 20,
+  "tags": ["tf.data"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Batching in tf.data is mainly used to:",
+  "options": [
+    "Group multiple samples together",
+    "Duplicate data",
+    "Delete samples",
+    "Compress tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Training usually processes data in mini-batches instead of one sample at a time.",
+  "points": 20,
+  "tags": ["batch"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "The shuffle() operation is used to:",
+  "options": [
+    "Randomize the order of training data",
+    "Sort data alphabetically",
+    "Compress datasets",
+    "Increase tensor dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Random shuffling improves model generalization.",
+  "points": 20,
+  "tags": ["shuffle"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "The prefetch() operation mainly helps:",
+  "options": [
+    "Overlap data loading with model execution",
+    "Increase image resolution",
+    "Reduce tensor rank",
+    "Convert tensors to NumPy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prefetch improves training throughput by preparing future batches.",
+  "points": 20,
+  "tags": ["prefetch"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which Keras class is commonly used to build models layer-by-layer?",
+  "options": [
+    "tf.keras.Sequential",
+    "tf.keras.Dataset",
+    "tf.keras.Graph",
+    "tf.keras.Tensor"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sequential models stack layers in order.",
+  "points": 20,
+  "tags": ["sequential"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which layer is most commonly used for fully connected neural networks?",
+  "options": [
+    "Dense",
+    "Conv2D",
+    "LSTM",
+    "Embedding"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dense layers connect every neuron to every neuron in the next layer.",
+  "points": 20,
+  "tags": ["dense"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "ReLU is an example of a:",
+  "options": [
+    "Activation function",
+    "Optimizer",
+    "Loss function",
+    "Metric"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ReLU introduces non-linearity into neural networks.",
+  "points": 20,
+  "tags": ["relu"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Calling model.compile() configures:",
+  "options": [
+    "Optimizer, loss function, and metrics",
+    "Dataset download",
+    "GPU drivers",
+    "Tensor creation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "compile() prepares a model for training.",
+  "points": 20,
+  "tags": ["compile"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "A loss function measures:",
+  "options": [
+    "How far predictions are from target values",
+    "Model size",
+    "Dataset size",
+    "Training speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Loss quantifies prediction error during training.",
+  "points": 20,
+  "tags": ["loss"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Which component updates model weights during training?",
+  "options": [
+    "Optimizer",
+    "Metric",
+    "Dataset",
+    "Tensor"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Optimizers use gradients to update trainable variables.",
+  "points": 20,
+  "tags": ["optimizer"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Accuracy is an example of a:",
+  "options": [
+    "Metric",
+    "Optimizer",
+    "Layer",
+    "Tensor"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Metrics monitor model performance during training and evaluation.",
+  "points": 20,
+  "tags": ["metrics"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "An epoch represents:",
+  "options": [
+    "One complete pass through the training dataset",
+    "One gradient value",
+    "One batch only",
+    "One optimizer step"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Training for multiple epochs allows the model to repeatedly learn from the data.",
+  "points": 20,
+  "tags": ["epoch"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Batch size refers to:",
+  "options": [
+    "The number of samples processed before updating model weights",
+    "The number of layers",
+    "The number of epochs",
+    "The number of GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Batch size determines how many samples are processed together.",
+  "points": 20,
+  "tags": ["batch-size"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "tensorflow",
+  "difficulty": "medium",
+  "question": "Validation data is mainly used to:",
+  "options": [
+    "Evaluate model performance during training",
+    "Update model weights",
+    "Store gradients",
+    "Increase tensor rank"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Validation data monitors generalization without affecting training weights.",
+  "points": 20,
+  "tags": ["validation"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "The primary purpose of a Conv2D layer is to:",
+  "options": [
+    "Extract spatial features from images",
+    "Store model weights",
+    "Normalize tensors",
+    "Shuffle datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Conv2D layers learn filters that detect patterns such as edges, textures, and objects.",
+  "points": 30,
+  "tags": ["cnn", "conv2d"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Pooling layers are mainly used to:",
+  "options": [
+    "Reduce spatial dimensions",
+    "Increase image resolution",
+    "Store model checkpoints",
+    "Generate labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pooling reduces feature map size while retaining important information.",
+  "points": 30,
+  "tags": ["pooling"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Which pooling operation selects the maximum value from a region?",
+  "options": [
+    "MaxPooling2D",
+    "AveragePooling2D",
+    "GlobalPooling",
+    "BatchNormalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MaxPooling keeps the strongest activation within each pooling window.",
+  "points": 30,
+  "tags": ["maxpooling"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Recurrent Neural Networks (RNNs) are mainly designed for:",
+  "options": [
+    "Sequential data",
+    "Database indexing",
+    "Image compression",
+    "File storage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RNNs process sequential information such as text and time-series data.",
+  "points": 30,
+  "tags": ["rnn"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "LSTM networks were introduced primarily to:",
+  "options": [
+    "Address the vanishing gradient problem",
+    "Reduce image size",
+    "Increase GPU memory",
+    "Replace optimizers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LSTMs use memory cells and gates to capture long-term dependencies.",
+  "points": 30,
+  "tags": ["lstm"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "GRU stands for:",
+  "options": [
+    "Gated Recurrent Unit",
+    "General Regression Unit",
+    "Gradient Reduction Utility",
+    "Graph Recurrent Update"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GRU is a simplified recurrent architecture with fewer gates than LSTM.",
+  "points": 30,
+  "tags": ["gru"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "An Embedding layer is commonly used for:",
+  "options": [
+    "Representing categorical tokens as dense vectors",
+    "Compressing images",
+    "Optimizing gradients",
+    "Saving models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embeddings convert discrete IDs into learnable dense vector representations.",
+  "points": 30,
+  "tags": ["embedding"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Dropout helps reduce:",
+  "options": [
+    "Overfitting",
+    "Learning rate",
+    "Dataset size",
+    "Tensor rank"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dropout randomly disables neurons during training to improve generalization.",
+  "points": 30,
+  "tags": ["dropout"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "BatchNormalization primarily:",
+  "options": [
+    "Normalizes activations during training",
+    "Creates batches",
+    "Stores checkpoints",
+    "Loads datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Batch normalization stabilizes and accelerates neural network training.",
+  "points": 30,
+  "tags": ["batchnormalization"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "The Functional API is preferred when:",
+  "options": [
+    "Building complex models with multiple inputs or outputs",
+    "Creating Python lists",
+    "Installing TensorFlow",
+    "Editing datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Functional API supports flexible architectures beyond Sequential models.",
+  "points": 30,
+  "tags": ["functional-api"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Model subclassing provides:",
+  "options": [
+    "Maximum flexibility for defining custom models",
+    "Automatic hyperparameter tuning",
+    "GPU acceleration only",
+    "Automatic deployment"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Subclassing allows developers to define custom forward passes using Python classes.",
+  "points": 30,
+  "tags": ["model-subclassing"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Callbacks in Keras are executed:",
+  "options": [
+    "During different stages of model training",
+    "Before TensorFlow installation",
+    "Only during inference",
+    "Only when exporting models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Callbacks enable actions such as logging, checkpointing, and early stopping.",
+  "points": 30,
+  "tags": ["callbacks"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "EarlyStopping is mainly used to:",
+  "options": [
+    "Stop training when validation performance stops improving",
+    "Increase model size",
+    "Reduce GPU memory",
+    "Shuffle datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "EarlyStopping helps prevent overfitting and unnecessary training.",
+  "points": 30,
+  "tags": ["earlystopping"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "ModelCheckpoint is primarily used to:",
+  "options": [
+    "Save model weights during training",
+    "Load datasets",
+    "Normalize tensors",
+    "Create embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ModelCheckpoint periodically saves models or weights.",
+  "points": 30,
+  "tags": ["modelcheckpoint"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "TensorBoard is mainly used for:",
+  "options": [
+    "Visualizing training metrics and graphs",
+    "Creating datasets",
+    "Installing TensorFlow",
+    "Building web pages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorBoard provides dashboards for monitoring model training.",
+  "points": 30,
+  "tags": ["tensorboard"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "A custom training loop gives developers:",
+  "options": [
+    "Fine-grained control over training",
+    "Automatic dataset generation",
+    "Automatic deployment",
+    "Automatic architecture search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Custom loops allow complete control over forward and backward passes.",
+  "points": 30,
+  "tags": ["training-loop"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Within a custom training loop, GradientTape is responsible for:",
+  "options": [
+    "Recording operations for gradient computation",
+    "Saving checkpoints",
+    "Loading images",
+    "Displaying TensorBoard"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GradientTape tracks operations needed for automatic differentiation.",
+  "points": 30,
+  "tags": ["gradienttape"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Which TensorFlow format is recommended for production deployment?",
+  "options": [
+    "SavedModel",
+    "CSV",
+    "JSON",
+    "XML"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SavedModel is TensorFlow's standard portable model format.",
+  "points": 30,
+  "tags": ["savedmodel"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Which file format was historically popular for saving Keras models?",
+  "options": [
+    "HDF5 (.h5)",
+    "TXT",
+    "DOCX",
+    "ZIP"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HDF5 was widely used before the SavedModel format became the default.",
+  "points": 30,
+  "tags": ["hdf5"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "A saved TensorFlow model can be restored using:",
+  "options": [
+    "tf.keras.models.load_model()",
+    "tf.load_tensor()",
+    "tf.restore()",
+    "tf.import_graph()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "load_model() restores previously saved Keras models.",
+  "points": 30,
+  "tags": ["load-model"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Transfer learning mainly involves:",
+  "options": [
+    "Using a pretrained model for a new task",
+    "Moving datasets between computers",
+    "Converting Python to C++",
+    "Training without labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transfer learning reuses knowledge from previously trained models.",
+  "points": 30,
+  "tags": ["transfer-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "When using transfer learning, pretrained layers are often:",
+  "options": [
+    "Frozen during initial training",
+    "Deleted",
+    "Randomly initialized",
+    "Converted to NumPy arrays"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Freezing layers preserves learned representations while training new layers.",
+  "points": 30,
+  "tags": ["freeze-layers"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Fine-tuning usually means:",
+  "options": [
+    "Training some pretrained layers on a new dataset",
+    "Compressing the model",
+    "Reducing image resolution",
+    "Creating synthetic data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fine-tuning adapts pretrained features to a target task.",
+  "points": 30,
+  "tags": ["fine-tuning"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Which pretrained model family is commonly used for transfer learning in computer vision?",
+  "options": [
+    "MobileNet",
+    "Naive Bayes",
+    "K-Means",
+    "Linear Regression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MobileNet is widely used because of its efficiency and strong performance.",
+  "points": 30,
+  "tags": ["mobilenet"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "tensorflow",
+  "difficulty": "hard",
+  "question": "Transfer learning is especially useful when:",
+  "options": [
+    "Only a small labeled dataset is available",
+    "Unlimited labeled data is available",
+    "No neural network is used",
+    "No GPU is available"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pretrained models can significantly improve performance with limited training data.",
+  "points": 30,
+  "tags": ["transfer-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "TensorFlow Lite is primarily designed for:",
+  "options": [
+    "Running machine learning models on mobile and edge devices",
+    "Training large language models",
+    "Managing databases",
+    "Creating web servers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow Lite enables efficient inference on mobile, embedded, and IoT devices.",
+  "points": 40,
+  "tags": ["tensorflow-lite"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "TensorFlow Serving is mainly used to:",
+  "options": [
+    "Deploy trained models for production inference",
+    "Train neural networks",
+    "Visualize datasets",
+    "Label images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow Serving provides a scalable system for serving trained models.",
+  "points": 40,
+  "tags": ["tensorflow-serving"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "TensorFlow.js enables developers to:",
+  "options": [
+    "Run machine learning models in web browsers using JavaScript",
+    "Compile C++ programs",
+    "Create SQL databases",
+    "Train only on TPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow.js allows ML inference and training directly in browsers or Node.js.",
+  "points": 40,
+  "tags": ["tensorflowjs"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Distributed training is mainly used to:",
+  "options": [
+    "Train models across multiple devices or machines",
+    "Reduce dataset size",
+    "Compress models",
+    "Improve image quality"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Distributed training speeds up learning using multiple computing resources.",
+  "points": 40,
+  "tags": ["distributed-training"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "MirroredStrategy is used to:",
+  "options": [
+    "Distribute training across multiple GPUs on one machine",
+    "Mirror datasets",
+    "Create duplicate models",
+    "Save checkpoints"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MirroredStrategy synchronizes training across multiple GPUs.",
+  "points": 40,
+  "tags": ["mirroredstrategy"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Tensor Processing Units (TPUs) are optimized for:",
+  "options": [
+    "Machine learning workloads",
+    "Database management",
+    "Video editing",
+    "Network routing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TPUs are specialized hardware accelerators for TensorFlow and deep learning.",
+  "points": 40,
+  "tags": ["tpu"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Mixed precision training mainly uses:",
+  "options": [
+    "Both FP16 and FP32 arithmetic",
+    "Only FP64",
+    "Only integers",
+    "Only FP32"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mixed precision improves speed and memory efficiency while maintaining accuracy.",
+  "points": 40,
+  "tags": ["mixed-precision"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "XLA in TensorFlow stands for:",
+  "options": [
+    "Accelerated Linear Algebra",
+    "Extended Learning API",
+    "XML Learning Architecture",
+    "Execution Layer Accelerator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "XLA is a compiler that optimizes TensorFlow computations.",
+  "points": 40,
+  "tags": ["xla"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "The tf.image module is mainly used for:",
+  "options": [
+    "Image preprocessing and augmentation",
+    "Training optimizers",
+    "Building databases",
+    "Managing GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "tf.image provides utilities for manipulating images during ML workflows.",
+  "points": 40,
+  "tags": ["tf.image"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "tf.keras.preprocessing is commonly used to:",
+  "options": [
+    "Prepare data before training",
+    "Compile TensorFlow",
+    "Deploy models",
+    "Monitor GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "It provides utilities for preprocessing images, text, and sequences.",
+  "points": 40,
+  "tags": ["preprocessing"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Data augmentation primarily aims to:",
+  "options": [
+    "Increase training data diversity",
+    "Reduce dataset size",
+    "Decrease model accuracy",
+    "Replace validation data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Augmentation improves generalization by creating varied training samples.",
+  "points": 40,
+  "tags": ["augmentation"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Creating a custom layer typically involves inheriting from:",
+  "options": [
+    "tf.keras.layers.Layer",
+    "tf.keras.Model",
+    "tf.Tensor",
+    "tf.Dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Custom layers are implemented by subclassing tf.keras.layers.Layer.",
+  "points": 40,
+  "tags": ["custom-layer"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Custom loss functions are useful when:",
+  "options": [
+    "Standard loss functions do not fit the problem",
+    "Training is unnecessary",
+    "Saving models",
+    "Building datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Custom losses allow optimization tailored to specific objectives.",
+  "points": 40,
+  "tags": ["custom-loss"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Custom metrics are mainly used to:",
+  "options": [
+    "Measure domain-specific model performance",
+    "Replace optimizers",
+    "Create tensors",
+    "Download datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Custom metrics provide evaluation beyond built-in metrics.",
+  "points": 40,
+  "tags": ["custom-metric"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Hyperparameter tuning aims to:",
+  "options": [
+    "Find the best training configuration",
+    "Increase dataset size",
+    "Create tensors",
+    "Compress models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hyperparameter tuning searches for optimal learning rates, architectures, and other settings.",
+  "points": 40,
+  "tags": ["hyperparameter-tuning"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "KerasTuner is primarily used for:",
+  "options": [
+    "Automated hyperparameter optimization",
+    "Image segmentation",
+    "Tensor visualization",
+    "Model deployment"
+  ],
+  "correctAnswer": 0,
+  "explanation": "KerasTuner automates the search for good hyperparameter values.",
+  "points": 40,
+  "tags": ["kerastuner"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Model quantization reduces:",
+  "options": [
+    "Model size and inference latency",
+    "Training data",
+    "GPU count",
+    "Batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization converts weights to lower precision for faster inference.",
+  "points": 40,
+  "tags": ["quantization"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Model pruning primarily removes:",
+  "options": [
+    "Less important model parameters",
+    "Training datasets",
+    "Input features",
+    "Activation functions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pruning reduces model complexity by eliminating unnecessary weights.",
+  "points": 40,
+  "tags": ["pruning"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "TensorFlow Hub mainly provides:",
+  "options": [
+    "Reusable pretrained machine learning models",
+    "GPU drivers",
+    "Cloud storage",
+    "Database connectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow Hub hosts pretrained models for transfer learning and inference.",
+  "points": 40,
+  "tags": ["tensorflow-hub"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Which application commonly uses TensorFlow?",
+  "options": [
+    "Image classification",
+    "Spreadsheet formatting",
+    "Disk partitioning",
+    "Web hosting"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow is widely used in computer vision tasks.",
+  "points": 40,
+  "tags": ["computer-vision"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "TensorFlow is widely used in Natural Language Processing for:",
+  "options": [
+    "Text classification and language models",
+    "Database normalization",
+    "Printer management",
+    "Video encoding"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow supports many NLP applications including translation and sentiment analysis.",
+  "points": 40,
+  "tags": ["nlp"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "TensorFlow is frequently used in speech applications such as:",
+  "options": [
+    "Speech recognition",
+    "Spreadsheet calculations",
+    "Operating system kernels",
+    "SQL optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow powers automatic speech recognition and voice assistants.",
+  "points": 40,
+  "tags": ["speech"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "A common healthcare application of TensorFlow is:",
+  "options": [
+    "Medical image analysis",
+    "Disk defragmentation",
+    "Email filtering only",
+    "Compiler optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow assists in disease detection from medical images and healthcare analytics.",
+  "points": 40,
+  "tags": ["healthcare"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "TensorFlow is widely used in autonomous vehicles for:",
+  "options": [
+    "Object detection and perception",
+    "Managing fuel tanks",
+    "Changing gears",
+    "Vehicle registration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deep learning models help autonomous vehicles understand their surroundings.",
+  "points": 40,
+  "tags": ["autonomous-driving"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "tensorflow",
+  "difficulty": "expert",
+  "question": "Why is TensorFlow one of the most widely adopted machine learning frameworks?",
+  "options": [
+    "It supports research, production deployment, multiple hardware platforms, and scalable deep learning",
+    "It only works on CPUs",
+    "It is limited to image processing",
+    "It requires proprietary hardware for all applications"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow provides a complete ecosystem for developing, training, optimizing, and deploying machine learning models across cloud, mobile, browser, and edge devices.",
+  "points": 40,
+  "tags": ["ecosystem", "deployment", "machine-learning"],
+  "timeLimit": 75
+}
+
+]

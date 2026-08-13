@@ -1,0 +1,1508 @@
+.about-page{
+
+    max-width:1450px;
+
+    margin:0 auto;
+
+    padding:70px 30px 100px;
+}
+
+.about-header{
+
+    margin-bottom:60px;
+}
+
+.about-tag{
+
+    color:#9d4edd;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    margin-bottom:12px;
+}
+
+.about-header h1{
+
+    max-width:900px;
+
+    font-size:60px;
+
+    line-height:1.1;
+
+    margin-bottom:25px;
+}
+
+.about-subtitle{
+
+    max-width:760px;
+
+    color:#bcbcbc;
+
+    font-size:18px;
+
+    line-height:1.8;
+}
+
+.about-grid{
+
+    display:grid;
+
+    grid-template-columns:360px 1fr;
+
+    gap:40px;
+
+    align-items:start;
+}
+
+.about-sidebar{
+
+    position:sticky;
+
+    top:95px;
+}
+
+.about-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:35px;
+}
+
+@media(max-width:1100px){
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .about-sidebar{
+
+        position:relative;
+
+        top:0;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .about-page{
+
+        padding:40px 18px 80px;
+    }
+
+    .about-header h1{
+
+        font-size:42px;
+    }
+
+}
+
+.about-section{
+
+    border-radius:24px;
+
+    padding:36px;
+
+    background:rgba(255,255,255,.02);
+}
+
+.section-label{
+
+    display:inline-block;
+
+    color:#9d4edd;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    margin-bottom:18px;
+}
+
+.about-section h2{
+
+    font-size:36px;
+
+    margin-bottom:22px;
+}
+
+.about-section p{
+
+    color:#cfcfcf;
+
+    line-height:1.9;
+
+    margin-bottom:18px;
+
+    font-size:16px;
+}
+
+/* ===========================================
+   STATS
+=========================================== */
+
+.stats-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.section-heading{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:22px;
+}
+
+.stat-card{
+
+    padding:32px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(157,78,221,.22);
+}
+
+.stat-card h3{
+
+    font-size:48px;
+
+    margin-bottom:12px;
+}
+
+.stat-card h4{
+
+    margin-bottom:10px;
+
+    color:white;
+
+    font-size:18px;
+}
+
+.stat-card p{
+
+    color:#9ca3af;
+
+    font-size:14px;
+}
+
+@media(max-width:1000px){
+
+.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+/* ======================================================
+   EXPERTISE
+====================================================== */
+
+.expertise-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+}
+
+.expertise-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,minmax(0,1fr));
+
+    gap:24px;
+}
+
+.expertise-card{
+
+    padding:32px;
+
+    border-radius:22px;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.expertise-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(157,78,221,.20);
+}
+
+.expertise-icon{
+
+    width:72px;
+
+    height:72px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:36px;
+
+    border-radius:18px;
+
+    background:rgba(157,78,221,.10);
+
+    margin-bottom:22px;
+}
+
+.expertise-card h3{
+
+    font-size:24px;
+
+    margin-bottom:16px;
+}
+
+.expertise-card p{
+
+    color:#c9c9c9;
+
+    line-height:1.8;
+}
+
+@media(max-width:900px){
+
+.expertise-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+/* ======================================================
+   CURRENT FOCUS
+====================================================== */
+
+.focus-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.section-description{
+
+    max-width:760px;
+
+    color:#b7b7b7;
+
+    line-height:1.8;
+}
+
+.focus-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:18px;
+}
+
+.focus-chip{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:16px 20px;
+
+    border-radius:16px;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(157,78,221,.18);
+
+    transition:all .30s ease;
+
+    cursor:pointer;
+
+    font-weight:500;
+
+    color:#ececec;
+}
+
+.focus-chip:hover{
+
+    transform:translateY(-4px);
+
+    border-color:#9d4edd;
+
+    background:rgba(157,78,221,.12);
+
+    box-shadow:0 10px 25px rgba(157,78,221,.18);
+}
+
+.focus-dot{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:#9d4edd;
+
+    box-shadow:0 0 12px rgba(157,78,221,.8);
+}
+
+@media(max-width:768px){
+
+.focus-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:500px){
+
+.focus-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+
+/* ======================================================
+   ACHIEVEMENTS
+====================================================== */
+
+.achievement-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+}
+
+.achievement-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:24px;
+}
+
+.achievement-card{
+
+    padding:32px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.achievement-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(157,78,221,.18);
+
+    border-color:#9d4edd;
+}
+
+.achievement-icon{
+
+    width:72px;
+
+    height:72px;
+
+    margin:0 auto 20px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(157,78,221,.12);
+
+    color:#9d4edd;
+
+    font-size:30px;
+}
+
+.achievement-card h2{
+
+    font-size:44px;
+
+    margin-bottom:10px;
+}
+
+.achievement-card h3{
+
+    margin-bottom:15px;
+
+    font-size:22px;
+}
+
+.achievement-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+    font-size:15px;
+}
+
+@media(max-width:1100px){
+
+.achievement-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:700px){
+
+.achievement-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+
+
+/* ======================================================
+   FUTURE VISION
+====================================================== */
+
+.future-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:32px;
+
+    margin-bottom:60px;
+}
+
+.future-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:24px;
+}
+
+.future-card{
+
+    padding:32px;
+
+    border-radius:22px;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.future-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#9d4edd;
+
+    box-shadow:0 20px 40px rgba(157,78,221,.18);
+}
+
+.future-icon{
+
+    width:72px;
+
+    height:72px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:18px;
+
+    background:rgba(157,78,221,.12);
+
+    color:#9d4edd;
+
+    font-size:32px;
+
+    margin-bottom:22px;
+}
+
+.future-card h3{
+
+    font-size:24px;
+
+    margin-bottom:16px;
+}
+
+.future-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+}
+
+.vision-footer{
+
+    padding:50px;
+
+    border-radius:28px;
+
+    text-align:center;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:20px;
+}
+
+.vision-footer-icon{
+
+    font-size:54px;
+
+    color:#9d4edd;
+}
+
+.vision-footer h3{
+
+    font-size:34px;
+}
+
+.vision-footer p{
+
+    max-width:760px;
+
+    color:#d4d4d4;
+
+    line-height:1.9;
+}
+
+.vision-footer .primary-btn{
+
+    margin-top:10px;
+}
+
+@media(max-width:900px){
+
+.future-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.vision-footer{
+
+padding:35px 25px;
+
+}
+
+.vision-footer h3{
+
+font-size:28px;
+
+}
+
+}
+
+/* ======================================================
+   CERTIFICATIONS
+====================================================== */
+
+.certifications-section{
+
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.certifications-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:24px;
+
+}
+
+.certification-card{
+
+display:flex;
+
+gap:20px;
+
+align-items:center;
+
+padding:26px;
+
+border-radius:22px;
+
+transition:.35s;
+
+}
+
+.certification-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(157,78,221,.18);
+
+}
+
+.certification-badge{
+
+width:70px;
+
+height:70px;
+
+border-radius:18px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:32px;
+
+color:white;
+
+flex-shrink:0;
+
+}
+
+.certification-content{
+
+display:flex;
+
+flex-direction:column;
+
+gap:6px;
+
+}
+
+.certification-content h3{
+
+font-size:18px;
+
+}
+
+.certification-content h4{
+
+color:#9d4edd;
+
+}
+
+.certification-content span{
+
+color:#9ca3af;
+
+font-size:14px;
+
+}
+
+
+/* ======================================================
+   GITHUB
+====================================================== */
+
+.github-section{
+
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.github-layout{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:24px;
+
+}
+
+.github-profile-card{
+
+padding:32px;
+
+border-radius:22px;
+
+text-align:center;
+
+transition:.35s;
+
+}
+
+.github-profile-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.github-logo{
+
+font-size:56px;
+
+color:#9d4edd;
+
+margin-bottom:18px;
+
+}
+
+.featured-projects{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:24px;
+
+}
+
+.featured-card{
+
+padding:30px;
+
+border-radius:22px;
+
+transition:.35s;
+
+}
+
+.featured-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.repo-icon{
+
+font-size:28px;
+
+color:#9d4edd;
+
+margin-bottom:18px;
+
+}
+
+/* ======================================================
+   AI LAB
+====================================================== */
+
+.ai-lab-section{
+
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.lab-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:24px;
+
+}
+
+.lab-card{
+
+padding:32px;
+
+border-radius:22px;
+
+transition:.35s;
+
+}
+
+.lab-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.lab-icon{
+
+font-size:42px;
+
+color:#9d4edd;
+
+margin-bottom:22px;
+
+}
+
+.lab-card ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+.lab-card li{
+
+padding:10px 0;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+color:#d0d0d0;
+
+}
+
+.lab-card li:last-child{
+
+border-bottom:none;
+
+}
+
+
+/* ======================================================
+   EDUCATION
+====================================================== */
+
+.education-section{
+
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.education-list{
+
+display:flex;
+
+flex-direction:column;
+
+gap:24px;
+
+}
+
+.education-card{
+
+display:flex;
+
+gap:24px;
+
+padding:30px;
+
+border-radius:22px;
+
+transition:.35s;
+
+}
+
+.education-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.education-icon{
+
+width:70px;
+
+height:70px;
+
+border-radius:18px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:28px;
+
+background:rgba(157,78,221,.12);
+
+color:#9d4edd;
+
+flex-shrink:0;
+
+}
+
+.education-period{
+
+color:#9d4edd;
+
+font-weight:700;
+
+font-size:14px;
+
+}
+
+.education-content h3{
+
+margin:12px 0;
+
+font-size:24px;
+
+}
+
+.education-content h4{
+
+margin-bottom:6px;
+
+}
+
+.education-content h5{
+
+color:#bdbdbd;
+
+margin-bottom:18px;
+
+}
+/* ======================================================
+   TIMELINE
+====================================================== */
+
+.timeline-section{
+
+display:flex;
+
+flex-direction:column;
+
+gap:30px;
+
+}
+
+.timeline{
+
+display:flex;
+
+flex-direction:column;
+
+gap:28px;
+
+}
+
+.timeline-card{
+
+display:flex;
+
+gap:24px;
+
+}
+
+.timeline-left{
+
+width:70px;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.timeline-circle{
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:rgba(157,78,221,.12);
+
+border:2px solid rgba(157,78,221,.35);
+
+color:#9d4edd;
+
+font-size:24px;
+
+}
+
+.timeline-line{
+
+width:2px;
+
+flex:1;
+
+background:rgba(157,78,221,.25);
+
+margin-top:10px;
+
+}
+
+.timeline-card:last-child .timeline-line{
+
+display:none;
+
+}
+
+.timeline-content{
+
+flex:1;
+
+padding:30px;
+
+border-radius:22px;
+
+transition:.35s;
+
+}
+
+.timeline-content:hover{
+
+transform:translateY(-6px);
+
+}
+
+.timeline-year{
+
+color:#9d4edd;
+
+font-size:14px;
+
+font-weight:700;
+
+letter-spacing:2px;
+
+display:inline-block;
+
+margin-bottom:12px;
+
+}
+/* ======================================================
+   BUTTONS
+====================================================== */
+
+.primary-btn,
+.secondary-btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+padding:14px 24px;
+
+border:none;
+
+border-radius:14px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.3s;
+
+text-decoration:none;
+
+font-size:15px;
+
+}
+
+.primary-btn{
+
+background:#9d4edd;
+
+color:white;
+
+}
+
+.primary-btn:hover{
+
+background:#b15cff;
+
+transform:translateY(-3px);
+
+}
+
+.secondary-btn{
+
+background:transparent;
+
+color:white;
+
+border:1px solid rgba(157,78,221,.4);
+
+}
+
+.secondary-btn:hover{
+
+background:rgba(157,78,221,.12);
+
+transform:translateY(-3px);
+
+}
+
+
+/* ======================================================
+   GITHUB RESPONSIVE
+====================================================== */
+
+@media (max-width:900px){
+
+    .github-layout{
+
+        grid-template-columns:1fr;
+    }
+
+    .featured-projects{
+
+        grid-template-columns:1fr;
+    }
+
+}
+/* ======================================================
+   AI LAB RESPONSIVE
+====================================================== */
+
+@media (max-width:900px){
+
+    .lab-grid{
+
+        grid-template-columns:1fr;
+    }
+
+}
+/* ======================================================
+   EDUCATION RESPONSIVE
+====================================================== */
+
+@media(max-width:768px){
+
+    .education-card{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+    }
+
+    .education-icon{
+
+        margin-bottom:15px;
+    }
+
+}
+/* ======================================================
+   TIMELINE RESPONSIVE
+====================================================== */
+
+@media(max-width:768px){
+
+    .timeline-card{
+
+        flex-direction:column;
+    }
+
+    .timeline-left{
+
+        width:100%;
+
+        flex-direction:row;
+
+        justify-content:flex-start;
+
+        margin-bottom:15px;
+    }
+
+    .timeline-line{
+
+        display:none;
+    }
+
+}
+/* ======================================================
+   CARD HOVER
+====================================================== */
+
+.github-profile-card:hover,
+.featured-card:hover,
+.lab-card:hover,
+.education-card:hover,
+.timeline-content:hover,
+.certification-card:hover,
+.future-card:hover,
+.expertise-card:hover,
+.achievement-card:hover,
+.stat-card:hover{
+
+    box-shadow:0 20px 45px rgba(157,78,221,.18);
+
+    border-color:rgba(157,78,221,.35);
+
+}
+/* ======================================================
+   ICON ANIMATION
+====================================================== */
+
+.future-icon,
+.lab-icon,
+.education-icon,
+.timeline-circle,
+.certification-badge,
+.github-logo,
+.achievement-icon,
+.expertise-icon{
+
+    transition:.35s;
+}
+
+.future-card:hover .future-icon,
+.lab-card:hover .lab-icon,
+.education-card:hover .education-icon,
+.timeline-content:hover .timeline-circle,
+.certification-card:hover .certification-badge,
+.github-profile-card:hover .github-logo,
+.achievement-card:hover .achievement-icon,
+.expertise-card:hover .expertise-icon{
+
+    transform:scale(1.08) rotate(5deg);
+}
+/* ======================================================
+   IMAGE RESET
+====================================================== */
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+    height:auto;
+}
+/* ======================================================
+   GLOBAL ANIMATION
+====================================================== */
+
+button,
+a,
+.card,
+.glass,
+.stat-card,
+.expertise-card,
+.achievement-card,
+.future-card,
+.certification-card,
+.education-card,
+.lab-card,
+.github-profile-card,
+.featured-card{
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background-color .25s ease,
+        border-color .25s ease,
+        color .25s ease;
+}
+/* ======================================================
+   BUTTON IMPROVEMENTS
+====================================================== */
+
+.primary-btn,
+.secondary-btn{
+
+    width:100%;
+
+    min-height:48px;
+}
+
+.primary-btn svg,
+.secondary-btn svg{
+
+    font-size:18px;
+}
+/* ======================================================
+   COMMON SECTION SPACING
+====================================================== */
+
+.about-section,
+.stats-section,
+.expertise-section,
+.focus-section,
+.certifications-section,
+.github-section,
+.ai-lab-section,
+.education-section,
+.timeline-section,
+.achievement-section,
+.future-section{
+
+    scroll-margin-top:100px;
+}
+
+.github-profile-card h3{
+
+margin:16px 0 12px;
+
+}
+
+.featured-card h3{
+
+margin:16px 0 12px;
+
+}
+
+.featured-card p{
+
+line-height:1.8;
+
+color:#cfcfcf;
+
+}
+
+
+.lab-card h3{
+
+margin-bottom:18px;
+
+font-size:22px;
+
+}
+
+.education-content p{
+
+color:#cfcfcf;
+
+line-height:1.8;
+
+}
+.certification-content p{
+
+color:#cfcfcf;
+
+line-height:1.7;
+
+margin-top:6px;
+
+}
+.future-card h3{
+
+margin-top:10px;
+
+}
+.timeline-content h3{
+
+margin:14px 0 8px;
+
+}
+
+.timeline-content h4{
+
+margin-bottom:16px;
+
+color:#bdbdbd;
+
+font-weight:500;
+
+}
+
+

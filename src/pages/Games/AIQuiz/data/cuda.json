@@ -1,0 +1,1702 @@
+[
+{
+  "id": 1,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "What does CUDA stand for?",
+  "options": [
+    "Compute Unified Device Architecture",
+    "Central Unified Device Access",
+    "Computer Utility Data Architecture",
+    "Compute Universal Driver API"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA (Compute Unified Device Architecture) is NVIDIA's parallel computing platform and programming model for GPUs.",
+  "points": 10,
+  "tags": ["cuda","basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "CUDA was developed by which company?",
+  "options": [
+    "NVIDIA",
+    "AMD",
+    "Intel",
+    "Qualcomm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA is a proprietary parallel computing platform developed by NVIDIA for its GPUs.",
+  "points": 10,
+  "tags": ["nvidia"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "What is the primary purpose of CUDA?",
+  "options": [
+    "Enable general-purpose parallel computing on NVIDIA GPUs",
+    "Increase CPU clock speed",
+    "Create operating systems",
+    "Develop databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA allows developers to use NVIDIA GPUs for scientific computing, AI, simulations, and other parallel workloads.",
+  "points": 10,
+  "tags": ["gpu-computing"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Compared to a CPU, a GPU is optimized for:",
+  "options": [
+    "Massively parallel computations",
+    "Sequential execution only",
+    "Running operating systems",
+    "Managing file systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPUs contain thousands of cores designed to execute many operations simultaneously.",
+  "points": 10,
+  "tags": ["gpu","cpu"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Which hardware is required to run CUDA applications?",
+  "options": [
+    "An NVIDIA CUDA-capable GPU",
+    "Any AMD GPU",
+    "Only a CPU",
+    "A TPU"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA applications require a compatible NVIDIA GPU that supports CUDA.",
+  "points": 10,
+  "tags": ["hardware"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "What is the CUDA Toolkit?",
+  "options": [
+    "A collection of compilers, libraries, and development tools for CUDA programming",
+    "A GPU monitoring application",
+    "An operating system",
+    "A graphics editor"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The CUDA Toolkit includes the CUDA compiler (nvcc), libraries, debugging tools, and runtime components.",
+  "points": 10,
+  "tags": ["cuda-toolkit"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Which compiler is commonly used to compile CUDA C/C++ programs?",
+  "options": [
+    "nvcc",
+    "gcc",
+    "clang",
+    "javac"
+  ],
+  "correctAnswer": 0,
+  "explanation": "nvcc is NVIDIA's CUDA compiler that compiles both host and device code.",
+  "points": 10,
+  "tags": ["nvcc","compiler"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "In CUDA terminology, the CPU is called the:",
+  "options": [
+    "Host",
+    "Kernel",
+    "Device",
+    "Grid"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The host refers to the CPU, while the device refers to the GPU.",
+  "points": 10,
+  "tags": ["host"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "In CUDA terminology, the GPU is called the:",
+  "options": [
+    "Device",
+    "Host",
+    "Kernel",
+    "Thread"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The device is the NVIDIA GPU that executes CUDA kernels.",
+  "points": 10,
+  "tags": ["device"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "A CUDA kernel is:",
+  "options": [
+    "A function executed on the GPU",
+    "The operating system kernel",
+    "A CPU thread",
+    "A GPU driver"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A CUDA kernel is a function launched by the CPU and executed in parallel by many GPU threads.",
+  "points": 10,
+  "tags": ["kernel"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "What is a CUDA thread?",
+  "options": [
+    "The smallest execution unit on the GPU",
+    "A CPU process",
+    "A CUDA library",
+    "A GPU memory block"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each CUDA thread executes the kernel independently on different portions of the data.",
+  "points": 10,
+  "tags": ["thread"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "A collection of CUDA threads is called a:",
+  "options": [
+    "Thread Block",
+    "Register",
+    "Kernel",
+    "Warp Scheduler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Threads are organized into thread blocks, which can cooperate using shared memory and synchronization.",
+  "points": 10,
+  "tags": ["thread-block"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "A collection of CUDA thread blocks forms a:",
+  "options": [
+    "Grid",
+    "Warp",
+    "Streaming Multiprocessor",
+    "Memory Pool"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A kernel launch creates a grid that contains one or more thread blocks executed across the GPU.",
+  "points": 10,
+  "tags": ["grid","execution-model"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "What is a CUDA Core?",
+  "options": [
+    "A processing unit that executes arithmetic and logical operations on the GPU",
+    "A CPU cache",
+    "A memory allocation unit",
+    "A CUDA compiler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA cores perform mathematical and logical operations required by GPU threads.",
+  "points": 10,
+  "tags": ["cuda-core","gpu"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "What is a Streaming Multiprocessor (SM)?",
+  "options": [
+    "A hardware unit that executes groups of CUDA threads",
+    "A GPU cooling component",
+    "A type of CUDA library",
+    "A host CPU core"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An SM contains CUDA cores, registers, shared memory, and warp schedulers that execute thread blocks.",
+  "points": 10,
+  "tags": ["sm","streaming-multiprocessor"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "What is a warp in CUDA?",
+  "options": [
+    "A group of 32 threads executed together",
+    "A collection of thread blocks",
+    "A type of GPU memory",
+    "A CUDA compiler option"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Threads within a warp execute the same instruction simultaneously using the SIMT execution model.",
+  "points": 10,
+  "tags": ["warp"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "How many threads are typically contained in a CUDA warp?",
+  "options": [
+    "32",
+    "16",
+    "64",
+    "128"
+  ],
+  "correctAnswer": 0,
+  "explanation": "On modern NVIDIA GPUs, a warp consists of 32 threads.",
+  "points": 10,
+  "tags": ["warp-size"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Registers in CUDA are:",
+  "options": [
+    "The fastest memory available to individual GPU threads",
+    "Shared by all GPUs",
+    "Stored on the CPU",
+    "Located in system RAM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Registers provide the lowest-latency storage for variables used by individual threads.",
+  "points": 10,
+  "tags": ["registers"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Which CUDA memory type is the largest but has relatively high latency?",
+  "options": [
+    "Global Memory",
+    "Register Memory",
+    "Shared Memory",
+    "Constant Memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Global memory is accessible by all threads but is slower than registers and shared memory.",
+  "points": 10,
+  "tags": ["global-memory"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Shared Memory is:",
+  "options": [
+    "Fast on-chip memory shared by threads within the same block",
+    "Memory shared between CPUs",
+    "Disk storage",
+    "System RAM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Shared memory enables fast communication and data sharing among threads in the same block.",
+  "points": 10,
+  "tags": ["shared-memory"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Local Memory in CUDA is primarily used when:",
+  "options": [
+    "A thread requires more storage than available registers",
+    "Sharing data between thread blocks",
+    "Storing operating system files",
+    "Communicating with the CPU"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Local memory is private to each thread but resides in device memory, making it slower than registers.",
+  "points": 10,
+  "tags": ["local-memory"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Constant Memory is best suited for:",
+  "options": [
+    "Read-only values that remain unchanged during kernel execution",
+    "Large image datasets",
+    "Temporary thread variables",
+    "Video frame buffers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Constant memory is cached and optimized when many threads read the same values.",
+  "points": 10,
+  "tags": ["constant-memory"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Texture Memory is primarily optimized for:",
+  "options": [
+    "Spatially localized read-only memory access",
+    "CPU execution",
+    "Kernel compilation",
+    "Dynamic memory allocation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Texture memory uses specialized caches that improve performance for image and texture processing workloads.",
+  "points": 10,
+  "tags": ["texture-memory"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Which CUDA API function can retrieve GPU hardware properties?",
+  "options": [
+    "cudaGetDeviceProperties()",
+    "cudaMalloc()",
+    "cudaMemcpy()",
+    "cudaFree()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cudaGetDeviceProperties() returns information such as compute capability, memory size, and number of SMs.",
+  "points": 10,
+  "tags": ["device-properties","runtime-api"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "cuda",
+  "difficulty": "easy",
+  "question": "Which API is most commonly used by developers to write CUDA applications?",
+  "options": [
+    "CUDA Runtime API",
+    "DirectX API",
+    "OpenGL API",
+    "POSIX API"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The CUDA Runtime API provides high-level functions for memory management, kernel launches, and device control.",
+  "points": 10,
+  "tags": ["runtime-api","cuda"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which built-in CUDA variable identifies a thread's index within its block?",
+  "options": [
+    "threadIdx",
+    "blockIdx",
+    "gridDim",
+    "blockDim"
+  ],
+  "correctAnswer": 0,
+  "explanation": "threadIdx contains the unique index of a thread inside its thread block.",
+  "points": 20,
+  "tags": ["threadIdx","indexing"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which built-in CUDA variable identifies the current thread block?",
+  "options": [
+    "blockIdx",
+    "threadIdx",
+    "gridDim",
+    "warpSize"
+  ],
+  "correctAnswer": 0,
+  "explanation": "blockIdx specifies the index of the current thread block within the grid.",
+  "points": 20,
+  "tags": ["blockIdx","indexing"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "What does blockDim represent in CUDA?",
+  "options": [
+    "The dimensions of a thread block",
+    "The dimensions of the GPU",
+    "The amount of global memory",
+    "The number of CUDA cores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "blockDim specifies the number of threads in each dimension of a thread block.",
+  "points": 20,
+  "tags": ["blockDim"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "What does gridDim represent?",
+  "options": [
+    "The dimensions of the grid in thread blocks",
+    "The GPU memory size",
+    "The number of warps",
+    "The CUDA version"
+  ],
+  "correctAnswer": 0,
+  "explanation": "gridDim indicates how many thread blocks exist in each grid dimension.",
+  "points": 20,
+  "tags": ["gridDim"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which expression correctly computes a unique global thread index for a 1D kernel?",
+  "options": [
+    "blockIdx.x * blockDim.x + threadIdx.x",
+    "threadIdx.x + gridDim.x",
+    "blockDim.x + gridDim.x",
+    "threadIdx.x * blockIdx.x"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The global index combines the block index and the thread's position within the block.",
+  "points": 20,
+  "tags": ["global-index","thread-index"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which CUDA Runtime API function allocates memory on the GPU?",
+  "options": [
+    "cudaMalloc()",
+    "malloc()",
+    "cudaMemcpy()",
+    "cudaFree()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cudaMalloc() allocates memory in the GPU's device memory.",
+  "points": 20,
+  "tags": ["cudaMalloc","memory"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which function copies data between host and device memory?",
+  "options": [
+    "cudaMemcpy()",
+    "cudaMalloc()",
+    "cudaFree()",
+    "cudaDeviceReset()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cudaMemcpy() transfers data between CPU memory and GPU memory or between GPU memory regions.",
+  "points": 20,
+  "tags": ["cudaMemcpy"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which CUDA function releases GPU memory allocated with cudaMalloc()?",
+  "options": [
+    "cudaFree()",
+    "free()",
+    "delete",
+    "cudaMemcpy()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cudaFree() deallocates memory previously allocated on the GPU.",
+  "points": 20,
+  "tags": ["cudaFree"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "What is CUDA Unified Memory?",
+  "options": [
+    "Memory accessible by both the CPU and GPU through a unified address space",
+    "Memory shared between GPUs only",
+    "CPU cache memory",
+    "A replacement for registers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Unified Memory simplifies programming by allowing the CPU and GPU to access the same managed memory.",
+  "points": 20,
+  "tags": ["unified-memory"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of CUDA Streams?",
+  "options": [
+    "Execute operations concurrently and overlap computation with data transfers",
+    "Store image data",
+    "Compile kernels",
+    "Manage GPU temperature"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA Streams allow independent sequences of operations to run concurrently when hardware permits.",
+  "points": 20,
+  "tags": ["streams","concurrency"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "CUDA Events are mainly used for:",
+  "options": [
+    "Measuring execution time and synchronizing GPU operations",
+    "Allocating GPU memory",
+    "Launching kernels",
+    "Creating CUDA contexts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA Events provide precise GPU timing and synchronization capabilities.",
+  "points": 20,
+  "tags": ["events","profiling"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Asynchronous execution in CUDA allows:",
+  "options": [
+    "CPU execution and GPU operations to overlap",
+    "Only sequential execution",
+    "The GPU to stop CPU execution",
+    "Execution without memory allocation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Asynchronous APIs allow the CPU to continue working while GPU operations execute in parallel.",
+  "points": 20,
+  "tags": ["async","parallelism"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Pinned (page-locked) host memory is primarily used to:",
+  "options": [
+    "Increase the speed of host-to-device and device-to-host memory transfers",
+    "Reduce GPU core count",
+    "Store CUDA kernels",
+    "Replace device memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pinned memory cannot be paged out by the operating system, enabling faster DMA transfers between the CPU and GPU.",
+  "points": 20,
+  "tags": ["pinned-memory","dma","performance"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Why is shared memory often used in CUDA kernels?",
+  "options": [
+    "To reduce accesses to slower global memory",
+    "To increase CPU cache size",
+    "To replace registers",
+    "To store operating system files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Shared memory is fast on-chip memory that allows threads in a block to reuse data efficiently.",
+  "points": 20,
+  "tags": ["shared-memory","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "What is the purpose of __syncthreads() in CUDA?",
+  "options": [
+    "Synchronize all threads within the same block",
+    "Synchronize all GPU kernels",
+    "Synchronize all CPUs",
+    "Allocate shared memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "__syncthreads() acts as a barrier, ensuring all threads in a block reach the same point before continuing.",
+  "points": 20,
+  "tags": ["syncthreads","synchronization"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Atomic operations are primarily used to:",
+  "options": [
+    "Prevent race conditions when multiple threads update shared data",
+    "Increase GPU memory",
+    "Compile CUDA kernels",
+    "Reduce register usage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Atomic operations ensure that read-modify-write operations occur safely without interference from other threads.",
+  "points": 20,
+  "tags": ["atomic","race-condition"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Warp divergence occurs when:",
+  "options": [
+    "Threads in the same warp follow different execution paths",
+    "Multiple GPUs communicate",
+    "The GPU runs out of memory",
+    "The CPU launches multiple kernels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Branch divergence forces different groups of threads within a warp to execute serially, reducing performance.",
+  "points": 20,
+  "tags": ["warp","divergence"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "What is memory coalescing in CUDA?",
+  "options": [
+    "Combining nearby memory accesses into fewer transactions",
+    "Compressing GPU memory",
+    "Synchronizing thread blocks",
+    "Reducing register usage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Coalesced accesses improve bandwidth by allowing adjacent threads to access contiguous memory efficiently.",
+  "points": 20,
+  "tags": ["coalescing","memory"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "In CUDA, occupancy refers to:",
+  "options": [
+    "The ratio of active warps to the maximum supported warps on an SM",
+    "The percentage of GPU memory used",
+    "The number of CPU cores available",
+    "The GPU temperature"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher occupancy often helps hide memory latency, although maximum occupancy does not always mean maximum performance.",
+  "points": 20,
+  "tags": ["occupancy","sm"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which CUDA Runtime API function is commonly used to check for kernel launch errors?",
+  "options": [
+    "cudaGetLastError()",
+    "cudaMalloc()",
+    "cudaMemcpy()",
+    "cudaSetDevice()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cudaGetLastError() returns the last error produced by the CUDA Runtime API, including kernel launch failures.",
+  "points": 20,
+  "tags": ["error-handling","cudaGetLastError"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Which CUDA function waits until all previously launched GPU work has completed?",
+  "options": [
+    "cudaDeviceSynchronize()",
+    "cudaMemcpy()",
+    "cudaMalloc()",
+    "cudaGetDeviceCount()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cudaDeviceSynchronize() blocks the CPU until all preceding CUDA operations have finished.",
+  "points": 20,
+  "tags": ["synchronization","device"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of CUDA profiling tools?",
+  "options": [
+    "Measure and analyze GPU performance to identify bottlenecks",
+    "Install GPU drivers",
+    "Increase GPU memory",
+    "Create CUDA kernels automatically"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Profiling tools help developers understand kernel execution time, memory usage, and resource utilization.",
+  "points": 20,
+  "tags": ["profiling","performance"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "NVIDIA Nsight Systems is mainly used for:",
+  "options": [
+    "System-wide performance analysis and timeline profiling",
+    "Editing CUDA source code",
+    "Managing GPU drivers",
+    "Training neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Nsight Systems provides a timeline view of CPU, GPU, memory, and application interactions.",
+  "points": 20,
+  "tags": ["nsight-systems","profiling"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "Compared to the CUDA Driver API, the CUDA Runtime API is generally:",
+  "options": [
+    "Higher-level and easier to use",
+    "Slower because it cannot launch kernels",
+    "Only available on Linux",
+    "Limited to graphics programming"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Runtime API simplifies common CUDA programming tasks, while the Driver API provides lower-level control.",
+  "points": 20,
+  "tags": ["runtime-api","driver-api"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "cuda",
+  "difficulty": "medium",
+  "question": "When launching a CUDA kernel, the execution configuration <<<grid, block>>> specifies:",
+  "options": [
+    "The number of thread blocks and the number of threads per block",
+    "The GPU memory size and cache size",
+    "The CUDA version and driver version",
+    "The CPU threads and GPU cores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The execution configuration determines how many thread blocks are created and how many threads each block contains.",
+  "points": 20,
+  "tags": ["kernel-launch","execution-configuration"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Which CUDA memory hierarchy is ordered from fastest to slowest?",
+  "options": [
+    "Registers → Shared Memory → L1 Cache → L2 Cache → Global Memory",
+    "Global Memory → Registers → Shared Memory → L1 Cache → L2 Cache",
+    "Shared Memory → Registers → Global Memory → L2 Cache → L1 Cache",
+    "L2 Cache → Registers → Global Memory → Shared Memory → L1 Cache"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Registers provide the lowest latency, followed by shared memory and caches, while global memory has the highest latency.",
+  "points": 30,
+  "tags": ["memory-hierarchy","performance"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of the L1 cache in CUDA-enabled GPUs?",
+  "options": [
+    "Reduce latency for frequently accessed data",
+    "Store CUDA kernels permanently",
+    "Replace shared memory",
+    "Increase CPU performance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "L1 cache stores recently accessed data close to the SM, reducing memory access latency.",
+  "points": 30,
+  "tags": ["l1-cache","cache"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is the primary role of the L2 cache in CUDA GPUs?",
+  "options": [
+    "Provide a cache shared across all Streaming Multiprocessors",
+    "Store thread-local variables",
+    "Replace global memory",
+    "Execute CUDA kernels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The L2 cache is shared by all SMs and reduces repeated accesses to slower global memory.",
+  "points": 30,
+  "tags": ["l2-cache","gpu"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Register spilling occurs when:",
+  "options": [
+    "A kernel requires more registers than available, causing variables to be stored in local memory",
+    "GPU memory is completely full",
+    "The CUDA compiler crashes",
+    "Shared memory overflows"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Register spilling increases memory latency because spilled variables are placed in local memory.",
+  "points": 30,
+  "tags": ["register-spilling","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Shared memory bank conflicts occur when:",
+  "options": [
+    "Multiple threads access different addresses mapped to the same memory bank simultaneously",
+    "Two GPUs share the same memory",
+    "Registers are exhausted",
+    "Global memory is full"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bank conflicts serialize memory accesses, reducing shared memory performance.",
+  "points": 30,
+  "tags": ["bank-conflicts","shared-memory"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Which factor most directly influences CUDA occupancy?",
+  "options": [
+    "Registers, shared memory usage, and threads per block",
+    "CPU clock speed",
+    "SSD bandwidth",
+    "Monitor refresh rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Occupancy depends on available hardware resources such as registers, shared memory, and block size.",
+  "points": 30,
+  "tags": ["occupancy","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is the purpose of loop unrolling in CUDA optimization?",
+  "options": [
+    "Reduce loop overhead and improve instruction throughput",
+    "Decrease GPU memory",
+    "Reduce thread count",
+    "Increase kernel launch time"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Loop unrolling reduces branching overhead and can expose more opportunities for compiler optimization.",
+  "points": 30,
+  "tags": ["loop-unrolling","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Instruction-Level Parallelism (ILP) refers to:",
+  "options": [
+    "Executing independent instructions simultaneously within a thread",
+    "Running multiple GPUs together",
+    "Executing multiple kernels sequentially",
+    "Increasing CUDA core count"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ILP allows the GPU to overlap independent instructions, improving execution efficiency.",
+  "points": 30,
+  "tags": ["ilp","instruction-level-parallelism"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Tensor Cores are specialized hardware primarily designed for:",
+  "options": [
+    "Accelerating matrix multiplication and deep learning workloads",
+    "Rendering graphics only",
+    "Increasing CPU performance",
+    "Managing GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensor Cores perform high-throughput matrix operations essential for AI and scientific computing.",
+  "points": 30,
+  "tags": ["tensor-cores","deep-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "FP16 (Half Precision) uses how many bits to represent a floating-point number?",
+  "options": [
+    "16 bits",
+    "8 bits",
+    "32 bits",
+    "64 bits"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FP16 uses 16 bits, reducing memory usage and improving throughput on supported hardware.",
+  "points": 30,
+  "tags": ["fp16","mixed-precision"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is BF16 (BFloat16) primarily designed for?",
+  "options": [
+    "Efficient deep learning training with a larger exponent range than FP16",
+    "Graphics rendering",
+    "Integer arithmetic",
+    "Video compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BF16 keeps the same exponent size as FP32 while reducing precision, making it effective for AI training.",
+  "points": 30,
+  "tags": ["bf16","deep-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "TF32 (TensorFloat-32) is mainly used to:",
+  "options": [
+    "Accelerate AI workloads on NVIDIA Tensor Cores while maintaining high accuracy",
+    "Replace integer arithmetic",
+    "Compress CUDA binaries",
+    "Improve CPU cache performance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TF32 provides a balance between speed and numerical accuracy for deep learning workloads on supported GPUs.",
+  "points": 30,
+  "tags": ["tf32","tensor-cores"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is Automatic Mixed Precision (AMP)?",
+  "options": [
+    "A technique that automatically combines multiple numeric precisions to improve AI training performance",
+    "A method for increasing GPU memory",
+    "A CUDA compiler optimization for CPU code",
+    "A replacement for Tensor Cores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AMP automatically uses lower precision where appropriate while maintaining numerical stability, improving training speed and reducing memory usage.",
+  "points": 30,
+  "tags": ["amp","mixed-precision","training"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is cuBLAS primarily used for?",
+  "options": [
+    "High-performance GPU-accelerated Basic Linear Algebra operations",
+    "Image rendering",
+    "CUDA kernel compilation",
+    "GPU temperature monitoring"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cuBLAS is NVIDIA's optimized library for dense linear algebra operations such as matrix multiplication.",
+  "points": 30,
+  "tags": ["cuBLAS","linear-algebra"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "The primary purpose of cuDNN is to:",
+  "options": [
+    "Accelerate deep learning operations on NVIDIA GPUs",
+    "Manage CUDA drivers",
+    "Create CUDA kernels",
+    "Compress neural network models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cuDNN provides highly optimized implementations of convolutions, pooling, normalization, and activation functions for deep learning.",
+  "points": 30,
+  "tags": ["cuDNN","deep-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "NCCL (NVIDIA Collective Communications Library) is mainly used for:",
+  "options": [
+    "High-speed communication between multiple GPUs",
+    "Rendering graphics",
+    "Compiling CUDA programs",
+    "Managing GPU memory allocation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NCCL provides optimized collective communication operations such as AllReduce, Broadcast, and Reduce for multi-GPU training.",
+  "points": 30,
+  "tags": ["NCCL","multi-gpu"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is the main benefit of CUDA Graphs?",
+  "options": [
+    "Reduce kernel launch overhead by capturing and replaying execution graphs",
+    "Visualize GPU hardware layout",
+    "Increase GPU memory capacity",
+    "Replace CUDA Streams"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA Graphs improve performance for repetitive workloads by reducing CPU scheduling overhead.",
+  "points": 30,
+  "tags": ["cuda-graphs","performance"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "A major advantage of using multiple GPUs is:",
+  "options": [
+    "Higher computational throughput by distributing workloads",
+    "Lower CPU clock speed",
+    "Elimination of device memory",
+    "Automatic reduction of model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multi-GPU computing enables larger models and datasets to be processed faster through parallel execution.",
+  "points": 30,
+  "tags": ["multi-gpu","parallel-computing"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Peer-to-Peer (P2P) memory access allows:",
+  "options": [
+    "One GPU to directly access another GPU's memory without routing through the CPU",
+    "Multiple CPUs to share GPU registers",
+    "Sharing memory between unrelated processes only",
+    "Replacing global memory with shared memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "P2P memory access reduces latency and improves bandwidth between compatible GPUs.",
+  "points": 30,
+  "tags": ["p2p","gpu-memory"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "NVLink is primarily designed to:",
+  "options": [
+    "Provide high-bandwidth communication between GPUs and supported CPUs",
+    "Replace PCI Express storage",
+    "Increase GPU clock speed",
+    "Compile CUDA kernels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NVLink offers significantly higher bandwidth than standard PCIe connections for supported hardware.",
+  "points": 30,
+  "tags": ["nvlink","interconnect"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "GPUDirect technology enables:",
+  "options": [
+    "Direct data transfers between GPUs and supported devices with minimal CPU involvement",
+    "Automatic CUDA code generation",
+    "GPU overclocking",
+    "Dynamic kernel compilation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPUDirect reduces data transfer overhead by allowing supported devices to communicate directly with GPU memory.",
+  "points": 30,
+  "tags": ["gpudirect","data-transfer"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is Unified Virtual Addressing (UVA)?",
+  "options": [
+    "A single virtual address space shared by host and supported device memory",
+    "A replacement for Unified Memory",
+    "A CUDA compiler optimization",
+    "A GPU scheduling algorithm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "UVA simplifies pointer management by providing a unified virtual address space across compatible CPUs and GPUs.",
+  "points": 30,
+  "tags": ["uva","memory"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "Kernel fusion is an optimization technique that:",
+  "options": [
+    "Combines multiple kernels into a single kernel to reduce memory traffic and launch overhead",
+    "Splits a kernel into smaller kernels",
+    "Increases GPU memory size",
+    "Reduces the number of CUDA cores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kernel fusion minimizes intermediate memory accesses and reduces kernel launch overhead.",
+  "points": 30,
+  "tags": ["kernel-fusion","optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "A persistent kernel is a CUDA kernel that:",
+  "options": [
+    "Remains running for an extended period and processes multiple tasks without repeated launches",
+    "Cannot access shared memory",
+    "Runs only on the CPU",
+    "Automatically recompiles itself"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Persistent kernels reduce launch overhead by keeping GPU threads active to process incoming work.",
+  "points": 30,
+  "tags": ["persistent-kernel","gpu"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "cuda",
+  "difficulty": "hard",
+  "question": "What is CUDA Multi-Process Service (MPS)?",
+  "options": [
+    "A service that allows multiple CPU processes to efficiently share a single GPU",
+    "A GPU memory allocator",
+    "A CUDA compiler",
+    "A graphics rendering engine"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA MPS improves GPU utilization by enabling multiple processes to concurrently use the same GPU with reduced scheduling overhead.",
+  "points": 30,
+  "tags": ["mps","multi-process","gpu-sharing"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "What is TensorRT primarily used for?",
+  "options": [
+    "Optimizing and accelerating deep learning inference on NVIDIA GPUs",
+    "Training neural networks",
+    "Managing CUDA drivers",
+    "Rendering 3D graphics"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT optimizes trained neural networks through layer fusion, precision calibration, and kernel selection for high-performance inference.",
+  "points": 40,
+  "tags": ["tensorrt","inference"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "NVIDIA Triton Inference Server is designed to:",
+  "options": [
+    "Serve AI models efficiently in production",
+    "Compile CUDA kernels",
+    "Monitor GPU temperatures",
+    "Create CUDA drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Triton provides scalable model serving with support for multiple frameworks, batching, and concurrent inference.",
+  "points": 40,
+  "tags": ["triton","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "CUDA-X is best described as:",
+  "options": [
+    "A collection of GPU-accelerated libraries, tools, and SDKs",
+    "A GPU architecture",
+    "A CUDA compiler",
+    "A graphics rendering engine"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA-X includes libraries such as cuBLAS, cuDNN, NCCL, TensorRT, RAPIDS, and many others for accelerated computing.",
+  "points": 40,
+  "tags": ["cuda-x","libraries"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "What is NVIDIA Nsight Compute primarily used for?",
+  "options": [
+    "Detailed CUDA kernel performance analysis",
+    "Installing GPU drivers",
+    "Editing CUDA source code",
+    "Managing Docker containers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Nsight Compute provides low-level metrics such as occupancy, memory throughput, warp efficiency, and instruction statistics.",
+  "points": 40,
+  "tags": ["nsight-compute","profiling"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "PTX (Parallel Thread Execution) is:",
+  "options": [
+    "An intermediate virtual instruction set used by CUDA",
+    "A GPU memory type",
+    "A hardware scheduler",
+    "A deep learning framework"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PTX is an intermediate representation generated by the CUDA compiler before being translated into GPU-specific machine code.",
+  "points": 40,
+  "tags": ["ptx","compiler"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "SASS refers to:",
+  "options": [
+    "The GPU-specific machine code executed by NVIDIA hardware",
+    "A CUDA profiling tool",
+    "Shared memory optimization",
+    "A CUDA runtime library"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SASS is the final machine code generated for a specific NVIDIA GPU architecture.",
+  "points": 40,
+  "tags": ["sass","machine-code"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "Compute Capability identifies:",
+  "options": [
+    "The hardware feature set supported by a CUDA-capable GPU",
+    "The GPU clock speed",
+    "The CUDA Toolkit version",
+    "The PCIe generation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Compute Capability defines the architectural features and instructions available on a GPU.",
+  "points": 40,
+  "tags": ["compute-capability","gpu"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "What is Just-In-Time (JIT) compilation in CUDA?",
+  "options": [
+    "Compiling PTX into GPU-specific machine code when the application runs",
+    "Compiling only CPU code",
+    "Converting CUDA to Python",
+    "Compressing CUDA binaries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "JIT compilation allows PTX code to be optimized for the target GPU architecture at runtime.",
+  "points": 40,
+  "tags": ["jit","ptx"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "Dynamic Parallelism allows:",
+  "options": [
+    "GPU kernels to launch additional GPU kernels without CPU involvement",
+    "Multiple CPUs to launch the same kernel",
+    "Automatic GPU overclocking",
+    "Sharing registers between GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dynamic Parallelism enables kernels running on the GPU to launch child kernels directly.",
+  "points": 40,
+  "tags": ["dynamic-parallelism"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "CUDA Cooperative Groups provide:",
+  "options": [
+    "Flexible synchronization and cooperation among groups of CUDA threads",
+    "Automatic memory allocation",
+    "GPU virtualization",
+    "Kernel compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cooperative Groups extend CUDA synchronization beyond traditional thread-block boundaries where supported.",
+  "points": 40,
+  "tags": ["cooperative-groups","synchronization"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "CUDA-aware MPI enables:",
+  "options": [
+    "Direct communication using GPU memory without unnecessary CPU copies",
+    "GPU driver installation",
+    "CUDA kernel debugging",
+    "Memory compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA-aware MPI allows MPI implementations to transmit GPU memory directly, reducing communication overhead.",
+  "points": 40,
+  "tags": ["mpi","distributed-training"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "What is NVIDIA Multi-Instance GPU (MIG)?",
+  "options": [
+    "A technology that partitions a compatible GPU into isolated GPU instances",
+    "A multi-monitor feature",
+    "A GPU cooling technology",
+    "A CUDA compiler optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MIG enables compatible data-center GPUs to be divided into multiple isolated GPU instances for improved resource sharing.",
+  "points": 40,
+  "tags": ["mig","virtualization"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "NVTX (NVIDIA Tools Extension) is primarily used to:",
+  "options": [
+    "Annotate code regions for profiling and performance analysis",
+    "Optimize CUDA kernels automatically",
+    "Allocate GPU memory",
+    "Manage CUDA Streams"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NVTX markers help visualization tools such as Nsight Systems identify application phases and performance hotspots.",
+  "points": 40,
+  "tags": ["nvtx","profiling"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "What is FlashAttention primarily designed to optimize?",
+  "options": [
+    "Transformer attention computation using GPU memory efficiently",
+    "Image compression",
+    "GPU cooling",
+    "CUDA kernel compilation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FlashAttention reduces memory access and improves throughput by computing attention in a memory-efficient manner.",
+  "points": 40,
+  "tags": ["flashattention","transformers","optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "What is the primary benefit of fused kernels?",
+  "options": [
+    "Reducing kernel launch overhead and intermediate memory transfers",
+    "Increasing GPU temperature",
+    "Reducing CUDA core count",
+    "Replacing Tensor Cores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kernel fusion combines multiple operations into one kernel, reducing global memory traffic and improving performance.",
+  "points": 40,
+  "tags": ["kernel-fusion","optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "In PyTorch, which command checks whether CUDA is available?",
+  "options": [
+    "torch.cuda.is_available()",
+    "torch.gpu.available()",
+    "cuda.isAvailable()",
+    "torch.checkCUDA()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.cuda.is_available() returns True if PyTorch detects a CUDA-capable GPU with compatible drivers.",
+  "points": 40,
+  "tags": ["pytorch","cuda"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "In TensorFlow, which module is commonly used to list available GPUs?",
+  "options": [
+    "tf.config.list_physical_devices('GPU')",
+    "tf.cuda.devices()",
+    "tf.gpu.list()",
+    "tf.device.list()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow provides tf.config.list_physical_devices('GPU') to detect available GPU devices.",
+  "points": 40,
+  "tags": ["tensorflow","gpu"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "What is cuGraph primarily used for?",
+  "options": [
+    "GPU-accelerated graph analytics and graph algorithms",
+    "Rendering 3D graphics",
+    "CUDA kernel debugging",
+    "Video processing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cuGraph is part of the RAPIDS ecosystem and accelerates graph analytics such as PageRank, BFS, and shortest paths.",
+  "points": 40,
+  "tags": ["cugraph","rapids"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "RAPIDS is best described as:",
+  "options": [
+    "An open-source GPU-accelerated data science and machine learning ecosystem",
+    "A GPU driver package",
+    "A graphics rendering engine",
+    "A CUDA compiler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAPIDS provides GPU-accelerated libraries for data processing, machine learning, graph analytics, and more.",
+  "points": 40,
+  "tags": ["rapids","data-science"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "NVIDIA DALI is primarily designed to:",
+  "options": [
+    "Accelerate data loading and preprocessing pipelines for deep learning",
+    "Compile CUDA programs",
+    "Optimize GPU drivers",
+    "Perform GPU virtualization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DALI moves image decoding, augmentation, and preprocessing to the GPU, reducing CPU bottlenecks.",
+  "points": 40,
+  "tags": ["dali","data-pipeline"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "GPUDirect Storage (GDS) enables:",
+  "options": [
+    "Direct data transfer between storage devices and GPU memory",
+    "Automatic GPU overclocking",
+    "CUDA kernel optimization",
+    "GPU virtualization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPUDirect Storage bypasses unnecessary CPU memory copies, increasing throughput for data-intensive workloads.",
+  "points": 40,
+  "tags": ["gpudirect-storage","storage"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "Which practice generally leads to better CUDA application performance?",
+  "options": [
+    "Maximize memory coalescing and minimize unnecessary host-device transfers",
+    "Use the smallest possible thread blocks for every kernel",
+    "Always disable shared memory",
+    "Synchronize after every CUDA API call"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Efficient memory access patterns and minimizing PCIe transfers are key CUDA optimization techniques.",
+  "points": 40,
+  "tags": ["best-practices","optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "In a modern AI training pipeline, CUDA primarily provides:",
+  "options": [
+    "GPU acceleration for tensor computations and deep learning operations",
+    "Database management",
+    "Network routing",
+    "Operating system services"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA accelerates matrix operations, convolutions, attention mechanisms, and other compute-intensive AI workloads.",
+  "points": 40,
+  "tags": ["training","deep-learning","cuda"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "A production AI inference system using CUDA commonly includes:",
+  "options": [
+    "TensorRT optimization, Triton Inference Server, monitoring, and scalable deployment",
+    "Only a CUDA compiler",
+    "Only CPU execution",
+    "Only image preprocessing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production inference typically combines optimized models, inference servers, monitoring, and scalable infrastructure.",
+  "points": 40,
+  "tags": ["deployment","tensorrt","triton"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "cuda",
+  "difficulty": "expert",
+  "question": "Which sequence best represents a modern CUDA-powered AI workflow?",
+  "options": [
+    "Data Preparation → GPU Preprocessing (DALI) → Model Training (CUDA/cuDNN) → Optimization (TensorRT) → Deployment (Triton) → Monitoring",
+    "Collect Data → Compile CUDA → Shut Down GPU",
+    "Write CUDA Code → Install Driver → Ignore Evaluation",
+    "CPU Training → GPU Rendering → Database Backup"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A complete CUDA AI workflow includes efficient data pipelines, GPU-accelerated training, inference optimization, deployment, and production monitoring.",
+  "points": 40,
+  "tags": ["cuda","ai-workflow","deployment","production"],
+  "timeLimit": 75
+}
+]

@@ -1,0 +1,1702 @@
+[
+{
+  "id": 1,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What is AI Ethics?",
+  "options": [
+    "The study of responsible development and use of artificial intelligence",
+    "A programming language",
+    "A machine learning algorithm",
+    "A computer operating system"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI Ethics focuses on ensuring AI systems are developed and used responsibly, fairly, safely, and transparently.",
+  "points": 10,
+  "tags": ["ethics","introduction"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Why is AI Ethics important?",
+  "options": [
+    "To ensure AI benefits society while reducing harm",
+    "To increase GPU speed",
+    "To improve internet speed",
+    "To replace programming languages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Ethical AI reduces risks such as bias, discrimination, privacy violations, and unsafe behaviour.",
+  "points": 10,
+  "tags": ["importance"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which principle emphasizes treating everyone fairly in AI systems?",
+  "options": [
+    "Fairness",
+    "Compression",
+    "Scalability",
+    "Parallelism"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fairness aims to prevent discrimination and unequal treatment by AI systems.",
+  "points": 10,
+  "tags": ["fairness"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which ethical principle requires AI decisions to be understandable?",
+  "options": [
+    "Transparency",
+    "Caching",
+    "Virtualization",
+    "Normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transparency helps users understand how AI systems reach their decisions.",
+  "points": 10,
+  "tags": ["transparency"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What does accountability mean in AI?",
+  "options": [
+    "Humans remain responsible for AI decisions",
+    "AI replaces all human responsibility",
+    "AI owns its own data",
+    "AI never makes mistakes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Organizations and developers remain responsible for AI system behaviour.",
+  "points": 10,
+  "tags": ["accountability"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which ethical principle focuses on protecting user information?",
+  "options": [
+    "Privacy",
+    "Efficiency",
+    "Scalability",
+    "Optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Privacy ensures personal data is collected, stored, and used responsibly.",
+  "points": 10,
+  "tags": ["privacy"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What is AI Bias?",
+  "options": [
+    "Unfair or prejudiced outcomes produced by AI systems",
+    "A type of neural network",
+    "A programming language",
+    "A GPU optimization method"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bias occurs when AI consistently favours or disadvantages certain groups.",
+  "points": 10,
+  "tags": ["bias"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which of the following can introduce bias into an AI model?",
+  "options": [
+    "Biased training data",
+    "SSD storage",
+    "Computer monitor",
+    "Operating system updates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI models often learn and amplify biases present in their training data.",
+  "points": 10,
+  "tags": ["training-data","bias"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What is discrimination in AI?",
+  "options": [
+    "Treating individuals or groups unfairly through AI decisions",
+    "Compressing datasets",
+    "Optimizing neural networks",
+    "Training multiple models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Discrimination occurs when AI unfairly disadvantages people based on protected characteristics.",
+  "points": 10,
+  "tags": ["discrimination"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What is Explainable AI (XAI)?",
+  "options": [
+    "AI whose decisions can be understood by humans",
+    "AI that only generates images",
+    "AI that requires GPUs",
+    "AI used only in robotics"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Explainable AI helps users understand why an AI system produced a particular result.",
+  "points": 10,
+  "tags": ["xai","explainability"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which field is most concerned with protecting personal information collected by AI?",
+  "options": [
+    "Data Privacy",
+    "Computer Graphics",
+    "Networking",
+    "Cloud Storage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Data privacy governs how personal information is collected, processed, and protected.",
+  "points": 10,
+  "tags": ["data-privacy"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which statement best describes Responsible AI?",
+  "options": [
+    "AI designed to be fair, transparent, safe, and accountable",
+    "AI with the fastest GPU",
+    "AI trained on the largest dataset",
+    "AI without human oversight"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Responsible AI integrates ethical principles throughout the AI lifecycle.",
+  "points": 10,
+  "tags": ["responsible-ai"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Who is ultimately responsible for the actions of an AI system?",
+  "options": [
+    "Humans who develop, deploy, or operate the system",
+    "The AI model itself",
+    "The operating system",
+    "The GPU manufacturer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI systems are tools, and responsibility remains with the humans and organizations that build and use them.",
+  "points": 10,
+  "tags": ["responsibility","governance"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which ethical principle encourages AI systems to promote positive outcomes for society?",
+  "options": [
+    "Beneficence",
+    "Compression",
+    "Scalability",
+    "Virtualization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Beneficence means AI should contribute positively to individuals and society.",
+  "points": 10,
+  "tags": ["beneficence"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What does the principle of Non-maleficence require?",
+  "options": [
+    "AI systems should avoid causing harm",
+    "AI should maximize profits",
+    "AI should always be autonomous",
+    "AI should replace human decision-making"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Non-maleficence means minimizing risks and preventing harm caused by AI systems.",
+  "points": 10,
+  "tags": ["non-maleficence"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Why is human oversight important in AI systems?",
+  "options": [
+    "To review and intervene when necessary",
+    "To make GPUs faster",
+    "To reduce storage usage",
+    "To improve internet speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Human oversight ensures AI decisions can be monitored, corrected, or stopped when appropriate.",
+  "points": 10,
+  "tags": ["human-oversight"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What is AI Governance?",
+  "options": [
+    "Policies and processes for responsible AI development and use",
+    "A machine learning algorithm",
+    "A cloud storage service",
+    "A programming language"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI governance defines rules, responsibilities, and oversight for AI systems.",
+  "points": 10,
+  "tags": ["governance"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Trustworthy AI should be:",
+  "options": [
+    "Reliable, fair, transparent, and accountable",
+    "Fast only",
+    "Cheap only",
+    "Fully autonomous without monitoring"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Trustworthy AI combines fairness, transparency, privacy, safety, and accountability.",
+  "points": 10,
+  "tags": ["trustworthy-ai"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which human right is most directly affected when AI collects personal information without consent?",
+  "options": [
+    "Privacy",
+    "Freedom of speech",
+    "Education",
+    "Transportation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Unauthorized collection or misuse of personal information violates privacy rights.",
+  "points": 10,
+  "tags": ["privacy","human-rights"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What is a major ethical concern when using facial recognition systems?",
+  "options": [
+    "Privacy violations and potential bias",
+    "Lower internet speed",
+    "Reduced battery life",
+    "Hard disk fragmentation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Facial recognition raises concerns about surveillance, privacy, and unequal performance across different groups.",
+  "points": 10,
+  "tags": ["facial-recognition","privacy"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which action can help reduce bias in AI systems?",
+  "options": [
+    "Using diverse and representative datasets",
+    "Ignoring fairness testing",
+    "Training on a single demographic",
+    "Removing validation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Representative data and fairness evaluations help reduce unwanted bias.",
+  "points": 10,
+  "tags": ["bias","fairness"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which sector requires especially careful ethical review before deploying AI?",
+  "options": [
+    "Healthcare",
+    "Wallpaper design",
+    "Music playlists",
+    "Desktop themes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Healthcare AI can directly affect patient safety and treatment decisions, requiring strong ethical safeguards.",
+  "points": 10,
+  "tags": ["healthcare","ethics"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "What does informed consent mean when collecting data for AI?",
+  "options": [
+    "People understand and agree to how their data will be used",
+    "Data can be collected secretly",
+    "Consent is unnecessary",
+    "Only developers need to know"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Individuals should be clearly informed about data collection and provide voluntary consent where required.",
+  "points": 10,
+  "tags": ["consent","privacy"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Why should AI decisions be documented?",
+  "options": [
+    "To improve accountability and auditing",
+    "To increase GPU speed",
+    "To reduce RAM usage",
+    "To replace testing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Documentation supports transparency, auditing, debugging, and regulatory compliance.",
+  "points": 10,
+  "tags": ["documentation","accountability"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "ai-ethics",
+  "difficulty": "easy",
+  "question": "Which statement best reflects ethical AI development?",
+  "options": [
+    "AI should benefit people while minimizing risks and respecting rights",
+    "AI should maximize automation regardless of consequences",
+    "AI should always replace humans",
+    "AI should ignore regulations"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Ethical AI balances innovation with fairness, safety, privacy, accountability, and respect for human rights.",
+  "points": 10,
+  "tags": ["ethical-ai","principles"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is algorithmic bias?",
+  "options": [
+    "Systematic unfairness in AI decisions caused by data or algorithms",
+    "A GPU optimization technique",
+    "A database indexing method",
+    "A neural network architecture"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Algorithmic bias occurs when an AI system consistently produces unfair outcomes for certain individuals or groups.",
+  "points": 20,
+  "tags": ["algorithmic-bias","fairness"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Which type of bias occurs when training data does not represent the target population?",
+  "options": [
+    "Sampling Bias",
+    "Confirmation Bias",
+    "Automation Bias",
+    "Observer Bias"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sampling bias occurs when collected data does not accurately represent the population the AI will serve.",
+  "points": 20,
+  "tags": ["sampling-bias"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Historical bias in AI usually originates from:",
+  "options": [
+    "Past societal inequalities reflected in historical data",
+    "GPU hardware limitations",
+    "Programming language syntax",
+    "Internet bandwidth"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Historical bias is inherited from patterns of discrimination already present in historical datasets.",
+  "points": 20,
+  "tags": ["historical-bias"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Measurement bias occurs when:",
+  "options": [
+    "Data collection methods introduce systematic errors",
+    "Models use too much memory",
+    "Embeddings are compressed",
+    "Prompts are too long"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Measurement bias results from inaccurate or inconsistent methods of collecting data.",
+  "points": 20,
+  "tags": ["measurement-bias"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is algorithmic fairness?",
+  "options": [
+    "Designing AI systems to minimize unfair treatment across groups",
+    "Making algorithms faster",
+    "Reducing model size",
+    "Increasing GPU utilization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Algorithmic fairness aims to ensure equitable outcomes regardless of demographic characteristics.",
+  "points": 20,
+  "tags": ["fairness"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Which metric checks whether positive prediction rates are similar across demographic groups?",
+  "options": [
+    "Demographic Parity",
+    "Accuracy",
+    "Precision",
+    "Recall"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Demographic parity measures whether different groups receive positive outcomes at similar rates.",
+  "points": 20,
+  "tags": ["demographic-parity","fairness-metrics"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Equal Opportunity focuses on ensuring equal:",
+  "options": [
+    "True positive rates across groups",
+    "Training time",
+    "GPU usage",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Equal opportunity requires qualified individuals to have similar chances of receiving positive predictions.",
+  "points": 20,
+  "tags": ["equal-opportunity"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is Explainable AI (XAI) primarily intended to provide?",
+  "options": [
+    "Understandable reasons behind AI decisions",
+    "Higher GPU performance",
+    "Smaller datasets",
+    "Automatic model training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "XAI helps humans understand how and why AI systems produce their outputs.",
+  "points": 20,
+  "tags": ["xai"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Interpretability refers to:",
+  "options": [
+    "How easily humans can understand an AI model",
+    "The speed of inference",
+    "GPU memory optimization",
+    "Dataset compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Interpretable models allow humans to directly understand their internal decision-making process.",
+  "points": 20,
+  "tags": ["interpretability"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Which AI model is generally considered more interpretable?",
+  "options": [
+    "Decision Tree",
+    "Large Transformer",
+    "Deep CNN",
+    "GAN"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Decision trees provide explicit decision paths that are relatively easy for humans to follow.",
+  "points": 20,
+  "tags": ["interpretable-models"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Accountability frameworks are designed to:",
+  "options": [
+    "Assign responsibility for AI development and deployment",
+    "Improve GPU cooling",
+    "Compress datasets",
+    "Increase internet speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Accountability frameworks clarify responsibilities throughout the AI lifecycle.",
+  "points": 20,
+  "tags": ["accountability","governance"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is Differential Privacy?",
+  "options": [
+    "A technique that protects individual data by adding controlled noise",
+    "A database replication method",
+    "A model compression algorithm",
+    "A networking protocol"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Differential privacy limits the amount of information that can be learned about any individual in a dataset.",
+  "points": 20,
+  "tags": ["differential-privacy","privacy"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is the main idea behind Federated Learning?",
+  "options": [
+    "Train models locally on devices without centralizing raw data",
+    "Train only on cloud GPUs",
+    "Replace neural networks",
+    "Store all data in one database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Federated learning improves privacy by training models across distributed devices while keeping raw data local.",
+  "points": 20,
+  "tags": ["federated-learning","privacy"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is Data Governance in AI?",
+  "options": [
+    "Policies and processes for managing data responsibly throughout its lifecycle",
+    "A neural network architecture",
+    "A GPU scheduling technique",
+    "A cloud storage protocol"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Data governance ensures data quality, security, privacy, compliance, and accountability.",
+  "points": 20,
+  "tags": ["data-governance"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is the primary goal of data anonymization?",
+  "options": [
+    "Remove or hide personally identifiable information",
+    "Compress datasets",
+    "Increase model accuracy",
+    "Reduce GPU usage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Anonymization reduces the risk of identifying individuals while allowing data analysis.",
+  "points": 20,
+  "tags": ["anonymization","privacy"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What does GDPR stand for?",
+  "options": [
+    "General Data Protection Regulation",
+    "Global Data Processing Rules",
+    "General Database Protection Rules",
+    "Government Digital Privacy Regulation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GDPR is the European Union regulation governing personal data protection and privacy.",
+  "points": 20,
+  "tags": ["gdpr","privacy"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Under GDPR, personal data should generally be collected only when:",
+  "options": [
+    "There is a lawful basis, such as user consent or legal obligation",
+    "The dataset is large",
+    "The AI model requires more memory",
+    "The developer requests it"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GDPR requires a valid legal basis before collecting or processing personal data.",
+  "points": 20,
+  "tags": ["gdpr","consent"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is informed consent in AI systems?",
+  "options": [
+    "Users clearly understand and voluntarily agree to data collection and use",
+    "Developers decide automatically",
+    "Consent is assumed by default",
+    "Only governments can provide consent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Informed consent requires transparency about what data is collected and how it will be used.",
+  "points": 20,
+  "tags": ["consent","privacy"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "An AI audit is primarily conducted to:",
+  "options": [
+    "Evaluate fairness, safety, compliance, and performance",
+    "Upgrade computer hardware",
+    "Increase GPU memory",
+    "Reduce internet latency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI audits assess whether AI systems meet technical, legal, and ethical requirements.",
+  "points": 20,
+  "tags": ["audit","governance"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "What is an Ethical Impact Assessment (EIA)?",
+  "options": [
+    "A structured evaluation of the ethical risks and societal impacts of an AI system",
+    "A GPU benchmarking tool",
+    "A programming framework",
+    "A database optimization technique"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An EIA identifies potential ethical concerns before deploying AI systems.",
+  "points": 20,
+  "tags": ["ethical-impact-assessment"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Risk assessment in AI aims to:",
+  "options": [
+    "Identify, analyse, and reduce potential harms",
+    "Increase model size",
+    "Compress neural networks",
+    "Improve GPU cooling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Risk assessments help organizations understand and mitigate technical, ethical, and operational risks.",
+  "points": 20,
+  "tags": ["risk-assessment"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "The OECD AI Principles primarily promote:",
+  "options": [
+    "Trustworthy and human-centred AI",
+    "Unlimited AI autonomy",
+    "Removing regulations",
+    "Mandatory open-source AI"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The OECD AI Principles encourage fairness, transparency, accountability, robustness, and human-centred values.",
+  "points": 20,
+  "tags": ["oecd","principles"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "The NIST AI Risk Management Framework is designed to:",
+  "options": [
+    "Help organizations identify, manage, and reduce AI-related risks",
+    "Train large language models",
+    "Generate synthetic datasets",
+    "Increase GPU utilization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The NIST AI RMF provides practical guidance for trustworthy AI risk management.",
+  "points": 20,
+  "tags": ["nist","risk-management"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Which activity best supports responsible AI governance?",
+  "options": [
+    "Regular monitoring, documentation, and independent review",
+    "Ignoring user feedback",
+    "Deploying models without testing",
+    "Removing all safety checks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous monitoring and documentation improve accountability and support responsible AI deployment.",
+  "points": 20,
+  "tags": ["governance","monitoring"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "ai-ethics",
+  "difficulty": "medium",
+  "question": "Which combination best represents responsible AI governance?",
+  "options": [
+    "Transparency + Accountability + Privacy + Fairness + Risk Management",
+    "Speed + GPU + Storage + Internet",
+    "Compression + Rendering + Networking + Caching",
+    "Training + Testing + Deployment + Backup"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Responsible AI governance integrates transparency, accountability, fairness, privacy protection, and continuous risk management.",
+  "points": 20,
+  "tags": ["responsible-ai","governance"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is AI Safety?",
+  "options": [
+    "Ensuring AI systems operate reliably without causing unintended harm",
+    "Increasing GPU performance",
+    "Compressing AI models",
+    "Improving internet speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI safety focuses on designing, testing, and deploying AI systems that behave safely under different conditions.",
+  "points": 30,
+  "tags": ["ai-safety"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is AI Alignment?",
+  "options": [
+    "Ensuring AI goals and behaviour match human values and intentions",
+    "Aligning GPUs in a server",
+    "Optimizing model storage",
+    "Training multiple models together"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI alignment aims to ensure AI systems pursue objectives that are consistent with human values and preferences.",
+  "points": 30,
+  "tags": ["alignment"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "An AI hallucination occurs when a model:",
+  "options": [
+    "Generates false or fabricated information presented as factual",
+    "Runs out of memory",
+    "Stops training early",
+    "Fails to load a dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hallucinations are incorrect outputs that may appear convincing despite lacking factual support.",
+  "points": 30,
+  "tags": ["hallucination","llm"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Why are AI hallucinations considered an ethical concern?",
+  "options": [
+    "They can spread misinformation and lead to harmful decisions",
+    "They increase GPU usage",
+    "They reduce model size",
+    "They improve accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Incorrect information generated confidently can negatively affect users and important decisions.",
+  "points": 30,
+  "tags": ["hallucination","misinformation"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is misinformation in the context of AI?",
+  "options": [
+    "False or misleading information generated or shared without verification",
+    "Encrypted data",
+    "Compressed files",
+    "Training metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI systems can unintentionally generate or amplify inaccurate information.",
+  "points": 30,
+  "tags": ["misinformation"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "A deepfake is:",
+  "options": [
+    "AI-generated or AI-manipulated media that realistically imitates real people",
+    "A large neural network",
+    "A compressed image",
+    "A database backup"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deepfakes use AI to create realistic but synthetic audio, images, or videos.",
+  "points": 30,
+  "tags": ["deepfake"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is a major ethical risk of deepfakes?",
+  "options": [
+    "Fraud, misinformation, and identity impersonation",
+    "Lower GPU temperature",
+    "Reduced storage usage",
+    "Improved model training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deepfakes can be misused for scams, fake news, and impersonation.",
+  "points": 30,
+  "tags": ["deepfake","security"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is an adversarial attack on an AI model?",
+  "options": [
+    "Manipulating inputs to cause incorrect predictions",
+    "Increasing dataset size",
+    "Improving model accuracy",
+    "Reducing inference time"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Adversarial attacks modify inputs in subtle ways to fool AI systems.",
+  "points": 30,
+  "tags": ["adversarial-attack"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Prompt injection attacks attempt to:",
+  "options": [
+    "Manipulate an AI system into ignoring intended instructions",
+    "Increase GPU memory",
+    "Compress prompts",
+    "Improve model accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prompt injection exploits input text to override or bypass an AI system's intended behaviour.",
+  "points": 30,
+  "tags": ["prompt-injection","security"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is AI jailbreaking?",
+  "options": [
+    "Attempting to bypass an AI model's safety restrictions",
+    "Running AI in a virtual machine",
+    "Compressing AI models",
+    "Training without GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Jailbreaking uses specially crafted prompts to circumvent safety mechanisms.",
+  "points": 30,
+  "tags": ["jailbreak","security"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Why is model security important?",
+  "options": [
+    "To protect AI systems from misuse, attacks, and unauthorized access",
+    "To reduce dataset size",
+    "To improve screen resolution",
+    "To increase internet bandwidth"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model security protects AI systems and users from malicious activities and vulnerabilities.",
+  "points": 30,
+  "tags": ["model-security"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Which practice helps reduce AI misuse?",
+  "options": [
+    "Implementing access controls, monitoring, and safety guardrails",
+    "Removing authentication",
+    "Ignoring user activity",
+    "Disabling logging"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Security controls and monitoring reduce opportunities for abuse while improving accountability.",
+  "points": 30,
+  "tags": ["ai-misuse","guardrails"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Which combination best improves AI safety in production?",
+  "options": [
+    "Alignment + Guardrails + Monitoring + Human Oversight",
+    "Larger GPU + Faster CPU",
+    "More storage + Higher bandwidth",
+    "Longer prompts only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Safe production AI combines aligned objectives, technical safeguards, monitoring, and human supervision.",
+  "points": 30,
+  "tags": ["production","ai-safety"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is AI weaponization?",
+  "options": [
+    "Using AI technologies for military or harmful offensive purposes",
+    "Training AI models on larger datasets",
+    "Improving AI inference speed",
+    "Compressing neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI weaponization involves applying AI to autonomous weapons, cyberattacks, or other harmful military applications.",
+  "points": 30,
+  "tags": ["weaponization","security"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Why do autonomous weapon systems raise ethical concerns?",
+  "options": [
+    "They may make life-and-death decisions with limited human control",
+    "They require more electricity",
+    "They reduce internet speed",
+    "They increase storage requirements"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Many ethical concerns focus on accountability, civilian protection, and meaningful human control.",
+  "points": 30,
+  "tags": ["autonomous-weapons","ethics"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is AI-powered surveillance?",
+  "options": [
+    "Using AI to monitor people, activities, or environments",
+    "Training AI models faster",
+    "Compressing security footage",
+    "Generating synthetic data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI surveillance can improve security but also raises concerns about privacy and civil liberties.",
+  "points": 30,
+  "tags": ["surveillance","privacy"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is a major ethical concern associated with large-scale AI surveillance?",
+  "options": [
+    "Loss of privacy and potential misuse of personal data",
+    "Higher GPU temperatures",
+    "Reduced model accuracy",
+    "Longer training time"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous monitoring can infringe on privacy rights and enable misuse if not properly governed.",
+  "points": 30,
+  "tags": ["privacy","surveillance"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is social scoring in the context of AI?",
+  "options": [
+    "Ranking or evaluating individuals based on collected behavioural or personal data",
+    "Measuring AI model accuracy",
+    "Evaluating GPU performance",
+    "Scoring neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Social scoring systems can influence access to services and opportunities, raising concerns about fairness and rights.",
+  "points": 30,
+  "tags": ["social-scoring","governance"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Why is content moderation with AI challenging?",
+  "options": [
+    "Balancing harmful content removal with freedom of expression",
+    "Increasing GPU utilization",
+    "Reducing dataset size",
+    "Improving processor speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI moderation must reduce harmful content while avoiding unnecessary censorship and respecting user rights.",
+  "points": 30,
+  "tags": ["content-moderation"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "What is a key copyright concern related to generative AI?",
+  "options": [
+    "Whether generated content or training data infringes intellectual property rights",
+    "GPU compatibility",
+    "Internet bandwidth",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Questions remain about copyrighted training material and ownership of AI-generated outputs.",
+  "points": 30,
+  "tags": ["copyright","generative-ai"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Intellectual property (IP) in AI primarily concerns:",
+  "options": [
+    "Ownership and legal rights over creative works, inventions, and AI-generated content",
+    "GPU architecture",
+    "Cloud storage capacity",
+    "Operating system licensing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IP law addresses ownership, licensing, and protection of creative and technical works involving AI.",
+  "points": 30,
+  "tags": ["intellectual-property","copyright"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Why should AI-generated content be clearly identified when appropriate?",
+  "options": [
+    "To improve transparency and reduce deception",
+    "To increase model speed",
+    "To reduce RAM usage",
+    "To improve GPU cooling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Clear disclosure helps users understand the origin of content and reduces the risk of misleading audiences.",
+  "points": 30,
+  "tags": ["ai-generated-content","transparency"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Why is the environmental impact of AI an ethical concern?",
+  "options": [
+    "Large AI models can consume significant energy and computing resources",
+    "AI reduces internet speed",
+    "AI increases monitor brightness",
+    "AI decreases storage capacity"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Training and deploying large AI systems may require substantial electricity and hardware resources, affecting sustainability.",
+  "points": 30,
+  "tags": ["environment","sustainability"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Which approach can reduce the environmental footprint of AI?",
+  "options": [
+    "Using efficient models and optimizing computational resources",
+    "Always using the largest available model",
+    "Ignoring energy consumption",
+    "Repeating unnecessary training runs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Efficient model architectures, hardware optimization, and responsible resource usage help reduce energy consumption.",
+  "points": 30,
+  "tags": ["green-ai","efficiency"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "ai-ethics",
+  "difficulty": "hard",
+  "question": "Which ethical principle is most relevant when evaluating real-world AI deployments?",
+  "options": [
+    "Balancing benefits, risks, fairness, privacy, and accountability",
+    "Maximizing GPU utilization",
+    "Minimizing dataset size only",
+    "Increasing inference speed only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Real-world AI systems should be evaluated across multiple ethical dimensions rather than focusing on technical performance alone.",
+  "points": 30,
+  "tags": ["case-study","ethical-evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is the primary objective of the EU AI Act?",
+  "options": [
+    "Regulate AI systems based on their level of risk",
+    "Train larger AI models",
+    "Replace data protection laws",
+    "Improve GPU performance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The EU AI Act adopts a risk-based approach, imposing stricter requirements on higher-risk AI systems.",
+  "points": 40,
+  "tags": ["eu-ai-act","regulation"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Which category of AI systems receives the strictest regulatory requirements under the EU AI Act?",
+  "options": [
+    "High-risk AI systems",
+    "Video games",
+    "Simple calculators",
+    "Offline documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "High-risk AI systems must meet requirements such as risk management, documentation, transparency, and human oversight.",
+  "points": 40,
+  "tags": ["eu-ai-act","high-risk-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "ISO/IEC 42001 is an international standard for:",
+  "options": [
+    "Artificial Intelligence Management Systems (AIMS)",
+    "Computer networking",
+    "Database optimization",
+    "GPU benchmarking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ISO/IEC 42001 provides requirements for establishing, implementing, and improving AI management systems.",
+  "points": 40,
+  "tags": ["iso42001","governance"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Responsible Generative AI development should prioritize:",
+  "options": [
+    "Safety, transparency, fairness, and accountability",
+    "Only model size",
+    "Only inference speed",
+    "Only hardware performance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Responsible GenAI balances innovation with safeguards that reduce risks and protect users.",
+  "points": 40,
+  "tags": ["generative-ai","responsible-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is a Model Card?",
+  "options": [
+    "A document describing a model's purpose, performance, limitations, and intended use",
+    "A GPU specification sheet",
+    "A database schema",
+    "A programming manual"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model Cards improve transparency by documenting how an AI model should and should not be used.",
+  "points": 40,
+  "tags": ["model-card","documentation"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is the purpose of Datasheets for Datasets?",
+  "options": [
+    "Document dataset origin, collection methods, composition, and limitations",
+    "Benchmark GPU performance",
+    "Compress datasets",
+    "Generate synthetic data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Datasheets improve transparency and help users understand dataset quality, bias, and intended use.",
+  "points": 40,
+  "tags": ["datasheets","datasets"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Why do organizations establish AI Governance Boards?",
+  "options": [
+    "To oversee responsible AI development, deployment, and compliance",
+    "To increase GPU utilization",
+    "To manage databases",
+    "To optimize cloud storage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Governance boards provide oversight for AI strategy, ethics, compliance, and risk management.",
+  "points": 40,
+  "tags": ["governance-board"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is AI Red Teaming?",
+  "options": [
+    "Testing AI systems by simulating attacks and harmful scenarios",
+    "Training AI using red-coloured datasets",
+    "Building faster GPUs",
+    "Reducing dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Red teaming identifies vulnerabilities by intentionally attempting to break or misuse AI systems.",
+  "points": 40,
+  "tags": ["red-teaming","security"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Why is safety testing important before deploying AI systems?",
+  "options": [
+    "To identify failures, risks, and harmful behaviour before release",
+    "To improve internet speed",
+    "To reduce RAM usage",
+    "To change programming languages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Safety testing helps identify vulnerabilities and reduce the likelihood of harmful outcomes.",
+  "points": 40,
+  "tags": ["safety-testing"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is an AI incident?",
+  "options": [
+    "An event where an AI system causes or contributes to unexpected harm or failure",
+    "A successful model deployment",
+    "A software installation",
+    "A hardware upgrade"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI incidents include failures, security breaches, bias, or other unintended consequences affecting users.",
+  "points": 40,
+  "tags": ["incident-reporting"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Why should AI incidents be reported and investigated?",
+  "options": [
+    "To improve future safety, accountability, and system reliability",
+    "To increase GPU memory",
+    "To reduce storage costs",
+    "To improve graphics quality"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Incident reporting supports learning from failures and preventing similar issues in future deployments.",
+  "points": 40,
+  "tags": ["incident-management"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Enterprise AI governance should include:",
+  "options": [
+    "Policies, audits, monitoring, documentation, and human oversight",
+    "Only larger datasets",
+    "Only faster hardware",
+    "Only model training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Effective governance combines technical, organizational, and ethical controls throughout the AI lifecycle.",
+  "points": 40,
+  "tags": ["enterprise-ai","governance"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Which practice best supports ethical AI in production environments?",
+  "options": [
+    "Continuous monitoring, auditing, and responsible governance",
+    "Disabling logging",
+    "Skipping testing",
+    "Ignoring user feedback"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production AI should be continuously monitored and improved to maintain safety, fairness, and compliance.",
+  "points": 40,
+  "tags": ["production","ethics"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is an AI Transparency Report?",
+  "options": [
+    "A document describing how an AI system works, its limitations, and governance practices",
+    "A GPU performance report",
+    "A database backup",
+    "A software license"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transparency reports help users, regulators, and stakeholders understand AI systems and their impacts.",
+  "points": 40,
+  "tags": ["transparency","documentation"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is AI Assurance?",
+  "options": [
+    "The process of evaluating whether AI systems are safe, trustworthy, and compliant",
+    "Training larger AI models",
+    "Improving GPU efficiency",
+    "Compressing datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI assurance combines testing, auditing, governance, and evidence to build confidence in AI systems.",
+  "points": 40,
+  "tags": ["ai-assurance"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Which stage is essential throughout the Responsible AI lifecycle?",
+  "options": [
+    "Continuous monitoring and improvement",
+    "Ignoring user feedback",
+    "Removing documentation",
+    "Disabling safety testing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Responsible AI requires ongoing monitoring, evaluation, and updates after deployment.",
+  "points": 40,
+  "tags": ["responsible-ai","lifecycle"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Why is post-deployment monitoring important for AI systems?",
+  "options": [
+    "To detect model drift, failures, bias, and unexpected behaviour",
+    "To increase GPU speed",
+    "To reduce storage requirements",
+    "To improve screen resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Monitoring helps identify problems that may only appear after an AI system is deployed.",
+  "points": 40,
+  "tags": ["monitoring","model-drift"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "What is AI certification intended to demonstrate?",
+  "options": [
+    "That an AI system meets defined standards or compliance requirements",
+    "That the GPU is certified",
+    "That the dataset is compressed",
+    "That the model is open source"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Certification provides evidence that an AI system satisfies specified technical, safety, or governance standards.",
+  "points": 40,
+  "tags": ["certification","compliance"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Global AI governance aims to:",
+  "options": [
+    "Promote international cooperation on safe and responsible AI development",
+    "Replace national governments",
+    "Standardize computer hardware",
+    "Increase internet bandwidth"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Global governance encourages countries and organizations to work together on AI safety, ethics, and standards.",
+  "points": 40,
+  "tags": ["global-governance"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "The UNESCO Recommendation on the Ethics of Artificial Intelligence primarily promotes:",
+  "options": [
+    "Human rights, human dignity, sustainability, and responsible AI",
+    "Larger neural networks",
+    "Faster processors",
+    "Higher internet speeds"
+  ],
+  "correctAnswer": 0,
+  "explanation": "UNESCO's recommendation provides a global framework for ethical AI that emphasizes human rights and sustainable development.",
+  "points": 40,
+  "tags": ["unesco","ethics"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Which emerging challenge is likely to become increasingly important in AI ethics?",
+  "options": [
+    "Managing increasingly capable and autonomous AI systems",
+    "Reducing monitor brightness",
+    "Changing keyboard layouts",
+    "Replacing SSDs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "As AI systems become more capable, governance, safety, and accountability become increasingly important.",
+  "points": 40,
+  "tags": ["future","autonomous-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Why is AGI (Artificial General Intelligence) an important topic in AI ethics?",
+  "options": [
+    "Because highly capable systems may introduce new safety, governance, and societal challenges",
+    "Because AGI only improves gaming performance",
+    "Because AGI removes the need for ethics",
+    "Because AGI is a database technology"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Discussions around AGI focus on ensuring increasingly capable AI systems remain safe, beneficial, and aligned with human values.",
+  "points": 40,
+  "tags": ["agi","alignment"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Which principle best supports public trust in AI?",
+  "options": [
+    "Transparency, accountability, fairness, and reliability",
+    "Larger model size",
+    "Higher GPU utilization",
+    "Longer prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Public trust depends on AI systems being understandable, fair, accountable, and dependable.",
+  "points": 40,
+  "tags": ["trust","governance"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Which sequence best represents a responsible AI governance lifecycle?",
+  "options": [
+    "Design → Risk Assessment → Development → Testing → Deployment → Monitoring → Audit → Improvement",
+    "Training → Deployment only",
+    "Prompt → Response",
+    "Dataset → GPU → Output"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Responsible AI governance spans the entire lifecycle, from planning and risk assessment to continuous improvement.",
+  "points": 40,
+  "tags": ["governance","lifecycle"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "ai-ethics",
+  "difficulty": "expert",
+  "question": "Which combination best defines an ethical and trustworthy AI system?",
+  "options": [
+    "Fairness, transparency, privacy, accountability, safety, security, human oversight, and continuous governance",
+    "Fast GPUs and large datasets only",
+    "Only high model accuracy",
+    "Only autonomous decision-making"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A trustworthy AI system integrates ethical principles, technical safeguards, governance, and continuous oversight throughout its lifecycle.",
+  "points": 40,
+  "tags": ["capstone","trustworthy-ai","responsible-ai"],
+  "timeLimit": 75
+}
+]

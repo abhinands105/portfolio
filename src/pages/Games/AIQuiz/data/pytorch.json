@@ -1,0 +1,1703 @@
+[
+{
+  "id": 1,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "PyTorch is primarily a framework for:",
+  "options": [
+    "Deep learning and tensor computation",
+    "Database management",
+    "Game development",
+    "Web hosting"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch is an open-source machine learning framework widely used for deep learning.",
+  "points": 10,
+  "tags": ["basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "PyTorch was originally developed by:",
+  "options": [
+    "Meta AI",
+    "Google",
+    "Microsoft",
+    "NVIDIA"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch was developed by Meta AI (formerly Facebook AI Research).",
+  "points": 10,
+  "tags": ["history"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which package is imported to use PyTorch?",
+  "options": [
+    "torch",
+    "tensorflow",
+    "numpy",
+    "pytorch"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch is imported using the torch package.",
+  "points": 10,
+  "tags": ["import"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "The primary data structure in PyTorch is the:",
+  "options": [
+    "Tensor",
+    "Array",
+    "Matrix",
+    "DataFrame"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensors are the fundamental data structure in PyTorch.",
+  "points": 10,
+  "tags": ["tensor"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "A tensor is similar to a:",
+  "options": [
+    "NumPy array",
+    "Python dictionary",
+    "JSON object",
+    "CSV file"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch tensors are similar to NumPy arrays but support GPU acceleration.",
+  "points": 10,
+  "tags": ["tensor", "numpy"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which function creates a tensor from a Python list?",
+  "options": [
+    "torch.tensor()",
+    "torch.array()",
+    "torch.create()",
+    "torch.make()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.tensor() converts Python data into a tensor.",
+  "points": 10,
+  "tags": ["tensor"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which function creates a tensor filled with zeros?",
+  "options": [
+    "torch.zeros()",
+    "torch.empty()",
+    "torch.rand()",
+    "torch.ones()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.zeros() creates tensors initialized with zeros.",
+  "points": 10,
+  "tags": ["tensor-creation"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which function creates a tensor filled with ones?",
+  "options": [
+    "torch.ones()",
+    "torch.zeros()",
+    "torch.rand()",
+    "torch.full_like()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.ones() initializes every element with one.",
+  "points": 10,
+  "tags": ["tensor-creation"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which function creates random values uniformly between 0 and 1?",
+  "options": [
+    "torch.rand()",
+    "torch.randn()",
+    "torch.random()",
+    "torch.uniform()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.rand() samples from a uniform distribution.",
+  "points": 10,
+  "tags": ["random"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which function generates values from a normal distribution?",
+  "options": [
+    "torch.randn()",
+    "torch.rand()",
+    "torch.normalized()",
+    "torch.gaussian()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.randn() samples from a standard normal distribution.",
+  "points": 10,
+  "tags": ["random"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which attribute returns the shape of a tensor?",
+  "options": [
+    ".shape",
+    ".length",
+    ".sizeof",
+    ".count"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensor dimensions can be accessed using .shape.",
+  "points": 10,
+  "tags": ["tensor"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which method changes a tensor's shape without changing its data?",
+  "options": [
+    "reshape()",
+    "append()",
+    "insert()",
+    "remove()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "reshape() changes the tensor dimensions while preserving elements.",
+  "points": 10,
+  "tags": ["reshape"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which operator performs element-wise addition of tensors?",
+  "options": [
+    "+",
+    "*",
+    "@",
+    "/"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The + operator adds tensors element by element.",
+  "points": 10,
+  "tags": ["operations"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which operator performs matrix multiplication?",
+  "options": [
+    "@",
+    "+",
+    "-",
+    "%"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The @ operator performs matrix multiplication.",
+  "points": 10,
+  "tags": ["matrix"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which package contains neural network layers?",
+  "options": [
+    "torch.nn",
+    "torch.data",
+    "torch.cuda",
+    "torch.math"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.nn provides layers, activations, and loss functions.",
+  "points": 10,
+  "tags": ["nn"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "The base class for all neural networks is:",
+  "options": [
+    "nn.Module",
+    "nn.Model",
+    "nn.Network",
+    "nn.Layer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Every custom PyTorch model inherits from nn.Module.",
+  "points": 10,
+  "tags": ["module"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which method defines the forward computation of a model?",
+  "options": [
+    "forward()",
+    "predict()",
+    "train()",
+    "run()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The forward() method specifies how inputs flow through the network.",
+  "points": 10,
+  "tags": ["forward"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which activation function outputs values between 0 and 1?",
+  "options": [
+    "Sigmoid",
+    "ReLU",
+    "Tanh",
+    "Softmax"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sigmoid squashes inputs into the range (0,1).",
+  "points": 10,
+  "tags": ["activation"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which activation function returns max(0, x)?",
+  "options": [
+    "ReLU",
+    "Sigmoid",
+    "Softmax",
+    "LeakySigmoid"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ReLU is the most commonly used activation in deep learning.",
+  "points": 10,
+  "tags": ["relu"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which layer is fully connected?",
+  "options": [
+    "nn.Linear",
+    "nn.Conv2d",
+    "nn.MaxPool2d",
+    "nn.Dropout"
+  ],
+  "correctAnswer": 0,
+  "explanation": "nn.Linear implements a fully connected layer.",
+  "points": 10,
+  "tags": ["linear"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which loss function is commonly used for classification?",
+  "options": [
+    "CrossEntropyLoss",
+    "MSELoss",
+    "L1Loss",
+    "HuberLoss"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CrossEntropyLoss is widely used for multi-class classification.",
+  "points": 10,
+  "tags": ["loss"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which optimizer is most commonly used in PyTorch?",
+  "options": [
+    "Adam",
+    "RandomSearch",
+    "GridSearch",
+    "DFS"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Adam is one of the most popular optimization algorithms.",
+  "points": 10,
+  "tags": ["optimizer"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which package contains optimization algorithms?",
+  "options": [
+    "torch.optim",
+    "torch.cuda",
+    "torch.math",
+    "torch.audio"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Optimizers such as SGD and Adam are in torch.optim.",
+  "points": 10,
+  "tags": ["optim"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which method clears accumulated gradients?",
+  "options": [
+    "optimizer.zero_grad()",
+    "optimizer.clear()",
+    "optimizer.reset()",
+    "optimizer.grad()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradients accumulate by default, so zero_grad() is called before backpropagation.",
+  "points": 10,
+  "tags": ["training"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "pytorch",
+  "difficulty": "easy",
+  "question": "Which method computes gradients during training?",
+  "options": [
+    "loss.backward()",
+    "loss.forward()",
+    "optimizer.backward()",
+    "model.backward()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "loss.backward() performs automatic differentiation.",
+  "points": 10,
+  "tags": ["autograd"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "PyTorch's automatic differentiation engine is called:",
+  "options": [
+    "Autograd",
+    "AutoDiff",
+    "GradientFlow",
+    "TorchGrad"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Autograd automatically computes gradients for tensor operations.",
+  "points": 20,
+  "tags": ["autograd"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which tensor attribute enables gradient computation?",
+  "options": [
+    "requires_grad",
+    "enable_grad",
+    "gradient",
+    "trainable"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Setting requires_grad=True tells PyTorch to track operations.",
+  "points": 20,
+  "tags": ["autograd"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which context manager disables gradient calculations?",
+  "options": [
+    "torch.no_grad()",
+    "torch.disable()",
+    "torch.stop_grad()",
+    "torch.eval()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.no_grad() is commonly used during inference.",
+  "points": 20,
+  "tags": ["inference"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which package provides dataset utilities?",
+  "options": [
+    "torch.utils.data",
+    "torch.datasets",
+    "torch.loader",
+    "torch.storage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.utils.data contains Dataset and DataLoader classes.",
+  "points": 20,
+  "tags": ["dataset"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "A custom dataset should typically inherit from:",
+  "options": [
+    "torch.utils.data.Dataset",
+    "torch.nn.Module",
+    "torch.optim.Optimizer",
+    "torch.Tensor"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dataset is the base class for creating custom datasets.",
+  "points": 20,
+  "tags": ["dataset"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "The DataLoader class is mainly responsible for:",
+  "options": [
+    "Loading data in batches",
+    "Training models",
+    "Saving checkpoints",
+    "Creating tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DataLoader handles batching, shuffling, and parallel loading.",
+  "points": 20,
+  "tags": ["dataloader"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which DataLoader parameter randomizes sample order?",
+  "options": [
+    "shuffle=True",
+    "random=True",
+    "sort=False",
+    "batch=True"
+  ],
+  "correctAnswer": 0,
+  "explanation": "shuffle=True randomly shuffles the dataset each epoch.",
+  "points": 20,
+  "tags": ["dataloader"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which parameter specifies the number of samples per batch?",
+  "options": [
+    "batch_size",
+    "sample_size",
+    "tensor_size",
+    "dataset_size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "batch_size controls how many samples are processed together.",
+  "points": 20,
+  "tags": ["batch"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which function checks CUDA availability?",
+  "options": [
+    "torch.cuda.is_available()",
+    "torch.cuda.exists()",
+    "torch.gpu.available()",
+    "torch.device.cuda()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This function returns True if CUDA is available.",
+  "points": 20,
+  "tags": ["cuda"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which device string represents the first NVIDIA GPU?",
+  "options": [
+    "cuda:0",
+    "gpu:0",
+    "device0",
+    "nvidia0"
+  ],
+  "correctAnswer": 0,
+  "explanation": "cuda:0 refers to the first CUDA-enabled GPU.",
+  "points": 20,
+  "tags": ["gpu"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which method moves a tensor to the GPU?",
+  "options": [
+    ".to(device)",
+    ".move()",
+    ".gpu()",
+    ".cuda_device()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The recommended approach is tensor.to(device).",
+  "points": 20,
+  "tags": ["cuda"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which layer is used for 2D convolution?",
+  "options": [
+    "nn.Conv2d",
+    "nn.Linear",
+    "nn.LSTM",
+    "nn.Flatten"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Conv2d applies convolutional filters to images.",
+  "points": 20,
+  "tags": ["cnn"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Pooling layers are mainly used to:",
+  "options": [
+    "Reduce spatial dimensions",
+    "Increase image size",
+    "Normalize gradients",
+    "Store tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pooling reduces feature map size while retaining important information.",
+  "points": 20,
+  "tags": ["pooling"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which layer performs max pooling?",
+  "options": [
+    "nn.MaxPool2d",
+    "nn.Conv2d",
+    "nn.Linear",
+    "nn.BatchNorm2d"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MaxPool2d selects the maximum value within each pooling window.",
+  "points": 20,
+  "tags": ["pooling"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Dropout is mainly used to:",
+  "options": [
+    "Reduce overfitting",
+    "Increase batch size",
+    "Store checkpoints",
+    "Normalize inputs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dropout randomly disables neurons during training.",
+  "points": 20,
+  "tags": ["dropout"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which layer implements dropout?",
+  "options": [
+    "nn.Dropout",
+    "nn.Linear",
+    "nn.ReLU",
+    "nn.Flatten"
+  ],
+  "correctAnswer": 0,
+  "explanation": "nn.Dropout randomly sets activations to zero during training.",
+  "points": 20,
+  "tags": ["dropout"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Batch normalization helps by:",
+  "options": [
+    "Stabilizing and accelerating training",
+    "Reducing dataset size",
+    "Increasing GPU memory",
+    "Creating tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Batch normalization normalizes activations across mini-batches.",
+  "points": 20,
+  "tags": ["batchnorm"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which layer performs batch normalization for images?",
+  "options": [
+    "nn.BatchNorm2d",
+    "nn.LayerNorm",
+    "nn.Conv2d",
+    "nn.Linear"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BatchNorm2d is commonly used with convolutional networks.",
+  "points": 20,
+  "tags": ["batchnorm"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which method switches a model into training mode?",
+  "options": [
+    "model.train()",
+    "model.fit()",
+    "model.start()",
+    "model.learning()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "train() enables layers such as Dropout and BatchNorm for training.",
+  "points": 20,
+  "tags": ["training"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which method switches a model into evaluation mode?",
+  "options": [
+    "model.eval()",
+    "model.test()",
+    "model.predict()",
+    "model.freeze()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "eval() disables training-specific behaviour such as Dropout.",
+  "points": 20,
+  "tags": ["evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which optimizer method updates model parameters?",
+  "options": [
+    "optimizer.step()",
+    "optimizer.run()",
+    "optimizer.update()",
+    "optimizer.fit()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "optimizer.step() applies gradient updates to parameters.",
+  "points": 20,
+  "tags": ["optimizer"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which function saves model weights?",
+  "options": [
+    "torch.save()",
+    "torch.store()",
+    "torch.write()",
+    "torch.export()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.save() serializes tensors and model state dictionaries.",
+  "points": 20,
+  "tags": ["saving"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Which function loads saved objects?",
+  "options": [
+    "torch.load()",
+    "torch.read()",
+    "torch.restore()",
+    "torch.import()"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.load() deserializes saved PyTorch objects.",
+  "points": 20,
+  "tags": ["loading"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "The recommended way to save a model is:",
+  "options": [
+    "Save its state_dict()",
+    "Save only tensors",
+    "Save screenshots",
+    "Save optimizer only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Saving state_dict() is the standard PyTorch practice.",
+  "points": 20,
+  "tags": ["state-dict"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "pytorch",
+  "difficulty": "medium",
+  "question": "Inference refers to:",
+  "options": [
+    "Using a trained model to make predictions",
+    "Training a model",
+    "Downloading datasets",
+    "Creating tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Inference is the process of generating predictions using a trained model.",
+  "points": 20,
+  "tags": ["inference"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Transfer learning is the process of:",
+  "options": [
+    "Using a pre-trained model for a new task",
+    "Moving a model to another GPU",
+    "Converting tensors to NumPy",
+    "Training without data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transfer learning reuses knowledge from a model trained on another dataset.",
+  "points": 30,
+  "tags": ["transfer-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which PyTorch library provides popular computer vision datasets and models?",
+  "options": [
+    "torchvision",
+    "torchaudio",
+    "torchtext",
+    "torchserve"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torchvision contains datasets, transforms, and pretrained vision models.",
+  "points": 30,
+  "tags": ["torchvision"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "A pretrained model is:",
+  "options": [
+    "A model already trained on a large dataset",
+    "A randomly initialized model",
+    "A quantized model",
+    "A compressed dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pretrained models reduce training time and improve performance.",
+  "points": 30,
+  "tags": ["pretrained"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which model architecture is primarily designed for sequential data?",
+  "options": [
+    "RNN",
+    "CNN",
+    "MLP",
+    "GAN"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Recurrent Neural Networks process sequential information.",
+  "points": 30,
+  "tags": ["rnn"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "LSTM stands for:",
+  "options": [
+    "Long Short-Term Memory",
+    "Large Scale Tensor Model",
+    "Linear Sequence Training Method",
+    "Low Storage Training Model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LSTM networks solve long-term dependency problems in RNNs.",
+  "points": 30,
+  "tags": ["lstm"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "GRU is designed to:",
+  "options": [
+    "Simplify LSTM while maintaining good performance",
+    "Replace CNNs",
+    "Perform image segmentation",
+    "Compress tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GRUs have fewer gates than LSTMs while capturing sequence dependencies.",
+  "points": 30,
+  "tags": ["gru"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which module provides recurrent neural network layers?",
+  "options": [
+    "torch.nn",
+    "torch.cuda",
+    "torch.utils",
+    "torch.linalg"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.nn includes RNN, LSTM, and GRU layers.",
+  "points": 30,
+  "tags": ["rnn"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Transformers mainly rely on:",
+  "options": [
+    "Self-attention",
+    "Pooling",
+    "Batch normalization",
+    "Gradient clipping"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-attention enables transformers to model relationships between tokens.",
+  "points": 30,
+  "tags": ["transformers"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which library from Hugging Face is commonly used with PyTorch?",
+  "options": [
+    "transformers",
+    "keras",
+    "scikit-image",
+    "pygame"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The transformers library integrates seamlessly with PyTorch.",
+  "points": 30,
+  "tags": ["huggingface"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Mixed precision training mainly uses:",
+  "options": [
+    "FP16 and FP32 together",
+    "Only FP64",
+    "Only INT8",
+    "Only FP8"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mixed precision improves speed while maintaining numerical stability.",
+  "points": 30,
+  "tags": ["mixed-precision"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which module supports automatic mixed precision?",
+  "options": [
+    "torch.cuda.amp",
+    "torch.fp16",
+    "torch.autocast",
+    "torch.optim.amp"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.cuda.amp provides automatic mixed precision training utilities.",
+  "points": 30,
+  "tags": ["amp"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Distributed training allows:",
+  "options": [
+    "Training across multiple GPUs or machines",
+    "Running multiple datasets",
+    "Compressing models",
+    "Generating embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Distributed training accelerates large-scale deep learning.",
+  "points": 30,
+  "tags": ["distributed"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "DDP stands for:",
+  "options": [
+    "Distributed Data Parallel",
+    "Dynamic Data Pipeline",
+    "Deep Distributed Processing",
+    "Distributed Dataset Protocol"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DistributedDataParallel is the recommended distributed training approach.",
+  "points": 30,
+  "tags": ["ddp"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "TorchScript is primarily used to:",
+  "options": [
+    "Serialize and optimize PyTorch models",
+    "Create datasets",
+    "Manage GPUs",
+    "Train transformers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TorchScript enables deployment outside the Python runtime.",
+  "points": 30,
+  "tags": ["torchscript"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "ONNX is mainly used for:",
+  "options": [
+    "Interoperability between deep learning frameworks",
+    "Image augmentation",
+    "Gradient computation",
+    "Model quantization only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX provides a common format for exchanging models.",
+  "points": 30,
+  "tags": ["onnx"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Model quantization primarily aims to:",
+  "options": [
+    "Reduce model size and inference latency",
+    "Increase dataset size",
+    "Improve image resolution",
+    "Replace optimizers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization converts weights to lower precision for efficient inference.",
+  "points": 30,
+  "tags": ["quantization"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "INT8 quantization uses:",
+  "options": [
+    "8-bit integers for model weights",
+    "8-bit floating point numbers",
+    "16-bit integers",
+    "64-bit integers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "INT8 significantly reduces memory usage during inference.",
+  "points": 30,
+  "tags": ["int8"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Model pruning removes:",
+  "options": [
+    "Less important weights or neurons",
+    "Training data",
+    "Activation functions",
+    "GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pruning creates smaller and more efficient models.",
+  "points": 30,
+  "tags": ["pruning"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Structured pruning removes:",
+  "options": [
+    "Entire filters or channels",
+    "Random pixels",
+    "Training samples",
+    "Gradient values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Structured pruning removes complete model structures for efficient execution.",
+  "points": 30,
+  "tags": ["structured-pruning"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "TensorBoard is mainly used for:",
+  "options": [
+    "Visualizing training metrics",
+    "Training CNNs",
+    "Compiling models",
+    "Converting datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorBoard displays losses, accuracy, graphs, and embeddings.",
+  "points": 30,
+  "tags": ["tensorboard"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which package integrates TensorBoard with PyTorch?",
+  "options": [
+    "torch.utils.tensorboard",
+    "torch.tensorboard",
+    "torch.visualize",
+    "torch.logs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch includes TensorBoard support through torch.utils.tensorboard.",
+  "points": 30,
+  "tags": ["tensorboard"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which vision model is commonly available in torchvision?",
+  "options": [
+    "ResNet",
+    "BERT",
+    "GPT",
+    "Llama"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torchvision provides pretrained ResNet models.",
+  "points": 30,
+  "tags": ["resnet"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Which pretrained architecture introduced residual connections?",
+  "options": [
+    "ResNet",
+    "AlexNet",
+    "LeNet",
+    "VGG"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ResNet uses skip connections to enable very deep networks.",
+  "points": 30,
+  "tags": ["resnet"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Fine-tuning usually involves:",
+  "options": [
+    "Continuing training on a pretrained model",
+    "Randomly initializing every layer",
+    "Removing gradients",
+    "Deleting pretrained weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fine-tuning adapts pretrained models to new datasets.",
+  "points": 30,
+  "tags": ["fine-tuning"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "pytorch",
+  "difficulty": "hard",
+  "question": "Freezing model layers means:",
+  "options": [
+    "Preventing their weights from being updated",
+    "Deleting the layers",
+    "Moving them to CPU",
+    "Compressing the tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Frozen layers keep pretrained weights unchanged during fine-tuning.",
+  "points": 30,
+  "tags": ["freeze"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "PyTorch Lightning is primarily designed to:",
+  "options": [
+    "Simplify and organize PyTorch training code",
+    "Replace CUDA",
+    "Create datasets",
+    "Compress models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch Lightning abstracts boilerplate training code while keeping PyTorch flexibility.",
+  "points": 40,
+  "tags": ["lightning"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "TorchServe is mainly used for:",
+  "options": [
+    "Serving trained PyTorch models in production",
+    "Training neural networks",
+    "Building datasets",
+    "Optimizing CUDA kernels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TorchServe provides scalable model deployment and inference APIs.",
+  "points": 40,
+  "tags": ["torchserve"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "torch.compile(), introduced in PyTorch 2.x, is used to:",
+  "options": [
+    "Optimize model execution speed",
+    "Compile Python into C++",
+    "Export ONNX models",
+    "Create CUDA drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torch.compile optimizes computation graphs for faster execution.",
+  "points": 40,
+  "tags": ["torch-compile"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "TorchMetrics is primarily used for:",
+  "options": [
+    "Computing evaluation metrics during training",
+    "Managing datasets",
+    "Deploying models",
+    "Building CNN layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TorchMetrics provides reusable implementations of common ML metrics.",
+  "points": 40,
+  "tags": ["torchmetrics"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Which Hugging Face library is most commonly used with PyTorch for LLMs?",
+  "options": [
+    "transformers",
+    "datasets",
+    "evaluate",
+    "accelerate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The transformers library provides pretrained language and vision models built on PyTorch.",
+  "points": 40,
+  "tags": ["transformers"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "The Hugging Face Diffusers library is mainly used for:",
+  "options": [
+    "Diffusion-based image and video generation",
+    "Database indexing",
+    "Tensor compression",
+    "Numerical optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Diffusers provides pipelines for Stable Diffusion and related generative models.",
+  "points": 40,
+  "tags": ["diffusers"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "PEFT stands for:",
+  "options": [
+    "Parameter-Efficient Fine-Tuning",
+    "Parallel Execution Framework Toolkit",
+    "Pretrained Evaluation Function Tool",
+    "Performance Enhancement Feature Training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PEFT enables efficient fine-tuning using a small number of trainable parameters.",
+  "points": 40,
+  "tags": ["peft"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "LoRA fine-tuning works by:",
+  "options": [
+    "Training small low-rank adapter matrices",
+    "Replacing the optimizer",
+    "Reducing batch size",
+    "Removing attention layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA freezes the base model while training lightweight adapter weights.",
+  "points": 40,
+  "tags": ["lora"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "QLoRA combines LoRA with:",
+  "options": [
+    "Model quantization",
+    "Model pruning",
+    "Knowledge distillation",
+    "Gradient clipping"
+  ],
+  "correctAnswer": 0,
+  "explanation": "QLoRA uses quantized base models while training LoRA adapters.",
+  "points": 40,
+  "tags": ["qlora"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "FSDP stands for:",
+  "options": [
+    "Fully Sharded Data Parallel",
+    "Fast Sequential Distributed Processing",
+    "Flexible Storage Data Pipeline",
+    "Feature Sharing Deep Processing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FSDP shards model parameters across GPUs to reduce memory usage.",
+  "points": 40,
+  "tags": ["fsdp"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Tensor parallelism mainly distributes:",
+  "options": [
+    "Individual tensor computations across devices",
+    "Training datasets only",
+    "Model checkpoints",
+    "Learning rates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensor parallelism splits large tensor operations among multiple GPUs.",
+  "points": 40,
+  "tags": ["tensor-parallel"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Pipeline parallelism is useful for:",
+  "options": [
+    "Splitting large models across multiple GPUs",
+    "Increasing batch size only",
+    "Creating datasets",
+    "Loading checkpoints"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pipeline parallelism divides model layers among multiple devices.",
+  "points": 40,
+  "tags": ["pipeline-parallel"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Knowledge distillation transfers knowledge from:",
+  "options": [
+    "A larger teacher model to a smaller student model",
+    "CPU to GPU",
+    "Training data to labels",
+    "One optimizer to another"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Distillation creates compact models while retaining much of the teacher's performance.",
+  "points": 40,
+  "tags": ["distillation"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Which format is commonly used to export PyTorch models for interoperability?",
+  "options": [
+    "ONNX",
+    "CSV",
+    "YAML",
+    "JSON"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX enables deployment across multiple deep learning runtimes.",
+  "points": 40,
+  "tags": ["onnx"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Inference optimization primarily aims to:",
+  "options": [
+    "Reduce latency and increase throughput",
+    "Increase training loss",
+    "Generate more datasets",
+    "Reduce image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production inference focuses on fast and efficient prediction.",
+  "points": 40,
+  "tags": ["inference"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Which NVIDIA library is commonly used to optimize PyTorch inference?",
+  "options": [
+    "TensorRT",
+    "cuBLAS",
+    "OpenCV",
+    "NumPy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT performs graph optimization and precision tuning for deployment.",
+  "points": 40,
+  "tags": ["tensorrt"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "A checkpoint typically contains:",
+  "options": [
+    "Model weights and training state",
+    "Only training images",
+    "CUDA drivers",
+    "Python source code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Checkpoints allow interrupted training to resume later.",
+  "points": 40,
+  "tags": ["checkpoint"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Gradient clipping is mainly used to:",
+  "options": [
+    "Prevent exploding gradients",
+    "Reduce dataset size",
+    "Increase learning rate",
+    "Normalize images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradient clipping improves stability during deep network training.",
+  "points": 40,
+  "tags": ["gradient-clipping"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Learning rate scheduling helps by:",
+  "options": [
+    "Adjusting the learning rate during training",
+    "Increasing GPU memory",
+    "Removing overfitting",
+    "Compressing tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Schedulers improve convergence by modifying the learning rate over time.",
+  "points": 40,
+  "tags": ["scheduler"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Which PyTorch package provides built-in learning rate schedulers?",
+  "options": [
+    "torch.optim.lr_scheduler",
+    "torch.nn.scheduler",
+    "torch.cuda.scheduler",
+    "torch.metrics.scheduler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Learning rate schedulers are included in torch.optim.lr_scheduler.",
+  "points": 40,
+  "tags": ["scheduler"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Early stopping is mainly used to:",
+  "options": [
+    "Prevent overfitting by stopping training when validation performance stops improving",
+    "Reduce GPU temperature",
+    "Increase batch size",
+    "Export models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Early stopping helps avoid unnecessary training and overfitting.",
+  "points": 40,
+  "tags": ["early-stopping"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Which PyTorch ecosystem library focuses on audio processing?",
+  "options": [
+    "torchaudio",
+    "torchvision",
+    "torchtext",
+    "torchserve"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torchaudio provides datasets and transforms for speech and audio tasks.",
+  "points": 40,
+  "tags": ["torchaudio"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Which PyTorch ecosystem library is designed for natural language processing datasets and utilities?",
+  "options": [
+    "torchtext",
+    "torchaudio",
+    "torchvision",
+    "torchrec"
+  ],
+  "correctAnswer": 0,
+  "explanation": "torchtext provides tools for text preprocessing and NLP datasets.",
+  "points": 40,
+  "tags": ["torchtext"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "Which practice generally improves reproducibility in PyTorch experiments?",
+  "options": [
+    "Setting random seeds",
+    "Increasing batch size randomly",
+    "Changing optimizers every epoch",
+    "Disabling validation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Setting random seeds helps produce more consistent experimental results.",
+  "points": 40,
+  "tags": ["reproducibility"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "pytorch",
+  "difficulty": "expert",
+  "question": "PyTorch is most widely recognized for:",
+  "options": [
+    "Flexible research, deep learning, and production AI development",
+    "Relational database management",
+    "Spreadsheet analysis",
+    "Operating system development"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PyTorch is widely used for research, fine-tuning LLMs, computer vision, generative AI, and production deployment.",
+  "points": 40,
+  "tags": ["ecosystem"],
+  "timeLimit": 75
+}
+
+]

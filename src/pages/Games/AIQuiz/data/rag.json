@@ -1,0 +1,1703 @@
+[
+  {
+    "id": 1,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What does RAG stand for?",
+    "options": [
+      "Retrieval-Augmented Generation",
+      "Recursive AI Generator",
+      "Retrieval Algorithm Generator",
+      "Response Augmented Graph"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RAG combines information retrieval with language model generation.",
+    "points": 10,
+    "tags": ["basics"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is the primary goal of a RAG system?",
+    "options": [
+      "Provide grounded answers using external knowledge",
+      "Increase GPU memory",
+      "Replace tokenizers",
+      "Compress datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RAG retrieves relevant documents before generating a response.",
+    "points": 10,
+    "tags": ["basics"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which component retrieves relevant documents in a RAG pipeline?",
+    "options": [
+      "Retriever",
+      "Tokenizer",
+      "Optimizer",
+      "Decoder"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The retriever searches a knowledge base for relevant information.",
+    "points": 10,
+    "tags": ["retriever"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which component produces the final answer in RAG?",
+    "options": [
+      "Generator (LLM)",
+      "Embedding Model",
+      "Chunker",
+      "Vector Database"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The generator uses retrieved context to produce the response.",
+    "points": 10,
+    "tags": ["generator"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is usually stored in a vector database?",
+    "options": [
+      "Embeddings",
+      "Images",
+      "Python scripts",
+      "GPU drivers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vector databases store embeddings for similarity search.",
+    "points": 10,
+    "tags": ["vector-db"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What converts text into numerical vectors in a RAG system?",
+    "options": [
+      "Embedding Model",
+      "Tokenizer",
+      "Optimizer",
+      "Attention Layer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Embedding models encode text into dense vectors.",
+    "points": 10,
+    "tags": ["embeddings"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is semantic search?",
+    "options": [
+      "Searching by meaning",
+      "Searching alphabetically",
+      "Searching by filename",
+      "Searching by date"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Semantic search retrieves documents based on meaning instead of exact keywords.",
+    "points": 10,
+    "tags": ["semantic-search"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which similarity metric is most commonly used for embeddings?",
+    "options": [
+      "Cosine Similarity",
+      "Accuracy",
+      "Recall",
+      "BLEU"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cosine similarity measures the angle between embedding vectors.",
+    "points": 10,
+    "tags": ["similarity"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is chunking?",
+    "options": [
+      "Splitting documents into smaller pieces",
+      "Compressing embeddings",
+      "Training an LLM",
+      "Fine-tuning a tokenizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chunking breaks large documents into manageable sections for retrieval.",
+    "points": 10,
+    "tags": ["chunking"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Why is chunking important in RAG?",
+    "options": [
+      "Improves retrieval quality",
+      "Increases GPU speed",
+      "Reduces tokenizer size",
+      "Removes embeddings"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Smaller chunks often produce more relevant search results.",
+    "points": 10,
+    "tags": ["chunking"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which open-source library is widely used for RAG pipelines?",
+    "options": [
+      "LangChain",
+      "OpenCV",
+      "NumPy",
+      "Flask"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LangChain provides tools for retrieval and generation workflows.",
+    "points": 10,
+    "tags": ["langchain"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "LlamaIndex is primarily used for:",
+    "options": [
+      "Building RAG applications",
+      "Training CNNs",
+      "Video editing",
+      "Image segmentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LlamaIndex helps organize and retrieve data for LLM applications.",
+    "points": 10,
+    "tags": ["llamaindex"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which file format is commonly indexed in RAG systems?",
+    "options": [
+      "PDF",
+      "MP3",
+      "EXE",
+      "ISO"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PDFs are commonly processed and indexed for document retrieval.",
+    "points": 10,
+    "tags": ["documents"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which library is commonly used to extract text from PDFs in Python?",
+    "options": [
+      "PyMuPDF",
+      "TensorFlow",
+      "OpenCV",
+      "Matplotlib"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PyMuPDF efficiently extracts text from PDF documents.",
+    "points": 10,
+    "tags": ["pymupdf"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which model family is commonly used for text embeddings?",
+    "options": [
+      "Sentence Transformers",
+      "YOLO",
+      "ResNet",
+      "U-Net"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sentence Transformers generate high-quality semantic embeddings.",
+    "points": 10,
+    "tags": ["embeddings"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is retrieved before generation in a RAG pipeline?",
+    "options": [
+      "Relevant documents",
+      "Training labels",
+      "Gradients",
+      "Optimizer states"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Relevant context is retrieved and passed to the LLM.",
+    "points": 10,
+    "tags": ["pipeline"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "RAG mainly helps reduce:",
+    "options": [
+      "Hallucinations",
+      "GPU temperature",
+      "Vocabulary size",
+      "Learning rate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Grounding answers with retrieved documents reduces hallucinations.",
+    "points": 10,
+    "tags": ["hallucination"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is an embedding?",
+    "options": [
+      "A dense numerical representation of data",
+      "A programming language",
+      "A tokenizer",
+      "A database"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Embeddings capture semantic meaning in vector form.",
+    "points": 10,
+    "tags": ["embedding"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which database type is designed for similarity search?",
+    "options": [
+      "Vector Database",
+      "Relational Database",
+      "Graph Database",
+      "Document Store"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vector databases efficiently perform nearest-neighbor searches.",
+    "points": 10,
+    "tags": ["vector-db"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is the output of an embedding model?",
+    "options": [
+      "Dense Vector",
+      "SQL Query",
+      "Image",
+      "JSON File"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Embedding models convert text into dense numerical vectors.",
+    "points": 10,
+    "tags": ["embedding"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which component stores document vectors?",
+    "options": [
+      "Vector Database",
+      "Tokenizer",
+      "Scheduler",
+      "Optimizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vector databases store embeddings for efficient retrieval.",
+    "points": 10,
+    "tags": ["storage"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which stage follows retrieval in RAG?",
+    "options": [
+      "Generation",
+      "Training",
+      "Compression",
+      "Annotation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Retrieved context is passed to the LLM for answer generation.",
+    "points": 10,
+    "tags": ["pipeline"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "What is the purpose of document indexing?",
+    "options": [
+      "Enable fast retrieval",
+      "Increase token count",
+      "Reduce vocabulary",
+      "Compress prompts"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Indexed documents can be searched efficiently.",
+    "points": 10,
+    "tags": ["indexing"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which retrieval method uses vector similarity?",
+    "options": [
+      "Dense Retrieval",
+      "Binary Search",
+      "Linear Search",
+      "Regex Search"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dense retrieval compares embedding vectors.",
+    "points": 10,
+    "tags": ["dense-retrieval"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "rag",
+    "difficulty": "easy",
+    "question": "Which AI application commonly uses RAG?",
+    "options": [
+      "Document Question Answering",
+      "Object Detection",
+      "Image Segmentation",
+      "Pose Estimation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RAG is widely used in document-based question answering systems.",
+    "points": 10,
+    "tags": ["applications"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What is FAISS primarily used for?",
+  "options": [
+    "Efficient vector similarity search",
+    "Training language models",
+    "Image annotation",
+    "Database backup"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAISS is a library developed by Meta for fast similarity search over dense vectors.",
+  "points": 20,
+  "tags": ["faiss"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Who developed FAISS?",
+  "options": [
+    "Meta AI",
+    "Google DeepMind",
+    "OpenAI",
+    "Microsoft"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAISS was developed by Meta AI Research.",
+  "points": 20,
+  "tags": ["faiss"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Which open-source vector database is widely used for local RAG applications?",
+  "options": [
+    "ChromaDB",
+    "MySQL",
+    "SQLite",
+    "MongoDB"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ChromaDB is commonly used as a lightweight local vector database.",
+  "points": 20,
+  "tags": ["chromadb"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Which vector database is a managed cloud service?",
+  "options": [
+    "Pinecone",
+    "SQLite",
+    "PostgreSQL",
+    "MariaDB"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pinecone provides a fully managed cloud-native vector database.",
+  "points": 20,
+  "tags": ["pinecone"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Milvus is primarily designed for:",
+  "options": [
+    "Large-scale vector search",
+    "Image editing",
+    "Video encoding",
+    "Spreadsheet analysis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Milvus is built for scalable vector similarity search.",
+  "points": 20,
+  "tags": ["milvus"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What does BM25 primarily perform?",
+  "options": [
+    "Keyword-based retrieval",
+    "Vector quantization",
+    "Image segmentation",
+    "Language modeling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BM25 ranks documents using keyword frequency and document statistics.",
+  "points": 20,
+  "tags": ["bm25"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Hybrid Search combines:",
+  "options": [
+    "Dense retrieval and keyword search",
+    "CNN and RNN",
+    "SQL and NoSQL",
+    "GPU and CPU"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hybrid search combines semantic and lexical retrieval.",
+  "points": 20,
+  "tags": ["hybrid-search"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Why is Hybrid Search often more accurate than dense retrieval alone?",
+  "options": [
+    "It captures both semantic meaning and exact keywords",
+    "It reduces embedding dimensions",
+    "It removes chunking",
+    "It avoids tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Combining lexical and semantic retrieval improves recall and precision.",
+  "points": 20,
+  "tags": ["hybrid-search"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What does Top-k retrieval return?",
+  "options": [
+    "The k most relevant documents",
+    "The longest documents",
+    "The newest documents",
+    "Random documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Top-k retrieval selects the highest-scoring documents.",
+  "points": 20,
+  "tags": ["top-k"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Choosing a very large value of k may:",
+  "options": [
+    "Introduce irrelevant context",
+    "Reduce embeddings",
+    "Increase vocabulary",
+    "Improve tokenizer accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Too many retrieved documents can add noise to the prompt.",
+  "points": 20,
+  "tags": ["retrieval"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What is metadata filtering?",
+  "options": [
+    "Restricting retrieval using document metadata",
+    "Removing embeddings",
+    "Compressing prompts",
+    "Deleting documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Metadata filters limit search by attributes such as author or date.",
+  "points": 20,
+  "tags": ["metadata"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Which metadata field is commonly used in enterprise RAG?",
+  "options": [
+    "Document source",
+    "GPU model",
+    "Python version",
+    "CUDA version"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Document source helps filter and identify retrieved content.",
+  "points": 20,
+  "tags": ["metadata"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What is a reranker?",
+  "options": [
+    "A model that reorders retrieved documents",
+    "A tokenizer",
+    "A vector database",
+    "A PDF parser"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rerankers improve retrieval quality by rescoring candidate documents.",
+  "points": 20,
+  "tags": ["reranker"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Cross-encoder rerankers usually provide:",
+  "options": [
+    "Higher retrieval accuracy",
+    "Lower embedding dimensions",
+    "Smaller tokenizers",
+    "Faster PDF parsing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross-encoders jointly evaluate queries and documents for better ranking.",
+  "points": 20,
+  "tags": ["cross-encoder"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What is the context window of an LLM?",
+  "options": [
+    "Maximum number of tokens the model can process",
+    "GPU memory",
+    "Vocabulary size",
+    "Training dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The context window limits how much information the model can consider at once.",
+  "points": 20,
+  "tags": ["context-window"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "If retrieved context exceeds the context window:",
+  "options": [
+    "Some information must be truncated",
+    "The GPU crashes",
+    "The tokenizer stops working",
+    "The embeddings are deleted"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The prompt must fit within the model's maximum context length.",
+  "points": 20,
+  "tags": ["context-window"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Why are prompt templates used in RAG?",
+  "options": [
+    "To structure retrieved context consistently",
+    "To increase GPU utilization",
+    "To train embeddings",
+    "To compress documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prompt templates help present retrieved information in a consistent format.",
+  "points": 20,
+  "tags": ["prompt"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "A good RAG prompt should instruct the model to:",
+  "options": [
+    "Answer using only the provided context when possible",
+    "Ignore retrieved documents",
+    "Generate random examples",
+    "Always answer from memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Grounding responses in retrieved context improves reliability.",
+  "points": 20,
+  "tags": ["prompting"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What is document overlap in chunking?",
+  "options": [
+    "Repeating some text between adjacent chunks",
+    "Removing duplicate files",
+    "Compressing embeddings",
+    "Combining PDFs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Overlap helps preserve context between neighboring chunks.",
+  "points": 20,
+  "tags": ["chunking"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Why is chunk overlap useful?",
+  "options": [
+    "It reduces information loss across chunk boundaries",
+    "It reduces GPU memory",
+    "It increases vocabulary",
+    "It removes duplicate embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Important information often spans multiple chunks.",
+  "points": 20,
+  "tags": ["chunking"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Which embedding model is widely used in production RAG systems?",
+  "options": [
+    "BAAI bge-m3",
+    "YOLOv8",
+    "ResNet-50",
+    "AlexNet"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BAAI bge-m3 is a strong multilingual embedding model for retrieval.",
+  "points": 20,
+  "tags": ["bge-m3"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Sentence Transformers are primarily used to:",
+  "options": [
+    "Generate semantic embeddings",
+    "Generate videos",
+    "Detect objects",
+    "Segment images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sentence Transformers encode text into embedding vectors.",
+  "points": 20,
+  "tags": ["sentence-transformers"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "Which retrieval strategy searches using embedding similarity?",
+  "options": [
+    "Dense Retrieval",
+    "Keyword Search",
+    "Regex Search",
+    "Binary Search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dense retrieval compares vector embeddings instead of keywords.",
+  "points": 20,
+  "tags": ["dense-retrieval"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "What is typically stored together with document embeddings?",
+  "options": [
+    "Metadata",
+    "Optimizer state",
+    "Gradients",
+    "Learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Metadata enables filtering and document identification.",
+  "points": 20,
+  "tags": ["metadata"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "rag",
+  "difficulty": "medium",
+  "question": "The quality of a RAG system depends heavily on:",
+  "options": [
+    "The quality of retrieved documents",
+    "GPU RGB lighting",
+    "Python version",
+    "Monitor resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Even the best LLM cannot produce grounded answers from poor retrieval results.",
+  "points": 20,
+  "tags": ["retrieval-quality"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What does ANN stand for in vector search?",
+  "options": [
+    "Approximate Nearest Neighbor",
+    "Artificial Neural Network",
+    "Adaptive Node Network",
+    "Automated Neural Navigation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ANN algorithms provide fast approximate similarity search over high-dimensional vectors.",
+  "points": 30,
+  "tags": ["ann"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Why is Approximate Nearest Neighbor search preferred over exact search in large vector databases?",
+  "options": [
+    "It is significantly faster with minimal accuracy loss",
+    "It removes embeddings",
+    "It increases vocabulary",
+    "It trains the LLM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ANN trades a small amount of accuracy for substantial improvements in retrieval speed.",
+  "points": 30,
+  "tags": ["ann"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What does HNSW stand for?",
+  "options": [
+    "Hierarchical Navigable Small World",
+    "Hierarchical Neural Search Workflow",
+    "High Node Search Window",
+    "Hybrid Navigation Semantic Web"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HNSW is a graph-based ANN indexing algorithm widely used in vector databases.",
+  "points": 30,
+  "tags": ["hnsw"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "HNSW is based on which data structure?",
+  "options": [
+    "Graph",
+    "Binary Tree",
+    "Linked List",
+    "Hash Table"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HNSW builds a multi-layer graph for efficient nearest-neighbor search.",
+  "points": 30,
+  "tags": ["hnsw"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What does IVF stand for in FAISS?",
+  "options": [
+    "Inverted File Index",
+    "Indexed Vector Format",
+    "Integrated Vector Fusion",
+    "Incremental Vector Framework"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IVF partitions vectors into clusters for faster similarity search.",
+  "points": 30,
+  "tags": ["ivf"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "The primary purpose of IVF is to:",
+  "options": [
+    "Reduce search space before similarity comparison",
+    "Increase embedding dimensions",
+    "Replace chunking",
+    "Generate embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IVF searches only relevant clusters instead of the entire dataset.",
+  "points": 30,
+  "tags": ["faiss"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Product Quantization (PQ) mainly helps reduce:",
+  "options": [
+    "Memory usage",
+    "Prompt length",
+    "Vocabulary size",
+    "Chunk overlap"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PQ compresses vectors while maintaining efficient similarity search.",
+  "points": 30,
+  "tags": ["pq"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which FAISS index type combines IVF and Product Quantization?",
+  "options": [
+    "IVF-PQ",
+    "Flat",
+    "HNSWFlat",
+    "IndexLSH"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IVF-PQ combines clustering and vector compression for scalable search.",
+  "points": 30,
+  "tags": ["faiss"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What is Reciprocal Rank Fusion (RRF)?",
+  "options": [
+    "A method for combining rankings from multiple retrievers",
+    "A vector compression algorithm",
+    "A tokenizer",
+    "A fine-tuning method"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RRF merges ranked lists from different retrieval methods into a single ranking.",
+  "points": 30,
+  "tags": ["rrf"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "RRF is commonly used in:",
+  "options": [
+    "Hybrid Retrieval",
+    "CNN Training",
+    "Object Detection",
+    "GAN Training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RRF effectively combines dense and keyword retrieval results.",
+  "points": 30,
+  "tags": ["hybrid-search"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What is Parent-Child Retrieval?",
+  "options": [
+    "Retrieving small chunks while returning their larger parent documents",
+    "Searching parent folders",
+    "Recursive database indexing",
+    "Hierarchical tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Parent-child retrieval improves context while maintaining precise indexing.",
+  "points": 30,
+  "tags": ["parent-child"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Multi-Vector Retrieval stores:",
+  "options": [
+    "Multiple embeddings for a single document",
+    "Multiple tokenizers",
+    "Multiple PDFs",
+    "Multiple LLMs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Documents may have several embeddings representing different sections or perspectives.",
+  "points": 30,
+  "tags": ["multi-vector"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Why use multiple embeddings for one document?",
+  "options": [
+    "To improve retrieval accuracy",
+    "To reduce GPU memory",
+    "To compress prompts",
+    "To replace rerankers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multiple representations can better capture document semantics.",
+  "points": 30,
+  "tags": ["multi-vector"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Query Expansion improves retrieval by:",
+  "options": [
+    "Generating additional related search terms",
+    "Increasing embedding size",
+    "Training a larger model",
+    "Reducing chunk overlap"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Expanding queries increases the likelihood of retrieving relevant documents.",
+  "points": 30,
+  "tags": ["query-expansion"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What does HyDE stand for?",
+  "options": [
+    "Hypothetical Document Embeddings",
+    "Hybrid Dense Embeddings",
+    "Hyper Document Encoder",
+    "Hierarchical Document Engine"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HyDE generates a hypothetical answer before retrieving similar documents.",
+  "points": 30,
+  "tags": ["hyde"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "HyDE first generates:",
+  "options": [
+    "A hypothetical answer",
+    "A tokenizer",
+    "A PDF",
+    "A vector database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The generated hypothetical answer is embedded and used for retrieval.",
+  "points": 30,
+  "tags": ["hyde"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Context Compression is mainly used to:",
+  "options": [
+    "Reduce irrelevant retrieved information",
+    "Compress embeddings",
+    "Reduce model parameters",
+    "Compress PDFs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Compression keeps only the most useful context before sending it to the LLM.",
+  "points": 30,
+  "tags": ["compression"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "A Contextual Compression Retriever typically uses:",
+  "options": [
+    "An LLM or reranker to filter retrieved content",
+    "Only FAISS",
+    "Only BM25",
+    "Only tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Compression retrievers reduce prompt size while preserving relevant information.",
+  "points": 30,
+  "tags": ["compression"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Self-RAG enables an LLM to:",
+  "options": [
+    "Decide when retrieval is needed",
+    "Replace embeddings",
+    "Generate training data only",
+    "Remove vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-RAG integrates retrieval decisions into the generation process.",
+  "points": 30,
+  "tags": ["self-rag"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Agentic RAG differs from traditional RAG because it:",
+  "options": [
+    "Uses autonomous reasoning and tool use",
+    "Removes retrieval",
+    "Uses only keyword search",
+    "Does not require LLMs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agentic RAG plans, retrieves, evaluates, and may perform multiple retrieval steps.",
+  "points": 30,
+  "tags": ["agentic-rag"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Multi-hop RAG is useful when:",
+  "options": [
+    "Answering requires information from multiple documents",
+    "Only one document exists",
+    "No embeddings are available",
+    "GPU memory is low"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multi-hop retrieval gathers evidence from several sources before answering.",
+  "points": 30,
+  "tags": ["multi-hop"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which retrieval strategy usually gives the best enterprise performance?",
+  "options": [
+    "Hybrid Retrieval with Reranking",
+    "Random Search",
+    "Only BM25",
+    "Only Dense Retrieval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Combining dense retrieval, keyword search, and reranking generally yields the best results.",
+  "points": 30,
+  "tags": ["enterprise"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "A reranker is typically applied:",
+  "options": [
+    "After initial retrieval",
+    "Before chunking",
+    "Before embedding generation",
+    "After model fine-tuning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Candidate documents are reranked before being passed to the LLM.",
+  "points": 30,
+  "tags": ["reranking"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "The largest latency in production RAG systems often comes from:",
+  "options": [
+    "Retrieval and LLM inference",
+    "JSON parsing",
+    "Python imports",
+    "Loading environment variables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Retrieval operations and language model inference dominate response time.",
+  "points": 30,
+  "tags": ["performance"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which architecture is currently considered the most effective production RAG pipeline?",
+  "options": [
+    "Hybrid Retrieval + Reranker + LLM",
+    "Only BM25",
+    "Only Dense Retrieval",
+    "LLM without Retrieval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production systems commonly combine hybrid retrieval, reranking, and an LLM to maximize answer quality.",
+  "points": 30,
+  "tags": ["production-rag"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What is GraphRAG?",
+  "options": [
+    "A RAG approach that combines knowledge graphs with LLM retrieval",
+    "A graph database only",
+    "A CNN architecture",
+    "A tokenizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GraphRAG augments retrieval using graph structures and relationships between entities.",
+  "points": 30,
+  "tags": ["graphrag"],
+  "timeLimit": 60
+},
+{
+  "id": 77,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Knowledge graphs primarily represent:",
+  "options": [
+    "Entities and their relationships",
+    "Images",
+    "Audio signals",
+    "GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Knowledge graphs model connected entities and relationships for structured retrieval.",
+  "points": 30,
+  "tags": ["knowledge-graph"],
+  "timeLimit": 60
+},
+{
+  "id": 78,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "GraphRAG is especially useful for:",
+  "options": [
+    "Multi-hop reasoning over connected information",
+    "Image super-resolution",
+    "Object detection",
+    "Speech synthesis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Graph relationships enable retrieval across linked concepts.",
+  "points": 30,
+  "tags": ["graphrag"],
+  "timeLimit": 60
+},
+{
+  "id": 79,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What is RAPTOR in RAG?",
+  "options": [
+    "A hierarchical recursive document summarization and retrieval method",
+    "A vector database",
+    "A tokenizer",
+    "A PDF parser"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAPTOR recursively summarizes and organizes documents into hierarchical trees.",
+  "points": 30,
+  "tags": ["raptor"],
+  "timeLimit": 60
+},
+{
+  "id": 80,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "RAPTOR primarily improves:",
+  "options": [
+    "Long-document retrieval",
+    "GPU utilization",
+    "Tokenizer speed",
+    "Embedding dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hierarchical summaries improve retrieval over lengthy documents.",
+  "points": 30,
+  "tags": ["raptor"],
+  "timeLimit": 60
+},
+{
+  "id": 81,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What is ColBERT known for?",
+  "options": [
+    "Late interaction retrieval",
+    "Image classification",
+    "Speech recognition",
+    "Video generation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ColBERT uses late interaction between token embeddings for high-quality retrieval.",
+  "points": 30,
+  "tags": ["colbert"],
+  "timeLimit": 60
+},
+{
+  "id": 82,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Compared with single-vector retrieval, ColBERT stores:",
+  "options": [
+    "Token-level embeddings",
+    "Compressed images",
+    "Optimizer states",
+    "SQL queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ColBERT represents documents using token-level embeddings.",
+  "points": 30,
+  "tags": ["colbert"],
+  "timeLimit": 60
+},
+{
+  "id": 83,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "DSPy is primarily used for:",
+  "options": [
+    "Programming and optimizing LLM pipelines",
+    "GPU overclocking",
+    "Video compression",
+    "Database migration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DSPy helps optimize prompts and LLM workflows programmatically.",
+  "points": 30,
+  "tags": ["dspy"],
+  "timeLimit": 60
+},
+{
+  "id": 84,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "CRAG stands for:",
+  "options": [
+    "Corrective Retrieval-Augmented Generation",
+    "Context Retrieval AI Generator",
+    "Compressed Retrieval and Generation",
+    "Cross Retrieval Agent Graph"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CRAG evaluates retrieved documents and corrects poor retrieval before generation.",
+  "points": 30,
+  "tags": ["crag"],
+  "timeLimit": 60
+},
+{
+  "id": 85,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "The main purpose of CRAG is to:",
+  "options": [
+    "Improve retrieval quality before generation",
+    "Replace embeddings",
+    "Increase context window",
+    "Compress the tokenizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CRAG identifies weak retrieval results and attempts corrective retrieval.",
+  "points": 30,
+  "tags": ["crag"],
+  "timeLimit": 60
+},
+{
+  "id": 86,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Recall@k measures:",
+  "options": [
+    "Whether relevant documents appear within the top-k results",
+    "Generation speed",
+    "GPU utilization",
+    "Embedding size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Recall@k evaluates retrieval effectiveness.",
+  "points": 30,
+  "tags": ["evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 87,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "MRR stands for:",
+  "options": [
+    "Mean Reciprocal Rank",
+    "Maximum Retrieval Recall",
+    "Model Response Rate",
+    "Multi Rank Retrieval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MRR evaluates how highly the first relevant document is ranked.",
+  "points": 30,
+  "tags": ["evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 88,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "NDCG evaluates:",
+  "options": [
+    "Ranking quality with graded relevance",
+    "Embedding dimensions",
+    "Prompt length",
+    "Context window"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NDCG rewards ranking highly relevant documents near the top.",
+  "points": 30,
+  "tags": ["evaluation"],
+  "timeLimit": 60
+},
+{
+  "id": 89,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "RAGAS is mainly used for:",
+  "options": [
+    "Evaluating RAG system quality",
+    "Training diffusion models",
+    "Image annotation",
+    "Speech synthesis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAGAS provides automated evaluation metrics for RAG pipelines.",
+  "points": 30,
+  "tags": ["ragas"],
+  "timeLimit": 60
+},
+{
+  "id": 90,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which RAGAS metric measures whether the answer is supported by retrieved context?",
+  "options": [
+    "Faithfulness",
+    "Accuracy",
+    "BLEU",
+    "Precision"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Faithfulness evaluates whether answers are grounded in retrieved documents.",
+  "points": 30,
+  "tags": ["ragas"],
+  "timeLimit": 60
+},
+{
+  "id": 91,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which RAGAS metric evaluates retrieval quality?",
+  "options": [
+    "Context Recall",
+    "Learning Rate",
+    "Batch Size",
+    "Temperature"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Context Recall measures how much relevant information was retrieved.",
+  "points": 30,
+  "tags": ["ragas"],
+  "timeLimit": 60
+},
+{
+  "id": 92,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "In enterprise RAG, document permissions are commonly enforced using:",
+  "options": [
+    "Metadata-based access control",
+    "Random retrieval",
+    "Chunk overlap",
+    "Prompt engineering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Access control prevents unauthorized retrieval of sensitive documents.",
+  "points": 30,
+  "tags": ["security"],
+  "timeLimit": 60
+},
+{
+  "id": 93,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which component usually consumes the most latency in production RAG?",
+  "options": [
+    "Retriever and LLM inference",
+    "JSON parsing",
+    "Environment loading",
+    "Markdown rendering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Retrieval and generation dominate end-to-end response time.",
+  "points": 30,
+  "tags": ["performance"],
+  "timeLimit": 60
+},
+{
+  "id": 94,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "A production RAG system should cache:",
+  "options": [
+    "Embeddings and frequent retrieval results",
+    "GPU drivers",
+    "Python source code",
+    "Operating system logs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Caching reduces latency and repeated computation.",
+  "points": 30,
+  "tags": ["caching"],
+  "timeLimit": 60
+},
+{
+  "id": 95,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Why is document versioning important in enterprise RAG?",
+  "options": [
+    "To ensure retrieval uses current and traceable information",
+    "To increase GPU memory",
+    "To reduce embeddings",
+    "To remove chunk overlap"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Versioning supports consistency, auditing, and updates.",
+  "points": 30,
+  "tags": ["enterprise"],
+  "timeLimit": 60
+},
+{
+  "id": 96,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What is the biggest cause of hallucinations in a RAG system?",
+  "options": [
+    "Poor retrieval quality or missing context",
+    "High GPU memory",
+    "Small tokenizer",
+    "Fast SSD"
+  ],
+  "correctAnswer": 0,
+  "explanation": "If relevant information is not retrieved, the LLM may generate unsupported answers.",
+  "points": 30,
+  "tags": ["hallucination"],
+  "timeLimit": 60
+},
+{
+  "id": 97,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "An ideal enterprise RAG pipeline typically follows which order?",
+  "options": [
+    "Query → Retrieval → Reranking → Prompt Construction → LLM → Evaluation",
+    "LLM → Query → Retrieval",
+    "Prompt → Training → Deployment",
+    "Tokenizer → CNN → LLM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This sequence reflects a common production architecture for high-quality RAG systems.",
+  "points": 30,
+  "tags": ["architecture"],
+  "timeLimit": 60
+},
+{
+  "id": 98,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which architecture is best suited for large enterprise document search?",
+  "options": [
+    "Hybrid Retrieval + Reranker + LLM",
+    "Only BM25",
+    "Only Dense Retrieval",
+    "LLM without Retrieval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Combining retrieval methods with reranking generally provides the strongest performance.",
+  "points": 30,
+  "tags": ["enterprise"],
+  "timeLimit": 60
+},
+{
+  "id": 99,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "What is one of the main advantages of RAG over fine-tuning for knowledge updates?",
+  "options": [
+    "Knowledge can be updated without retraining the LLM",
+    "The model becomes smaller",
+    "The tokenizer is removed",
+    "GPU memory is eliminated"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Updating the knowledge base is usually sufficient without retraining the language model.",
+  "points": 30,
+  "tags": ["knowledge-update"],
+  "timeLimit": 60
+},
+{
+  "id": 100,
+  "category": "rag",
+  "difficulty": "hard",
+  "question": "Which statement best summarizes a production-quality RAG system?",
+  "options": [
+    "High-quality retrieval is just as important as the language model",
+    "The LLM alone determines answer quality",
+    "Only the vector database matters",
+    "Chunking alone guarantees correct answers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Accurate retrieval, effective reranking, and a capable LLM all contribute to reliable RAG performance.",
+  "points": 30,
+  "tags": ["production-rag"],
+  "timeLimit": 60
+}
+
+]

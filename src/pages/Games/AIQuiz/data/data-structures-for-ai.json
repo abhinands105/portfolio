@@ -1,0 +1,1702 @@
+[
+{
+  "id": 1,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "What is a data structure?",
+  "options": [
+    "A way to organize and store data efficiently",
+    "A programming language",
+    "A machine learning model",
+    "A database server"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A data structure defines how data is organized, stored, and accessed efficiently.",
+  "points": 10,
+  "tags": ["basics","data-structure"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which of the following is a linear data structure?",
+  "options": [
+    "Array",
+    "Tree",
+    "Graph",
+    "Heap"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Arrays store elements sequentially, making them a linear data structure.",
+  "points": 10,
+  "tags": ["linear","array"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which of the following is a non-linear data structure?",
+  "options": [
+    "Tree",
+    "Array",
+    "Queue",
+    "Stack"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Trees organize data hierarchically rather than sequentially.",
+  "points": 10,
+  "tags": ["tree","non-linear"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A static data structure typically has:",
+  "options": [
+    "A fixed size determined before execution",
+    "Unlimited memory",
+    "Automatic resizing",
+    "Infinite capacity"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Static data structures such as fixed-size arrays cannot grow dynamically during execution.",
+  "points": 10,
+  "tags": ["static","memory"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A dynamic data structure can:",
+  "options": [
+    "Grow or shrink during program execution",
+    "Only decrease in size",
+    "Never change size",
+    "Store only numbers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dynamic data structures allocate memory as needed while the program is running.",
+  "points": 10,
+  "tags": ["dynamic","memory"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Time complexity describes:",
+  "options": [
+    "How the running time grows as input size increases",
+    "The amount of RAM installed",
+    "The execution time in seconds",
+    "The processor clock speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Time complexity measures algorithm growth with increasing input size using Big-O notation.",
+  "points": 10,
+  "tags": ["time-complexity","big-o"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Space complexity refers to:",
+  "options": [
+    "The amount of memory required by an algorithm",
+    "The size of the hard disk",
+    "GPU temperature",
+    "CPU frequency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Space complexity measures how much memory an algorithm requires as input grows.",
+  "points": 10,
+  "tags": ["space-complexity","memory"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which data structure stores elements in contiguous memory locations?",
+  "options": [
+    "Array",
+    "Linked List",
+    "Tree",
+    "Graph"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Array elements are stored consecutively in memory, allowing efficient indexing.",
+  "points": 10,
+  "tags": ["array","memory"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A dynamic array differs from a fixed array because it:",
+  "options": [
+    "Automatically resizes when needed",
+    "Can only store integers",
+    "Cannot be indexed",
+    "Uses only stack memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dynamic arrays increase their capacity automatically when more space is required.",
+  "points": 10,
+  "tags": ["dynamic-array","array"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A string is primarily used to store:",
+  "options": [
+    "A sequence of characters",
+    "Floating-point numbers",
+    "Binary trees",
+    "Graphs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Strings represent ordered sequences of characters such as words and sentences.",
+  "points": 10,
+  "tags": ["string","text"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which data structure consists of nodes connected through pointers?",
+  "options": [
+    "Linked List",
+    "Array",
+    "Matrix",
+    "Tensor"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A linked list stores data in nodes connected by references instead of contiguous memory.",
+  "points": 10,
+  "tags": ["linked-list","nodes"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which principle does a Stack follow?",
+  "options": [
+    "Last In, First Out (LIFO)",
+    "First In, First Out (FIFO)",
+    "Random Access",
+    "Priority-Based Access"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The most recently added element is the first one removed from a stack.",
+  "points": 10,
+  "tags": ["stack","lifo"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which principle does a Queue follow?",
+  "options": [
+    "First In, First Out (FIFO)",
+    "Last In, First Out (LIFO)",
+    "Priority-Based Access",
+    "Random Access"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Queues process elements in the same order they were inserted.",
+  "points": 10,
+  "tags": ["queue","fifo"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "What is a deque (double-ended queue)?",
+  "options": [
+    "A data structure that allows insertion and deletion at both ends",
+    "A queue that only allows insertion at the front",
+    "A stack with two tops",
+    "A binary tree"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A deque supports efficient insertion and deletion from both the front and rear.",
+  "points": 10,
+  "tags": ["deque","queue"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "What is the main advantage of a circular queue?",
+  "options": [
+    "It efficiently reuses freed memory locations",
+    "It stores only sorted elements",
+    "It supports random insertion",
+    "It requires no memory allocation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A circular queue wraps around to reuse empty spaces, avoiding wasted memory.",
+  "points": 10,
+  "tags": ["circular-queue","queue"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A priority queue removes elements based on:",
+  "options": [
+    "Priority rather than insertion order",
+    "Alphabetical order",
+    "Memory address",
+    "Random selection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Elements with higher (or lower, depending on implementation) priority are removed first.",
+  "points": 10,
+  "tags": ["priority-queue"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which data structure is commonly used to implement a priority queue?",
+  "options": [
+    "Binary Heap",
+    "Linked List",
+    "Stack",
+    "Array Queue"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Binary heaps efficiently support insertion and removal of the highest- or lowest-priority element.",
+  "points": 10,
+  "tags": ["binary-heap","priority-queue"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A Min Heap always keeps which element at the root?",
+  "options": [
+    "The smallest element",
+    "The largest element",
+    "The most recently inserted element",
+    "The median element"
+  ],
+  "correctAnswer": 0,
+  "explanation": "In a Min Heap, the root always contains the minimum value.",
+  "points": 10,
+  "tags": ["min-heap","heap"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "What is the primary purpose of a hash table?",
+  "options": [
+    "Fast key-value lookup",
+    "Sorting large datasets",
+    "Storing hierarchical data",
+    "Performing matrix multiplication"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hash tables use hash functions to provide efficient average-case insertion, deletion, and lookup.",
+  "points": 10,
+  "tags": ["hash-table","lookup"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A dictionary (or map) stores data as:",
+  "options": [
+    "Key-value pairs",
+    "Parent-child nodes",
+    "Sequential integers only",
+    "Character arrays only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dictionaries associate unique keys with corresponding values.",
+  "points": 10,
+  "tags": ["dictionary","map"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "What is the purpose of a hash function?",
+  "options": [
+    "Convert a key into an index or hash value",
+    "Sort an array",
+    "Compress image files",
+    "Encrypt network traffic"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A hash function transforms a key into a numeric value used to locate data efficiently.",
+  "points": 10,
+  "tags": ["hash-function"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A hash collision occurs when:",
+  "options": [
+    "Two different keys produce the same hash value",
+    "A hash table becomes empty",
+    "A key is deleted",
+    "The CPU cache overflows"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Collisions happen when multiple keys map to the same location in a hash table.",
+  "points": 10,
+  "tags": ["hash-collision","hash-table"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "Which property best describes a set data structure?",
+  "options": [
+    "It stores unique elements without duplicates",
+    "It always stores elements in sorted order",
+    "It allows only numeric values",
+    "It stores key-value pairs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A set contains only unique elements and automatically prevents duplicates.",
+  "points": 10,
+  "tags": ["set","unique"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A bitset is primarily used to:",
+  "options": [
+    "Store and manipulate collections of bits efficiently",
+    "Store floating-point numbers",
+    "Represent binary trees",
+    "Manage GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bitsets provide compact storage and fast bitwise operations for boolean values or flags.",
+  "points": 10,
+  "tags": ["bitset","bits"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "data-structures-ai",
+  "difficulty": "easy",
+  "question": "A sparse matrix differs from a dense matrix because it:",
+  "options": [
+    "Contains mostly zero values",
+    "Contains only floating-point numbers",
+    "Always has equal rows and columns",
+    "Cannot be stored in memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sparse matrices contain mostly zero values and are often stored using specialized formats to save memory and computation.",
+  "points": 10,
+  "tags": ["sparse-matrix","matrix"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "What is a tree data structure?",
+  "options": [
+    "A hierarchical structure consisting of nodes connected by edges",
+    "A linear collection of elements",
+    "A sequential array",
+    "A hash table"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Trees organize data hierarchically with parent-child relationships between nodes.",
+  "points": 20,
+  "tags": ["tree","hierarchy"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "In a binary tree, each node can have at most:",
+  "options": [
+    "Two children",
+    "Three children",
+    "Four children",
+    "Unlimited children"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A binary tree restricts each node to a maximum of two children, commonly called the left and right child.",
+  "points": 20,
+  "tags": ["binary-tree"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "What property defines a Binary Search Tree (BST)?",
+  "options": [
+    "Left subtree values are smaller and right subtree values are larger than the parent",
+    "Every node has exactly two children",
+    "All nodes are stored sequentially",
+    "Every node stores duplicate values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The BST property enables efficient searching by maintaining an ordered structure.",
+  "points": 20,
+  "tags": ["bst","binary-search-tree"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Why is an AVL tree used?",
+  "options": [
+    "To keep a binary search tree balanced for efficient operations",
+    "To compress images",
+    "To implement hash tables",
+    "To store GPU tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AVL trees automatically rebalance after insertions and deletions, maintaining O(log n) search time.",
+  "points": 20,
+  "tags": ["avl","balanced-tree"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "A Red-Black Tree is best described as a:",
+  "options": [
+    "Self-balancing binary search tree using node colors",
+    "Graph traversal algorithm",
+    "Priority queue",
+    "Trie structure"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Red-Black Trees maintain approximate balance using coloring rules, ensuring efficient operations.",
+  "points": 20,
+  "tags": ["red-black-tree","balanced-tree"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "B-Trees are commonly used in:",
+  "options": [
+    "Databases and file systems",
+    "Image classification",
+    "Neural network training",
+    "Computer graphics"
+  ],
+  "correctAnswer": 0,
+  "explanation": "B-Trees minimize disk accesses and efficiently manage large datasets stored on secondary storage.",
+  "points": 20,
+  "tags": ["b-tree","database"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Compared to a B-Tree, a B+ Tree stores actual records primarily in:",
+  "options": [
+    "Leaf nodes",
+    "Root node only",
+    "Internal nodes only",
+    "Every node equally"
+  ],
+  "correctAnswer": 0,
+  "explanation": "B+ Trees keep data records in leaf nodes while internal nodes store keys for navigation.",
+  "points": 20,
+  "tags": ["b-plus-tree","database"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "A Trie is primarily used for:",
+  "options": [
+    "Efficient storage and retrieval of strings using prefixes",
+    "Sorting arrays",
+    "GPU scheduling",
+    "Matrix multiplication"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tries organize strings character by character, making prefix searches highly efficient.",
+  "points": 20,
+  "tags": ["trie","strings"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Another common name for a Trie is:",
+  "options": [
+    "Prefix Tree",
+    "Binary Heap",
+    "KD Tree",
+    "Segment Graph"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A Trie is often called a Prefix Tree because it organizes data by shared prefixes.",
+  "points": 20,
+  "tags": ["prefix-tree","trie"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Segment Trees are primarily used to:",
+  "options": [
+    "Answer range queries efficiently",
+    "Store graphs",
+    "Implement stacks",
+    "Compress files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Segment Trees support fast range queries and updates on arrays.",
+  "points": 20,
+  "tags": ["segment-tree","range-query"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "A Fenwick Tree is also known as a:",
+  "options": [
+    "Binary Indexed Tree",
+    "Balanced Search Tree",
+    "Decision Tree",
+    "Suffix Tree"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fenwick Trees efficiently compute prefix sums and updates in logarithmic time.",
+  "points": 20,
+  "tags": ["fenwick-tree","bit"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "KD-Trees are commonly used for:",
+  "options": [
+    "Multidimensional spatial searches such as nearest-neighbor queries",
+    "Hash table implementation",
+    "Task scheduling",
+    "Sorting linked lists"
+  ],
+  "correctAnswer": 0,
+  "explanation": "KD-Trees partition multidimensional space, making nearest-neighbor searches efficient.",
+  "points": 20,
+  "tags": ["kd-tree","nearest-neighbor"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Quad Trees are most commonly used for:",
+  "options": [
+    "Spatial partitioning in 2D applications such as images and maps",
+    "Managing network packets",
+    "Compiling CUDA kernels",
+    "Storing blockchain transactions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quad Trees recursively divide two-dimensional space into four regions, making them useful for graphics, GIS, and image processing.",
+  "points": 20,
+  "tags": ["quad-tree","spatial-data"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "What is a graph in computer science?",
+  "options": [
+    "A collection of vertices connected by edges",
+    "A hierarchical tree with one root",
+    "A sequential list of values",
+    "A table of key-value pairs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Graphs represent relationships between entities using vertices (nodes) and edges.",
+  "points": 20,
+  "tags": ["graph","basics"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "In a directed graph (digraph), edges:",
+  "options": [
+    "Have a specific direction from one vertex to another",
+    "Always connect every vertex",
+    "Cannot form cycles",
+    "Must have equal weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Directed edges indicate one-way relationships between vertices.",
+  "points": 20,
+  "tags": ["directed-graph","digraph"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "An undirected graph differs from a directed graph because:",
+  "options": [
+    "Its edges have no direction",
+    "It cannot contain cycles",
+    "It stores only weighted edges",
+    "It always forms a tree"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Undirected edges represent two-way relationships between connected vertices.",
+  "points": 20,
+  "tags": ["undirected-graph"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "In a weighted graph, each edge has:",
+  "options": [
+    "An associated numerical value such as cost or distance",
+    "Exactly two directions",
+    "A unique color",
+    "A fixed memory address"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Edge weights commonly represent distance, cost, time, or other measurable quantities.",
+  "points": 20,
+  "tags": ["weighted-graph"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "What is a Directed Acyclic Graph (DAG)?",
+  "options": [
+    "A directed graph with no cycles",
+    "A graph with no vertices",
+    "An undirected graph",
+    "A complete graph"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DAGs are widely used to model dependencies because no path returns to the same vertex.",
+  "points": 20,
+  "tags": ["dag","graph"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Breadth-First Search (BFS) explores a graph:",
+  "options": [
+    "Level by level from the starting node",
+    "By always visiting the deepest node first",
+    "Randomly",
+    "Only through weighted edges"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BFS visits all neighboring vertices before moving to the next level, typically using a queue.",
+  "points": 20,
+  "tags": ["bfs","graph-traversal"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Depth-First Search (DFS) explores a graph by:",
+  "options": [
+    "Going as deep as possible before backtracking",
+    "Visiting nodes level by level",
+    "Sorting all vertices",
+    "Using only weighted edges"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DFS follows one branch to its deepest point before returning to explore other branches.",
+  "points": 20,
+  "tags": ["dfs","graph-traversal"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "An adjacency matrix represents a graph using:",
+  "options": [
+    "A two-dimensional matrix indicating whether edges exist",
+    "A linked list of vertices",
+    "A binary search tree",
+    "A hash table"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each matrix cell indicates whether an edge exists between two vertices, and may also store edge weights.",
+  "points": 20,
+  "tags": ["adjacency-matrix","graph"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "An adjacency list represents a graph by:",
+  "options": [
+    "Storing a list of neighboring vertices for each vertex",
+    "Using a square matrix",
+    "Sorting all vertices alphabetically",
+    "Storing only edge weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Adjacency lists are memory-efficient for sparse graphs because only existing edges are stored.",
+  "points": 20,
+  "tags": ["adjacency-list","graph"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "Topological sorting can only be applied to:",
+  "options": [
+    "Directed Acyclic Graphs (DAGs)",
+    "Complete graphs",
+    "Undirected graphs",
+    "Binary trees only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A valid topological ordering exists only when the graph has no directed cycles.",
+  "points": 20,
+  "tags": ["topological-sort","dag"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "The Union-Find (Disjoint Set) data structure is primarily used to:",
+  "options": [
+    "Efficiently maintain and query connected components",
+    "Implement stacks",
+    "Store image pixels",
+    "Perform binary search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Union-Find supports fast union and find operations, making it useful for connectivity problems and Kruskal's algorithm.",
+  "points": 20,
+  "tags": ["union-find","disjoint-set"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "data-structures-ai",
+  "difficulty": "medium",
+  "question": "What is the objective of a Minimum Spanning Tree (MST)?",
+  "options": [
+    "Connect all vertices with the minimum total edge weight and no cycles",
+    "Visit every vertex exactly twice",
+    "Create the maximum number of edges",
+    "Find the longest path in a graph"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An MST connects every vertex while minimizing the total edge weight without creating cycles.",
+  "points": 20,
+  "tags": ["mst","minimum-spanning-tree","graph"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "In AI and deep learning, a scalar is:",
+  "options": [
+    "A single numerical value",
+    "A one-dimensional array",
+    "A two-dimensional matrix",
+    "A collection of tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A scalar is a single numeric value with zero dimensions, such as 5 or 3.14.",
+  "points": 30,
+  "tags": ["scalar","tensor"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "A vector is best described as:",
+  "options": [
+    "A one-dimensional collection of values",
+    "A two-dimensional table",
+    "A three-dimensional tensor",
+    "A graph of nodes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vectors are one-dimensional arrays commonly used to represent features and embeddings.",
+  "points": 30,
+  "tags": ["vector","linear-algebra"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "A matrix is:",
+  "options": [
+    "A two-dimensional array of values",
+    "A one-dimensional list",
+    "A binary tree",
+    "A priority queue"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Matrices organize data into rows and columns and are fundamental in machine learning.",
+  "points": 30,
+  "tags": ["matrix","linear-algebra"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "What is a tensor?",
+  "options": [
+    "A multidimensional array",
+    "A sorting algorithm",
+    "A database index",
+    "A linked list"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tensors generalize scalars, vectors, and matrices to any number of dimensions.",
+  "points": 30,
+  "tags": ["tensor","deep-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "A higher-order tensor has:",
+  "options": [
+    "Three or more dimensions",
+    "Exactly two dimensions",
+    "Only one dimension",
+    "No dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Examples include image batches and video tensors used in deep learning.",
+  "points": 30,
+  "tags": ["higher-order-tensor"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "The primary multidimensional array object in NumPy is called:",
+  "options": [
+    "ndarray",
+    "TensorObject",
+    "NumMatrix",
+    "ArrayNode"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NumPy's ndarray provides efficient numerical computation and array manipulation.",
+  "points": 30,
+  "tags": ["numpy","ndarray"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "PyTorch primarily represents data using:",
+  "options": [
+    "Torch Tensors",
+    "Graphs",
+    "Hash Maps",
+    "Binary Trees"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Torch tensors support GPU acceleration and automatic differentiation.",
+  "points": 30,
+  "tags": ["pytorch","tensor"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "TensorFlow stores numerical data using:",
+  "options": [
+    "TensorFlow Tensors",
+    "DataFrames",
+    "Linked Lists",
+    "Heaps"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow tensors are immutable multidimensional arrays optimized for machine learning workloads.",
+  "points": 30,
+  "tags": ["tensorflow","tensor"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "In NLP, an embedding is:",
+  "options": [
+    "A dense numerical representation of data",
+    "A compressed image",
+    "A database table",
+    "A graph traversal"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embeddings convert words, images, or other objects into dense vectors that capture semantic relationships.",
+  "points": 30,
+  "tags": ["embedding","nlp"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "An embedding matrix typically stores:",
+  "options": [
+    "Vector representations for all items in a vocabulary",
+    "Only scalar values",
+    "Graph edges",
+    "Image pixels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each row of an embedding matrix usually corresponds to the embedding vector for one token or item.",
+  "points": 30,
+  "tags": ["embedding-matrix","embeddings"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "In NLP, a vocabulary is:",
+  "options": [
+    "The collection of unique tokens recognized by a model",
+    "A database schema",
+    "A GPU memory pool",
+    "A sorting algorithm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A vocabulary defines all tokens that a tokenizer or language model can process.",
+  "points": 30,
+  "tags": ["vocabulary","nlp"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "One-hot encoding represents a category using:",
+  "options": [
+    "A binary vector with one active position",
+    "A floating-point matrix",
+    "A linked list",
+    "A tree structure"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Only one element is 1 while all others are 0, representing a single category.",
+  "points": 30,
+  "tags": ["one-hot-encoding","encoding"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "Why are sparse tensors useful in AI?",
+  "options": [
+    "They efficiently store tensors containing many zero values",
+    "They always improve model accuracy",
+    "They replace GPUs",
+    "They eliminate the need for training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sparse tensors reduce memory usage and computation when most values are zero.",
+  "points": 30,
+  "tags": ["sparse-tensor","memory-optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "What is a DataFrame primarily used for in data science and AI?",
+  "options": [
+    "Storing tabular data with labeled rows and columns",
+    "Representing graph edges",
+    "Implementing neural networks",
+    "Managing GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A DataFrame is a two-dimensional labeled data structure widely used in libraries such as Pandas.",
+  "points": 30,
+  "tags": ["dataframe","pandas"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "In machine learning, a dataset is:",
+  "options": [
+    "A collection of samples used for training or evaluation",
+    "A GPU memory buffer",
+    "A database index",
+    "A graph traversal algorithm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Datasets contain examples that machine learning models use for training, validation, or testing.",
+  "points": 30,
+  "tags": ["dataset","machine-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of a DataLoader in deep learning frameworks?",
+  "options": [
+    "Efficiently load and batch data during training",
+    "Visualize datasets",
+    "Store model weights",
+    "Compile CUDA kernels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A DataLoader automates loading, batching, shuffling, and preprocessing of training data.",
+  "points": 30,
+  "tags": ["dataloader","pytorch"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "In deep learning, a batch refers to:",
+  "options": [
+    "A group of training samples processed together",
+    "A collection of model layers",
+    "A set of GPU threads",
+    "A group of databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Processing data in batches improves computational efficiency and GPU utilization.",
+  "points": 30,
+  "tags": ["batch","training"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "A mini-batch is:",
+  "options": [
+    "A smaller subset of the dataset processed in one training step",
+    "A compressed dataset",
+    "A feature vector",
+    "A tensor dimension"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mini-batch training balances computational efficiency with stable gradient estimates.",
+  "points": 30,
+  "tags": ["mini-batch","deep-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "A buffer in computing is mainly used to:",
+  "options": [
+    "Temporarily store data during processing",
+    "Train neural networks",
+    "Replace a database",
+    "Compress images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Buffers temporarily hold data while it is transferred or processed.",
+  "points": 30,
+  "tags": ["buffer","memory"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "In reinforcement learning, a replay buffer stores:",
+  "options": [
+    "Past experiences for later training",
+    "GPU instructions",
+    "Model checkpoints",
+    "Embedding vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Replay buffers improve learning by randomly sampling previous experiences instead of only recent ones.",
+  "points": 30,
+  "tags": ["replay-buffer","reinforcement-learning"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "A memory bank in AI is commonly used to:",
+  "options": [
+    "Store learned feature representations for later retrieval",
+    "Replace system RAM",
+    "Store operating system files",
+    "Manage CPU scheduling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Memory banks are used in tasks such as contrastive learning and retrieval-based AI systems.",
+  "points": 30,
+  "tags": ["memory-bank","retrieval"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "What is a feature store in production machine learning?",
+  "options": [
+    "A centralized repository for managing machine learning features",
+    "A GPU cache",
+    "A neural network layer",
+    "A graph database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature stores ensure consistent feature engineering for both training and inference.",
+  "points": 30,
+  "tags": ["feature-store","mlops"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "What is the main purpose of a cache?",
+  "options": [
+    "Store frequently accessed data for faster retrieval",
+    "Compress neural networks",
+    "Store backups permanently",
+    "Replace system memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Caches reduce latency by keeping frequently used data close to the processor or application.",
+  "points": 30,
+  "tags": ["cache","performance"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "A circular buffer is particularly useful for:",
+  "options": [
+    "Streaming data with fixed memory usage",
+    "Sorting arrays",
+    "Building binary search trees",
+    "Storing SQL tables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Circular buffers overwrite old data when full, making them ideal for continuous data streams.",
+  "points": 30,
+  "tags": ["circular-buffer","streaming"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "data-structures-ai",
+  "difficulty": "hard",
+  "question": "The sliding window technique is primarily used to:",
+  "options": [
+    "Process consecutive subsets of data efficiently",
+    "Encrypt datasets",
+    "Build decision trees",
+    "Compress tensors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sliding windows efficiently analyze contiguous portions of sequences, time series, and images.",
+  "points": 30,
+  "tags": ["sliding-window","algorithms"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "In Large Language Models (LLMs), what is a token?",
+  "options": [
+    "The basic unit of text processed by the model",
+    "A complete sentence",
+    "A database record",
+    "A GPU thread"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LLMs process text as tokens, which may represent words, subwords, or characters depending on the tokenizer.",
+  "points": 40,
+  "tags": ["token","llm","nlp"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "In an LLM, the vocabulary refers to:",
+  "options": [
+    "The complete set of tokens recognized by the tokenizer",
+    "All documents used for training",
+    "The model architecture",
+    "A collection of embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The vocabulary defines every token that the tokenizer and language model can understand.",
+  "points": 40,
+  "tags": ["vocabulary","tokenizer"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "What is the purpose of token IDs?",
+  "options": [
+    "They convert tokens into numerical values that the model can process",
+    "They store model weights",
+    "They identify GPUs",
+    "They compress text files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Neural networks operate on numbers, so each token is mapped to a unique integer ID.",
+  "points": 40,
+  "tags": ["token-id","tokenizer"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "The attention matrix in a Transformer primarily represents:",
+  "options": [
+    "How strongly each token attends to every other token",
+    "The model's training accuracy",
+    "GPU memory allocation",
+    "Vocabulary frequency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-attention computes relationships between tokens using an attention matrix.",
+  "points": 40,
+  "tags": ["attention","transformer"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "What is the purpose of a KV Cache during LLM inference?",
+  "options": [
+    "Store previously computed key and value tensors to speed up generation",
+    "Store training datasets",
+    "Save model checkpoints",
+    "Compress embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The KV Cache avoids recomputing attention for previous tokens, greatly improving inference speed.",
+  "points": 40,
+  "tags": ["kv-cache","inference"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "What does the context window of an LLM define?",
+  "options": [
+    "The maximum number of tokens the model can consider at one time",
+    "The number of GPUs required",
+    "The vocabulary size",
+    "The batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The context window limits how much previous text the model can use during inference.",
+  "points": 40,
+  "tags": ["context-window","llm"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "What is the primary purpose of a vector database?",
+  "options": [
+    "Store and search high-dimensional embeddings efficiently",
+    "Store relational tables",
+    "Compile machine learning models",
+    "Manage operating system memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector databases are optimized for similarity search using embedding vectors.",
+  "points": 40,
+  "tags": ["vector-database","rag"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "FAISS is primarily used for:",
+  "options": [
+    "Efficient similarity search over vector embeddings",
+    "Training neural networks",
+    "Image rendering",
+    "Web development"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAISS is a high-performance library for nearest-neighbor search developed by Meta.",
+  "points": 40,
+  "tags": ["faiss","vector-search"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "HNSW is an indexing algorithm designed for:",
+  "options": [
+    "Approximate nearest neighbor search",
+    "Sorting linked lists",
+    "Database normalization",
+    "CUDA kernel scheduling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hierarchical Navigable Small World (HNSW) graphs provide fast and accurate vector similarity search.",
+  "points": 40,
+  "tags": ["hnsw","ann","vector-search"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "In vector search, IVF stands for:",
+  "options": [
+    "Inverted File Index",
+    "Indexed Vector Format",
+    "Integrated Vector Framework",
+    "Internal Value Function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IVF partitions vectors into clusters to reduce the search space during retrieval.",
+  "points": 40,
+  "tags": ["ivf","faiss"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "Product Quantization (PQ) is mainly used to:",
+  "options": [
+    "Reduce memory usage while enabling efficient vector search",
+    "Increase training accuracy",
+    "Store relational data",
+    "Encrypt vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PQ compresses vectors into compact representations for scalable similarity search.",
+  "points": 40,
+  "tags": ["product-quantization","pq","vector-search"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "In Retrieval-Augmented Generation (RAG), a metadata store typically contains:",
+  "options": [
+    "Information such as source, author, timestamps, or document attributes",
+    "Neural network weights",
+    "GPU utilization statistics",
+    "Optimizer parameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Metadata helps filter, rank, and trace retrieved documents during search.",
+  "points": 40,
+  "tags": ["metadata","rag"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "Why are documents divided into chunks before indexing in a RAG system?",
+  "options": [
+    "To improve retrieval accuracy and fit within model context limits",
+    "To reduce GPU temperature",
+    "To compress model weights",
+    "To increase vocabulary size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chunking enables more relevant retrieval and allows retrieved content to fit into the LLM's context window.",
+  "points": 40,
+  "tags": ["document-chunking","rag","retrieval"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "What is a Knowledge Graph?",
+  "options": [
+    "A graph that represents entities and their relationships",
+    "A neural network architecture",
+    "A GPU memory layout",
+    "A database index"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Knowledge graphs model real-world entities and the relationships between them, enabling semantic reasoning and search.",
+  "points": 40,
+  "tags": ["knowledge-graph","graph","ai"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "In computer vision, a Scene Graph represents:",
+  "options": [
+    "Objects in an image and the relationships between them",
+    "The training history of a model",
+    "A graph database schema",
+    "GPU execution order"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Scene graphs describe objects, attributes, and relationships within an image, supporting visual reasoning tasks.",
+  "points": 40,
+  "tags": ["scene-graph","computer-vision"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "A computational graph is primarily used to:",
+  "options": [
+    "Represent mathematical operations and data flow in machine learning",
+    "Store SQL queries",
+    "Manage operating system processes",
+    "Organize source code files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deep learning frameworks use computational graphs to represent operations and enable automatic differentiation.",
+  "points": 40,
+  "tags": ["computational-graph","autograd"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "An ONNX graph is mainly used for:",
+  "options": [
+    "Representing machine learning models in a portable format",
+    "Rendering 3D graphics",
+    "Training reinforcement learning agents",
+    "Managing cloud storage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX stores model computation graphs, allowing models to run across multiple frameworks and runtimes.",
+  "points": 40,
+  "tags": ["onnx","model-deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "What is the main purpose of CUDA Graphs?",
+  "options": [
+    "Reduce CPU overhead by capturing and replaying GPU workloads",
+    "Visualize neural networks",
+    "Store embeddings",
+    "Create graph databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CUDA Graphs optimize repeated GPU execution by recording operations once and replaying them efficiently.",
+  "points": 40,
+  "tags": ["cuda-graphs","gpu","performance"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "A model graph describes:",
+  "options": [
+    "The structure and connections between layers in a machine learning model",
+    "Relationships between database tables",
+    "The network topology of servers",
+    "A project dependency chart"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model graphs represent how neural network layers and operations are connected.",
+  "points": 40,
+  "tags": ["model-graph","deep-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "Why are Directed Acyclic Graphs (DAGs) widely used in AI pipelines?",
+  "options": [
+    "They model task dependencies while preventing cyclic execution",
+    "They improve GPU memory capacity",
+    "They automatically train models",
+    "They replace vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Workflow orchestration systems use DAGs to schedule dependent tasks in the correct order.",
+  "points": 40,
+  "tags": ["dag","pipeline","workflow"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "In modern ML systems, a feature graph typically represents:",
+  "options": [
+    "Dependencies and relationships between engineered features",
+    "GPU communication channels",
+    "Layers of a convolutional network",
+    "The tokenizer vocabulary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature graphs help manage how features are derived from one another in production ML pipelines.",
+  "points": 40,
+  "tags": ["feature-graph","feature-engineering"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "In an AI agent, long-term memory is primarily used to:",
+  "options": [
+    "Store information that can be retrieved across multiple interactions",
+    "Store GPU kernels",
+    "Cache network packets",
+    "Manage operating system processes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Long-term agent memory retains useful information beyond a single conversation or task.",
+  "points": 40,
+  "tags": ["agent-memory","long-term-memory"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "Conversation memory in an AI assistant helps the model:",
+  "options": [
+    "Maintain context across multiple user messages",
+    "Increase GPU clock speed",
+    "Reduce model size",
+    "Encrypt conversations"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Conversation memory allows an assistant to respond consistently using previous context within a dialogue.",
+  "points": 40,
+  "tags": ["conversation-memory","llm"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "A workflow graph in AI automation represents:",
+  "options": [
+    "Tasks and the dependencies between them",
+    "A collection of image embeddings",
+    "A neural network loss function",
+    "A tokenizer vocabulary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Workflow graphs organize AI tasks into executable pipelines used by systems such as Airflow, Prefect, and n8n.",
+  "points": 40,
+  "tags": ["workflow-graph","automation"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "data-structures-ai",
+  "difficulty": "expert",
+  "question": "An end-to-end AI pipeline typically connects:",
+  "options": [
+    "Data ingestion, preprocessing, training, deployment, and inference",
+    "Only model training and testing",
+    "Only data storage and backup",
+    "Only GPU scheduling and memory management"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production AI systems combine multiple stages into a complete pipeline from raw data to deployed predictions.",
+  "points": 40,
+  "tags": ["ai-pipeline","mlops","production-ai"],
+  "timeLimit": 75
+}
+]

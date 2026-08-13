@@ -1,0 +1,300 @@
+.prompt-arena{
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+    animation:fadeIn .5s ease;
+}
+
+/* ---------------- Heading ---------------- */
+
+.prompt-arena h1{
+    font-size:52px;
+    font-weight:900;
+    margin-bottom:25px;
+
+    background:linear-gradient(
+        90deg,
+        #7b2cbf,
+        #c77dff,
+        #9d4edd
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* ---------------- Cards ---------------- */
+
+.challenge-card,
+.grade-card,
+.stats-card,
+.prompt-preview,
+.suggestions{
+
+    background:rgba(255,255,255,.03);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(157,78,221,.25);
+
+    box-shadow:
+        0 0 20px rgba(157,78,221,.15),
+        inset 0 0 15px rgba(157,78,221,.05);
+
+    border-radius:22px;
+
+    padding:24px;
+
+    margin-bottom:25px;
+
+}
+
+/* ---------------- Challenge ---------------- */
+
+.challenge-card h2{
+
+    font-size:32px;
+
+    margin-bottom:8px;
+
+}
+
+.challenge-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.7;
+
+}
+
+.challenge-card span{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    color:#c77dff;
+
+    font-weight:600;
+
+}
+
+/* ---------------- Prompt ---------------- */
+
+.prompt-editor textarea{
+
+    width:100%;
+
+    min-height:220px;
+
+    border-radius:20px;
+
+    background:#0d1020;
+
+    border:1px solid rgba(157,78,221,.25);
+
+    color:white;
+
+    padding:22px;
+
+    font-size:16px;
+
+    resize:vertical;
+
+    outline:none;
+
+}
+
+.prompt-editor textarea:focus{
+
+    border-color:#c77dff;
+
+    box-shadow:
+
+        0 0 18px rgba(199,125,255,.25);
+
+}
+
+/* ---------------- Button ---------------- */
+
+.prompt-editor button{
+
+    margin-top:20px;
+
+    padding:14px 30px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:linear-gradient(
+
+        90deg,
+
+        #7b2cbf,
+
+        #9d4edd
+
+    );
+
+    color:white;
+
+    font-weight:700;
+
+    font-size:15px;
+
+}
+
+.prompt-editor button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+
+        0 10px 30px rgba(157,78,221,.35);
+
+}
+
+/* ---------------- Grade ---------------- */
+
+.grade-card{
+
+    text-align:center;
+
+}
+
+.grade-card h1{
+
+    font-size:70px;
+
+    color:#c77dff;
+
+    margin:10px 0;
+
+}
+
+.grade-card h2{
+
+    font-size:42px;
+
+}
+
+.grade-card span{
+
+    font-size:30px;
+
+}
+
+/* ---------------- Score ---------------- */
+
+.score-card{
+
+    margin-bottom:18px;
+
+}
+
+.score-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.progress{
+
+    height:14px;
+
+    background:#1b2030;
+
+    border-radius:999px;
+
+    overflow:hidden;
+
+}
+
+.progress-fill{
+
+    height:100%;
+
+    border-radius:999px;
+
+    background:linear-gradient(
+
+        90deg,
+
+        #7b2cbf,
+
+        #c77dff
+
+    );
+
+    transition:width .6s ease;
+
+}
+
+/* ---------------- Suggestions ---------------- */
+
+.suggestions ul{
+
+    padding-left:20px;
+
+}
+
+.suggestions li{
+
+    margin:12px 0;
+
+    color:#cfcfcf;
+
+}
+
+/* ---------------- Prompt Preview ---------------- */
+
+.prompt-preview h3{
+
+    color:#c77dff;
+
+    margin-bottom:12px;
+
+}
+
+.prompt-preview p{
+
+    line-height:1.8;
+
+    color:#ddd;
+
+}
+
+/* ---------------- Stats ---------------- */
+
+.stats-card p{
+
+    margin:8px 0;
+
+    color:#ddd;
+
+}
+
+/* ---------------- Mobile ---------------- */
+
+@media(max-width:768px){
+
+    .prompt-arena{
+
+        padding:15px;
+
+    }
+
+    .prompt-arena h1{
+
+        font-size:36px;
+
+    }
+
+}

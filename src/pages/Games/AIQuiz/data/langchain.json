@@ -1,0 +1,1702 @@
+[
+    {
+  "id": 1,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "What is LangChain primarily used for?",
+  "options": [
+    "Building applications powered by Large Language Models",
+    "Training CNN models",
+    "Image annotation",
+    "Database administration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangChain is a framework for developing applications that use LLMs, tools, memory, retrieval, and agents.",
+  "points": 10,
+  "tags": ["introduction", "framework"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which programming languages officially support LangChain?",
+  "options": [
+    "Python and JavaScript/TypeScript",
+    "Java only",
+    "C++ only",
+    "Go only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangChain provides official libraries for Python and JavaScript/TypeScript.",
+  "points": 10,
+  "tags": ["languages"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which package is commonly installed to start using LangChain in Python?",
+  "options": [
+    "langchain",
+    "langflow",
+    "llamaindex",
+    "torch"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The 'langchain' package provides the core framework for building LLM applications.",
+  "points": 10,
+  "tags": ["installation"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "LangChain is best described as a:",
+  "options": [
+    "Framework for LLM applications",
+    "Database engine",
+    "GPU driver",
+    "Linux distribution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangChain provides abstractions for prompts, models, chains, tools, memory, and retrieval.",
+  "points": 10,
+  "tags": ["framework"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which component in LangChain represents a language model?",
+  "options": [
+    "Model",
+    "Retriever",
+    "Document",
+    "Memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Models are the components responsible for generating responses from prompts.",
+  "points": 10,
+  "tags": ["models"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "What is the main purpose of a Prompt Template?",
+  "options": [
+    "Generate reusable prompts with variables",
+    "Store embeddings",
+    "Train an LLM",
+    "Create vector indexes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prompt templates allow variables to be inserted dynamically into prompts.",
+  "points": 10,
+  "tags": ["prompt-template"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which LangChain component retrieves relevant information from external data?",
+  "options": [
+    "Retriever",
+    "PromptTemplate",
+    "ChatModel",
+    "OutputParser"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Retrievers search documents and return relevant information for downstream processing.",
+  "points": 10,
+  "tags": ["retriever"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "What is the purpose of LangChain Memory?",
+  "options": [
+    "Maintain conversation context",
+    "Increase GPU VRAM",
+    "Compress prompts",
+    "Generate embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Memory stores previous interactions so applications can maintain conversational context.",
+  "points": 10,
+  "tags": ["memory"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "A Chain in LangChain refers to:",
+  "options": [
+    "A sequence of connected operations",
+    "A blockchain",
+    "A tokenizer",
+    "A database schema"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chains combine multiple components such as prompts, models, and parsers into one workflow.",
+  "points": 10,
+  "tags": ["chains"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "What is the role of an Output Parser?",
+  "options": [
+    "Convert LLM responses into structured data",
+    "Train neural networks",
+    "Generate embeddings",
+    "Split documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Output parsers transform raw LLM text into formats like JSON, lists, or custom objects.",
+  "points": 10,
+  "tags": ["output-parser"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which LangChain abstraction is commonly used with OpenAI GPT models?",
+  "options": [
+    "ChatModel",
+    "Retriever",
+    "VectorStore",
+    "DocumentLoader"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ChatModel provides a standard interface for chat-based LLMs such as GPT models.",
+  "points": 10,
+  "tags": ["chatmodel"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "What is the primary purpose of Document Loaders in LangChain?",
+  "options": [
+    "Load data from different sources into documents",
+    "Train embeddings",
+    "Execute prompts",
+    "Optimize GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Document loaders import data from PDFs, web pages, files, APIs, and many other sources.",
+  "points": 10,
+  "tags": ["document-loader"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which feature makes LangChain particularly useful for production AI applications?",
+  "options": [
+    "Integration of models, prompts, memory, retrieval, and tools into unified workflows",
+    "Automatic GPU overclocking",
+    "Operating system virtualization",
+    "Image compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangChain provides modular building blocks that can be combined into scalable LLM applications.",
+  "points": 10,
+  "tags": ["production", "overview"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "What is ChatPromptTemplate primarily used for?",
+  "options": [
+    "Creating structured chat prompts with multiple message types",
+    "Loading PDF documents",
+    "Generating embeddings",
+    "Managing vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ChatPromptTemplate creates prompts consisting of system, human, AI, and other message types.",
+  "points": 10,
+  "tags": ["chatprompttemplate"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which message type usually defines the AI assistant's behaviour?",
+  "options": [
+    "SystemMessage",
+    "HumanMessage",
+    "AIMessage",
+    "ToolMessage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "System messages provide high-level instructions that guide the model's behaviour.",
+  "points": 10,
+  "tags": ["system-message"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which message represents user input in LangChain?",
+  "options": [
+    "HumanMessage",
+    "SystemMessage",
+    "AIMessage",
+    "FunctionMessage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HumanMessage represents the user's query or instruction.",
+  "points": 10,
+  "tags": ["human-message"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "AIMessage represents:",
+  "options": [
+    "A response generated by the language model",
+    "A database query",
+    "A prompt template",
+    "A vector embedding"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AIMessage stores responses produced by the language model.",
+  "points": 10,
+  "tags": ["ai-message"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Why are prompt variables useful?",
+  "options": [
+    "They allow dynamic values to be inserted into prompts",
+    "They compress embeddings",
+    "They reduce GPU memory usage",
+    "They replace tokenizers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prompt variables make prompts reusable with different inputs.",
+  "points": 10,
+  "tags": ["prompt-variables"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Few-shot prompting means:",
+  "options": [
+    "Providing example inputs and outputs before the actual question",
+    "Using very small language models",
+    "Training with few GPUs",
+    "Generating fewer tokens"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Few-shot prompting improves model performance by providing demonstrations.",
+  "points": 10,
+  "tags": ["few-shot"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Zero-shot prompting refers to:",
+  "options": [
+    "Giving no examples before asking the model",
+    "Using zero parameters",
+    "Removing prompts completely",
+    "Training without data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Zero-shot prompting relies only on the instruction without examples.",
+  "points": 10,
+  "tags": ["zero-shot"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "What is a MessagesPlaceholder in LangChain?",
+  "options": [
+    "A placeholder for inserting conversation history",
+    "A placeholder for embeddings",
+    "A vector database",
+    "A tokenizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MessagesPlaceholder dynamically inserts previous chat history into prompts.",
+  "points": 10,
+  "tags": ["messages-placeholder"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which LangChain interface enables components to be composed together using the pipe (|) operator?",
+  "options": [
+    "Runnable",
+    "Retriever",
+    "Memory",
+    "DocumentLoader"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Runnable interface is the foundation of LCEL and supports chaining with the pipe operator.",
+  "points": 10,
+  "tags": ["runnable","lcel"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "LCEL stands for:",
+  "options": [
+    "LangChain Expression Language",
+    "Language Context Execution Layer",
+    "Large Context Encoding Logic",
+    "Local Chain Execution Library"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LCEL provides a declarative syntax for composing LangChain workflows.",
+  "points": 10,
+  "tags": ["lcel"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Compared with a traditional LLM interface, a Chat Model primarily works with:",
+  "options": [
+    "Lists of structured messages",
+    "Only plain text files",
+    "Only SQL queries",
+    "Only embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chat models receive structured messages such as system, human, and AI messages.",
+  "points": 10,
+  "tags": ["chat-model"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "langchain",
+  "difficulty": "easy",
+  "question": "Which sequence best represents a basic LangChain application workflow?",
+  "options": [
+    "Prompt → Model → Output Parser → Response",
+    "Vector Database → GPU → SQL → Response",
+    "CNN → Tokenizer → OCR → Prompt",
+    "Dataset → Training → Deployment → Prompt"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A simple LangChain workflow creates a prompt, sends it to a model, optionally parses the output, and returns the response.",
+  "points": 10,
+  "tags": ["workflow","pipeline"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of the LangChain Expression Language (LCEL)?",
+  "options": [
+    "Compose LLM workflows declaratively",
+    "Train transformer models",
+    "Create embeddings",
+    "Store vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LCEL provides a declarative syntax for composing prompts, models, parsers, retrievers, and other runnables.",
+  "points": 20,
+  "tags": ["lcel"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Which operator is commonly used to connect Runnables in LCEL?",
+  "options": [
+    "|",
+    "&",
+    "->",
+    "::"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The pipe operator (|) connects multiple Runnable components into a workflow.",
+  "points": 20,
+  "tags": ["pipe","lcel"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "RunnableSequence is used to:",
+  "options": [
+    "Execute components one after another",
+    "Run all components simultaneously",
+    "Store conversation history",
+    "Train embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RunnableSequence creates a sequential pipeline where each output becomes the next input.",
+  "points": 20,
+  "tags": ["runnable-sequence"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "RunnableParallel executes:",
+  "options": [
+    "Multiple runnables simultaneously",
+    "Only prompt templates",
+    "Only retrievers",
+    "Only chat models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RunnableParallel allows independent tasks to execute concurrently.",
+  "points": 20,
+  "tags": ["parallel"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "RunnableLambda is mainly used for:",
+  "options": [
+    "Wrapping custom Python functions",
+    "Training LLMs",
+    "Building vector indexes",
+    "Running SQL queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RunnableLambda allows developers to include custom functions inside LCEL pipelines.",
+  "points": 20,
+  "tags": ["lambda"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "RunnablePassthrough primarily:",
+  "options": [
+    "Passes input unchanged while allowing additional processing",
+    "Deletes prompts",
+    "Stores embeddings",
+    "Optimizes GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RunnablePassthrough forwards the original input to later stages of a workflow.",
+  "points": 20,
+  "tags": ["passthrough"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "RunnableBranch is useful when:",
+  "options": [
+    "Different logic should execute depending on conditions",
+    "Training neural networks",
+    "Generating embeddings",
+    "Creating databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RunnableBranch enables conditional execution paths within LCEL workflows.",
+  "points": 20,
+  "tags": ["branch"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Which LCEL feature makes workflows easier to debug?",
+  "options": [
+    "Each Runnable is independently testable",
+    "Automatic GPU tuning",
+    "Model quantization",
+    "Vector compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Because every Runnable is modular, developers can test each stage separately.",
+  "points": 20,
+  "tags": ["debugging"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Streaming in LangChain allows:",
+  "options": [
+    "Receiving generated tokens as they are produced",
+    "Training models online",
+    "Uploading datasets",
+    "Compressing prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Streaming improves user experience by displaying partial responses immediately.",
+  "points": 20,
+  "tags": ["streaming"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Callbacks in LangChain are mainly used for:",
+  "options": [
+    "Monitoring and logging execution events",
+    "Training embeddings",
+    "Building vector databases",
+    "Managing GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Callbacks provide hooks for logging, monitoring, debugging, and tracing execution.",
+  "points": 20,
+  "tags": ["callbacks"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Which callback event occurs when an LLM begins generating text?",
+  "options": [
+    "on_llm_start",
+    "on_vector_store",
+    "on_database_open",
+    "on_embedding_train"
+  ],
+  "correctAnswer": 0,
+  "explanation": "on_llm_start is triggered when an LLM call begins.",
+  "points": 20,
+  "tags": ["callbacks","llm"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "What is one advantage of streaming responses?",
+  "options": [
+    "Lower perceived latency for users",
+    "Higher GPU memory usage",
+    "Longer prompts",
+    "Larger embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Streaming makes applications feel more responsive because users see output immediately.",
+  "points": 20,
+  "tags": ["streaming","latency"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Why are modular Runnable components preferred in production?",
+  "options": [
+    "They are reusable, maintainable, and easy to test",
+    "They always reduce API costs",
+    "They eliminate token limits",
+    "They replace vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Small reusable components improve maintainability and make production workflows easier to scale.",
+  "points": 20,
+  "tags": ["production","runnable"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "What is the main purpose of ConversationBufferMemory?",
+  "options": [
+    "Store the entire conversation history",
+    "Store vector embeddings",
+    "Compress documents",
+    "Cache API keys"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ConversationBufferMemory keeps all previous messages, allowing the LLM to use the complete conversation as context.",
+  "points": 20,
+  "tags": ["memory", "conversation-buffer"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "ConversationBufferWindowMemory limits memory by:",
+  "options": [
+    "Keeping only the most recent messages",
+    "Deleting all user messages",
+    "Storing embeddings only",
+    "Compressing prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Window memory stores only the last K interactions, reducing token usage.",
+  "points": 20,
+  "tags": ["memory", "window"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "ConversationSummaryMemory primarily works by:",
+  "options": [
+    "Summarizing previous conversations",
+    "Saving conversations to SQL",
+    "Generating embeddings",
+    "Creating prompt templates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Instead of storing every message, SummaryMemory generates concise summaries to reduce context size.",
+  "points": 20,
+  "tags": ["summary-memory"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Which memory type is best for very long conversations?",
+  "options": [
+    "ConversationSummaryMemory",
+    "ConversationBufferMemory",
+    "ConversationStringMemory",
+    "No memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Summarized conversations consume fewer tokens while preserving important information.",
+  "points": 20,
+  "tags": ["memory"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Entity Memory is mainly designed to:",
+  "options": [
+    "Remember important people, places, and entities",
+    "Store GPU information",
+    "Compress prompts",
+    "Train embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Entity Memory tracks important entities mentioned during conversations.",
+  "points": 20,
+  "tags": ["entity-memory"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "What is ChatMessageHistory responsible for?",
+  "options": [
+    "Managing conversation messages",
+    "Training LLMs",
+    "Creating embeddings",
+    "Building vector indexes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ChatMessageHistory stores and retrieves chat messages for conversational applications.",
+  "points": 20,
+  "tags": ["chat-history"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Why is memory useful in chatbot applications?",
+  "options": [
+    "It enables context-aware conversations",
+    "It improves GPU performance",
+    "It replaces prompt templates",
+    "It eliminates API costs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Memory allows the chatbot to remember previous interactions and provide more coherent responses.",
+  "points": 20,
+  "tags": ["memory"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "What is the primary benefit of asynchronous execution in LangChain?",
+  "options": [
+    "Improved throughput and responsiveness",
+    "Higher embedding quality",
+    "Reduced prompt size",
+    "Automatic model training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Async execution allows multiple operations to proceed concurrently without blocking.",
+  "points": 20,
+  "tags": ["async"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Batch execution is mainly used to:",
+  "options": [
+    "Process multiple inputs efficiently",
+    "Train multiple models",
+    "Store multiple databases",
+    "Increase GPU VRAM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Batch processing improves performance by handling several requests together.",
+  "points": 20,
+  "tags": ["batch"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Why are chains useful in production AI systems?",
+  "options": [
+    "They organize complex workflows into reusable steps",
+    "They reduce image resolution",
+    "They replace databases",
+    "They eliminate tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chains make workflows modular, reusable, and easier to maintain.",
+  "points": 20,
+  "tags": ["chains", "production"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Which design principle is encouraged when building LangChain applications?",
+  "options": [
+    "Compose small reusable components",
+    "Write one large monolithic chain",
+    "Avoid prompt templates",
+    "Never use retrievers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Small reusable components improve testing, debugging, and maintenance.",
+  "points": 20,
+  "tags": ["best-practice"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "langchain",
+  "difficulty": "medium",
+  "question": "Which architecture best represents a production conversational LangChain application?",
+  "options": [
+    "User → Prompt Template → Chat Model → Memory → Output Parser → Response",
+    "User → CNN → SQL Database → Response",
+    "User → GAN → OCR → Response",
+    "User → Tokenizer → GPU Driver → Response"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A production chatbot typically combines prompt templates, chat models, memory, and output parsing to generate context-aware responses.",
+  "points": 20,
+  "tags": ["architecture", "production"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "What does RAG stand for?",
+  "options": [
+    "Retrieval-Augmented Generation",
+    "Random AI Generator",
+    "Recursive Agent Graph",
+    "Retrieval Algorithm Generator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG combines information retrieval with LLM generation to produce more accurate and grounded responses.",
+  "points": 30,
+  "tags": ["rag"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Why is RAG commonly used with LLMs?",
+  "options": [
+    "To provide external knowledge beyond the model's training data",
+    "To reduce GPU temperature",
+    "To increase image resolution",
+    "To compress embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG enables LLMs to answer questions using up-to-date or private knowledge sources.",
+  "points": 30,
+  "tags": ["rag"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Which LangChain component loads documents from PDFs, websites, or files?",
+  "options": [
+    "Document Loader",
+    "Output Parser",
+    "Prompt Template",
+    "Chat Model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Document Loaders import data from different sources into LangChain Document objects.",
+  "points": 30,
+  "tags": ["document-loader"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Why are Text Splitters used in RAG pipelines?",
+  "options": [
+    "To divide large documents into smaller chunks",
+    "To compress prompts",
+    "To tokenize responses",
+    "To fine-tune LLMs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chunking improves retrieval quality and keeps document sections within context limits.",
+  "points": 30,
+  "tags": ["text-splitter"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "RecursiveCharacterTextSplitter primarily splits text based on:",
+  "options": [
+    "Hierarchical separators such as paragraphs and sentences",
+    "Random words",
+    "GPU memory",
+    "Embedding dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "It attempts to preserve semantic structure while creating chunks.",
+  "points": 30,
+  "tags": ["text-splitter"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "What is an embedding in a RAG pipeline?",
+  "options": [
+    "A numerical vector representing semantic meaning",
+    "A compressed image",
+    "A tokenizer output only",
+    "A SQL query"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embeddings map text into vector space so semantically similar content is located nearby.",
+  "points": 30,
+  "tags": ["embeddings"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Which step usually follows embedding generation?",
+  "options": [
+    "Store vectors in a vector database",
+    "Train a CNN",
+    "Compress prompts",
+    "Generate images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embeddings are stored in vector databases for efficient similarity search.",
+  "points": 30,
+  "tags": ["vector-store"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "FAISS is primarily used for:",
+  "options": [
+    "Fast similarity search over vector embeddings",
+    "Training LLMs",
+    "Prompt optimization",
+    "GPU monitoring"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAISS is a high-performance vector search library developed by Meta.",
+  "points": 30,
+  "tags": ["faiss"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Chroma is best described as a:",
+  "options": [
+    "Vector database",
+    "Language model",
+    "Tokenizer",
+    "Prompt parser"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chroma is an open-source vector database frequently used with LangChain.",
+  "points": 30,
+  "tags": ["chroma"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Qdrant is mainly designed for:",
+  "options": [
+    "Vector similarity search",
+    "SQL transactions",
+    "Image annotation",
+    "Speech recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Qdrant is a production-ready vector database optimized for semantic search.",
+  "points": 30,
+  "tags": ["qdrant"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Pinecone is primarily a:",
+  "options": [
+    "Managed cloud vector database",
+    "Prompt engineering framework",
+    "GPU optimization tool",
+    "Dataset annotation platform"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pinecone provides a managed cloud service for storing and searching vector embeddings.",
+  "points": 30,
+  "tags": ["pinecone"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "What is the role of a Retriever in LangChain?",
+  "options": [
+    "Return relevant documents for a query",
+    "Generate embeddings",
+    "Fine-tune language models",
+    "Train vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Retrievers search vector stores or other knowledge sources and return relevant documents.",
+  "points": 30,
+  "tags": ["retriever"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Which sequence best represents a basic RAG workflow?",
+  "options": [
+    "Documents → Chunking → Embeddings → Vector Store → Retriever → LLM",
+    "Prompt → CNN → SQL Database",
+    "Tokenizer → OCR → GAN",
+    "Image → VAE → Diffusion"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A standard RAG pipeline loads documents, chunks them, creates embeddings, stores them in a vector database, retrieves relevant chunks, and passes them to an LLM.",
+  "points": 30,
+  "tags": ["rag-pipeline"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of MultiQueryRetriever?",
+  "options": [
+    "Generate multiple query variations to improve document retrieval",
+    "Search multiple databases simultaneously",
+    "Run multiple LLMs together",
+    "Create multiple embeddings for the same document"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MultiQueryRetriever asks the LLM to generate multiple versions of the user's query, improving recall by retrieving documents from different semantic perspectives.",
+  "points": 30,
+  "tags": ["multiquery", "retriever", "rag"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Why is ParentDocumentRetriever useful?",
+  "options": [
+    "It retrieves small chunks but returns their larger parent documents",
+    "It stores parent-child relationships in SQL",
+    "It compresses embeddings",
+    "It summarizes documents before indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ParentDocumentRetriever indexes small chunks for accurate retrieval while returning larger parent documents for better context.",
+  "points": 30,
+  "tags": ["parent-document", "retriever"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "SelfQueryRetriever is designed to:",
+  "options": [
+    "Convert natural language into structured metadata filters automatically",
+    "Generate embeddings",
+    "Create prompt templates",
+    "Optimize GPU usage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SelfQueryRetriever uses an LLM to understand the user's intent and generate metadata filters for vector searches.",
+  "points": 30,
+  "tags": ["self-query", "metadata"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "ContextualCompressionRetriever mainly aims to:",
+  "options": [
+    "Reduce retrieved documents to only the most relevant information",
+    "Compress vector embeddings",
+    "Reduce model size",
+    "Compress PDF files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "It filters or summarizes retrieved content so that only useful context is passed to the LLM.",
+  "points": 30,
+  "tags": ["compression", "retriever"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "An EnsembleRetriever combines:",
+  "options": [
+    "Results from multiple retrievers",
+    "Multiple GPUs",
+    "Multiple LLM providers",
+    "Multiple prompt templates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "EnsembleRetriever merges results from different retrieval strategies such as BM25 and vector search.",
+  "points": 30,
+  "tags": ["ensemble", "retriever"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Hybrid Search usually combines:",
+  "options": [
+    "Keyword search and semantic vector search",
+    "SQL and NoSQL databases",
+    "CPU and GPU execution",
+    "Prompt templates and memories"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hybrid Search combines lexical matching (e.g., BM25) with semantic similarity search for improved retrieval quality.",
+  "points": 30,
+  "tags": ["hybrid-search", "bm25"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "What is the main role of a reranker in a RAG pipeline?",
+  "options": [
+    "Reorder retrieved documents based on relevance",
+    "Generate embeddings",
+    "Store vectors",
+    "Train the language model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A reranker evaluates retrieved documents and sorts them so the most relevant ones are passed to the LLM.",
+  "points": 30,
+  "tags": ["reranker", "retrieval"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Which factor most strongly affects retrieval quality?",
+  "options": [
+    "Chunk size and chunk overlap",
+    "GPU fan speed",
+    "Operating system",
+    "Programming language"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Proper chunk size and overlap preserve context while improving semantic retrieval accuracy.",
+  "points": 30,
+  "tags": ["chunking"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Which approach best helps reduce hallucinations in a RAG application?",
+  "options": [
+    "Ground responses using retrieved documents",
+    "Increase image resolution",
+    "Use more GPUs",
+    "Disable retrieval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Providing retrieved evidence allows the model to generate responses based on real source documents instead of relying solely on its internal knowledge.",
+  "points": 30,
+  "tags": ["hallucination", "rag"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Which LangChain component usually converts retrieved documents into the final prompt?",
+  "options": [
+    "Prompt Template",
+    "Embedding Model",
+    "Vector Store",
+    "Document Loader"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prompt templates format retrieved context together with the user's question before sending it to the LLM.",
+  "points": 30,
+  "tags": ["prompt-template", "rag"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "Which architecture best represents a production-grade LangChain RAG system?",
+  "options": [
+    "Document Loader → Text Splitter → Embeddings → Vector Store → Retriever → Reranker → Prompt → LLM",
+    "Prompt → GPU → SQL → Response",
+    "Tokenizer → CNN → OCR → Output",
+    "Image → Stable Diffusion → Response"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A production RAG system includes document ingestion, chunking, embeddings, retrieval, optional reranking, prompt construction, and LLM generation.",
+  "points": 30,
+  "tags": ["production", "architecture"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "langchain",
+  "difficulty": "hard",
+  "question": "During a technical interview, which retriever would you most likely recommend when metadata filtering is required?",
+  "options": [
+    "SelfQueryRetriever",
+    "ParentDocumentRetriever",
+    "MultiQueryRetriever",
+    "BM25Retriever"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SelfQueryRetriever automatically translates natural language into metadata-aware vector search filters, making it ideal for structured filtering use cases.",
+  "points": 30,
+  "tags": ["interview", "metadata", "retriever"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "What is LangGraph primarily designed for?",
+  "options": [
+    "Building stateful multi-agent workflows",
+    "Training transformer models",
+    "Creating embeddings",
+    "Managing SQL databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangGraph extends LangChain by enabling graph-based, stateful workflows with loops, branching, and multiple agents.",
+  "points": 40,
+  "tags": ["langgraph","agents"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which data structure is used internally by LangGraph to represent workflows?",
+  "options": [
+    "Directed graph",
+    "Binary tree",
+    "Hash table",
+    "Stack"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangGraph models workflows as directed graphs where nodes perform actions and edges define execution paths.",
+  "points": 40,
+  "tags": ["langgraph","graph"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "In LangGraph, a node typically represents:",
+  "options": [
+    "A computation or task",
+    "A vector database",
+    "A GPU",
+    "A tokenizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each node performs a specific computation such as calling an LLM, tool, or retriever.",
+  "points": 40,
+  "tags": ["langgraph","nodes"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "What is an AI Agent in LangChain?",
+  "options": [
+    "A system that reasons and decides which actions or tools to use",
+    "A vector embedding",
+    "A prompt template",
+    "A document loader"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agents use LLM reasoning to determine the next action and invoke appropriate tools dynamically.",
+  "points": 40,
+  "tags": ["agents"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "What is the purpose of Tool Calling?",
+  "options": [
+    "Allow the LLM to invoke external functions or APIs",
+    "Increase GPU speed",
+    "Compress prompts",
+    "Generate embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tool calling enables LLMs to interact with calculators, databases, APIs, and custom functions.",
+  "points": 40,
+  "tags": ["tool-calling"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "The ReAct framework combines:",
+  "options": [
+    "Reasoning and acting",
+    "Retrieval and compression",
+    "Training and inference",
+    "Embedding and indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ReAct allows an LLM to alternate between reasoning steps and tool usage.",
+  "points": 40,
+  "tags": ["react"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Function Calling is primarily used to:",
+  "options": [
+    "Return structured outputs that invoke predefined functions",
+    "Train LLMs",
+    "Generate embeddings",
+    "Optimize GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Function calling lets an LLM produce structured arguments for predefined functions instead of plain text.",
+  "points": 40,
+  "tags": ["function-calling"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which capability is essential for autonomous AI agents?",
+  "options": [
+    "Planning and decision making",
+    "Image compression",
+    "GPU overclocking",
+    "Database normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agents require planning, reasoning, and decision-making to solve multi-step tasks.",
+  "points": 40,
+  "tags": ["planning","agents"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Why are tools important for LLM agents?",
+  "options": [
+    "They extend the model beyond its built-in knowledge",
+    "They reduce image size",
+    "They replace embeddings",
+    "They improve monitor resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tools enable real-world interactions such as web search, database access, and calculations.",
+  "points": 40,
+  "tags": ["tools"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "What is MCP in modern AI systems?",
+  "options": [
+    "Model Context Protocol",
+    "Model Compression Pipeline",
+    "Memory Control Process",
+    "Machine Context Parser"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model Context Protocol (MCP) standardizes how AI applications connect to external tools and data sources.",
+  "points": 40,
+  "tags": ["mcp"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "The main goal of MCP is to:",
+  "options": [
+    "Provide a standard interface between AI models and external resources",
+    "Train larger LLMs",
+    "Improve GPU utilization",
+    "Replace vector databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MCP defines a consistent protocol for accessing tools, files, APIs, and services.",
+  "points": 40,
+  "tags": ["mcp","protocol"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which LangChain component is commonly used for observability and debugging?",
+  "options": [
+    "LangSmith",
+    "FAISS",
+    "Chroma",
+    "SentenceTransformer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangSmith provides tracing, debugging, evaluation, and monitoring for LangChain applications.",
+  "points": 40,
+  "tags": ["langsmith"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "What feature makes LangSmith valuable during development?",
+  "options": [
+    "Execution tracing and performance analysis",
+    "Image generation",
+    "GPU virtualization",
+    "Model fine-tuning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangSmith helps developers inspect execution paths, identify failures, and optimize workflows.",
+  "points": 40,
+  "tags": ["langsmith","debugging"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Why is evaluation important in LLM applications?",
+  "options": [
+    "To measure response quality, accuracy, and reliability",
+    "To reduce GPU temperature",
+    "To generate embeddings",
+    "To compress prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Evaluation helps identify weaknesses, compare models, and ensure applications meet quality standards.",
+  "points": 40,
+  "tags": ["evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which LangChain platform provides automated evaluation datasets and experiments?",
+  "options": [
+    "LangSmith",
+    "FAISS",
+    "OpenCV",
+    "Docker"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangSmith supports tracing, evaluation, experiment tracking, and benchmarking of LLM applications.",
+  "points": 40,
+  "tags": ["langsmith","evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which deployment framework is commonly used for serving LangChain APIs?",
+  "options": [
+    "FastAPI",
+    "NumPy",
+    "Pandas",
+    "Matplotlib"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FastAPI is widely used to expose LangChain applications as REST APIs.",
+  "points": 40,
+  "tags": ["fastapi","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Why is asynchronous execution beneficial in production APIs?",
+  "options": [
+    "It allows multiple requests to be handled efficiently",
+    "It increases embedding dimensions",
+    "It reduces model parameters",
+    "It replaces caching"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Async execution improves throughput and responsiveness when handling concurrent users.",
+  "points": 40,
+  "tags": ["async","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which technique reduces repeated LLM API calls in production?",
+  "options": [
+    "Caching",
+    "Chunking",
+    "Tokenization",
+    "OCR"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Caching stores previous responses, reducing latency and API costs.",
+  "points": 40,
+  "tags": ["cache","optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which production metric is most useful for monitoring user experience?",
+  "options": [
+    "Response latency",
+    "GPU colour",
+    "Disk wallpaper",
+    "Keyboard layout"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Latency directly affects how quickly users receive responses from an AI application.",
+  "points": 40,
+  "tags": ["monitoring","latency"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Why should API keys be stored in environment variables?",
+  "options": [
+    "To improve security and avoid exposing secrets",
+    "To increase model accuracy",
+    "To reduce prompt length",
+    "To improve embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Environment variables keep sensitive credentials out of source code repositories.",
+  "points": 40,
+  "tags": ["security","environment"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which architecture is most suitable for scalable LangChain applications?",
+  "options": [
+    "Microservices",
+    "Single monolithic script",
+    "Spreadsheet workflow",
+    "Desktop shortcut"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Microservices allow independent scaling of API, retrieval, model serving, and background tasks.",
+  "points": 40,
+  "tags": ["architecture","microservices"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "What is the primary purpose of logging in production AI systems?",
+  "options": [
+    "Debugging, auditing, and monitoring application behaviour",
+    "Training language models",
+    "Increasing VRAM",
+    "Creating embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Logs help diagnose failures, monitor performance, and investigate production issues.",
+  "points": 40,
+  "tags": ["logging","production"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which deployment strategy minimises downtime during updates?",
+  "options": [
+    "Blue-Green Deployment",
+    "Deleting the server",
+    "Stopping all services first",
+    "Manual code editing on production"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Blue-Green deployment switches traffic between two environments, reducing downtime and rollback risk.",
+  "points": 40,
+  "tags": ["deployment","devops"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "In a production RAG system, what should be monitored continuously?",
+  "options": [
+    "Retrieval accuracy, latency, token usage, and failures",
+    "Desktop wallpaper",
+    "Keyboard brightness",
+    "CPU sticker colour"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous monitoring helps maintain response quality, performance, and operational reliability.",
+  "points": 40,
+  "tags": ["rag","monitoring","production"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "langchain",
+  "difficulty": "expert",
+  "question": "Which statement best summarizes LangChain's role in modern AI development?",
+  "options": [
+    "It provides modular building blocks for creating production-ready LLM applications",
+    "It is only a vector database",
+    "It replaces all machine learning frameworks",
+    "It is exclusively an image generation library"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LangChain integrates prompts, models, retrieval, memory, tools, agents, and workflows into a unified framework for building production AI applications.",
+  "points": 40,
+  "tags": ["summary","interview","production"],
+  "timeLimit": 75
+}
+]

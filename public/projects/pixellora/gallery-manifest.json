@@ -1,0 +1,361 @@
+{
+  "project": "pixellora",
+  "generatedAt": "2026-08-12T09:10:50",
+  "source": {
+    "dataset": "C:\\Users\\abhis\\OneDrive\\Desktop\\AI_WORKSPACE\\Projects\\project s8\\project_s8\\S8 OUTPUT\\group 9\\PixelLoRA_Dataset",
+    "outputs": "C:\\Users\\abhis\\OneDrive\\Desktop\\AI_WORKSPACE\\Projects\\project s8\\project_s8\\S8 OUTPUT\\group 9\\PixelLoRA_output"
+  },
+  "policy": {
+    "datasetSamples": 30,
+    "outputSamples": 15,
+    "thumbnailFormat": "webp",
+    "thumbnailMaxEdge": 640
+  },
+  "datasetCount": 30,
+  "outputCount": 15,
+  "datasetSourceImageCount": 30,
+  "outputSourceImageCount": 15,
+  "datasets": [
+    {
+      "src": "/public/projects/pixellora/dataset/001.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000091.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/002.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000140.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/003.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000153.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/004.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000232.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/005.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000266.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/006.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000339.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/007.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000489.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/008.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000597.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/009.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000611.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/010.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000629.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/011.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000799.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/012.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000803.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/013.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000961.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/014.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_000965.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/015.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001283.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/016.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001322.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/017.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001414.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/018.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001429.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/019.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001497.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/020.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001505.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/021.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001514.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/022.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001533.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/023.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001581.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/024.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001653.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/025.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001699.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/026.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001705.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/027.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001888.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/028.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001910.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/029.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001922.png"
+    },
+    {
+      "src": "/public/projects/pixellora/dataset/030.webp",
+      "title": "PixelLoRA training sample",
+      "category": "pixel-art-style",
+      "kind": "dataset",
+      "source": "pixel_001989.png"
+    }
+  ],
+  "outputs": [
+    {
+      "src": "/public/projects/pixellora/outputs/001.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153032_masterpiece_pixel_art_legendary_dragon_knight_wear.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/002.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153052_masterpiece_pixel_art_mysterious_cyberpunk_hacker_.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/003.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153126_masterpiece_pixel_art_ancient_forest_druid_with_lo.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/004.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153252_masterpiece_pixel_art_elite_space_explorer_wearing.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/005.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153503_masterpiece_pixel_art_elegant_celestial_fox_spirit.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/006.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153546_masterpiece_pixel_art_legendary_samurai_commander_.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/007.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153610_masterpiece_pixel_art_futuristic_mech_pilot_with_s.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/008.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153709_masterpiece_pixel_art_fearless_desert_bounty_hunte.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/009.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153733_masterpiece_pixel_art_royal_vampire_queen_seated_u.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/010.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "153938_masterpiece_pixel_art_celestial_angel_warrior_desc.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/011.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "154001_masterpiece_pixel_art_cursed_samurai_wandering_thr.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/012.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "154023_masterpiece_pixel_art_dwarf_blacksmith_forging_a_l.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/013.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "154046_masterpiece_pixel_art_mysterious_plague_doctor_exp.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/014.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "154108_masterpiece_pixel_art_young_dragon_tamer_riding_a_.png"
+    },
+    {
+      "src": "/public/projects/pixellora/outputs/015.webp",
+      "title": "PixelLoRA generated output",
+      "category": "generated",
+      "kind": "output",
+      "source": "154129_masterpiece_pixel_art_futuristic_android_detective.png"
+    }
+   
+
+
+  ],
+
+   "training": [
+    {
+      "src": "/projects/pixellora/training/dataset-overview.png",
+      "title": "Dataset Overview",
+      "category": "training-evidence",
+      "kind": "training"
+    },
+    {
+      "src": "/projects/pixellora/training/training-config.png",
+      "title": "Training Configuration",
+      "category": "training-evidence",
+      "kind": "training"
+    },
+    {
+      "src": "/projects/pixellora/training/training-progress.png",
+      "title": "Training Progress",
+      "category": "training-evidence",
+      "kind": "training"
+    }
+  ]
+}

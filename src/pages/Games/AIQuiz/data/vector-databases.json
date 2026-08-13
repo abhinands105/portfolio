@@ -1,0 +1,1704 @@
+[
+{
+  "id": 1,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "A vector database is primarily designed to store:",
+  "options": [
+    "Vector embeddings",
+    "SQL tables",
+    "Image files",
+    "PDF documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector databases are optimized for storing and searching high-dimensional vector embeddings.",
+  "points": 10,
+  "tags": ["basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Vector databases are mainly used in:",
+  "options": [
+    "Artificial Intelligence and Machine Learning",
+    "Video editing",
+    "Spreadsheet calculations",
+    "Operating systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "They enable semantic search, recommendation systems, and Retrieval-Augmented Generation (RAG).",
+  "points": 10,
+  "tags": ["ai"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "An embedding is:",
+  "options": [
+    "A numerical vector representing data",
+    "A SQL query",
+    "A database table",
+    "A JSON document"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embeddings convert data such as text or images into numerical vectors.",
+  "points": 10,
+  "tags": ["embeddings"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Text embeddings convert text into:",
+  "options": [
+    "Dense numerical vectors",
+    "SQL statements",
+    "CSV files",
+    "Images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embedding models transform text into dense vectors that capture semantic meaning.",
+  "points": 10,
+  "tags": ["text-embeddings"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "The main goal of a vector search is to find:",
+  "options": [
+    "Semantically similar items",
+    "Alphabetically sorted items",
+    "Largest files",
+    "Duplicate databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector search retrieves items with similar meanings rather than exact keywords.",
+  "points": 10,
+  "tags": ["vector-search"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Traditional SQL databases mainly perform:",
+  "options": [
+    "Exact matching",
+    "Semantic similarity search",
+    "Image generation",
+    "Speech recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Relational databases excel at exact lookups, joins, and structured queries.",
+  "points": 10,
+  "tags": ["sql"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Semantic search means searching by:",
+  "options": [
+    "Meaning",
+    "Exact keywords only",
+    "File names",
+    "Database IDs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic search retrieves information based on meaning rather than exact text.",
+  "points": 10,
+  "tags": ["semantic-search"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which AI technique commonly uses vector databases?",
+  "options": [
+    "Retrieval-Augmented Generation (RAG)",
+    "Bubble Sort",
+    "Binary Search Tree",
+    "Linear Regression only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG retrieves relevant documents from a vector database before generating responses.",
+  "points": 10,
+  "tags": ["rag"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Embeddings produced by similar sentences are usually:",
+  "options": [
+    "Close together in vector space",
+    "Randomly distributed",
+    "Always identical",
+    "Stored in SQL rows"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantically similar content generates nearby vectors.",
+  "points": 10,
+  "tags": ["similarity"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which type of data can be represented as embeddings?",
+  "options": [
+    "Text, images, audio, and video",
+    "Only text",
+    "Only images",
+    "Only audio"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Many data modalities can be embedded into vector representations.",
+  "points": 10,
+  "tags": ["multimodal"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "The dimensionality of an embedding refers to:",
+  "options": [
+    "The number of values in the vector",
+    "The database size",
+    "The number of users",
+    "The storage capacity"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embedding dimensions describe the length of the numerical vector.",
+  "points": 10,
+  "tags": ["dimensions"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which component typically generates embeddings?",
+  "options": [
+    "Embedding model",
+    "SQL engine",
+    "Compiler",
+    "Web browser"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embedding models convert raw data into vector representations.",
+  "points": 10,
+  "tags": ["embedding-model"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "A vector database stores vectors along with:",
+  "options": [
+    "Metadata",
+    "Executable programs",
+    "Operating systems",
+    "GPU drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Metadata helps filter and organize vector search results.",
+  "points": 10,
+  "tags": ["metadata"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Metadata filtering is used to:",
+  "options": [
+    "Restrict search results using attributes",
+    "Generate embeddings",
+    "Train neural networks",
+    "Compress vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Metadata allows filtering by fields such as category, author, or date.",
+  "points": 10,
+  "tags": ["metadata-filter"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "A query embedding is created from:",
+  "options": [
+    "The user's search query",
+    "The database schema",
+    "The server configuration",
+    "The operating system"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The user's query is embedded before similarity search.",
+  "points": 10,
+  "tags": ["query-embedding"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "The result of a vector search is usually:",
+  "options": [
+    "The nearest embeddings",
+    "Random records",
+    "The oldest records",
+    "Database logs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Nearest vectors represent the most semantically similar items.",
+  "points": 10,
+  "tags": ["nearest-neighbor"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which AI application commonly relies on vector databases?",
+  "options": [
+    "Semantic document search",
+    "Disk formatting",
+    "Operating system booting",
+    "Spreadsheet printing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic search is one of the primary applications of vector databases.",
+  "points": 10,
+  "tags": ["document-search"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Vector databases are especially useful for:",
+  "options": [
+    "Unstructured data",
+    "Simple arithmetic",
+    "HTML rendering",
+    "Compiler optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "They excel at storing and retrieving embeddings from unstructured content.",
+  "points": 10,
+  "tags": ["unstructured-data"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "A chatbot using RAG retrieves information from:",
+  "options": [
+    "A vector database",
+    "A graphics card",
+    "A printer",
+    "A BIOS chip"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG systems retrieve relevant documents from vector databases before generating answers.",
+  "points": 10,
+  "tags": ["chatbot", "rag"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which is NOT typically stored in a vector database?",
+  "options": [
+    "Operating system kernel",
+    "Embeddings",
+    "Metadata",
+    "Document identifiers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector databases store embeddings and metadata, not operating system components.",
+  "points": 10,
+  "tags": ["storage"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Embeddings capture:",
+  "options": [
+    "Semantic relationships",
+    "Disk sectors",
+    "CPU instructions",
+    "File permissions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embedding vectors encode the meaning and relationships within data.",
+  "points": 10,
+  "tags": ["semantics"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which company created FAISS?",
+  "options": [
+    "Meta",
+    "Google",
+    "Microsoft",
+    "Amazon"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAISS is an open-source similarity search library developed by Meta.",
+  "points": 10,
+  "tags": ["faiss"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which open-source vector database is popular for AI applications?",
+  "options": [
+    "Qdrant",
+    "Oracle Database",
+    "SQLite",
+    "MariaDB"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Qdrant is a dedicated vector database for similarity search.",
+  "points": 10,
+  "tags": ["qdrant"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "Which database is specifically designed for vector similarity search?",
+  "options": [
+    "Milvus",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis CLI"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Milvus is a specialized open-source vector database.",
+  "points": 10,
+  "tags": ["milvus"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "vector-databases",
+  "difficulty": "easy",
+  "question": "The main benefit of vector databases over keyword search is:",
+  "options": [
+    "Understanding semantic meaning",
+    "Lower electricity usage",
+    "Smaller monitors",
+    "Faster internet speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector databases retrieve results based on semantic similarity instead of exact keyword matching.",
+  "points": 10,
+  "tags": ["semantic-search"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Which similarity metric measures the cosine of the angle between two vectors?",
+  "options": [
+    "Cosine Similarity",
+    "Euclidean Distance",
+    "Manhattan Distance",
+    "Hamming Distance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cosine similarity compares vector orientation rather than magnitude.",
+  "points": 20,
+  "tags": ["cosine-similarity"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Which distance metric calculates the straight-line distance between vectors?",
+  "options": [
+    "Euclidean Distance",
+    "Cosine Similarity",
+    "Jaccard Similarity",
+    "Pearson Correlation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Euclidean distance measures the direct geometric distance between two vectors.",
+  "points": 20,
+  "tags": ["euclidean-distance"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Dot product similarity is commonly used with:",
+  "options": [
+    "Normalized embeddings",
+    "SQL tables",
+    "CSV files",
+    "XML documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The dot product is often used as a similarity measure for normalized vectors.",
+  "points": 20,
+  "tags": ["dot-product"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "The nearest neighbor search returns:",
+  "options": [
+    "The most similar vectors",
+    "The oldest vectors",
+    "The largest vectors",
+    "The newest vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Nearest neighbor search identifies vectors closest to the query vector.",
+  "points": 20,
+  "tags": ["nearest-neighbor"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "k-NN search returns:",
+  "options": [
+    "The k most similar vectors",
+    "Random vectors",
+    "Only one vector",
+    "Every stored vector"
+  ],
+  "correctAnswer": 0,
+  "explanation": "k-Nearest Neighbor retrieves the top-k closest vectors.",
+  "points": 20,
+  "tags": ["knn"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Approximate Nearest Neighbor (ANN) search prioritizes:",
+  "options": [
+    "Speed over exact accuracy",
+    "Exact accuracy only",
+    "Lower storage only",
+    "SQL compatibility"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ANN algorithms trade a small amount of accuracy for significantly faster search.",
+  "points": 20,
+  "tags": ["ann"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Why are ANN algorithms widely used?",
+  "options": [
+    "Exact search becomes slow for millions of vectors",
+    "They require no embeddings",
+    "They eliminate metadata",
+    "They work only on CPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ANN methods efficiently search very large collections of vectors.",
+  "points": 20,
+  "tags": ["ann"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "HNSW stands for:",
+  "options": [
+    "Hierarchical Navigable Small World",
+    "High Neural Search Workflow",
+    "Hybrid Navigation Search Window",
+    "Hierarchical Neural Semantic Web"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HNSW is one of the most popular ANN indexing algorithms.",
+  "points": 20,
+  "tags": ["hnsw"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "HNSW primarily improves:",
+  "options": [
+    "Search efficiency",
+    "Image resolution",
+    "Internet bandwidth",
+    "SQL joins"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HNSW enables fast nearest-neighbor retrieval in large datasets.",
+  "points": 20,
+  "tags": ["hnsw"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "IVF in FAISS stands for:",
+  "options": [
+    "Inverted File Index",
+    "Indexed Vector Framework",
+    "Integrated Vector File",
+    "Intelligent Vector Filter"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IVF partitions vectors into clusters for faster retrieval.",
+  "points": 20,
+  "tags": ["ivf"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Product Quantization (PQ) is mainly used to:",
+  "options": [
+    "Compress vectors",
+    "Generate embeddings",
+    "Train transformers",
+    "Normalize metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PQ reduces memory usage while enabling efficient similarity search.",
+  "points": 20,
+  "tags": ["product-quantization"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "An index in a vector database is primarily used to:",
+  "options": [
+    "Speed up similarity search",
+    "Generate embeddings",
+    "Store images",
+    "Compile Python code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Indexes organize vectors for efficient retrieval.",
+  "points": 20,
+  "tags": ["index"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Metadata filtering is typically performed:",
+  "options": [
+    "Before or during vector search",
+    "After deleting vectors",
+    "During model training only",
+    "Only after inference"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Filtering narrows candidate vectors using metadata constraints.",
+  "points": 20,
+  "tags": ["metadata"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Hybrid search combines:",
+  "options": [
+    "Keyword search and vector search",
+    "SQL and HTML",
+    "CNN and RNN",
+    "Images and videos"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hybrid search leverages both lexical and semantic retrieval.",
+  "points": 20,
+  "tags": ["hybrid-search"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Which search type is best for understanding user intent?",
+  "options": [
+    "Semantic search",
+    "Binary search",
+    "Linear search",
+    "Hash search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic search retrieves information based on meaning rather than exact wording.",
+  "points": 20,
+  "tags": ["semantic-search"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Vector normalization is commonly performed to:",
+  "options": [
+    "Improve similarity calculations",
+    "Increase storage usage",
+    "Delete duplicates",
+    "Reduce metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Normalized vectors are especially useful for cosine similarity and dot-product search.",
+  "points": 20,
+  "tags": ["normalization"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Embedding models from OpenAI, BGE, or Sentence Transformers generate:",
+  "options": [
+    "Semantic vectors",
+    "SQL queries",
+    "REST APIs",
+    "HTML pages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embedding models convert raw content into numerical representations.",
+  "points": 20,
+  "tags": ["embedding-models"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "A collection in Qdrant is similar to a:",
+  "options": [
+    "Table in a database",
+    "GPU memory block",
+    "Python function",
+    "Docker container"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Collections organize vectors similarly to tables in relational databases.",
+  "points": 20,
+  "tags": ["qdrant"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Milvus supports:",
+  "options": [
+    "Large-scale vector indexing and search",
+    "Only SQL transactions",
+    "Only spreadsheets",
+    "Only image editing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Milvus is designed for scalable vector search applications.",
+  "points": 20,
+  "tags": ["milvus"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Pinecone is best described as a:",
+  "options": [
+    "Managed vector database",
+    "Programming language",
+    "Deep learning framework",
+    "Relational database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pinecone provides a fully managed cloud vector database service.",
+  "points": 20,
+  "tags": ["pinecone"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Weaviate is known for:",
+  "options": [
+    "Vector search with rich metadata and GraphQL support",
+    "Video rendering",
+    "Operating system development",
+    "Spreadsheet analysis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Weaviate combines vector search with metadata filtering and GraphQL APIs.",
+  "points": 20,
+  "tags": ["weaviate"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "Chroma is widely used for:",
+  "options": [
+    "Local RAG applications",
+    "Database backups",
+    "Game development",
+    "Operating systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chroma is a lightweight vector database commonly used in local AI projects.",
+  "points": 20,
+  "tags": ["chroma"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "FAISS is primarily a:",
+  "options": [
+    "Vector similarity search library",
+    "Neural network architecture",
+    "SQL database",
+    "Web framework"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAISS provides efficient similarity search and clustering for dense vectors.",
+  "points": 20,
+  "tags": ["faiss"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "A vector index is rebuilt mainly when:",
+  "options": [
+    "Many vectors are added or updated",
+    "A PDF is opened",
+    "The operating system boots",
+    "A GPU driver changes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Large-scale updates may require rebuilding or optimizing the index.",
+  "points": 20,
+  "tags": ["index-maintenance"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "vector-databases",
+  "difficulty": "medium",
+  "question": "The primary objective of vector indexing is to:",
+  "options": [
+    "Reduce search time while maintaining good accuracy",
+    "Increase embedding dimensions",
+    "Replace embedding models",
+    "Store SQL transactions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Efficient indexing enables scalable similarity search over millions of vectors.",
+  "points": 20,
+  "tags": ["vector-index"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "The first step in a Retrieval-Augmented Generation (RAG) pipeline is usually:",
+  "options": [
+    "Create embeddings for documents",
+    "Generate the final answer",
+    "Train the language model",
+    "Compress the database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Documents are first converted into embeddings before being indexed in a vector database.",
+  "points": 30,
+  "tags": ["rag", "embeddings"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Document chunking is performed to:",
+  "options": [
+    "Split large documents into smaller searchable pieces",
+    "Compress embeddings",
+    "Reduce vector dimensions",
+    "Encrypt metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Chunking improves retrieval by indexing manageable text segments.",
+  "points": 30,
+  "tags": ["chunking"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Embedding each document chunk separately helps:",
+  "options": [
+    "Improve retrieval precision",
+    "Reduce GPU temperature",
+    "Increase SQL performance",
+    "Replace metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Smaller chunks usually produce more relevant search results.",
+  "points": 30,
+  "tags": ["chunking", "retrieval"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "The retriever component in RAG is responsible for:",
+  "options": [
+    "Finding relevant document chunks",
+    "Training the LLM",
+    "Generating embeddings",
+    "Saving checkpoints"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The retriever searches the vector database for relevant information.",
+  "points": 30,
+  "tags": ["retriever"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "After retrieval, the retrieved context is sent to:",
+  "options": [
+    "The language model",
+    "The operating system",
+    "The SQL server",
+    "The GPU driver"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The retrieved documents are provided as context for answer generation.",
+  "points": 30,
+  "tags": ["generator"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Top-k retrieval refers to:",
+  "options": [
+    "Returning the k highest-ranked search results",
+    "Selecting k GPUs",
+    "Training for k epochs",
+    "Creating k embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Top-k specifies how many nearest neighbors should be retrieved.",
+  "points": 30,
+  "tags": ["top-k"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Re-ranking is performed to:",
+  "options": [
+    "Improve the ordering of retrieved results",
+    "Reduce embedding size",
+    "Compress documents",
+    "Generate metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A re-ranker scores retrieved documents more accurately before generation.",
+  "points": 30,
+  "tags": ["reranking"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Cross-encoder re-rankers generally provide:",
+  "options": [
+    "Higher retrieval accuracy",
+    "Smaller embedding dimensions",
+    "Faster indexing",
+    "Automatic chunking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross-encoders jointly evaluate query-document pairs for better ranking.",
+  "points": 30,
+  "tags": ["cross-encoder"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Hybrid retrieval combines semantic retrieval with:",
+  "options": [
+    "Keyword-based retrieval",
+    "Image segmentation",
+    "Speech synthesis",
+    "Model pruning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Combining lexical and semantic retrieval often improves search quality.",
+  "points": 30,
+  "tags": ["hybrid-search"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "A common reason for poor retrieval quality is:",
+  "options": [
+    "Poor-quality embeddings",
+    "Too much RAM",
+    "Fast SSD storage",
+    "High internet speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Embedding quality directly affects semantic search performance.",
+  "points": 30,
+  "tags": ["embeddings"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Embedding dimensionality mainly affects:",
+  "options": [
+    "Storage requirements and search performance",
+    "Operating system version",
+    "Programming language",
+    "Internet bandwidth"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher dimensions generally require more memory and computation.",
+  "points": 30,
+  "tags": ["dimensions"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Vector compression techniques primarily reduce:",
+  "options": [
+    "Memory usage",
+    "Model accuracy to zero",
+    "Metadata size only",
+    "Database connections"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Compression allows larger collections to fit into memory.",
+  "points": 30,
+  "tags": ["compression"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Scalar quantization reduces vector size by:",
+  "options": [
+    "Using lower-precision numerical values",
+    "Deleting metadata",
+    "Removing dimensions",
+    "Sorting vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization stores vectors using fewer bits per value.",
+  "points": 30,
+  "tags": ["quantization"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Incremental indexing allows:",
+  "options": [
+    "Adding new vectors without rebuilding the entire index",
+    "Deleting the database",
+    "Changing embedding models automatically",
+    "Converting SQL to vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Incremental updates improve scalability in production systems.",
+  "points": 30,
+  "tags": ["indexing"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Batch insertion is preferred because it:",
+  "options": [
+    "Improves indexing efficiency",
+    "Reduces embedding quality",
+    "Eliminates metadata",
+    "Requires fewer vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Large batches reduce indexing overhead.",
+  "points": 30,
+  "tags": ["batch-ingestion"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Filtering before similarity search is known as:",
+  "options": [
+    "Pre-filtering",
+    "Re-ranking",
+    "Normalization",
+    "Tokenization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pre-filtering narrows candidates using metadata before vector search.",
+  "points": 30,
+  "tags": ["pre-filter"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Filtering after similarity search is called:",
+  "options": [
+    "Post-filtering",
+    "Chunking",
+    "Embedding",
+    "Vectorization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Post-filtering applies metadata constraints after nearest-neighbor retrieval.",
+  "points": 30,
+  "tags": ["post-filter"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "A multilingual embedding model allows:",
+  "options": [
+    "Semantic search across multiple languages",
+    "GPU virtualization",
+    "Database replication",
+    "Automatic indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multilingual embeddings map similar meanings from different languages close together.",
+  "points": 30,
+  "tags": ["multilingual"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Image retrieval systems commonly use:",
+  "options": [
+    "Image embeddings",
+    "SQL joins",
+    "HTML tags",
+    "Markdown files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Images are converted into feature vectors for similarity search.",
+  "points": 30,
+  "tags": ["image-search"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Multimodal vector databases can store embeddings for:",
+  "options": [
+    "Text, images, audio, and video",
+    "Only SQL tables",
+    "Only PDFs",
+    "Only images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern vector databases support embeddings from multiple data modalities.",
+  "points": 30,
+  "tags": ["multimodal"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Recommendation systems use vector databases to:",
+  "options": [
+    "Find similar users or products",
+    "Compile software",
+    "Manage operating systems",
+    "Compress videos"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Similarity search powers personalized recommendations.",
+  "points": 30,
+  "tags": ["recommendation"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Duplicate detection using embeddings relies on:",
+  "options": [
+    "High vector similarity",
+    "Exact filenames",
+    "SQL constraints",
+    "File sizes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Near-identical content produces highly similar embeddings.",
+  "points": 30,
+  "tags": ["duplicate-detection"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "A vector database used in production should prioritize:",
+  "options": [
+    "Scalability, low latency, and high availability",
+    "Only small datasets",
+    "Only local storage",
+    "No indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production systems require fast, reliable, and scalable retrieval.",
+  "points": 30,
+  "tags": ["production"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "Embedding caching is mainly used to:",
+  "options": [
+    "Avoid recomputing existing embeddings",
+    "Increase embedding dimensions",
+    "Delete vectors",
+    "Rebuild indexes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Caching saves computation time and API costs.",
+  "points": 30,
+  "tags": ["caching"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "vector-databases",
+  "difficulty": "hard",
+  "question": "A well-designed vector database pipeline aims to optimize:",
+  "options": [
+    "Retrieval quality, speed, and scalability",
+    "Operating system updates",
+    "Internet speed",
+    "Monitor resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern AI systems balance accuracy, latency, and scalability.",
+  "points": 30,
+  "tags": ["pipeline"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "A production RAG system typically includes:",
+  "options": [
+    "Embedding model, vector database, retriever, re-ranker, and LLM",
+    "Only a relational database",
+    "Only an LLM",
+    "Only a GPU"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production RAG combines multiple components to retrieve and generate accurate responses.",
+  "points": 40,
+  "tags": ["rag", "production"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Sharding in a vector database primarily improves:",
+  "options": [
+    "Horizontal scalability",
+    "Embedding quality",
+    "Metadata size",
+    "Model accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sharding distributes data across multiple nodes for higher capacity and throughput.",
+  "points": 40,
+  "tags": ["sharding"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Replication in vector databases mainly provides:",
+  "options": [
+    "High availability and fault tolerance",
+    "Embedding compression",
+    "Query tokenization",
+    "Lower vector dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Replicated data allows continued operation even if a node fails.",
+  "points": 40,
+  "tags": ["replication"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Distributed vector search enables:",
+  "options": [
+    "Searching across multiple machines simultaneously",
+    "Compressing embeddings",
+    "Reducing embedding dimensions",
+    "Generating documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Distributed search scales vector retrieval across clusters.",
+  "points": 40,
+  "tags": ["distributed-search"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Index optimization is mainly performed to:",
+  "options": [
+    "Reduce search latency",
+    "Increase embedding size",
+    "Generate metadata",
+    "Reduce GPU memory only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Well-optimized indexes improve retrieval speed and efficiency.",
+  "points": 40,
+  "tags": ["index-optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Increasing the 'efSearch' parameter in HNSW generally:",
+  "options": [
+    "Improves recall but increases query time",
+    "Deletes vectors",
+    "Reduces embedding dimensions",
+    "Disables indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher efSearch explores more candidates, improving accuracy at the cost of latency.",
+  "points": 40,
+  "tags": ["hnsw"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Increasing the HNSW 'M' parameter primarily affects:",
+  "options": [
+    "Graph connectivity and memory usage",
+    "Embedding generation",
+    "Metadata filtering",
+    "Document chunking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher M creates more graph connections, improving recall but using more memory.",
+  "points": 40,
+  "tags": ["hnsw"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "The IVF 'nprobe' parameter controls:",
+  "options": [
+    "How many clusters are searched",
+    "Embedding dimensions",
+    "Metadata size",
+    "GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Searching more clusters improves recall but increases search time.",
+  "points": 40,
+  "tags": ["ivf"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "GPU acceleration is mainly beneficial for:",
+  "options": [
+    "Large-scale similarity search",
+    "Creating PDFs",
+    "Editing videos",
+    "Managing operating systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPUs accelerate high-dimensional vector computations.",
+  "points": 40,
+  "tags": ["gpu"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "FAISS GPU primarily provides:",
+  "options": [
+    "GPU-accelerated vector indexing and search",
+    "Cloud storage",
+    "Model training only",
+    "SQL optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FAISS can leverage GPUs for significantly faster similarity search.",
+  "points": 40,
+  "tags": ["faiss", "gpu"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Multi-vector retrieval represents a document using:",
+  "options": [
+    "Multiple embeddings",
+    "One integer",
+    "One SQL row",
+    "One metadata field"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Different document parts can be represented with separate vectors.",
+  "points": 40,
+  "tags": ["multi-vector"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "ColBERT is primarily known for:",
+  "options": [
+    "Late interaction retrieval using multiple token embeddings",
+    "Database sharding",
+    "Graph partitioning",
+    "Vector compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ColBERT stores multiple token-level embeddings for improved retrieval quality.",
+  "points": 40,
+  "tags": ["colbert"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Combining a Knowledge Graph with a vector database provides:",
+  "options": [
+    "Structured reasoning and semantic retrieval",
+    "Lower GPU temperature",
+    "Smaller datasets",
+    "Automatic model training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Knowledge graphs complement vector search with explicit relationships.",
+  "points": 40,
+  "tags": ["knowledge-graph"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "GraphRAG combines Retrieval-Augmented Generation with:",
+  "options": [
+    "Knowledge graphs",
+    "Operating systems",
+    "Web browsers",
+    "GPU drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GraphRAG enhances retrieval using graph-based relationships.",
+  "points": 40,
+  "tags": ["graphrag"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Access control in a vector database is mainly used to:",
+  "options": [
+    "Restrict data access based on permissions",
+    "Increase embedding dimensions",
+    "Improve similarity scores",
+    "Generate vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Access control ensures only authorized users can retrieve protected data.",
+  "points": 40,
+  "tags": ["security"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Encryption in vector databases primarily protects:",
+  "options": [
+    "Stored data and communications",
+    "Embedding dimensions",
+    "Similarity metrics",
+    "Index algorithms"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Encryption secures sensitive vectors and metadata during storage and transmission.",
+  "points": 40,
+  "tags": ["encryption"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "A major enterprise application of vector databases is:",
+  "options": [
+    "Enterprise semantic search",
+    "Disk partitioning",
+    "Spreadsheet formatting",
+    "Compiler optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Organizations use vector databases to search large collections of documents by meaning.",
+  "points": 40,
+  "tags": ["enterprise-search"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Vector databases are increasingly used in AI agents for:",
+  "options": [
+    "Long-term memory",
+    "GPU scheduling",
+    "Database normalization",
+    "Video rendering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI agents store and retrieve previous interactions using vector memory.",
+  "points": 40,
+  "tags": ["agent-memory"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "An autonomous AI agent retrieves past experiences using:",
+  "options": [
+    "Vector similarity search",
+    "Binary search",
+    "Bubble sort",
+    "Hash collisions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Semantic retrieval enables agents to recall relevant past information.",
+  "points": 40,
+  "tags": ["ai-agents"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Which application commonly combines LLMs with vector databases?",
+  "options": [
+    "Question-answering systems",
+    "Operating system boot loaders",
+    "Spreadsheet editors",
+    "Printer firmware"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LLMs use retrieved context from vector databases to answer questions accurately.",
+  "points": 40,
+  "tags": ["llm", "qa"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Future vector databases are expected to support:",
+  "options": [
+    "Larger multimodal datasets and AI-native workflows",
+    "Only relational tables",
+    "Only text files",
+    "Only SQL queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Future systems will manage increasingly complex multimodal AI workloads.",
+  "points": 40,
+  "tags": ["future"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "One challenge of billion-scale vector databases is:",
+  "options": [
+    "Maintaining low-latency search",
+    "Creating HTML pages",
+    "Installing operating systems",
+    "Formatting hard disks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Efficient indexing and distributed infrastructure are required at very large scales.",
+  "points": 40,
+  "tags": ["scalability"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Observability in production vector databases helps monitor:",
+  "options": [
+    "Latency, throughput, and retrieval quality",
+    "Screen brightness",
+    "Keyboard layout",
+    "Printer toner"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Monitoring ensures reliable production performance.",
+  "points": 40,
+  "tags": ["monitoring"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "A high-quality production vector search system aims to balance:",
+  "options": [
+    "Accuracy, latency, and cost",
+    "Screen size and keyboard color",
+    "CPU temperature and wallpaper",
+    "File names and folders"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production systems optimize retrieval quality while controlling response time and infrastructure costs.",
+  "points": 40,
+  "tags": ["production"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "vector-databases",
+  "difficulty": "expert",
+  "question": "Why are vector databases considered a foundational technology for modern AI?",
+  "options": [
+    "They enable efficient semantic retrieval for LLMs, RAG systems, recommendation engines, multimodal AI, and intelligent agents",
+    "They replace deep learning models entirely",
+    "They eliminate the need for embeddings",
+    "They are used only for SQL optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector databases provide scalable semantic search capabilities that power many modern AI applications and agentic systems.",
+  "points": 40,
+  "tags": ["foundation", "ai", "rag", "agents"]
+,
+  "timeLimit": 75
+}
+
+]

@@ -1,0 +1,1703 @@
+[
+  {
+    "id": 1,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "What does MLOps stand for?",
+    "options": [
+      "Machine Learning Operations",
+      "Machine Logic Operations",
+      "Model Learning Optimization",
+      "Machine Learning Optimization System"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MLOps (Machine Learning Operations) combines machine learning, DevOps, and data engineering practices to build, deploy, and maintain ML systems.",
+    "points": 10,
+    "tags": ["mlops", "fundamentals"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "The primary goal of MLOps is to:",
+    "options": [
+      "Deploy and manage machine learning models efficiently",
+      "Replace data scientists",
+      "Train larger neural networks",
+      "Increase GPU memory"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MLOps focuses on automating and managing the ML lifecycle from development to production.",
+    "points": 10,
+    "tags": ["mlops", "goals"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Which stage comes first in a typical machine learning lifecycle?",
+    "options": [
+      "Data collection",
+      "Model deployment",
+      "Monitoring",
+      "Inference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Every ML project starts by collecting relevant data.",
+    "points": 10,
+    "tags": ["ml-lifecycle"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Why is data collection important in machine learning?",
+    "options": [
+      "Models learn patterns from data",
+      "It reduces GPU usage",
+      "It replaces model evaluation",
+      "It eliminates preprocessing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The quality of collected data directly impacts model performance.",
+    "points": 10,
+    "tags": ["data-collection"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Data labeling refers to:",
+    "options": [
+      "Assigning meaningful labels to training data",
+      "Compressing datasets",
+      "Deleting duplicate records",
+      "Scaling numerical features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Supervised learning requires labeled examples for training.",
+    "points": 10,
+    "tags": ["data-labeling"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Data validation ensures that:",
+    "options": [
+      "Data meets expected quality and format requirements",
+      "The model is deployed",
+      "GPU memory is optimized",
+      "Training is faster"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Validation helps detect missing values, incorrect formats, and inconsistent data.",
+    "points": 10,
+    "tags": ["data-validation"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Dataset versioning helps teams:",
+    "options": [
+      "Track changes to datasets over time",
+      "Increase internet speed",
+      "Reduce RAM usage",
+      "Improve monitor resolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Versioning makes experiments reproducible and easier to manage.",
+    "points": 10,
+    "tags": ["dataset-versioning"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Model versioning is used to:",
+    "options": [
+      "Track different trained models",
+      "Increase batch size",
+      "Reduce dataset size",
+      "Store GPU drivers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Keeping multiple model versions enables rollback and comparison.",
+    "points": 10,
+    "tags": ["model-versioning"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Experiment tracking records:",
+    "options": [
+      "Parameters, metrics, and results of ML experiments",
+      "Keyboard shortcuts",
+      "Internet bandwidth",
+      "Operating system updates"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Experiment tracking allows comparison and reproducibility.",
+    "points": 10,
+    "tags": ["experiment-tracking"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Reproducibility means:",
+    "options": [
+      "Obtaining the same results using the same data and configuration",
+      "Using multiple GPUs",
+      "Training without labels",
+      "Running only once"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reproducibility is essential for reliable ML development.",
+    "points": 10,
+    "tags": ["reproducibility"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Feature engineering involves:",
+    "options": [
+      "Creating or transforming useful input features",
+      "Installing software",
+      "Compressing models",
+      "Increasing dataset size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Well-designed features often improve model performance.",
+    "points": 10,
+    "tags": ["feature-engineering"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "A feature store is used to:",
+    "options": [
+      "Store and serve reusable ML features",
+      "Store trained GPUs",
+      "Manage operating systems",
+      "Store Docker images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature stores provide consistent features for training and inference.",
+    "points": 10,
+    "tags": ["feature-store"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "A training pipeline automates:",
+    "options": [
+      "The model training workflow",
+      "Keyboard input",
+      "GPU cooling",
+      "Internet connectivity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Training pipelines automate preprocessing, training, and evaluation.",
+    "points": 10,
+    "tags": ["training-pipeline"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "The purpose of a validation pipeline is to:",
+    "options": [
+      "Evaluate data and model quality before deployment",
+      "Increase VRAM",
+      "Reduce CPU usage",
+      "Install libraries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Validation ensures that only high-quality models proceed to deployment.",
+    "points": 10,
+    "tags": ["validation-pipeline"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Testing in MLOps verifies:",
+    "options": [
+      "That ML components work correctly",
+      "Only internet speed",
+      "Monitor resolution",
+      "Power supply efficiency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Testing checks data pipelines, models, APIs, and deployment processes.",
+    "points": 10,
+    "tags": ["testing"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Deployment refers to:",
+    "options": [
+      "Making a trained model available for use",
+      "Training a model",
+      "Collecting data",
+      "Labeling datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deployment exposes a trained model to applications or users.",
+    "points": 10,
+    "tags": ["deployment"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Batch inference processes:",
+    "options": [
+      "Large groups of data at scheduled intervals",
+      "One request at a time instantly",
+      "Only streaming data",
+      "Only images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Batch inference is commonly used for offline predictions.",
+    "points": 10,
+    "tags": ["batch-inference"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Online inference is best described as:",
+    "options": [
+      "Serving predictions in response to requests",
+      "Training offline",
+      "Data labeling",
+      "Model compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Online inference provides predictions when requested by users or applications.",
+    "points": 10,
+    "tags": ["online-inference"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Real-time inference emphasizes:",
+    "options": [
+      "Very low prediction latency",
+      "Large datasets",
+      "Model retraining",
+      "Data collection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Real-time systems require predictions within milliseconds or seconds.",
+    "points": 10,
+    "tags": ["real-time-inference"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Model monitoring is primarily used to:",
+    "options": [
+      "Track model performance after deployment",
+      "Install software updates",
+      "Upgrade hardware",
+      "Increase dataset size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Monitoring helps detect drift, failures, and performance degradation.",
+    "points": 10,
+    "tags": ["monitoring"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "Logging helps teams:",
+    "options": [
+      "Record events for debugging and auditing",
+      "Train models faster",
+      "Reduce dataset size",
+      "Replace monitoring"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logs provide valuable information for troubleshooting production systems.",
+    "points": 10,
+    "tags": ["logging"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "CI in MLOps stands for:",
+    "options": [
+      "Continuous Integration",
+      "Continuous Inference",
+      "Cloud Intelligence",
+      "Central Integration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous Integration automatically tests and integrates code changes.",
+    "points": 10,
+    "tags": ["ci"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "CD in MLOps refers to:",
+    "options": [
+      "Continuous Delivery or Continuous Deployment",
+      "Continuous Data",
+      "Cloud Deployment",
+      "Container Distribution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CD automates releasing software and ML models into production.",
+    "points": 10,
+    "tags": ["cd"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "CT in MLOps stands for:",
+    "options": [
+      "Continuous Training",
+      "Continuous Testing",
+      "Cloud Training",
+      "Container Tracking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous Training retrains models automatically when new data becomes available.",
+    "points": 10,
+    "tags": ["continuous-training"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "mlops",
+    "difficulty": "easy",
+    "question": "How does MLOps differ from DevOps?",
+    "options": [
+      "MLOps manages machine learning models, data, and pipelines in addition to software",
+      "There is no difference",
+      "DevOps focuses only on AI",
+      "MLOps replaces software engineering completely"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MLOps extends DevOps practices by handling datasets, experiments, model training, deployment, and monitoring.",
+    "points": 10,
+    "tags": ["mlops-vs-devops"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "What is MLflow primarily used for?",
+  "options": [
+    "Experiment tracking and model lifecycle management",
+    "Image annotation",
+    "GPU scheduling",
+    "Database management"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MLflow helps track experiments, package models, manage model versions, and deploy ML models.",
+  "points": 20,
+  "tags": ["mlflow", "experiment-tracking"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Weights & Biases (W&B) is mainly used for:",
+  "options": [
+    "Experiment tracking and visualization",
+    "Container orchestration",
+    "Database replication",
+    "GPU virtualization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "W&B provides experiment tracking, metric visualization, dataset management, and model monitoring.",
+  "points": 20,
+  "tags": ["wandb"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "DVC stands for:",
+  "options": [
+    "Data Version Control",
+    "Distributed Version Computing",
+    "Data Validation Center",
+    "Deep Version Configuration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DVC is an open-source tool for versioning datasets, models, and ML pipelines.",
+  "points": 20,
+  "tags": ["dvc"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Git is primarily used in MLOps for:",
+  "options": [
+    "Version controlling source code",
+    "Training neural networks",
+    "Monitoring GPU temperature",
+    "Serving predictions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Git tracks changes to code and supports collaboration in ML projects.",
+  "points": 20,
+  "tags": ["git"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Docker is mainly used to:",
+  "options": [
+    "Package applications into portable containers",
+    "Label datasets",
+    "Create feature stores",
+    "Monitor data drift"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Docker containers package applications and dependencies consistently across environments.",
+  "points": 20,
+  "tags": ["docker"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Kubernetes is designed for:",
+  "options": [
+    "Container orchestration",
+    "Model evaluation",
+    "Dataset labeling",
+    "Feature extraction"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kubernetes automates deployment, scaling, and management of containerized applications.",
+  "points": 20,
+  "tags": ["kubernetes"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Kubeflow is an open-source platform for:",
+  "options": [
+    "Running machine learning workflows on Kubernetes",
+    "Image editing",
+    "Database optimization",
+    "GPU manufacturing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kubeflow simplifies deploying and managing ML pipelines on Kubernetes.",
+  "points": 20,
+  "tags": ["kubeflow"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "TFX stands for:",
+  "options": [
+    "TensorFlow Extended",
+    "TensorFlow Experimental",
+    "Training Feature Exchange",
+    "Tensor Feature Extension"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TFX is Google's production ML platform for TensorFlow pipelines.",
+  "points": 20,
+  "tags": ["tfx"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Apache Airflow is mainly used for:",
+  "options": [
+    "Workflow orchestration",
+    "Image classification",
+    "GPU optimization",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Airflow schedules and manages complex workflows using directed acyclic graphs (DAGs).",
+  "points": 20,
+  "tags": ["airflow"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Prefect is a tool for:",
+  "options": [
+    "Workflow orchestration",
+    "Feature selection",
+    "Image annotation",
+    "Vector search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prefect helps build, schedule, and monitor data and ML workflows.",
+  "points": 20,
+  "tags": ["prefect"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Dagster focuses on:",
+  "options": [
+    "Data orchestration",
+    "Web scraping",
+    "Hyperparameter tuning",
+    "Image generation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dagster is a modern orchestration platform for data and ML pipelines.",
+  "points": 20,
+  "tags": ["dagster"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Jenkins is commonly used for:",
+  "options": [
+    "Continuous Integration and Continuous Delivery",
+    "Feature engineering",
+    "Data visualization",
+    "Neural architecture search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Jenkins automates software build, testing, and deployment pipelines.",
+  "points": 20,
+  "tags": ["jenkins"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "GitHub Actions enables:",
+  "options": [
+    "Workflow automation directly from GitHub repositories",
+    "Model compression",
+    "Database tuning",
+    "GPU scheduling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GitHub Actions automates testing, building, and deployment workflows.",
+  "points": 20,
+  "tags": ["github-actions"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Argo Workflows is primarily used for:",
+  "options": [
+    "Running container-native workflows on Kubernetes",
+    "Image segmentation",
+    "Data labeling",
+    "Vector indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Argo Workflows executes workflow pipelines using Kubernetes containers.",
+  "points": 20,
+  "tags": ["argo-workflows"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Argo CD focuses on:",
+  "options": [
+    "GitOps-based continuous deployment",
+    "Feature extraction",
+    "Hyperparameter tuning",
+    "GPU virtualization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Argo CD synchronizes Kubernetes applications with Git repositories.",
+  "points": 20,
+  "tags": ["argo-cd", "gitops"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Ray is primarily designed for:",
+  "options": [
+    "Distributed computing and scalable machine learning",
+    "Container building",
+    "Database administration",
+    "Image rendering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Ray simplifies distributed execution for ML training and inference workloads.",
+  "points": 20,
+  "tags": ["ray"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "BentoML is mainly used for:",
+  "options": [
+    "Packaging and serving machine learning models",
+    "Training GANs",
+    "Feature engineering",
+    "Dataset annotation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BentoML helps package, deploy, and serve ML models as production APIs.",
+  "points": 20,
+  "tags": ["bentoml"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "TorchServe is designed to:",
+  "options": [
+    "Serve PyTorch models in production",
+    "Train TensorFlow models",
+    "Manage datasets",
+    "Perform feature scaling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TorchServe provides scalable serving for PyTorch models.",
+  "points": 20,
+  "tags": ["torchserve"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "TensorFlow Serving is used to:",
+  "options": [
+    "Deploy TensorFlow models for inference",
+    "Create datasets",
+    "Monitor GPUs",
+    "Manage Kubernetes clusters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow Serving is Google's serving system for production TensorFlow models.",
+  "points": 20,
+  "tags": ["tensorflow-serving"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "NVIDIA Triton Inference Server supports:",
+  "options": [
+    "Serving models from multiple ML frameworks",
+    "Only TensorFlow models",
+    "Only PyTorch models",
+    "Only ONNX models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Triton supports TensorFlow, PyTorch, ONNX, TensorRT, and other model formats.",
+  "points": 20,
+  "tags": ["triton"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "FastAPI is commonly used to:",
+  "options": [
+    "Build high-performance REST APIs for ML models",
+    "Train neural networks",
+    "Manage GPUs",
+    "Label images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FastAPI is a modern Python framework for serving ML models through APIs.",
+  "points": 20,
+  "tags": ["fastapi"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "REST APIs primarily use which protocol?",
+  "options": [
+    "HTTP",
+    "SMTP",
+    "FTP",
+    "SSH"
+  ],
+  "correctAnswer": 0,
+  "explanation": "REST APIs communicate over HTTP using methods such as GET, POST, PUT, and DELETE.",
+  "points": 20,
+  "tags": ["rest-api"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "gRPC communicates using:",
+  "options": [
+    "Protocol Buffers (Protobuf)",
+    "XML only",
+    "CSV",
+    "YAML"
+  ],
+  "correctAnswer": 0,
+  "explanation": "gRPC uses Protocol Buffers for efficient binary serialization and high-performance communication.",
+  "points": 20,
+  "tags": ["grpc", "protobuf"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Redis is commonly used in ML systems for:",
+  "options": [
+    "Caching and fast in-memory data storage",
+    "Training deep neural networks",
+    "Image labeling",
+    "Container orchestration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Redis provides extremely fast in-memory storage for caching predictions, sessions, and feature data.",
+  "points": 20,
+  "tags": ["redis"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "mlops",
+  "difficulty": "medium",
+  "question": "Apache Kafka and RabbitMQ are primarily used as:",
+  "options": [
+    "Message brokers for asynchronous communication",
+    "Deep learning frameworks",
+    "Vector databases",
+    "Container runtimes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Message brokers enable reliable communication between distributed services using asynchronous messaging.",
+  "points": 20,
+  "tags": ["kafka", "rabbitmq", "message-queue"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Feature drift occurs when:",
+  "options": [
+    "The distribution of input features changes over time",
+    "Model weights become corrupted",
+    "The training dataset increases in size",
+    "GPU memory usage changes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature drift indicates that incoming data differs from the data used during training.",
+  "points": 30,
+  "tags": ["feature-drift"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Data drift refers to:",
+  "options": [
+    "Changes in the statistical properties of input data",
+    "Changes in model architecture",
+    "GPU overheating",
+    "Dataset compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Data drift can reduce model accuracy because production data no longer matches training data.",
+  "points": 30,
+  "tags": ["data-drift"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Concept drift happens when:",
+  "options": [
+    "The relationship between inputs and outputs changes",
+    "Dataset size increases",
+    "Model files become corrupted",
+    "Training time decreases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Concept drift occurs when the target concept itself changes over time.",
+  "points": 30,
+  "tags": ["concept-drift"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Model drift refers to:",
+  "options": [
+    "Performance degradation of a deployed model over time",
+    "Changes in Git branches",
+    "GPU driver updates",
+    "Network latency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model drift occurs when prediction quality decreases because of changing data or environments.",
+  "points": 30,
+  "tags": ["model-drift"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Drift detection is important because it:",
+  "options": [
+    "Identifies when retraining may be needed",
+    "Reduces RAM usage",
+    "Improves internet speed",
+    "Replaces model evaluation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Detecting drift early helps maintain production model performance.",
+  "points": 30,
+  "tags": ["drift-detection"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Data quality monitoring focuses on:",
+  "options": [
+    "Detecting missing, invalid, or inconsistent data",
+    "Monitoring GPU clocks",
+    "Tracking code commits",
+    "Increasing model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Poor data quality can significantly reduce model performance.",
+  "points": 30,
+  "tags": ["data-quality"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Model monitoring typically tracks:",
+  "options": [
+    "Accuracy, latency, errors, and drift",
+    "Keyboard activity",
+    "Display resolution",
+    "Internet provider"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production monitoring ensures deployed models remain reliable and accurate.",
+  "points": 30,
+  "tags": ["model-monitoring"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Latency monitoring measures:",
+  "options": [
+    "The response time of model predictions",
+    "GPU memory size",
+    "Dataset size",
+    "Training epochs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Low latency is essential for real-time inference systems.",
+  "points": 30,
+  "tags": ["latency"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Throughput refers to:",
+  "options": [
+    "The number of requests processed per unit time",
+    "The number of model parameters",
+    "GPU clock speed",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Throughput measures system capacity under load.",
+  "points": 30,
+  "tags": ["throughput"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Autoscaling automatically:",
+  "options": [
+    "Adjusts computing resources based on workload",
+    "Retrains every model",
+    "Changes learning rates",
+    "Compresses datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Autoscaling increases or decreases infrastructure resources according to demand.",
+  "points": 30,
+  "tags": ["autoscaling"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "A/B testing compares:",
+  "options": [
+    "Two versions of a model using live traffic",
+    "Two datasets only",
+    "Two GPUs",
+    "Two programming languages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A/B testing helps determine which model performs better in production.",
+  "points": 30,
+  "tags": ["ab-testing"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Canary deployment releases a model to:",
+  "options": [
+    "A small percentage of users before full rollout",
+    "Every user immediately",
+    "Only developers",
+    "Offline servers only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Canary deployments reduce deployment risk by gradually increasing traffic.",
+  "points": 30,
+  "tags": ["canary-deployment"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Blue-Green deployment uses:",
+  "options": [
+    "Two identical environments for safe switching",
+    "Two GPUs",
+    "Two datasets",
+    "Two training algorithms"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Blue-Green deployments minimize downtime during releases.",
+  "points": 30,
+  "tags": ["blue-green"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Shadow deployment sends production traffic to:",
+  "options": [
+    "A new model without affecting user responses",
+    "A backup database",
+    "A logging server only",
+    "The training cluster"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Shadow deployments evaluate new models using real traffic without serving their predictions.",
+  "points": 30,
+  "tags": ["shadow-deployment"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "A rollback strategy is used to:",
+  "options": [
+    "Restore a previous stable model after deployment issues",
+    "Increase dataset size",
+    "Improve feature engineering",
+    "Reduce GPU usage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rollback quickly recovers services when a deployment fails.",
+  "points": 30,
+  "tags": ["rollback"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "A model registry stores:",
+  "options": [
+    "Versioned ML models and their metadata",
+    "Training datasets only",
+    "Docker images only",
+    "Source code only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A model registry manages approved models for deployment and governance.",
+  "points": 30,
+  "tags": ["model-registry"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Model lineage provides:",
+  "options": [
+    "Traceability of a model's data, code, and training history",
+    "GPU utilization reports",
+    "Operating system logs",
+    "Network configuration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model lineage improves reproducibility and auditability.",
+  "points": 30,
+  "tags": ["model-lineage"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Explainability in MLOps helps:",
+  "options": [
+    "Understand why a model made a prediction",
+    "Train models faster",
+    "Increase storage capacity",
+    "Reduce internet latency"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Explainability builds trust and supports debugging and compliance.",
+  "points": 30,
+  "tags": ["explainability"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "SHAP is mainly used for:",
+  "options": [
+    "Explaining feature contributions to predictions",
+    "Serving models",
+    "Versioning datasets",
+    "Container orchestration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SHAP assigns importance values to individual features for each prediction.",
+  "points": 30,
+  "tags": ["shap"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "LIME explains model predictions by:",
+  "options": [
+    "Approximating complex models locally with simpler models",
+    "Replacing neural networks",
+    "Compressing datasets",
+    "Scaling GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LIME builds interpretable local approximations around individual predictions.",
+  "points": 30,
+  "tags": ["lime"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Bias detection aims to identify:",
+  "options": [
+    "Unfair model behaviour toward certain groups",
+    "GPU bottlenecks",
+    "Memory leaks",
+    "Dataset compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bias detection helps ensure fair and responsible AI systems.",
+  "points": 30,
+  "tags": ["bias"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Fairness monitoring is important because it:",
+  "options": [
+    "Ensures models treat different groups equitably",
+    "Reduces training time",
+    "Improves GPU performance",
+    "Compresses models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fairness metrics help identify discrimination and unintended bias.",
+  "points": 30,
+  "tags": ["fairness"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Security in MLOps includes protecting:",
+  "options": [
+    "Models, data, APIs, and infrastructure",
+    "Only source code",
+    "Only datasets",
+    "Only Docker images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production ML systems require secure access, storage, and deployment practices.",
+  "points": 30,
+  "tags": ["security"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Model governance refers to:",
+  "options": [
+    "Managing policies, approvals, and lifecycle of ML models",
+    "Increasing batch size",
+    "Installing drivers",
+    "Optimizing CPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Governance ensures models meet organizational, legal, and operational requirements.",
+  "points": 30,
+  "tags": ["governance"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "mlops",
+  "difficulty": "hard",
+  "question": "Compliance in MLOps helps organizations:",
+  "options": [
+    "Meet legal, regulatory, and industry requirements",
+    "Train models faster",
+    "Increase GPU memory",
+    "Reduce model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Compliance ensures ML systems follow applicable laws, standards, and internal policies.",
+  "points": 30,
+  "tags": ["compliance"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "LLMOps primarily focuses on:",
+  "options": [
+    "Managing the lifecycle of Large Language Models in production",
+    "Building computer hardware",
+    "Image annotation",
+    "Database normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LLMOps extends MLOps practices to the deployment, monitoring, and maintenance of Large Language Models.",
+  "points": 40,
+  "tags": ["llmops"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Prompt versioning is important because it:",
+  "options": [
+    "Tracks changes to prompts used with LLMs",
+    "Stores GPU drivers",
+    "Compresses prompts",
+    "Improves internet speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Versioning prompts allows reproducibility, experimentation, and rollback.",
+  "points": 40,
+  "tags": ["prompt-versioning"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Prompt evaluation measures:",
+  "options": [
+    "The quality and effectiveness of prompts",
+    "GPU utilization",
+    "Training accuracy only",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Prompt evaluation helps identify prompts that consistently produce high-quality outputs.",
+  "points": 40,
+  "tags": ["prompt-evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "RAG evaluation mainly measures:",
+  "options": [
+    "Retrieval quality and generated response quality",
+    "GPU memory usage",
+    "Internet latency",
+    "Database size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RAG systems must evaluate both document retrieval and answer generation.",
+  "points": 40,
+  "tags": ["rag", "evaluation"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Monitoring a vector database primarily involves:",
+  "options": [
+    "Tracking retrieval accuracy, latency, and index health",
+    "Training CNN models",
+    "Increasing GPU memory",
+    "Compiling source code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector database monitoring ensures efficient semantic search performance.",
+  "points": 40,
+  "tags": ["vector-database"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Embedding versioning ensures:",
+  "options": [
+    "Embeddings remain consistent across model updates",
+    "Datasets become smaller",
+    "Prompts are encrypted",
+    "GPUs consume less power"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Changing embedding models can affect retrieval quality, making versioning essential.",
+  "points": 40,
+  "tags": ["embeddings"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "AgentOps is primarily concerned with:",
+  "options": [
+    "Monitoring, evaluating, and managing AI agents",
+    "Operating system maintenance",
+    "Database replication",
+    "Image processing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AgentOps provides observability and lifecycle management for autonomous AI agents.",
+  "points": 40,
+  "tags": ["agentops"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Human-in-the-loop (HITL) systems include:",
+  "options": [
+    "Human review or intervention during AI workflows",
+    "Only automated decisions",
+    "GPU scheduling",
+    "Network monitoring"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HITL improves quality, safety, and reliability by involving human oversight.",
+  "points": 40,
+  "tags": ["hitl"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Continuous fine-tuning refers to:",
+  "options": [
+    "Regularly updating models using new data",
+    "Replacing GPUs weekly",
+    "Compressing datasets",
+    "Deleting old checkpoints"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Continuous fine-tuning keeps models aligned with changing data and requirements.",
+  "points": 40,
+  "tags": ["fine-tuning"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "RLHF stands for:",
+  "options": [
+    "Reinforcement Learning from Human Feedback",
+    "Recurrent Learning for Hybrid Frameworks",
+    "Robust Learning with High Features",
+    "Reinforcement Layer Hybrid Fusion"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RLHF improves LLM behaviour using feedback from human evaluators.",
+  "points": 40,
+  "tags": ["rlhf"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "PEFT primarily aims to:",
+  "options": [
+    "Fine-tune large models efficiently using fewer trainable parameters",
+    "Increase dataset size",
+    "Replace vector databases",
+    "Optimize Docker images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Parameter-Efficient Fine-Tuning reduces computational and memory requirements.",
+  "points": 40,
+  "tags": ["peft"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "LoRA deployment involves serving:",
+  "options": [
+    "A base model together with LoRA adapters",
+    "Only datasets",
+    "Only embeddings",
+    "Only prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA adapters modify a base model without requiring full model retraining.",
+  "points": 40,
+  "tags": ["lora"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Quantized model deployment mainly reduces:",
+  "options": [
+    "Memory usage and inference latency",
+    "Dataset size",
+    "Network bandwidth",
+    "Training labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization converts model weights to lower precision for faster inference.",
+  "points": 40,
+  "tags": ["quantization"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "ONNX Runtime is designed to:",
+  "options": [
+    "Run ONNX models efficiently across different hardware platforms",
+    "Train PyTorch models only",
+    "Manage Kubernetes clusters",
+    "Version datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX Runtime provides high-performance inference for models in ONNX format.",
+  "points": 40,
+  "tags": ["onnx-runtime"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "TensorRT is primarily used for:",
+  "options": [
+    "Optimizing deep learning inference on NVIDIA GPUs",
+    "Managing feature stores",
+    "Version controlling code",
+    "Creating datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT accelerates inference through graph optimization and precision reduction.",
+  "points": 40,
+  "tags": ["tensorrt"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Edge AI deployment refers to:",
+  "options": [
+    "Running AI models directly on edge devices",
+    "Training models in the cloud only",
+    "Using only CPUs",
+    "Serving models from databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Edge deployment reduces latency and network dependency by running models locally.",
+  "points": 40,
+  "tags": ["edge-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Multi-cloud deployment means:",
+  "options": [
+    "Deploying workloads across multiple cloud providers",
+    "Using multiple GPUs",
+    "Training several models simultaneously",
+    "Hosting multiple datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multi-cloud strategies improve redundancy and reduce vendor lock-in.",
+  "points": 40,
+  "tags": ["multi-cloud"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "GPU scheduling helps:",
+  "options": [
+    "Allocate GPU resources efficiently among workloads",
+    "Increase internet bandwidth",
+    "Compress model files",
+    "Generate synthetic datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPU scheduling maximizes hardware utilization in shared environments.",
+  "points": 40,
+  "tags": ["gpu-scheduling"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Cost optimization in MLOps aims to:",
+  "options": [
+    "Reduce infrastructure costs while maintaining performance",
+    "Increase model size",
+    "Store duplicate datasets",
+    "Disable monitoring"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cost optimization balances resource usage with service quality.",
+  "points": 40,
+  "tags": ["cost-optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Observability in MLOps combines:",
+  "options": [
+    "Metrics, logs, and traces to understand system behaviour",
+    "Only monitoring dashboards",
+    "Only application logs",
+    "Only CPU usage reports"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Observability enables engineers to diagnose and troubleshoot complex ML systems.",
+  "points": 40,
+  "tags": ["observability"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "OpenTelemetry is an open standard for:",
+  "options": [
+    "Collecting telemetry data such as traces, logs, and metrics",
+    "Training neural networks",
+    "Container orchestration",
+    "Model compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenTelemetry standardizes observability data collection across distributed systems.",
+  "points": 40,
+  "tags": ["opentelemetry"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "An incident response plan in MLOps is used to:",
+  "options": [
+    "Respond quickly to production failures and service disruptions",
+    "Train larger models",
+    "Optimize datasets",
+    "Replace feature stores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Incident response minimizes downtime and restores ML services efficiently.",
+  "points": 40,
+  "tags": ["incident-response"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Disaster recovery focuses on:",
+  "options": [
+    "Restoring ML services after major failures",
+    "Improving prompt quality",
+    "Increasing GPU frequency",
+    "Reducing model parameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Disaster recovery includes backups, failover systems, and recovery procedures.",
+  "points": 40,
+  "tags": ["disaster-recovery"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "A key enterprise MLOps best practice is to:",
+  "options": [
+    "Automate testing, deployment, monitoring, and governance",
+    "Disable monitoring in production",
+    "Avoid model versioning",
+    "Store models without metadata"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Automation and governance improve reliability, scalability, and compliance.",
+  "points": 40,
+  "tags": ["enterprise-mlops", "best-practices"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "mlops",
+  "difficulty": "expert",
+  "question": "Which trend is expected to have the greatest impact on the future of MLOps?",
+  "options": [
+    "Integration of LLMOps, AgentOps, automation, and AI-native operations",
+    "Eliminating version control",
+    "Replacing cloud computing entirely",
+    "Removing model monitoring"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern MLOps is evolving to manage foundation models, AI agents, automated workflows, and increasingly autonomous AI systems.",
+  "points": 40,
+  "tags": ["future", "llmops", "agentops"],
+  "timeLimit": 75
+}
+
+]

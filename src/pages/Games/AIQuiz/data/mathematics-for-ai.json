@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "What is a scalar in mathematics?",
+    "options": [
+      "A single numerical value",
+      "A list of numbers",
+      "A rectangular array of numbers",
+      "A multi-dimensional array"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A scalar is a single numerical value such as 5, -3, or 2.7.",
+    "points": 10,
+    "tags": ["scalar", "linear-algebra"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "What is a vector?",
+    "options": [
+      "A single number",
+      "An ordered collection of numbers",
+      "A matrix with many rows",
+      "A probability distribution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A vector is an ordered list of numbers representing magnitude and direction or features.",
+    "points": 10,
+    "tags": ["vector"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "A matrix is best described as:",
+    "options": [
+      "A single value",
+      "A collection of vectors arranged in rows and columns",
+      "A probability function",
+      "A derivative"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A matrix is a rectangular arrangement of numbers organized into rows and columns.",
+    "points": 10,
+    "tags": ["matrix"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "What is a tensor?",
+    "options": [
+      "Only a 2D matrix",
+      "A multi-dimensional array",
+      "A scalar value",
+      "A probability distribution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A tensor generalizes scalars, vectors, and matrices to higher dimensions.",
+    "points": 10,
+    "tags": ["tensor"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "A matrix with 3 rows and 4 columns has dimensions:",
+    "options": [
+      "3×4",
+      "4×3",
+      "7×1",
+      "12×1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Matrix dimensions are written as rows × columns.",
+    "points": 10,
+    "tags": ["matrix-dimensions"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "Two matrices can be added only if they:",
+    "options": [
+      "Have the same dimensions",
+      "Have the same determinant",
+      "Are square matrices",
+      "Have equal rank"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Matrix addition requires both matrices to have identical dimensions.",
+    "points": 10,
+    "tags": ["matrix-addition"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "For matrix multiplication A × B to be valid:",
+    "options": [
+      "Rows of A must equal columns of B",
+      "Columns of A must equal rows of B",
+      "Matrices must be square",
+      "Matrices must have identical dimensions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The number of columns in the first matrix must equal the number of rows in the second.",
+    "points": 10,
+    "tags": ["matrix-multiplication"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "An identity matrix contains:",
+    "options": [
+      "Zeros everywhere",
+      "Ones on the main diagonal and zeros elsewhere",
+      "Only ones",
+      "Random values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The identity matrix behaves like the number 1 in matrix multiplication.",
+    "points": 10,
+    "tags": ["identity-matrix"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "The transpose of a matrix is obtained by:",
+    "options": [
+      "Changing values",
+      "Swapping rows and columns",
+      "Multiplying by zero",
+      "Finding the determinant"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transposition converts rows into columns and columns into rows.",
+    "points": 10,
+    "tags": ["transpose"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "The dot product of two vectors produces:",
+    "options": [
+      "A scalar",
+      "A vector",
+      "A matrix",
+      "A tensor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The dot product returns a single numerical value measuring similarity.",
+    "points": 10,
+    "tags": ["dot-product"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "The cross product is defined only for:",
+    "options": [
+      "2D vectors",
+      "3D vectors",
+      "Matrices",
+      "Scalars"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The cross product is defined for three-dimensional vectors and returns another vector.",
+    "points": 10,
+    "tags": ["cross-product"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "Euclidean distance measures:",
+    "options": [
+      "The straight-line distance between two points",
+      "The angle between vectors",
+      "The matrix determinant",
+      "The covariance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Euclidean distance is the standard straight-line distance in geometry.",
+    "points": 10,
+    "tags": ["euclidean-distance"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "Manhattan distance is calculated using:",
+    "options": [
+      "Absolute differences",
+      "Squared differences",
+      "Dot products",
+      "Cross products"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Manhattan distance sums the absolute differences between coordinates.",
+    "points": 10,
+    "tags": ["manhattan-distance"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "Cosine similarity measures:",
+    "options": [
+      "The angle between vectors",
+      "Matrix size",
+      "Distance only",
+      "Probability"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cosine similarity measures how similar two vectors are based on the angle between them.",
+    "points": 10,
+    "tags": ["cosine-similarity"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "The magnitude of a vector represents its:",
+    "options": [
+      "Length",
+      "Direction",
+      "Dimension",
+      "Rank"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The magnitude (or norm) is the length of the vector.",
+    "points": 10,
+    "tags": ["vector-magnitude"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "A unit vector has magnitude:",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A unit vector is normalized to have length exactly equal to one.",
+    "points": 10,
+    "tags": ["unit-vector"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "The L2 norm is also known as:",
+    "options": [
+      "Euclidean norm",
+      "Manhattan norm",
+      "Maximum norm",
+      "Infinity norm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The L2 norm computes the Euclidean length of a vector.",
+    "points": 10,
+    "tags": ["norms", "l2"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "A linear equation has variables raised to powers:",
+    "options": [
+      "Greater than one",
+      "Equal to one",
+      "Equal to zero only",
+      "Any power"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Linear equations contain variables with exponent one.",
+    "points": 10,
+    "tags": ["linear-equation"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "Vectors are linearly independent if:",
+    "options": [
+      "None can be written as a combination of the others",
+      "They have equal length",
+      "They have equal direction",
+      "They are unit vectors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Linearly independent vectors cannot be expressed as linear combinations of each other.",
+    "points": 10,
+    "tags": ["linear-independence"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "A basis of a vector space is:",
+    "options": [
+      "A set of linearly independent vectors that span the space",
+      "A random collection of vectors",
+      "Only unit vectors",
+      "A matrix inverse"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A basis provides the minimum set of vectors needed to represent every vector in the space.",
+    "points": 10,
+    "tags": ["basis"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "The rank of a matrix represents:",
+    "options": [
+      "The number of linearly independent rows or columns",
+      "Its determinant",
+      "Its trace",
+      "Its transpose"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Matrix rank indicates the maximum number of linearly independent vectors.",
+    "points": 10,
+    "tags": ["matrix-rank"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "The determinant is defined only for:",
+    "options": [
+      "Square matrices",
+      "Rectangular matrices",
+      "Vectors",
+      "Scalars"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Only square matrices have determinants.",
+    "points": 10,
+    "tags": ["determinant"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "A matrix inverse exists only if the matrix is:",
+    "options": [
+      "Non-singular",
+      "Rectangular",
+      "Zero matrix",
+      "Diagonal only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Only invertible (non-singular) square matrices have inverses.",
+    "points": 10,
+    "tags": ["inverse-matrix"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "An eigenvalue is associated with:",
+    "options": [
+      "A square matrix transformation",
+      "Probability distributions",
+      "Neural networks only",
+      "Cross products"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Eigenvalues describe how matrix transformations scale eigenvectors.",
+    "points": 10,
+    "tags": ["eigenvalue"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "math-for-ai",
+    "difficulty": "easy",
+    "question": "An eigenvector is a vector that:",
+    "options": [
+      "Changes only in magnitude after a matrix transformation",
+      "Always becomes zero",
+      "Changes into a random direction",
+      "Has unit length"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An eigenvector keeps its direction after transformation, changing only by a scaling factor (the eigenvalue).",
+    "points": 10,
+    "tags": ["eigenvector"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "In mathematics, a function is:",
+  "options": [
+    "A mapping from inputs to outputs",
+    "A collection of vectors",
+    "A square matrix",
+    "A probability distribution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A function assigns exactly one output to each valid input.",
+  "points": 20,
+  "tags": ["function"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A derivative measures:",
+  "options": [
+    "The rate of change of a function",
+    "The area under a curve",
+    "The length of a vector",
+    "The determinant of a matrix"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A derivative describes how quickly a function changes with respect to its input.",
+  "points": 20,
+  "tags": ["derivative","calculus"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A partial derivative is used when:",
+  "options": [
+    "A function has multiple variables",
+    "A matrix is singular",
+    "Only one variable exists",
+    "Calculating probability"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Partial derivatives measure the change with respect to one variable while keeping others constant.",
+  "points": 20,
+  "tags": ["partial-derivative"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The gradient of a function is:",
+  "options": [
+    "A vector of partial derivatives",
+    "A scalar value",
+    "A probability distribution",
+    "A covariance matrix"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The gradient points in the direction of the greatest increase of a function.",
+  "points": 20,
+  "tags": ["gradient"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The chain rule is primarily used to:",
+  "options": [
+    "Differentiate composite functions",
+    "Multiply matrices",
+    "Compute eigenvalues",
+    "Normalize vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The chain rule computes derivatives of functions composed of other functions.",
+  "points": 20,
+  "tags": ["chain-rule"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The Jacobian matrix contains:",
+  "options": [
+    "First-order partial derivatives",
+    "Second-order derivatives",
+    "Only eigenvalues",
+    "Probability values"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Jacobian represents all first-order partial derivatives of a vector-valued function.",
+  "points": 20,
+  "tags": ["jacobian"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The Hessian matrix consists of:",
+  "options": [
+    "Second-order partial derivatives",
+    "Matrix determinants",
+    "Probability distributions",
+    "Eigenvectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Hessian is useful for analysing curvature during optimization.",
+  "points": 20,
+  "tags": ["hessian"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "Optimization in machine learning aims to:",
+  "options": [
+    "Find parameter values that minimize or maximize an objective",
+    "Increase dataset size",
+    "Generate random labels",
+    "Create matrices"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Training a model involves optimizing an objective such as a loss function.",
+  "points": 20,
+  "tags": ["optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A convex function has the property that:",
+  "options": [
+    "Any local minimum is also a global minimum",
+    "It has no minimum",
+    "It always decreases",
+    "It is always linear"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Convex functions simplify optimization because local optima are global optima.",
+  "points": 20,
+  "tags": ["convex-function"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A local minimum is:",
+  "options": [
+    "The lowest point within a nearby region",
+    "The lowest value everywhere",
+    "The highest value globally",
+    "Always equal to the global minimum"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A local minimum is optimal only within its neighbourhood.",
+  "points": 20,
+  "tags": ["local-minimum"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A global minimum is:",
+  "options": [
+    "The smallest value over the entire domain",
+    "The smallest nearby value only",
+    "Always zero",
+    "Always positive"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The global minimum is the absolute smallest value a function can achieve.",
+  "points": 20,
+  "tags": ["global-minimum"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "Probability measures:",
+  "options": [
+    "The likelihood of an event occurring",
+    "Vector magnitude",
+    "Matrix rank",
+    "Learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Probability quantifies uncertainty on a scale from 0 to 1.",
+  "points": 20,
+  "tags": ["probability"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "Conditional probability is written as:",
+  "options": [
+    "P(A|B)",
+    "P(A+B)",
+    "P(A×B)",
+    "A/B"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Conditional probability represents the probability of event A given that event B has occurred.",
+  "points": 20,
+  "tags": ["conditional-probability"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "Bayes' Theorem is mainly used to:",
+  "options": [
+    "Update probabilities using new evidence",
+    "Calculate gradients",
+    "Multiply matrices",
+    "Compute eigenvectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bayes' Theorem combines prior knowledge with observed evidence.",
+  "points": 20,
+  "tags": ["bayes-theorem"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A random variable is:",
+  "options": [
+    "A variable whose value depends on the outcome of a random process",
+    "A matrix",
+    "A vector",
+    "A deterministic function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Random variables assign numerical values to random events.",
+  "points": 20,
+  "tags": ["random-variable"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A probability distribution describes:",
+  "options": [
+    "How probabilities are assigned to possible outcomes",
+    "How vectors are normalized",
+    "Matrix multiplication",
+    "Gradient descent"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Probability distributions specify the likelihood of different values of a random variable.",
+  "points": 20,
+  "tags": ["probability-distribution"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The Gaussian distribution is also called the:",
+  "options": [
+    "Normal distribution",
+    "Poisson distribution",
+    "Uniform distribution",
+    "Bernoulli distribution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Gaussian or Normal distribution is one of the most widely used probability distributions in AI.",
+  "points": 20,
+  "tags": ["gaussian","normal-distribution"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A Bernoulli distribution models:",
+  "options": [
+    "A single binary outcome",
+    "Multiple continuous outcomes",
+    "Cluster assignments",
+    "Vector norms"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A Bernoulli random variable has exactly two possible outcomes, such as success or failure.",
+  "points": 20,
+  "tags": ["bernoulli"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The Binomial distribution models:",
+  "options": [
+    "The number of successes in repeated independent Bernoulli trials",
+    "Continuous measurements",
+    "Matrix values",
+    "Vector lengths"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Binomial distribution counts successes across multiple independent trials.",
+  "points": 20,
+  "tags": ["binomial"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The Poisson distribution commonly models:",
+  "options": [
+    "The number of events occurring within a fixed interval",
+    "Continuous variables",
+    "Image pixels",
+    "Vector directions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Poisson distribution is suitable for modelling rare event counts.",
+  "points": 20,
+  "tags": ["poisson"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "A Uniform distribution assumes:",
+  "options": [
+    "All outcomes within a range are equally likely",
+    "One outcome is always most likely",
+    "Only binary outcomes exist",
+    "Events never occur randomly"
+  ],
+  "correctAnswer": 0,
+  "explanation": "In a uniform distribution, every value in the specified range has equal probability.",
+  "points": 20,
+  "tags": ["uniform-distribution"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "The expectation (expected value) represents:",
+  "options": [
+    "The long-term average value of a random variable",
+    "The maximum value",
+    "The minimum value",
+    "The standard deviation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Expectation is the probability-weighted average outcome.",
+  "points": 20,
+  "tags": ["expectation"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "Variance measures:",
+  "options": [
+    "How spread out values are around the mean",
+    "The average itself",
+    "The largest value",
+    "The derivative"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Variance quantifies the dispersion of data around its mean.",
+  "points": 20,
+  "tags": ["variance"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "Standard deviation is:",
+  "options": [
+    "The square root of variance",
+    "Twice the variance",
+    "The determinant of a matrix",
+    "The gradient magnitude"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Standard deviation expresses variability in the same units as the original data.",
+  "points": 20,
+  "tags": ["standard-deviation"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "math-for-ai",
+  "difficulty": "medium",
+  "question": "Covariance measures:",
+  "options": [
+    "How two variables change together",
+    "The length of a vector",
+    "The probability of an event",
+    "The determinant of a matrix"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Positive covariance indicates variables tend to increase together, while negative covariance indicates opposite movement.",
+  "points": 20,
+  "tags": ["covariance"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Correlation measures:",
+  "options": [
+    "The strength and direction of the relationship between variables",
+    "The average of a dataset",
+    "The determinant of a matrix",
+    "The probability of an event"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Correlation quantifies how strongly two variables are related.",
+  "points": 30,
+  "tags": ["correlation", "statistics"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "A covariance matrix contains:",
+  "options": [
+    "Covariances between every pair of variables",
+    "Only variances",
+    "Only probabilities",
+    "Only gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A covariance matrix summarizes the relationships between multiple variables.",
+  "points": 30,
+  "tags": ["covariance-matrix"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Pearson correlation measures:",
+  "options": [
+    "Linear relationships between variables",
+    "Non-linear relationships only",
+    "Matrix similarity",
+    "Probability distributions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pearson correlation evaluates the strength of linear relationships.",
+  "points": 30,
+  "tags": ["pearson-correlation"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Spearman correlation is based on:",
+  "options": [
+    "Ranks of data values",
+    "Matrix multiplication",
+    "Gradient descent",
+    "Probability density"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Spearman correlation measures monotonic relationships using ranked data.",
+  "points": 30,
+  "tags": ["spearman-correlation"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Entropy measures:",
+  "options": [
+    "The uncertainty in a probability distribution",
+    "Matrix size",
+    "Learning rate",
+    "Vector magnitude"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Entropy quantifies uncertainty or randomness in information theory.",
+  "points": 30,
+  "tags": ["entropy"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Cross-entropy loss is commonly used for:",
+  "options": [
+    "Classification problems",
+    "Matrix decomposition",
+    "Linear regression only",
+    "Vector normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cross-entropy compares predicted probabilities with true class labels.",
+  "points": 30,
+  "tags": ["cross-entropy"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "KL Divergence measures:",
+  "options": [
+    "The difference between two probability distributions",
+    "The distance between vectors",
+    "Matrix rank",
+    "The derivative of a function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "KL Divergence measures how one probability distribution differs from another.",
+  "points": 30,
+  "tags": ["kl-divergence"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Jensen-Shannon Divergence is:",
+  "options": [
+    "A symmetric version of KL Divergence",
+    "A gradient optimizer",
+    "A covariance metric",
+    "A matrix decomposition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "JS Divergence is a symmetric and bounded measure of distribution similarity.",
+  "points": 30,
+  "tags": ["js-divergence"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Mutual Information measures:",
+  "options": [
+    "The amount of shared information between variables",
+    "The determinant of a covariance matrix",
+    "Vector magnitude",
+    "Gradient size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mutual Information quantifies how much knowing one variable reduces uncertainty about another.",
+  "points": 30,
+  "tags": ["mutual-information"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Maximum Likelihood Estimation (MLE) chooses parameters that:",
+  "options": [
+    "Maximize the likelihood of the observed data",
+    "Minimize gradients",
+    "Reduce dimensionality",
+    "Increase variance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MLE estimates parameters by maximizing the probability of observed data.",
+  "points": 30,
+  "tags": ["mle"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Maximum A Posteriori (MAP) estimation differs from MLE by:",
+  "options": [
+    "Including prior knowledge",
+    "Ignoring probabilities",
+    "Using only gradients",
+    "Removing likelihood"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MAP combines prior beliefs with observed data using Bayes' theorem.",
+  "points": 30,
+  "tags": ["map-estimation"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Gradient Descent updates parameters by moving:",
+  "options": [
+    "Opposite to the gradient",
+    "Along the gradient",
+    "Randomly",
+    "Toward increasing loss"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradient Descent minimizes loss by moving opposite to the gradient.",
+  "points": 30,
+  "tags": ["gradient-descent"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Stochastic Gradient Descent (SGD) updates parameters after:",
+  "options": [
+    "Each individual training example",
+    "The entire dataset",
+    "Each epoch only",
+    "Validation only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SGD performs frequent updates using one sample at a time.",
+  "points": 30,
+  "tags": ["sgd"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Mini-batch Gradient Descent processes:",
+  "options": [
+    "Small groups of samples",
+    "Only one sample",
+    "The entire dataset",
+    "Only test data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mini-batch GD balances speed and stability by using small batches.",
+  "points": 30,
+  "tags": ["mini-batch-gd"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Momentum optimization helps by:",
+  "options": [
+    "Reducing oscillations during optimization",
+    "Increasing learning rate infinitely",
+    "Removing gradients",
+    "Eliminating datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Momentum accumulates previous gradients for faster convergence.",
+  "points": 30,
+  "tags": ["momentum"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "RMSProp adapts:",
+  "options": [
+    "Learning rates using recent gradients",
+    "Batch size",
+    "Dataset size",
+    "Vector dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RMSProp adjusts learning rates for each parameter individually.",
+  "points": 30,
+  "tags": ["rmsprop"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Adam optimizer combines:",
+  "options": [
+    "Momentum and RMSProp ideas",
+    "PCA and SVD",
+    "SGD and Bayes",
+    "MLE and MAP"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Adam combines momentum with adaptive learning rates.",
+  "points": 30,
+  "tags": ["adam"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "The learning rate determines:",
+  "options": [
+    "The size of parameter updates",
+    "The dataset size",
+    "The number of features",
+    "The batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The learning rate controls how far parameters move during optimization.",
+  "points": 30,
+  "tags": ["learning-rate"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Learning rate scheduling is used to:",
+  "options": [
+    "Adjust the learning rate during training",
+    "Increase dataset size",
+    "Reduce matrix rank",
+    "Normalize vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Learning rate schedules often improve convergence and final accuracy.",
+  "points": 30,
+  "tags": ["lr-scheduler"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Convex optimization guarantees:",
+  "options": [
+    "A local optimum is also the global optimum",
+    "Every problem has a solution",
+    "Zero gradients everywhere",
+    "No local minima"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Convex optimization problems have no spurious local minima.",
+  "points": 30,
+  "tags": ["convex-optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "A saddle point is:",
+  "options": [
+    "A point that is neither a local maximum nor minimum",
+    "The global minimum",
+    "The global maximum",
+    "A singular matrix"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Saddle points can slow optimization because gradients become very small.",
+  "points": 30,
+  "tags": ["saddle-point"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Vanishing gradients mainly affect:",
+  "options": [
+    "Very deep neural networks",
+    "Linear regression",
+    "Decision trees",
+    "K-Means clustering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Very small gradients slow or stop learning in deep networks.",
+  "points": 30,
+  "tags": ["vanishing-gradient"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Exploding gradients occur when:",
+  "options": [
+    "Gradients become extremely large during training",
+    "Gradients become zero",
+    "Learning rate becomes zero",
+    "Weights are removed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Large gradients can cause unstable parameter updates and divergence.",
+  "points": 30,
+  "tags": ["exploding-gradient"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "Numerical stability is important because it:",
+  "options": [
+    "Reduces floating-point computation errors",
+    "Increases dataset size",
+    "Eliminates gradients",
+    "Improves matrix rank"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Stable numerical algorithms avoid overflow, underflow, and precision loss.",
+  "points": 30,
+  "tags": ["numerical-stability"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "math-for-ai",
+  "difficulty": "hard",
+  "question": "The Log-Sum-Exp trick is mainly used to:",
+  "options": [
+    "Improve numerical stability when computing logarithms of exponentials",
+    "Reduce dataset size",
+    "Compute eigenvectors",
+    "Perform PCA"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Log-Sum-Exp trick prevents numerical overflow and underflow in probabilistic computations.",
+  "points": 30,
+  "tags": ["log-sum-exp", "numerical-stability"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Singular Value Decomposition (SVD) decomposes a matrix into:",
+  "options": [
+    "U, Σ, and Vᵀ matrices",
+    "Only eigenvectors",
+    "A covariance matrix",
+    "A probability distribution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SVD factorizes a matrix into U, Σ (singular values), and Vᵀ, and is widely used in dimensionality reduction.",
+  "points": 40,
+  "tags": ["svd", "linear-algebra"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Principal Component Analysis (PCA) is mainly used for:",
+  "options": [
+    "Dimensionality reduction",
+    "Image generation",
+    "Classification only",
+    "Gradient optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PCA projects data onto principal components that capture the maximum variance.",
+  "points": 40,
+  "tags": ["pca"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Two vectors are orthogonal if:",
+  "options": [
+    "Their dot product is zero",
+    "Their lengths are equal",
+    "They have the same direction",
+    "They have equal magnitude"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Orthogonal vectors are perpendicular, resulting in a dot product of zero.",
+  "points": 40,
+  "tags": ["orthogonality"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Vector projection computes:",
+  "options": [
+    "The component of one vector along another",
+    "The determinant of a matrix",
+    "The matrix inverse",
+    "The gradient of a function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Projection measures how much one vector lies in the direction of another.",
+  "points": 40,
+  "tags": ["projection"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "QR Decomposition factors a matrix into:",
+  "options": [
+    "An orthogonal matrix Q and an upper triangular matrix R",
+    "Two covariance matrices",
+    "Three probability matrices",
+    "A diagonal matrix only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "QR decomposition is commonly used for solving linear systems and least squares problems.",
+  "points": 40,
+  "tags": ["qr-decomposition"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Cholesky Decomposition can be applied to:",
+  "options": [
+    "Symmetric positive definite matrices",
+    "Any rectangular matrix",
+    "Only singular matrices",
+    "Only sparse matrices"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cholesky decomposition efficiently factorizes symmetric positive definite matrices.",
+  "points": 40,
+  "tags": ["cholesky"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "The Fourier Transform converts:",
+  "options": [
+    "A signal from the time domain to the frequency domain",
+    "Matrices into vectors",
+    "Vectors into tensors",
+    "Probabilities into logits"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Fourier Transform reveals the frequency components of a signal.",
+  "points": 40,
+  "tags": ["fourier-transform"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Fast Fourier Transform (FFT) is:",
+  "options": [
+    "An efficient algorithm for computing the Fourier Transform",
+    "A clustering algorithm",
+    "A gradient optimizer",
+    "A dimensionality reduction technique"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FFT dramatically reduces the computational cost of computing Fourier transforms.",
+  "points": 40,
+  "tags": ["fft"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Convolution in deep learning is primarily used to:",
+  "options": [
+    "Extract local spatial features",
+    "Normalize vectors",
+    "Compute eigenvalues",
+    "Calculate covariance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Convolution applies filters to detect patterns such as edges and textures in data.",
+  "points": 40,
+  "tags": ["convolution"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Auto-correlation measures:",
+  "options": [
+    "The similarity of a signal with a delayed version of itself",
+    "The similarity between two different datasets",
+    "Matrix rank",
+    "Classification accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Auto-correlation identifies repeating patterns within a signal.",
+  "points": 40,
+  "tags": ["autocorrelation"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "A singular matrix is a matrix that:",
+  "options": [
+    "Does not have an inverse",
+    "Has only positive values",
+    "Contains only zeros",
+    "Has equal rows and columns"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A singular matrix has a determinant equal to zero and cannot be inverted.",
+  "points": 40,
+  "tags": ["singular-matrix"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "A positive definite matrix has:",
+  "options": [
+    "Positive quadratic forms for all non-zero vectors",
+    "Only positive elements",
+    "Only diagonal elements",
+    "A zero determinant"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Positive definite matrices frequently appear in optimization and covariance analysis.",
+  "points": 40,
+  "tags": ["positive-definite"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Kernel functions are mainly used in:",
+  "options": [
+    "Support Vector Machines",
+    "Linear Regression",
+    "Naive Bayes",
+    "K-Means"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kernel functions allow SVMs to learn non-linear decision boundaries.",
+  "points": 40,
+  "tags": ["kernel-methods"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Reproducing Kernel Hilbert Space (RKHS) is associated with:",
+  "options": [
+    "Kernel methods",
+    "Gradient descent",
+    "Decision trees",
+    "PCA"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RKHS provides the mathematical foundation for many kernel-based learning algorithms.",
+  "points": 40,
+  "tags": ["rkhs"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Lagrange Multipliers are used to:",
+  "options": [
+    "Optimize functions with constraints",
+    "Compute matrix inverses",
+    "Normalize tensors",
+    "Calculate entropy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lagrange multipliers solve constrained optimization problems.",
+  "points": 40,
+  "tags": ["lagrange-multipliers"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "The Softmax function converts:",
+  "options": [
+    "Logits into probability values",
+    "Matrices into vectors",
+    "Vectors into tensors",
+    "Probabilities into gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Softmax transforms raw scores into probabilities that sum to one.",
+  "points": 40,
+  "tags": ["softmax"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Log-likelihood is commonly maximized during:",
+  "options": [
+    "Statistical parameter estimation",
+    "Image augmentation",
+    "Feature scaling",
+    "Vector normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Many machine learning models estimate parameters by maximizing log-likelihood.",
+  "points": 40,
+  "tags": ["log-likelihood"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Fisher Information measures:",
+  "options": [
+    "The amount of information an observable variable carries about a parameter",
+    "The determinant of a matrix",
+    "The covariance between vectors",
+    "The learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fisher Information is important in statistical estimation theory.",
+  "points": 40,
+  "tags": ["fisher-information"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Information Geometry studies:",
+  "options": [
+    "The geometric structure of probability distributions",
+    "Euclidean geometry only",
+    "Image transformations",
+    "Matrix multiplication"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Information Geometry applies differential geometry to statistical models.",
+  "points": 40,
+  "tags": ["information-geometry"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "A Markov Chain assumes:",
+  "options": [
+    "The next state depends only on the current state",
+    "Every previous state influences the future equally",
+    "No randomness exists",
+    "States never change"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Markov property states that the future depends only on the present state.",
+  "points": 40,
+  "tags": ["markov-chain"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Monte Carlo Sampling estimates quantities using:",
+  "options": [
+    "Random sampling",
+    "Matrix inversion",
+    "Gradient descent",
+    "Deterministic search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Monte Carlo methods approximate complex calculations using repeated random sampling.",
+  "points": 40,
+  "tags": ["monte-carlo"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Importance Sampling improves Monte Carlo estimation by:",
+  "options": [
+    "Sampling more frequently from important regions",
+    "Removing randomness completely",
+    "Reducing dataset size",
+    "Using only uniform distributions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Importance Sampling reduces variance by focusing on more informative samples.",
+  "points": 40,
+  "tags": ["importance-sampling"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "The Curse of Dimensionality refers to:",
+  "options": [
+    "Problems caused by high-dimensional feature spaces",
+    "The inability to multiply matrices",
+    "Negative eigenvalues",
+    "Large gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "As dimensions increase, data becomes sparse and many algorithms become less effective.",
+  "points": 40,
+  "tags": ["curse-of-dimensionality"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Manifold Learning assumes:",
+  "options": [
+    "High-dimensional data lies on a lower-dimensional manifold",
+    "All datasets are linear",
+    "Only matrices are high-dimensional",
+    "Vectors always have two dimensions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Many dimensionality reduction algorithms rely on the manifold hypothesis.",
+  "points": 40,
+  "tags": ["manifold-learning"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "math-for-ai",
+  "difficulty": "expert",
+  "question": "Which mathematical concept is fundamental to Transformer attention mechanisms?",
+  "options": [
+    "Matrix multiplication and the Softmax function",
+    "Cross products only",
+    "Polynomial interpolation",
+    "Lagrange multipliers only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transformers compute attention using matrix multiplications (queries, keys, values) followed by the Softmax function to obtain attention weights.",
+  "points": 40,
+  "tags": ["transformers", "attention", "linear-algebra"],
+  "timeLimit": 75
+}
+]

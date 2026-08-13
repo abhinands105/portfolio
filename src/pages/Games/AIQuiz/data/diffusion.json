@@ -1,0 +1,1703 @@
+[
+  {
+    "id": 1,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What is the primary purpose of a diffusion model?",
+    "options": [
+      "Generate data by progressively removing noise",
+      "Classify images",
+      "Translate languages",
+      "Detect objects"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Diffusion models generate images by reversing a gradual noising process.",
+    "points": 10,
+    "tags": ["basics"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Diffusion models start generation from:",
+    "options": [
+      "Random Gaussian noise",
+      "A blank image",
+      "A text embedding",
+      "A segmentation mask"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Image generation begins from random noise that is denoised step by step.",
+    "points": 10,
+    "tags": ["generation"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What does DDPM stand for?",
+    "options": [
+      "Denoising Diffusion Probabilistic Model",
+      "Deep Diffusion Processing Model",
+      "Distributed Denoising Prediction Model",
+      "Dynamic Diffusion Pipeline Model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DDPM is the original diffusion model formulation introduced in 2020.",
+    "points": 10,
+    "tags": ["ddpm"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What is the reverse diffusion process?",
+    "options": [
+      "Removing noise to generate an image",
+      "Adding noise to an image",
+      "Upscaling an image",
+      "Compressing an image"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reverse diffusion iteratively removes noise to reconstruct data.",
+    "points": 10,
+    "tags": ["reverse-process"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Which model family powers Stable Diffusion?",
+    "options": [
+      "Latent Diffusion Models",
+      "GANs",
+      "Transformers Only",
+      "CNN Autoencoders"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stable Diffusion is based on Latent Diffusion Models (LDMs).",
+    "points": 10,
+    "tags": ["stable-diffusion"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Stable Diffusion performs diffusion in:",
+    "options": [
+      "Latent space",
+      "Pixel space",
+      "Frequency domain",
+      "Vector database"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Working in latent space greatly reduces computation.",
+    "points": 10,
+    "tags": ["latent-space"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Which component converts images into latent representations?",
+    "options": [
+      "VAE Encoder",
+      "UNet",
+      "Tokenizer",
+      "CLIP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The VAE encoder compresses images into latent space.",
+    "points": 10,
+    "tags": ["vae"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Which component reconstructs the final image from latent space?",
+    "options": [
+      "VAE Decoder",
+      "UNet",
+      "CLIP Encoder",
+      "Scheduler"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The VAE decoder converts latent representations back into images.",
+    "points": 10,
+    "tags": ["vae"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Which neural network predicts noise in Stable Diffusion?",
+    "options": [
+      "UNet",
+      "ResNet",
+      "Vision Transformer",
+      "LSTM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The UNet predicts the noise to remove at each denoising step.",
+    "points": 10,
+    "tags": ["unet"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Which model encodes text prompts in Stable Diffusion v1.x?",
+    "options": [
+      "CLIP Text Encoder",
+      "BERT",
+      "GPT",
+      "RoBERTa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stable Diffusion v1.x uses CLIP to encode text prompts.",
+    "points": 10,
+    "tags": ["clip"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What does CFG stand for?",
+    "options": [
+      "Classifier-Free Guidance",
+      "Conditional Feature Generator",
+      "Controlled Fine Guidance",
+      "Context Fusion Generator"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Classifier-Free Guidance controls prompt adherence.",
+    "points": 10,
+    "tags": ["cfg"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Increasing CFG Scale generally makes images:",
+    "options": [
+      "Follow the prompt more closely",
+      "Generate faster",
+      "Use less VRAM",
+      "Become grayscale"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Higher CFG increases prompt conditioning strength.",
+    "points": 10,
+    "tags": ["cfg"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What is a sampling step?",
+    "options": [
+      "One denoising iteration",
+      "One training epoch",
+      "One image crop",
+      "One embedding vector"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Each sampling step removes a portion of noise.",
+    "points": 10,
+    "tags": ["sampling"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Increasing sampling steps usually:",
+    "options": [
+      "Improves image quality but increases generation time",
+      "Reduces VRAM usage",
+      "Decreases resolution",
+      "Reduces prompt accuracy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "More denoising steps often improve quality at the cost of speed.",
+    "points": 10,
+    "tags": ["sampling"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Which scheduler is known for fast image generation?",
+    "options": [
+      "Euler A",
+      "SGD",
+      "Adam",
+      "RMSProp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Euler Ancestral is widely used for fast, high-quality generation.",
+    "points": 10,
+    "tags": ["scheduler"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "DDIM is primarily known for:",
+    "options": [
+      "Faster deterministic sampling",
+      "Object detection",
+      "Image classification",
+      "Video compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DDIM reduces sampling time compared with DDPM.",
+    "points": 10,
+    "tags": ["ddim"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What is image-to-image generation?",
+    "options": [
+      "Generating a new image from an existing image and prompt",
+      "Image classification",
+      "Image compression",
+      "Image segmentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Img2Img modifies an existing image using diffusion.",
+    "points": 10,
+    "tags": ["img2img"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "In Img2Img, denoising strength controls:",
+    "options": [
+      "How much the output differs from the input",
+      "GPU utilization",
+      "Prompt length",
+      "Image resolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Higher denoising produces larger changes.",
+    "points": 10,
+    "tags": ["img2img"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What is inpainting?",
+    "options": [
+      "Editing selected regions of an image",
+      "Generating videos",
+      "Training a LoRA",
+      "Removing metadata"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inpainting modifies masked regions while preserving the rest.",
+    "points": 10,
+    "tags": ["inpainting"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What is outpainting?",
+    "options": [
+      "Extending an image beyond its original boundaries",
+      "Removing backgrounds",
+      "Compressing images",
+      "Generating captions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Outpainting expands images using diffusion.",
+    "points": 10,
+    "tags": ["outpainting"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What is a negative prompt?",
+    "options": [
+      "Text describing what should be avoided",
+      "An invalid prompt",
+      "A compressed prompt",
+      "A training prompt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Negative prompts help suppress unwanted features.",
+    "points": 10,
+    "tags": ["prompting"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "What does seed control in diffusion models?",
+    "options": [
+      "Random initialization for reproducible outputs",
+      "Image resolution",
+      "Prompt length",
+      "Model architecture"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Using the same seed with identical settings reproduces similar results.",
+    "points": 10,
+    "tags": ["seed"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Stable Diffusion XL is commonly abbreviated as:",
+    "options": [
+      "SDXL",
+      "SDL",
+      "SDX",
+      "SD2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SDXL is the improved successor to earlier Stable Diffusion models.",
+    "points": 10,
+    "tags": ["sdxl"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Compared with Stable Diffusion 1.5, SDXL generally provides:",
+    "options": [
+      "Better image quality and prompt understanding",
+      "Lower resolution only",
+      "No text conditioning",
+      "Smaller latent space"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SDXL improves realism, composition, and text alignment.",
+    "points": 10,
+    "tags": ["sdxl"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "diffusion",
+    "difficulty": "easy",
+    "question": "Which application is a primary use case for diffusion models?",
+    "options": [
+      "Text-to-image generation",
+      "Spreadsheet processing",
+      "Database indexing",
+      "Network routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Diffusion models are widely used for high-quality image generation from text prompts.",
+    "points": 10,
+    "tags": ["applications"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "What is the primary purpose of ControlNet?",
+  "options": [
+    "Control image generation using structural guidance",
+    "Train diffusion models",
+    "Compress latent vectors",
+    "Replace the VAE"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ControlNet guides diffusion models using additional conditioning such as edges, poses, or depth maps.",
+  "points": 20,
+  "tags": ["controlnet"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Which ControlNet preprocessor extracts image edges?",
+  "options": [
+    "Canny",
+    "OpenPose",
+    "Depth",
+    "Normal"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Canny preprocessor extracts edge maps for structural guidance.",
+  "points": 20,
+  "tags": ["controlnet","canny"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "OpenPose ControlNet is mainly used for:",
+  "options": [
+    "Human pose guidance",
+    "Color correction",
+    "Image compression",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenPose extracts body keypoints to guide human pose generation.",
+  "points": 20,
+  "tags": ["openpose"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Depth ControlNet uses:",
+  "options": [
+    "Estimated depth maps",
+    "Bounding boxes",
+    "Segmentation labels",
+    "OCR text"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Depth maps preserve scene geometry during generation.",
+  "points": 20,
+  "tags": ["depth"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "What is LoRA in diffusion models?",
+  "options": [
+    "Parameter-efficient fine-tuning",
+    "A scheduler",
+    "A tokenizer",
+    "A VAE replacement"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA adapts pretrained models by training a small number of additional parameters.",
+  "points": 20,
+  "tags": ["lora"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "The main advantage of LoRA over full fine-tuning is:",
+  "options": [
+    "Much fewer trainable parameters",
+    "No GPU required",
+    "No dataset required",
+    "No prompts required"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA reduces storage and training costs while adapting the model.",
+  "points": 20,
+  "tags": ["lora"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "DreamBooth is mainly used for:",
+  "options": [
+    "Teaching a model a specific subject or identity",
+    "Image segmentation",
+    "Noise scheduling",
+    "Vector search"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DreamBooth personalizes a model using a few subject-specific images.",
+  "points": 20,
+  "tags": ["dreambooth"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "DreamBooth typically requires:",
+  "options": [
+    "A small set of subject images",
+    "Millions of images",
+    "No training images",
+    "Only text prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DreamBooth can personalize models using relatively few images.",
+  "points": 20,
+  "tags": ["dreambooth"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Textual Inversion learns:",
+  "options": [
+    "A new embedding token",
+    "A new UNet",
+    "A new VAE",
+    "A new scheduler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Textual Inversion learns embeddings representing new concepts.",
+  "points": 20,
+  "tags": ["textual-inversion"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Compared with LoRA, Textual Inversion usually modifies:",
+  "options": [
+    "Only text embeddings",
+    "Entire UNet",
+    "Entire VAE",
+    "Scheduler parameters"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Textual Inversion optimizes learned text embeddings instead of model weights.",
+  "points": 20,
+  "tags": ["textual-inversion"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "IP-Adapter allows generation to be guided by:",
+  "options": [
+    "Reference images",
+    "Audio signals",
+    "GPS coordinates",
+    "SQL queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IP-Adapter uses image features as an additional conditioning signal.",
+  "points": 20,
+  "tags": ["ip-adapter"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "The main goal of IP-Adapter is:",
+  "options": [
+    "Preserve style or appearance from reference images",
+    "Increase image resolution",
+    "Reduce VRAM usage",
+    "Replace ControlNet"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IP-Adapter enables strong image-based guidance while retaining prompt control.",
+  "points": 20,
+  "tags": ["ip-adapter"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "T2I-Adapter primarily provides:",
+  "options": [
+    "Lightweight structural conditioning",
+    "Image compression",
+    "Model quantization",
+    "Tokenizer optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "T2I-Adapter adds efficient conditional guidance to diffusion models.",
+  "points": 20,
+  "tags": ["t2i-adapter"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Which ControlNet mode is useful for preserving scene composition?",
+  "options": [
+    "Depth",
+    "Tile",
+    "Shuffle",
+    "Reference Only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Depth guidance helps maintain the spatial layout of a scene.",
+  "points": 20,
+  "tags": ["depth"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "What does the Tile ControlNet model mainly help with?",
+  "options": [
+    "High-resolution image enhancement",
+    "Tokenization",
+    "Prompt translation",
+    "Video interpolation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Tile models preserve details while upscaling images.",
+  "points": 20,
+  "tags": ["tile"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "What is High-Resolution Fix (Hires Fix)?",
+  "options": [
+    "Generating at lower resolution then refining at higher resolution",
+    "Increasing CFG automatically",
+    "Reducing prompt length",
+    "Compressing latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hires Fix improves image quality by refining an upscaled intermediate result.",
+  "points": 20,
+  "tags": ["hires-fix"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "The SDXL Refiner is mainly used to:",
+  "options": [
+    "Improve image details after base generation",
+    "Train LoRAs",
+    "Generate captions",
+    "Encode text prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Refiner model enhances fine textures and details.",
+  "points": 20,
+  "tags": ["sdxl-refiner"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Control Weight in ControlNet determines:",
+  "options": [
+    "The influence of structural guidance",
+    "The image resolution",
+    "The latent dimension",
+    "The tokenizer vocabulary"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher control weight makes the output follow the conditioning input more strongly.",
+  "points": 20,
+  "tags": ["controlnet"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Which guidance method primarily controls adherence to the text prompt?",
+  "options": [
+    "Classifier-Free Guidance",
+    "OpenPose",
+    "Depth",
+    "Canny"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CFG balances unconditional and conditional predictions.",
+  "points": 20,
+  "tags": ["cfg"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Which technique is best for preserving a character's appearance across generations?",
+  "options": [
+    "IP-Adapter",
+    "Random Seed",
+    "Negative Prompt",
+    "Euler Scheduler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "IP-Adapter conditions generation on reference image features.",
+  "points": 20,
+  "tags": ["character-consistency"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Which ControlNet preprocessor extracts line drawings?",
+  "options": [
+    "Lineart",
+    "Depth",
+    "Normal",
+    "MLSD"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lineart preprocessors extract clean outlines for conditioning.",
+  "points": 20,
+  "tags": ["lineart"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "MLSD ControlNet is mainly designed for:",
+  "options": [
+    "Straight line detection",
+    "Human pose estimation",
+    "Colorization",
+    "Face swapping"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MLSD extracts straight structural lines from images.",
+  "points": 20,
+  "tags": ["mlsd"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Normal Map ControlNet primarily preserves:",
+  "options": [
+    "Surface orientation and geometry",
+    "Text prompts",
+    "Image captions",
+    "Background removal"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Normal maps describe surface directions and improve geometric consistency.",
+  "points": 20,
+  "tags": ["normal-map"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Reference-Only ControlNet is mainly intended to:",
+  "options": [
+    "Transfer visual characteristics from a reference image",
+    "Replace text prompts",
+    "Reduce VRAM usage",
+    "Train LoRAs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reference-only guidance transfers style and appearance without explicit structural maps.",
+  "points": 20,
+  "tags": ["reference"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "diffusion",
+  "difficulty": "medium",
+  "question": "Which combination is commonly used for highly controlled image generation?",
+  "options": [
+    "ControlNet + LoRA + IP-Adapter",
+    "Only CFG",
+    "Only Scheduler",
+    "Only VAE"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Combining multiple conditioning methods provides fine-grained control over generation.",
+  "points": 20,
+  "tags": ["workflow"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "What is Stable Diffusion 3 (SD3) primarily based on?",
+  "options": [
+    "Diffusion Transformer (DiT)",
+    "CNN",
+    "GAN",
+    "LSTM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SD3 replaces the traditional UNet with a Diffusion Transformer architecture.",
+  "points": 30,
+  "tags": ["sd3","dit"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "DiT stands for:",
+  "options": [
+    "Diffusion Transformer",
+    "Distributed Image Transformer",
+    "Deep Inference Transformer",
+    "Dynamic Image Training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DiT applies Transformer architectures to diffusion models.",
+  "points": 30,
+  "tags": ["dit"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "FLUX.1 was developed by:",
+  "options": [
+    "Black Forest Labs",
+    "OpenAI",
+    "Meta",
+    "Google DeepMind"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FLUX.1 is a family of image generation models released by Black Forest Labs.",
+  "points": 30,
+  "tags": ["flux"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "FLUX models are particularly known for:",
+  "options": [
+    "Excellent prompt following and typography",
+    "Image classification",
+    "Speech recognition",
+    "Video compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FLUX models significantly improved prompt adherence and text rendering.",
+  "points": 30,
+  "tags": ["flux"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Wan 2.1 is primarily designed for:",
+  "options": [
+    "Text-to-video generation",
+    "Object detection",
+    "Speech synthesis",
+    "Image segmentation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Wan 2.1 is an open-source video generation model.",
+  "points": 30,
+  "tags": ["wan2.1"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Compared with image diffusion, video diffusion must additionally maintain:",
+  "options": [
+    "Temporal consistency",
+    "SQL consistency",
+    "GPU overclocking",
+    "Audio normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Frames should remain visually consistent over time.",
+  "points": 30,
+  "tags": ["video-diffusion"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "AnimateDiff mainly enables:",
+  "options": [
+    "Animation from existing diffusion models",
+    "Speech generation",
+    "Image compression",
+    "OCR"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AnimateDiff adds motion modules to pretrained image diffusion models.",
+  "points": 30,
+  "tags": ["animatediff"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "AnimateDiff works by adding:",
+  "options": [
+    "Motion modules",
+    "Extra VAEs",
+    "Additional tokenizers",
+    "Object detectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Motion modules introduce temporal information during generation.",
+  "points": 30,
+  "tags": ["animatediff"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "What is a Latent Consistency Model (LCM)?",
+  "options": [
+    "A model designed for very fast diffusion inference",
+    "A vector database",
+    "A tokenizer",
+    "A VAE replacement"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LCMs allow high-quality generation using only a few denoising steps.",
+  "points": 30,
+  "tags": ["lcm"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "LCM commonly reduces sampling steps to approximately:",
+  "options": [
+    "4–8",
+    "100–200",
+    "500",
+    "1000"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LCMs can generate high-quality images with very few inference steps.",
+  "points": 30,
+  "tags": ["lcm"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Flow Matching is an alternative training objective for:",
+  "options": [
+    "Generative diffusion models",
+    "Decision trees",
+    "CNN classifiers",
+    "Transformers for NLP only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Flow Matching learns continuous probability flows instead of traditional diffusion objectives.",
+  "points": 30,
+  "tags": ["flow-matching"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Rectified Flow mainly aims to:",
+  "options": [
+    "Simplify sampling trajectories",
+    "Increase image resolution",
+    "Reduce prompt length",
+    "Compress datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rectified Flow learns straighter probability paths for efficient generation.",
+  "points": 30,
+  "tags": ["rectified-flow"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which scheduler is widely used for high-quality Stable Diffusion inference?",
+  "options": [
+    "DPM++ 2M Karras",
+    "SGD",
+    "Adam",
+    "RMSProp"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DPM++ Karras schedulers are popular for balancing speed and quality.",
+  "points": 30,
+  "tags": ["scheduler"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Karras schedulers primarily modify:",
+  "options": [
+    "The noise schedule",
+    "Tokenizer vocabulary",
+    "Prompt embeddings",
+    "Image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Karras schedules optimize the denoising trajectory.",
+  "points": 30,
+  "tags": ["karras"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Consistency Models are designed to:",
+  "options": [
+    "Generate high-quality images in very few steps",
+    "Improve OCR",
+    "Replace CLIP",
+    "Train GANs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Consistency Models significantly accelerate image generation.",
+  "points": 30,
+  "tags": ["consistency-model"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Video diffusion models usually predict:",
+  "options": [
+    "Sequences of coherent frames",
+    "Only single images",
+    "Only text embeddings",
+    "Only segmentation masks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Video generation requires consistent frame prediction across time.",
+  "points": 30,
+  "tags": ["video"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "A common challenge in video diffusion is:",
+  "options": [
+    "Flickering between frames",
+    "SQL injection",
+    "Gradient explosion in CNNs",
+    "Database normalization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Temporal inconsistency often causes flickering artifacts.",
+  "points": 30,
+  "tags": ["video"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "LoRA for video models mainly learns:",
+  "options": [
+    "Motion and style adaptations",
+    "Tokenizer vocabulary",
+    "Database schemas",
+    "Object detection labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Video LoRAs efficiently learn motion patterns and visual styles.",
+  "points": 30,
+  "tags": ["video-lora"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which factor most strongly affects VRAM usage during diffusion inference?",
+  "options": [
+    "Image resolution",
+    "Prompt length",
+    "Seed value",
+    "Negative prompt"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher resolutions require significantly more memory.",
+  "points": 30,
+  "tags": ["performance"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Mixed precision inference commonly uses:",
+  "options": [
+    "FP16 or BF16",
+    "INT1",
+    "FP128",
+    "Binary images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mixed precision improves inference speed and reduces memory usage.",
+  "points": 30,
+  "tags": ["mixed-precision"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "xFormers is mainly used to:",
+  "options": [
+    "Reduce attention memory usage",
+    "Train VAEs",
+    "Compress datasets",
+    "Generate captions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Memory-efficient attention allows larger images on limited GPUs.",
+  "points": 30,
+  "tags": ["xformers"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "TensorRT acceleration mainly improves:",
+  "options": [
+    "Inference speed",
+    "Dataset quality",
+    "Prompt engineering",
+    "Caption generation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT optimizes neural networks for NVIDIA GPUs.",
+  "points": 30,
+  "tags": ["tensorrt"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "ONNX is commonly used to:",
+  "options": [
+    "Export models for deployment",
+    "Generate prompts",
+    "Train diffusion models",
+    "Store datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX provides a framework-independent model representation.",
+  "points": 30,
+  "tags": ["onnx"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "The largest bottleneck in production diffusion inference is usually:",
+  "options": [
+    "Iterative denoising",
+    "Prompt tokenization",
+    "JSON parsing",
+    "Image saving"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Diffusion repeatedly executes the denoising network, making inference computationally expensive.",
+  "points": 30,
+  "tags": ["optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which combination represents a modern production diffusion pipeline?",
+  "options": [
+    "Text Encoder → Diffusion Model → Scheduler → VAE Decoder",
+    "Tokenizer → CNN → SQL Database",
+    "GAN → OCR → VAE",
+    "Transformer → RAG → Diffusion"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A production pipeline encodes prompts, denoises latent representations, and decodes them into images.",
+  "points": 30,
+  "tags": ["pipeline"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "What is ComfyUI primarily known for?",
+  "options": [
+    "Node-based diffusion workflow creation",
+    "Image annotation",
+    "Database management",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ComfyUI allows users to build modular image generation pipelines using nodes.",
+  "points": 30,
+  "tags": ["comfyui"],
+  "timeLimit": 60
+},
+{
+  "id": 77,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Automatic1111 is primarily:",
+  "options": [
+    "A popular Stable Diffusion Web UI",
+    "A vector database",
+    "A video editor",
+    "A tokenizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AUTOMATIC1111 provides a feature-rich interface for Stable Diffusion.",
+  "points": 30,
+  "tags": ["automatic1111"],
+  "timeLimit": 60
+},
+{
+  "id": 78,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Forge WebUI is mainly recognized for:",
+  "options": [
+    "Better memory optimization and performance",
+    "Training LLMs",
+    "Speech synthesis",
+    "Vector retrieval"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Forge optimizes Stable Diffusion workflows, especially on limited VRAM GPUs.",
+  "points": 30,
+  "tags": ["forge"],
+  "timeLimit": 60
+},
+{
+  "id": 79,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Kohya SS is mainly used for:",
+  "options": [
+    "Training LoRA and DreamBooth models",
+    "Object detection",
+    "OCR",
+    "Video editing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Kohya SS is a popular GUI for training diffusion fine-tuning models.",
+  "points": 30,
+  "tags": ["kohya"],
+  "timeLimit": 60
+},
+{
+  "id": 80,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "The trigger word in a LoRA is used to:",
+  "options": [
+    "Activate the learned concept during generation",
+    "Increase image resolution",
+    "Reduce VRAM usage",
+    "Train the VAE"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A trigger word helps the model apply the learned style or concept.",
+  "points": 30,
+  "tags": ["lora"],
+  "timeLimit": 60
+},
+{
+  "id": 81,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "A caption file in LoRA training primarily describes:",
+  "options": [
+    "The contents of each training image",
+    "GPU specifications",
+    "Optimizer settings",
+    "Learning rate schedules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Captions provide text supervision linking images to prompts.",
+  "points": 30,
+  "tags": ["captions"],
+  "timeLimit": 60
+},
+{
+  "id": 82,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Why is dataset cleaning important before LoRA training?",
+  "options": [
+    "It improves model quality and consistency",
+    "It increases VRAM",
+    "It changes the scheduler",
+    "It removes prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Duplicate or poor-quality images can negatively affect the learned representation.",
+  "points": 30,
+  "tags": ["dataset"],
+  "timeLimit": 60
+},
+{
+  "id": 83,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "What is image bucketing during LoRA training?",
+  "options": [
+    "Grouping images by similar aspect ratios",
+    "Compressing images",
+    "Generating captions",
+    "Removing duplicates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bucketing minimizes unnecessary resizing and preserves image composition.",
+  "points": 30,
+  "tags": ["bucketing"],
+  "timeLimit": 60
+},
+{
+  "id": 84,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which optimizer is commonly used for LoRA training?",
+  "options": [
+    "AdamW",
+    "K-Means",
+    "XGBoost",
+    "Random Forest"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AdamW is a widely used optimizer for diffusion fine-tuning.",
+  "points": 30,
+  "tags": ["optimizer"],
+  "timeLimit": 60
+},
+{
+  "id": 85,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "A higher LoRA rank generally:",
+  "options": [
+    "Increases model capacity and file size",
+    "Reduces image resolution",
+    "Disables ControlNet",
+    "Removes captions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher rank allows learning more complex adaptations at the cost of more parameters.",
+  "points": 30,
+  "tags": ["lora-rank"],
+  "timeLimit": 60
+},
+{
+  "id": 86,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "LoRA Alpha mainly controls:",
+  "options": [
+    "Scaling of learned LoRA weights",
+    "Image size",
+    "Prompt length",
+    "Noise schedule"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Alpha influences the effective strength of the LoRA updates.",
+  "points": 30,
+  "tags": ["alpha"],
+  "timeLimit": 60
+},
+{
+  "id": 87,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Compared with DreamBooth, LoRA generally requires:",
+  "options": [
+    "Less storage and training time",
+    "More GPU memory",
+    "Larger datasets only",
+    "No captions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA is a parameter-efficient alternative to full DreamBooth fine-tuning.",
+  "points": 30,
+  "tags": ["dreambooth","lora"],
+  "timeLimit": 60
+},
+{
+  "id": 88,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "QLoRA differs from LoRA because it:",
+  "options": [
+    "Combines LoRA with quantized base models",
+    "Uses GANs",
+    "Removes text encoders",
+    "Disables attention"
+  ],
+  "correctAnswer": 0,
+  "explanation": "QLoRA is primarily used with LLMs by applying LoRA to quantized models.",
+  "points": 30,
+  "tags": ["qlora"],
+  "timeLimit": 60
+},
+{
+  "id": 89,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which technique is primarily associated with diffusion model fine-tuning rather than LLM fine-tuning?",
+  "options": [
+    "DreamBooth",
+    "RLHF",
+    "DPO",
+    "Instruction Tuning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DreamBooth is designed for personalized diffusion model training.",
+  "points": 30,
+  "tags": ["dreambooth"],
+  "timeLimit": 60
+},
+{
+  "id": 90,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "The AI Toolkit project by Ostris is mainly used for:",
+  "options": [
+    "Training and fine-tuning diffusion models",
+    "Building SQL databases",
+    "Object tracking",
+    "Speech recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AI Toolkit supports training workflows for modern diffusion models.",
+  "points": 30,
+  "tags": ["ai-toolkit"],
+  "timeLimit": 60
+},
+{
+  "id": 91,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Why are duplicate images usually removed from a LoRA dataset?",
+  "options": [
+    "To reduce overfitting and bias",
+    "To increase VRAM",
+    "To improve schedulers",
+    "To reduce captions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Removing duplicates improves dataset diversity.",
+  "points": 30,
+  "tags": ["dataset-cleaning"],
+  "timeLimit": 60
+},
+{
+  "id": 92,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of validation images during training?",
+  "options": [
+    "Monitor learning progress and overfitting",
+    "Increase dataset size",
+    "Replace captions",
+    "Improve tokenizer accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Validation generations help evaluate model quality during training.",
+  "points": 30,
+  "tags": ["validation"],
+  "timeLimit": 60
+},
+{
+  "id": 93,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which deployment framework is commonly used to serve diffusion models through APIs?",
+  "options": [
+    "FastAPI",
+    "NumPy",
+    "Pandas",
+    "Matplotlib"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FastAPI is widely used for production inference services.",
+  "points": 30,
+  "tags": ["deployment"],
+  "timeLimit": 60
+},
+{
+  "id": 94,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "For production inference, generated images are often:",
+  "options": [
+    "Queued and processed asynchronously",
+    "Always processed sequentially",
+    "Stored only in RAM",
+    "Generated without prompts"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Job queues improve scalability and throughput.",
+  "points": 30,
+  "tags": ["production"],
+  "timeLimit": 60
+},
+{
+  "id": 95,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Why is model caching useful in production?",
+  "options": [
+    "It avoids repeatedly loading large model weights",
+    "It changes image resolution",
+    "It removes captions",
+    "It disables schedulers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Keeping models in memory significantly reduces latency.",
+  "points": 30,
+  "tags": ["optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 96,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which hardware component usually limits large diffusion model inference?",
+  "options": [
+    "GPU VRAM",
+    "Keyboard",
+    "Mouse",
+    "Network adapter"
+  ],
+  "correctAnswer": 0,
+  "explanation": "VRAM capacity determines the maximum model and image size that can be processed.",
+  "points": 30,
+  "tags": ["hardware"],
+  "timeLimit": 60
+},
+{
+  "id": 97,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which optimization technique reduces VRAM usage during inference?",
+  "options": [
+    "Memory-efficient attention",
+    "Increasing CFG",
+    "Longer prompts",
+    "Higher image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Memory-efficient attention implementations reduce GPU memory consumption.",
+  "points": 30,
+  "tags": ["optimization"],
+  "timeLimit": 60
+},
+{
+  "id": 98,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "A production image generation service should typically include:",
+  "options": [
+    "Request queue, model server, storage, and monitoring",
+    "Only a GPU",
+    "Only a scheduler",
+    "Only captions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production systems require scalable infrastructure beyond the model itself.",
+  "points": 30,
+  "tags": ["architecture"],
+  "timeLimit": 60
+},
+{
+  "id": 99,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which statement about diffusion model deployment is most accurate?",
+  "options": [
+    "Inference optimization is as important as model quality",
+    "Only training matters",
+    "Only prompts matter",
+    "Deployment does not affect user experience"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Efficient deployment reduces latency and operational costs while improving user experience.",
+  "points": 30,
+  "tags": ["deployment"],
+  "timeLimit": 60
+},
+{
+  "id": 100,
+  "category": "diffusion",
+  "difficulty": "hard",
+  "question": "Which workflow best represents a modern production diffusion pipeline?",
+  "options": [
+    "Prompt → Text Encoder → Diffusion Model → VAE Decoder → Post-processing → API Response",
+    "Prompt → CNN → SQL Database",
+    "Tokenizer → OCR → GAN",
+    "Prompt → Vector Database → LSTM"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Production systems encode the prompt, generate in latent space, decode the image, optionally post-process it, and return the result through an API.",
+  "points": 30,
+  "tags": ["production-pipeline"],
+  "timeLimit": 60
+}
+
+]

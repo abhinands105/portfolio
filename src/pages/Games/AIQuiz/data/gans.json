@@ -1,0 +1,1703 @@
+[
+{
+  "id": 1,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "What does GAN stand for?",
+  "options": [
+    "Generative Adversarial Network",
+    "General Artificial Network",
+    "Graph Attention Network",
+    "Global Adaptive Network"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GAN stands for Generative Adversarial Network, a deep learning framework consisting of two competing neural networks.",
+  "points": 10,
+  "tags": ["gan","basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "GANs belong to which field of AI?",
+  "options": [
+    "Generative AI",
+    "Reinforcement Learning",
+    "Expert Systems",
+    "Rule-Based AI"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs are generative models that learn to create new data similar to the training data.",
+  "points": 10,
+  "tags": ["generative-ai"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Which network in a GAN generates fake samples?",
+  "options": [
+    "Generator",
+    "Discriminator",
+    "Encoder",
+    "Classifier"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The generator creates synthetic samples intended to resemble real data.",
+  "points": 10,
+  "tags": ["generator"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "What is the primary role of the discriminator in a GAN?",
+  "options": [
+    "Distinguish real samples from generated samples",
+    "Generate images",
+    "Compress images",
+    "Label datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The discriminator acts as a binary classifier that predicts whether a sample is real or fake.",
+  "points": 10,
+  "tags": ["discriminator"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "What is latent space in a GAN?",
+  "options": [
+    "A compressed feature space used to generate data",
+    "The output image",
+    "The training dataset",
+    "The loss function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The latent space contains compact numerical representations from which the generator creates new samples.",
+  "points": 10,
+  "tags": ["latent-space"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "What is commonly used as the generator's input?",
+  "options": [
+    "A random noise vector",
+    "A labelled image",
+    "A loss value",
+    "A feature map"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The generator typically starts from a random noise vector sampled from a known distribution.",
+  "points": 10,
+  "tags": ["noise-vector"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "A generated image from a GAN is commonly called:",
+  "options": [
+    "A fake sample",
+    "A training sample",
+    "A validation sample",
+    "A feature vector"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Generator outputs are often referred to as fake or synthetic samples.",
+  "points": 10,
+  "tags": ["fake-sample"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Images taken directly from the dataset are called:",
+  "options": [
+    "Real samples",
+    "Noise vectors",
+    "Latent codes",
+    "Embeddings"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Real samples are genuine examples drawn from the training dataset.",
+  "points": 10,
+  "tags": ["real-sample"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "GAN training is often described as:",
+  "options": [
+    "Adversarial training",
+    "Supervised clustering",
+    "Decision tree learning",
+    "Rule mining"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The generator and discriminator compete against each other in an adversarial game.",
+  "points": 10,
+  "tags": ["adversarial-training"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "The relationship between the generator and discriminator is best described as:",
+  "options": [
+    "A minimax game",
+    "A sorting algorithm",
+    "A regression task",
+    "A clustering process"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs are trained as a minimax optimization problem where the generator tries to fool the discriminator.",
+  "points": 10,
+  "tags": ["minimax"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Why is a loss function used during GAN training?",
+  "options": [
+    "To measure how well each network performs",
+    "To store images",
+    "To compress the dataset",
+    "To initialize weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The loss function guides parameter updates for both the generator and discriminator.",
+  "points": 10,
+  "tags": ["loss-function"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Which loss function is commonly used in the original GAN?",
+  "options": [
+    "Binary Cross Entropy",
+    "Mean Squared Error",
+    "Huber Loss",
+    "Dice Loss"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The original GAN formulation uses Binary Cross Entropy (BCE) loss for adversarial training.",
+  "points": 10,
+  "tags": ["binary-cross-entropy","bce"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "An epoch in GAN training represents:",
+  "options": [
+    "One complete pass through the training dataset",
+    "One generated image",
+    "A single layer update",
+    "A random latent vector"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An epoch means both networks have processed the entire training dataset once.",
+  "points": 10,
+  "tags": ["epoch","training"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "In GAN training, a batch is:",
+  "options": [
+    "A group of training samples processed together",
+    "A collection of latent vectors only",
+    "A single generated image",
+    "A model checkpoint"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A batch consists of multiple training samples processed together before updating the model.",
+  "points": 10,
+  "tags": ["batch","training"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "An iteration in GAN training refers to:",
+  "options": [
+    "One parameter update after processing a batch",
+    "One complete training run",
+    "One epoch",
+    "One generated dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Each iteration processes one batch and updates the generator and discriminator parameters.",
+  "points": 10,
+  "tags": ["iteration","training"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "The discriminator outputs:",
+  "options": [
+    "The probability that a sample is real",
+    "A new synthetic image",
+    "A latent vector",
+    "A segmentation mask"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The discriminator predicts whether an input sample is real or generated.",
+  "points": 10,
+  "tags": ["discriminator","classification"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Sampling in a GAN usually means:",
+  "options": [
+    "Generating new data from random latent vectors",
+    "Removing duplicate images",
+    "Selecting optimizer parameters",
+    "Compressing the dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sampling involves feeding random latent vectors into the generator to create synthetic samples.",
+  "points": 10,
+  "tags": ["sampling","generation"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Why is a random seed often used during GAN experiments?",
+  "options": [
+    "To make results reproducible",
+    "To improve image resolution",
+    "To reduce GPU memory usage",
+    "To replace the discriminator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A fixed random seed helps reproduce experiments by generating the same sequence of random numbers.",
+  "points": 10,
+  "tags": ["random-seed","reproducibility"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Synthetic data generated by a GAN is:",
+  "options": [
+    "Artificially created data that resembles real data",
+    "Corrupted training data",
+    "Compressed image data",
+    "Only handwritten text"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs produce synthetic data that imitates the characteristics of the training dataset.",
+  "points": 10,
+  "tags": ["synthetic-data"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "Which application is GANs most famous for?",
+  "options": [
+    "Generating realistic images",
+    "Sorting numbers",
+    "Database indexing",
+    "Network routing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs are widely known for generating realistic images, faces, artwork, and other visual content.",
+  "points": 10,
+  "tags": ["image-generation"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "The input to a generator is typically:",
+  "options": [
+    "A latent noise vector",
+    "A probability score",
+    "A loss value",
+    "A segmentation map"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The generator transforms a latent noise vector into a synthetic sample.",
+  "points": 10,
+  "tags": ["generator","latent-vector"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "The output of a generator is usually:",
+  "options": [
+    "A synthetic sample",
+    "A classification label",
+    "A confusion matrix",
+    "A gradient value"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The generator creates new data samples that resemble the training distribution.",
+  "points": 10,
+  "tags": ["generator-output"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "The discriminator's output is generally:",
+  "options": [
+    "A probability indicating whether a sample is real",
+    "A generated image",
+    "A latent embedding",
+    "A feature map"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The discriminator outputs a confidence score representing the likelihood that the input is real.",
+  "points": 10,
+  "tags": ["discriminator-output"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "A GAN training loop typically alternates between:",
+  "options": [
+    "Training the discriminator and training the generator",
+    "Loading data and saving checkpoints",
+    "Training and testing datasets",
+    "Convolution and pooling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The discriminator and generator are updated alternately throughout training.",
+  "points": 10,
+  "tags": ["training-loop","gan-training"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "gans",
+  "difficulty": "easy",
+  "question": "GAN training is considered to have converged when:",
+  "options": [
+    "The generator produces realistic samples and the discriminator can no longer easily distinguish them",
+    "The discriminator always predicts fake",
+    "The generator outputs only one image",
+    "The loss becomes exactly zero"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A well-trained GAN reaches a balance where generated samples closely resemble real data, making discrimination difficult.",
+  "points": 10,
+  "tags": ["convergence","training"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "What is mode collapse in GAN training?",
+  "options": [
+    "The generator produces only a limited variety of outputs",
+    "The discriminator stops training completely",
+    "The dataset becomes corrupted",
+    "The learning rate becomes zero"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Mode collapse occurs when the generator repeatedly produces similar samples instead of capturing the full data distribution.",
+  "points": 20,
+  "tags": ["mode-collapse","training"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Non-convergence in GAN training means:",
+  "options": [
+    "The generator and discriminator fail to reach a stable equilibrium",
+    "The model finishes training quickly",
+    "The dataset is too small",
+    "The generator always wins"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GAN training is unstable, and non-convergence occurs when the networks continually oscillate without improving.",
+  "points": 20,
+  "tags": ["non-convergence","training"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Vanishing gradients mainly cause:",
+  "options": [
+    "Very small parameter updates that slow learning",
+    "Excessively large updates",
+    "Larger datasets",
+    "Higher image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "When gradients become extremely small, the generator receives little useful learning signal.",
+  "points": 20,
+  "tags": ["vanishing-gradients","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "In GAN theory, Nash Equilibrium refers to:",
+  "options": [
+    "A stable state where neither network benefits from changing its strategy alone",
+    "The generator always defeating the discriminator",
+    "A zero training loss",
+    "The end of the first epoch"
+  ],
+  "correctAnswer": 0,
+  "explanation": "At Nash Equilibrium, the generator and discriminator have reached a balanced strategy.",
+  "points": 20,
+  "tags": ["nash-equilibrium","game-theory"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Alternating optimization in GANs means:",
+  "options": [
+    "Updating the discriminator and generator one after the other",
+    "Training only the generator",
+    "Using two datasets simultaneously",
+    "Changing optimizers every epoch"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs typically alternate updates between the discriminator and generator during training.",
+  "points": 20,
+  "tags": ["alternating-optimization","training"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Why is one-sided label smoothing used in GANs?",
+  "options": [
+    "To improve discriminator generalization and training stability",
+    "To increase image resolution",
+    "To reduce dataset size",
+    "To remove the generator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Label smoothing prevents the discriminator from becoming overly confident, helping stabilize training.",
+  "points": 20,
+  "tags": ["label-smoothing","stability"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Feature matching encourages the generator to:",
+  "options": [
+    "Match intermediate feature statistics learned by the discriminator",
+    "Copy training images exactly",
+    "Increase latent vector size",
+    "Reduce discriminator accuracy to zero"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Feature matching helps produce more diverse and realistic samples by matching learned feature representations.",
+  "points": 20,
+  "tags": ["feature-matching","gan"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Minibatch discrimination is mainly used to reduce:",
+  "options": [
+    "Mode collapse",
+    "GPU memory usage",
+    "Dataset size",
+    "Learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Minibatch discrimination allows the discriminator to compare samples within a batch, encouraging output diversity.",
+  "points": 20,
+  "tags": ["minibatch-discrimination","mode-collapse"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Wasserstein Distance measures:",
+  "options": [
+    "The difference between real and generated data distributions",
+    "The distance between two images in pixels",
+    "The learning rate",
+    "The number of generator layers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Wasserstein Distance provides a smoother and more meaningful measure of distribution similarity than BCE loss.",
+  "points": 20,
+  "tags": ["wasserstein-distance","wgan"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Another name for Wasserstein Distance is:",
+  "options": [
+    "Earth Mover Distance",
+    "Euclidean Distance",
+    "Cosine Distance",
+    "Mahalanobis Distance"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Earth Mover Distance measures the minimum effort needed to transform one probability distribution into another.",
+  "points": 20,
+  "tags": ["earth-mover-distance","wasserstein"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Why was weight clipping introduced in the original WGAN?",
+  "options": [
+    "To enforce the Lipschitz constraint on the critic",
+    "To compress the model",
+    "To reduce image size",
+    "To remove gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Weight clipping was used to satisfy the Lipschitz continuity requirement, although later methods improved upon it.",
+  "points": 20,
+  "tags": ["weight-clipping","wgan"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Gradient Penalty replaces weight clipping by:",
+  "options": [
+    "Penalizing violations of the Lipschitz constraint using gradient norms",
+    "Reducing image resolution",
+    "Removing discriminator updates",
+    "Using fewer epochs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gradient Penalty provides more stable WGAN training than simple weight clipping.",
+  "points": 20,
+  "tags": ["gradient-penalty","wgan-gp"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "What is the main advantage of Wasserstein GAN (WGAN) over the original GAN?",
+  "options": [
+    "More stable training with meaningful loss values",
+    "It requires no discriminator",
+    "It generates images without noise vectors",
+    "It trains without gradients"
+  ],
+  "correctAnswer": 0,
+  "explanation": "WGAN improves convergence and reduces issues such as mode collapse by using the Wasserstein loss.",
+  "points": 20,
+  "tags": ["wgan","wasserstein"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "What improvement does WGAN-GP introduce over the original WGAN?",
+  "options": [
+    "It replaces weight clipping with gradient penalty",
+    "It removes the discriminator",
+    "It uses recurrent neural networks",
+    "It eliminates the latent space"
+  ],
+  "correctAnswer": 0,
+  "explanation": "WGAN-GP enforces the Lipschitz constraint using a gradient penalty, leading to more stable training than weight clipping.",
+  "points": 20,
+  "tags": ["wgan-gp","gradient-penalty"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "What is the main idea behind Least Squares GAN (LSGAN)?",
+  "options": [
+    "Use least squares loss instead of binary cross-entropy",
+    "Train without a discriminator",
+    "Replace convolution layers with transformers",
+    "Generate only grayscale images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LSGAN replaces binary cross-entropy with least squares loss to improve gradient quality and training stability.",
+  "points": 20,
+  "tags": ["lsgan","loss-functions"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Why is hinge loss used in some GAN architectures?",
+  "options": [
+    "It provides stronger gradients and more stable adversarial training",
+    "It removes the need for latent vectors",
+    "It compresses the model automatically",
+    "It eliminates mode collapse completely"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Hinge loss often produces better gradient behaviour and is widely used in modern GAN architectures.",
+  "points": 20,
+  "tags": ["hinge-loss","gan-training"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Spectral Normalization is primarily applied to:",
+  "options": [
+    "Control the discriminator's weight magnitudes",
+    "Increase image resolution",
+    "Normalize input images",
+    "Generate latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Spectral normalization stabilizes GAN training by constraining the spectral norm of weight matrices.",
+  "points": 20,
+  "tags": ["spectral-normalization","stability"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "What is the purpose of instance noise during GAN training?",
+  "options": [
+    "Add small random noise to inputs for improved training stability",
+    "Increase image resolution",
+    "Replace latent vectors",
+    "Reduce the number of epochs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Instance noise smooths the discriminator's decision boundary, helping stabilize early GAN training.",
+  "points": 20,
+  "tags": ["instance-noise","training"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "TTUR stands for:",
+  "options": [
+    "Two Time-Scale Update Rule",
+    "Transformer Training Update Rule",
+    "Tensor Transfer Update Rate",
+    "Triple Training Utility Rule"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TTUR uses different learning rates for the generator and discriminator to improve convergence.",
+  "points": 20,
+  "tags": ["ttur","optimization"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Why are both precision and recall important when evaluating GANs?",
+  "options": [
+    "They measure image quality and output diversity together",
+    "They determine GPU utilization",
+    "They replace the discriminator",
+    "They reduce model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Precision measures sample quality, while recall measures how much of the real data distribution is covered.",
+  "points": 20,
+  "tags": ["precision","recall","evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "What does the Fréchet Inception Distance (FID) measure?",
+  "options": [
+    "Similarity between real and generated image distributions",
+    "Training speed",
+    "Model size",
+    "GPU memory usage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "FID compares feature distributions extracted by an Inception network. Lower FID scores generally indicate better image quality.",
+  "points": 20,
+  "tags": ["fid","evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "The Inception Score (IS) primarily evaluates:",
+  "options": [
+    "Image quality and class diversity",
+    "Training loss",
+    "GPU efficiency",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Inception Score measures whether generated images are meaningful and diverse using an Inception classifier.",
+  "points": 20,
+  "tags": ["inception-score","evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "In GAN evaluation, precision primarily measures:",
+  "options": [
+    "How realistic the generated samples are",
+    "How quickly the model trains",
+    "The number of generated images",
+    "The amount of GPU memory used"
+  ],
+  "correctAnswer": 0,
+  "explanation": "High precision indicates that generated samples closely resemble real data without many unrealistic outputs.",
+  "points": 20,
+  "tags": ["precision","evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "In GAN evaluation, recall primarily measures:",
+  "options": [
+    "How much of the real data distribution the generator can reproduce",
+    "The model's training speed",
+    "The discriminator accuracy",
+    "The batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "High recall means the generator produces diverse samples that cover many modes of the real dataset.",
+  "points": 20,
+  "tags": ["recall","evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "gans",
+  "difficulty": "medium",
+  "question": "Why is evaluating GANs considered challenging?",
+  "options": [
+    "No single metric fully captures both image quality and diversity",
+    "GANs cannot generate images",
+    "GANs always achieve perfect results",
+    "Evaluation requires no real dataset"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Metrics such as FID, IS, precision, and recall each measure different aspects of GAN performance, so multiple metrics are often used together.",
+  "points": 20,
+  "tags": ["evaluation","fid","inception-score"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "What was the primary contribution of DCGAN?",
+  "options": [
+    "Using convolutional neural networks for stable GAN training",
+    "Introducing transformers into GANs",
+    "Replacing the discriminator with an autoencoder",
+    "Eliminating latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DCGAN introduced architectural guidelines using convolutional layers, significantly improving GAN stability and image quality.",
+  "points": 30,
+  "tags": ["dcgan","cnn"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "What is the main idea behind a Conditional GAN (CGAN)?",
+  "options": [
+    "Generate data conditioned on additional information such as labels",
+    "Train without a discriminator",
+    "Use reinforcement learning",
+    "Replace CNNs with RNNs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Conditional GANs use labels or other information to control the generated output.",
+  "points": 30,
+  "tags": ["cgan","conditional-gan"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "Pix2Pix is primarily designed for:",
+  "options": [
+    "Paired image-to-image translation",
+    "Text generation",
+    "Speech synthesis",
+    "Object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Pix2Pix learns mappings between paired input and target images, such as sketches to photographs.",
+  "points": 30,
+  "tags": ["pix2pix","image-translation"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "CycleGAN is mainly used for:",
+  "options": [
+    "Unpaired image-to-image translation",
+    "Language translation",
+    "Image classification",
+    "Video compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CycleGAN performs image translation without requiring paired training images by enforcing cycle consistency.",
+  "points": 30,
+  "tags": ["cyclegan","image-translation"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "StyleGAN is best known for generating:",
+  "options": [
+    "High-quality realistic human faces",
+    "Audio waveforms",
+    "Time-series data",
+    "SQL queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "StyleGAN became famous for producing highly realistic face images with controllable styles.",
+  "points": 30,
+  "tags": ["stylegan","faces"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "StyleGAN2 primarily improved:",
+  "options": [
+    "Image quality and reduction of visual artifacts",
+    "Database indexing",
+    "Training labels",
+    "GPU drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "StyleGAN2 refined the architecture to reduce artifacts and improve realism.",
+  "points": 30,
+  "tags": ["stylegan2"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "One major goal of StyleGAN3 was to:",
+  "options": [
+    "Reduce texture sticking and improve transformation consistency",
+    "Replace GANs with diffusion models",
+    "Generate only grayscale images",
+    "Support only text generation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "StyleGAN3 introduced alias-free generation, reducing texture sticking during image transformations.",
+  "points": 30,
+  "tags": ["stylegan3","alias-free"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "SRGAN is designed for:",
+  "options": [
+    "Single-image super-resolution",
+    "Image segmentation",
+    "Image classification",
+    "Pose estimation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SRGAN enhances low-resolution images to produce higher-resolution outputs.",
+  "points": 30,
+  "tags": ["srgan","super-resolution"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "ESRGAN improved upon SRGAN by:",
+  "options": [
+    "Producing sharper and more realistic super-resolved images",
+    "Removing the generator",
+    "Using reinforcement learning",
+    "Generating videos only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ESRGAN introduced architectural improvements that significantly enhanced perceptual image quality.",
+  "points": 30,
+  "tags": ["esrgan","super-resolution"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "Progressive GAN (ProGAN) trains by:",
+  "options": [
+    "Gradually increasing image resolution during training",
+    "Using progressively larger datasets",
+    "Adding more discriminators",
+    "Training only the generator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ProGAN begins with low-resolution images and progressively adds layers for higher resolutions.",
+  "points": 30,
+  "tags": ["progan","progressive-growing"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "BigGAN is particularly known for:",
+  "options": [
+    "Large-scale class-conditional image generation",
+    "Image segmentation",
+    "Speech recognition",
+    "Object tracking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BigGAN demonstrated high-quality class-conditional image generation on ImageNet.",
+  "points": 30,
+  "tags": ["biggan","imagenet"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "GauGAN is widely used for:",
+  "options": [
+    "Generating realistic images from semantic segmentation maps",
+    "Face recognition",
+    "Image compression",
+    "Medical diagnosis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GauGAN converts semantic layouts into realistic images using conditional GAN techniques.",
+  "points": 30,
+  "tags": ["gaugan","semantic-segmentation"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "SPADE is primarily used to:",
+  "options": [
+    "Inject semantic information into image generation networks",
+    "Compress latent vectors",
+    "Replace convolution layers",
+    "Optimize GAN evaluation metrics"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SPADE (Spatially-Adaptive Normalization) conditions image generation using semantic segmentation maps.",
+  "points": 30,
+  "tags": ["spade","conditional-gan"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "What is the primary purpose of StarGAN?",
+  "options": [
+    "Multi-domain image-to-image translation using a single model",
+    "Image classification",
+    "Object detection",
+    "Video compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "StarGAN enables image translation across multiple domains, such as changing hair color, age, or facial expressions, using one generator and one discriminator.",
+  "points": 30,
+  "tags": ["stargan","image-translation"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "What improvement does StarGAN v2 introduce?",
+  "options": [
+    "More diverse and controllable image generation using style codes",
+    "Replaces GANs with diffusion models",
+    "Uses only grayscale images",
+    "Removes the discriminator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "StarGAN v2 introduces style encoding and style diversification to produce more realistic and varied outputs.",
+  "points": 30,
+  "tags": ["stargan-v2","style-transfer"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "InfoGAN extends GANs by maximizing:",
+  "options": [
+    "Mutual information between latent codes and generated outputs",
+    "Image resolution",
+    "Training speed",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "InfoGAN learns interpretable latent representations by maximizing mutual information between latent variables and generated samples.",
+  "points": 30,
+  "tags": ["infogan","latent-space"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "LAPGAN generates images by:",
+  "options": [
+    "Building images progressively using a Laplacian pyramid",
+    "Using recurrent neural networks",
+    "Generating text tokens",
+    "Training without latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LAPGAN synthesizes images at multiple resolutions using a Laplacian pyramid framework.",
+  "points": 30,
+  "tags": ["lapgan","image-generation"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "StackGAN is primarily designed for:",
+  "options": [
+    "High-quality text-to-image generation using multiple stages",
+    "Image segmentation",
+    "Speech recognition",
+    "Medical diagnosis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "StackGAN generates images in multiple stages, progressively refining image quality from text descriptions.",
+  "points": 30,
+  "tags": ["stackgan","text-to-image"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "AttnGAN improves text-to-image synthesis by using:",
+  "options": [
+    "Attention mechanisms between words and image regions",
+    "Decision trees",
+    "Graph databases",
+    "Support vector machines"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AttnGAN aligns individual words with corresponding image regions using attention mechanisms.",
+  "points": 30,
+  "tags": ["attngan","attention","text-to-image"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "Taming Transformers combines Transformers with:",
+  "options": [
+    "Vector-quantized image representations",
+    "Decision trees",
+    "RNNs",
+    "Graph neural networks"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Taming Transformers uses vector-quantized latent representations together with Transformers for high-resolution image synthesis.",
+  "points": 30,
+  "tags": ["taming-transformers","vq"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "What does VQGAN use to represent images efficiently?",
+  "options": [
+    "A discrete vector-quantized latent space",
+    "Only convolution filters",
+    "Binary decision trees",
+    "Sparse matrices"
+  ],
+  "correctAnswer": 0,
+  "explanation": "VQGAN compresses images into discrete latent codes that enable efficient high-quality generation.",
+  "points": 30,
+  "tags": ["vqgan","vector-quantization"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "The VQGAN + CLIP pipeline became popular because it:",
+  "options": [
+    "Guided image generation using text prompts",
+    "Improved database indexing",
+    "Compressed videos",
+    "Performed speech recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CLIP provides text-image guidance while VQGAN generates images matching the prompt.",
+  "points": 30,
+  "tags": ["vqgan","clip","text-to-image"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "What is unique about SinGAN?",
+  "options": [
+    "It learns to generate diverse images from a single training image",
+    "It requires millions of images",
+    "It only generates videos",
+    "It performs object detection"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SinGAN trains on a single image and learns its internal statistics to generate new variations.",
+  "points": 30,
+  "tags": ["singan","single-image"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "AnimeGAN is primarily designed to:",
+  "options": [
+    "Convert real photographs into anime-style artwork",
+    "Generate medical scans",
+    "Detect faces",
+    "Perform OCR"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AnimeGAN specializes in transforming real-world images into anime-style illustrations.",
+  "points": 30,
+  "tags": ["animegan","style-transfer"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "gans",
+  "difficulty": "hard",
+  "question": "CartoonGAN is mainly used for:",
+  "options": [
+    "Transforming photographs into cartoon-style images",
+    "Speech synthesis",
+    "Language translation",
+    "Object tracking"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CartoonGAN learns artistic cartoon styles and applies them to real photographs.",
+  "points": 30,
+  "tags": ["cartoongan","style-transfer"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "What is GAN inversion?",
+  "options": [
+    "Finding a latent vector that reconstructs a given image",
+    "Reversing the discriminator weights",
+    "Converting a GAN into a CNN",
+    "Training the generator backwards"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GAN inversion maps a real image into the GAN's latent space so it can be reconstructed and edited.",
+  "points": 40,
+  "tags": ["gan-inversion","latent-space"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Latent manipulation refers to:",
+  "options": [
+    "Modifying latent vectors to control generated image attributes",
+    "Compressing the latent space",
+    "Deleting generator weights",
+    "Training multiple discriminators"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Changing latent vectors allows attributes such as age, smile, hairstyle, or lighting to be edited.",
+  "points": 40,
+  "tags": ["latent-manipulation","editing"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Style mixing in StyleGAN allows:",
+  "options": [
+    "Combining styles from multiple latent codes into one image",
+    "Mixing two datasets together",
+    "Training multiple generators simultaneously",
+    "Combining GANs with CNNs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Different latent codes can control different image attributes, enabling style mixing across layers.",
+  "points": 40,
+  "tags": ["stylegan","style-mixing"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "What is the truncation trick in StyleGAN?",
+  "options": [
+    "Restricting latent vectors to improve image quality while reducing diversity",
+    "Reducing the number of generator layers",
+    "Removing the discriminator",
+    "Compressing image files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The truncation trick produces higher-quality images by sampling closer to the latent distribution mean.",
+  "points": 40,
+  "tags": ["truncation-trick","stylegan"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Adaptive Discriminator Augmentation (ADA) is mainly used to:",
+  "options": [
+    "Improve GAN training on limited datasets using adaptive augmentations",
+    "Replace the generator",
+    "Increase image resolution",
+    "Reduce batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ADA dynamically adjusts image augmentations to prevent discriminator overfitting on small datasets.",
+  "points": 40,
+  "tags": ["ada","augmentation"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "DiffAugment differs from traditional augmentation because it:",
+  "options": [
+    "Applies differentiable augmentations during GAN training",
+    "Uses only offline preprocessing",
+    "Removes data augmentation entirely",
+    "Works only with grayscale images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DiffAugment applies differentiable transformations directly during training, improving performance with limited data.",
+  "points": 40,
+  "tags": ["diffaugment","augmentation"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Compared with traditional GANs, DreamBooth primarily focuses on:",
+  "options": [
+    "Personalizing diffusion models using a few subject images",
+    "Improving GAN discriminator accuracy",
+    "Reducing GAN training time",
+    "Generating latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DreamBooth is a fine-tuning technique for diffusion models rather than a GAN architecture.",
+  "points": 40,
+  "tags": ["dreambooth","diffusion"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Compared with GANs, diffusion models generally:",
+  "options": [
+    "Produce higher image quality but require slower inference",
+    "Require no training",
+    "Generate images instantly with no computation",
+    "Always use less GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern diffusion models often achieve superior image quality but require multiple denoising steps during generation.",
+  "points": 40,
+  "tags": ["gan-vs-diffusion","comparison"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "A major difference between GANs and VAEs is that:",
+  "options": [
+    "VAEs explicitly learn a probabilistic latent distribution",
+    "GANs cannot generate images",
+    "VAEs require no encoder",
+    "GANs use no latent space"
+  ],
+  "correctAnswer": 0,
+  "explanation": "VAEs model latent probability distributions, whereas GANs learn generation through adversarial training.",
+  "points": 40,
+  "tags": ["gan-vs-vae","vae"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Autoregressive image models differ from GANs because they:",
+  "options": [
+    "Generate data one element at a time",
+    "Require no neural networks",
+    "Use only convolution layers",
+    "Never use latent variables"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Autoregressive models generate outputs sequentially, whereas GANs generate samples in a single forward pass.",
+  "points": 40,
+  "tags": ["autoregressive","comparison"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "GAN compression techniques are primarily intended to:",
+  "options": [
+    "Reduce model size while maintaining generation quality",
+    "Increase training data",
+    "Replace the discriminator",
+    "Generate larger latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Compression methods such as pruning, quantization, and knowledge distillation help deploy GANs efficiently.",
+  "points": 40,
+  "tags": ["compression","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Why are GAN models often exported to ONNX?",
+  "options": [
+    "To enable interoperability across different inference frameworks",
+    "To improve dataset quality",
+    "To replace CUDA",
+    "To increase training accuracy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX provides a common model format that can be executed by many inference engines.",
+  "points": 40,
+  "tags": ["onnx","deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "TensorRT is primarily used to:",
+  "options": [
+    "Optimize GAN inference on NVIDIA GPUs",
+    "Train GANs without datasets",
+    "Replace the generator",
+    "Convert GANs into transformers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT performs graph optimization, precision reduction, and kernel fusion for faster GPU inference.",
+  "points": 40,
+  "tags": ["tensorrt","deployment","inference"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "What is the primary goal of deploying GANs on edge devices?",
+  "options": [
+    "Run image generation locally with low latency and reduced cloud dependency",
+    "Increase the model's parameter count",
+    "Replace the generator with a CPU",
+    "Train larger GANs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Edge deployment enables GAN inference on devices such as smartphones, embedded systems, and IoT hardware with minimal latency.",
+  "points": 40,
+  "tags": ["edge-deployment","inference"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Video GANs are primarily designed to generate:",
+  "options": [
+    "Temporally consistent video sequences",
+    "Only still images",
+    "Audio waveforms",
+    "Text documents"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Video GANs model both spatial and temporal information to generate realistic video clips.",
+  "points": 40,
+  "tags": ["video-gan","video-generation"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "3D GANs are commonly used to generate:",
+  "options": [
+    "Three-dimensional objects and shapes",
+    "Database schemas",
+    "Text embeddings",
+    "Speech signals"
+  ],
+  "correctAnswer": 0,
+  "explanation": "3D GANs generate volumetric data, meshes, point clouds, or neural representations of 3D objects.",
+  "points": 40,
+  "tags": ["3d-gan","3d-generation"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Combining NeRF with GANs primarily aims to:",
+  "options": [
+    "Generate realistic novel views of 3D scenes",
+    "Improve SQL database performance",
+    "Compress images without loss",
+    "Replace latent vectors"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NeRF-GAN approaches combine neural radiance fields with adversarial learning for high-quality 3D scene generation and rendering.",
+  "points": 40,
+  "tags": ["nerf","3d","gan"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Which is a common application of GANs in medical imaging?",
+  "options": [
+    "Generating synthetic medical images for data augmentation",
+    "Replacing MRI scanners",
+    "Performing surgery autonomously",
+    "Creating hospital databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs are widely used to generate synthetic CT, MRI, and X-ray images to improve training datasets while preserving patient privacy.",
+  "points": 40,
+  "tags": ["medical-imaging","augmentation"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Deepfake technology is most commonly based on:",
+  "options": [
+    "Generative models such as GANs and related architectures",
+    "Decision trees",
+    "Support Vector Machines",
+    "Naive Bayes classifiers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Many early deepfake systems relied on GANs, while modern systems may also use diffusion models and autoencoders.",
+  "points": 40,
+  "tags": ["deepfake","generative-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "A major ethical concern associated with GANs is:",
+  "options": [
+    "The creation of misleading or deceptive synthetic content",
+    "Excessive database indexing",
+    "Increasing internet speed",
+    "Reducing GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GAN-generated media can be misused for misinformation, impersonation, and other deceptive purposes.",
+  "points": 40,
+  "tags": ["ethics","deepfake"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "A copyright concern related to GAN-generated content is:",
+  "options": [
+    "Generated outputs may resemble or derive from copyrighted training material",
+    "GANs cannot generate original content",
+    "Copyright applies only to datasets",
+    "GANs automatically remove copyrighted material"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Questions remain about ownership, licensing, and whether generated content infringes upon copyrighted works used during training.",
+  "points": 40,
+  "tags": ["copyright","legal"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Bias in GAN-generated outputs is often caused by:",
+  "options": [
+    "Biases present in the training dataset",
+    "Using convolution layers",
+    "Having too many GPUs",
+    "Using Adam optimizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs learn patterns from their training data, including unwanted demographic or societal biases.",
+  "points": 40,
+  "tags": ["bias","fairness"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "What is a likely future direction for GAN research?",
+  "options": [
+    "Developing more efficient, controllable, and higher-quality generative models",
+    "Replacing all machine learning algorithms",
+    "Removing neural networks completely",
+    "Training without data"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Current research focuses on improving controllability, efficiency, realism, and integrating GANs with other generative techniques.",
+  "points": 40,
+  "tags": ["future","research"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "Which of the following is a modern real-world application of GANs?",
+  "options": [
+    "Image editing, super-resolution, data augmentation, and content generation",
+    "Spreadsheet formatting only",
+    "Database normalization only",
+    "Sorting numerical arrays"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs are widely used in creative AI, healthcare, computer vision, entertainment, and scientific data augmentation.",
+  "points": 40,
+  "tags": ["applications","computer-vision"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "gans",
+  "difficulty": "expert",
+  "question": "GANs are generally the best choice when the goal is to:",
+  "options": [
+    "Generate realistic synthetic data quickly after training",
+    "Perform relational database queries",
+    "Execute reinforcement learning policies",
+    "Sort large datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GANs excel at producing realistic synthetic images and other data types with fast inference, making them valuable for image synthesis, augmentation, and creative applications.",
+  "points": 40,
+  "tags": ["best-use-cases","generative-ai","gan"]
+  ,
+  "timeLimit": 75
+}
+]

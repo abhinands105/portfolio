@@ -1,0 +1,123 @@
+:root{
+  --bg:#050510;
+  --card:#0d1020;
+
+  --purple:#9d4edd;
+  --purple2:#c77dff;
+  --purpleDark:#5a189a;
+
+  --text:#ffffff;
+  --muted:#b5b5b5;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+html,
+body,
+#root{
+  min-height:100%;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:Inter,Arial,sans-serif;
+  overflow-x:hidden;
+}
+
+/* ---------------- Global ---------------- */
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+button{
+  cursor:pointer;
+  transition:.3s ease;
+}
+
+button:hover{
+  transform:translateY(-2px);
+}
+
+/* ---------------- Scrollbar ---------------- */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#050510;
+}
+
+::-webkit-scrollbar-thumb{
+  background:var(--purple);
+  border-radius:999px;
+}
+
+/* ---------------- Glass ---------------- */
+
+.glass{
+  background:rgba(255,255,255,.03);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+}
+
+/* ---------------- Neon ---------------- */
+
+.neon-border{
+  border:1px solid rgba(157,78,221,.25);
+
+  box-shadow:
+      0 0 20px rgba(157,78,221,.15),
+      inset 0 0 15px rgba(157,78,221,.05);
+}
+
+/* ---------------- Gradient ---------------- */
+
+.gradient-text{
+  background:linear-gradient(
+      90deg,
+      #7b2cbf,
+      #c77dff,
+      #9d4edd
+  );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* ---------------- Animations ---------------- */
+
+@keyframes fadeIn{
+
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+.fade-in{
+  animation:fadeIn .6s ease forwards;
+}

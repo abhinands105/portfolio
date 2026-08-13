@@ -1,0 +1,1703 @@
+[
+{
+  "id": 1,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Reinforcement Learning (RL) is a type of machine learning where an agent learns by:",
+  "options": [
+    "Interacting with an environment",
+    "Reading labeled datasets",
+    "Clustering similar data",
+    "Performing database queries"
+  ],
+  "correctAnswer": 0,
+  "explanation": "In reinforcement learning, an agent learns by interacting with its environment and receiving rewards.",
+  "points": 10,
+  "tags": ["basics"],
+  "timeLimit": 30
+},
+{
+  "id": 2,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The learner in Reinforcement Learning is called the:",
+  "options": [
+    "Agent",
+    "Teacher",
+    "Classifier",
+    "Optimizer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The agent interacts with the environment to maximize cumulative reward.",
+  "points": 10,
+  "tags": ["agent"],
+  "timeLimit": 30
+},
+{
+  "id": 3,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The world in which an RL agent operates is called the:",
+  "options": [
+    "Environment",
+    "Dataset",
+    "Framework",
+    "Repository"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The environment provides observations and rewards based on the agent's actions.",
+  "points": 10,
+  "tags": ["environment"],
+  "timeLimit": 30
+},
+{
+  "id": 4,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "An action in Reinforcement Learning is:",
+  "options": [
+    "A decision made by the agent",
+    "A training dataset",
+    "A neural network",
+    "A programming language"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The agent selects actions that influence the environment.",
+  "points": 10,
+  "tags": ["action"],
+  "timeLimit": 30
+},
+{
+  "id": 5,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "A reward represents:",
+  "options": [
+    "Feedback from the environment",
+    "The training dataset",
+    "A model parameter",
+    "The learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rewards tell the agent how good or bad its actions are.",
+  "points": 10,
+  "tags": ["reward"],
+  "timeLimit": 30
+},
+{
+  "id": 6,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The main objective of an RL agent is to:",
+  "options": [
+    "Maximize cumulative reward",
+    "Minimize dataset size",
+    "Reduce RAM usage",
+    "Increase epochs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The goal is to achieve the highest possible long-term reward.",
+  "points": 10,
+  "tags": ["objective"],
+  "timeLimit": 30
+},
+{
+  "id": 7,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The current situation of an environment is called the:",
+  "options": [
+    "State",
+    "Reward",
+    "Policy",
+    "Episode"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A state describes the current condition of the environment.",
+  "points": 10,
+  "tags": ["state"],
+  "timeLimit": 30
+},
+{
+  "id": 8,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The mapping from states to actions is called a:",
+  "options": [
+    "Policy",
+    "Gradient",
+    "Dataset",
+    "Kernel"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A policy determines which action the agent takes in each state.",
+  "points": 10,
+  "tags": ["policy"],
+  "timeLimit": 30
+},
+{
+  "id": 9,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "One complete interaction from start to terminal state is called an:",
+  "options": [
+    "Episode",
+    "Epoch",
+    "Iteration",
+    "Batch"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An episode consists of a complete sequence of states and actions.",
+  "points": 10,
+  "tags": ["episode"],
+  "timeLimit": 30
+},
+{
+  "id": 10,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "A terminal state means:",
+  "options": [
+    "The episode has ended",
+    "Training has started",
+    "The model is saved",
+    "The GPU is disconnected"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A terminal state marks the end of an episode.",
+  "points": 10,
+  "tags": ["terminal-state"],
+  "timeLimit": 30
+},
+{
+  "id": 11,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Which famous game was mastered using Deep Reinforcement Learning by DeepMind?",
+  "options": [
+    "Go",
+    "Chess960",
+    "Poker Dice",
+    "Sudoku"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AlphaGo demonstrated the power of deep reinforcement learning.",
+  "points": 10,
+  "tags": ["alphago"],
+  "timeLimit": 30
+},
+{
+  "id": 12,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Which company developed AlphaGo?",
+  "options": [
+    "DeepMind",
+    "Meta",
+    "OpenAI",
+    "Apple"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DeepMind developed AlphaGo, AlphaZero, and related systems.",
+  "points": 10,
+  "tags": ["deepmind"],
+  "timeLimit": 30
+},
+{
+  "id": 13,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "RL is especially useful for:",
+  "options": [
+    "Sequential decision making",
+    "Sorting numbers",
+    "Compiling programs",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL is designed for problems where decisions affect future outcomes.",
+  "points": 10,
+  "tags": ["applications"],
+  "timeLimit": 30
+},
+{
+  "id": 14,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Which of these is a common RL application?",
+  "options": [
+    "Robot control",
+    "Word processing",
+    "Spreadsheet editing",
+    "PDF compression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Robotics is a major application area of reinforcement learning.",
+  "points": 10,
+  "tags": ["robotics"],
+  "timeLimit": 30
+},
+{
+  "id": 15,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Which field commonly combines RL with robotics?",
+  "options": [
+    "Control systems",
+    "Accounting",
+    "Networking",
+    "Web design"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL enables robots to learn control policies through experience.",
+  "points": 10,
+  "tags": ["robotics"],
+  "timeLimit": 30
+},
+{
+  "id": 16,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "In RL, learning usually happens through:",
+  "options": [
+    "Trial and error",
+    "Memorizing labels",
+    "Database joins",
+    "Hard-coded rules"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agents improve through repeated interaction and feedback.",
+  "points": 10,
+  "tags": ["learning"],
+  "timeLimit": 30
+},
+{
+  "id": 17,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Which learning paradigm requires labeled data?",
+  "options": [
+    "Supervised learning",
+    "Reinforcement learning",
+    "Unsupervised learning",
+    "Self-play"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Supervised learning depends on labeled examples, unlike RL.",
+  "points": 10,
+  "tags": ["comparison"],
+  "timeLimit": 30
+},
+{
+  "id": 18,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Reinforcement learning differs from supervised learning because it learns from:",
+  "options": [
+    "Rewards instead of labels",
+    "Only images",
+    "Databases",
+    "CSV files"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL learns through rewards rather than labeled outputs.",
+  "points": 10,
+  "tags": ["comparison"],
+  "timeLimit": 30
+},
+{
+  "id": 19,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The signal telling an agent how well it performed is called:",
+  "options": [
+    "Reward",
+    "Policy",
+    "State",
+    "Action"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reward measures the desirability of an action.",
+  "points": 10,
+  "tags": ["reward"],
+  "timeLimit": 30
+},
+{
+  "id": 20,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The sequence State → Action → Reward is repeated during:",
+  "options": [
+    "Agent-environment interaction",
+    "Model deployment",
+    "Dataset labeling",
+    "Package installation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Learning occurs through repeated interactions with the environment.",
+  "points": 10,
+  "tags": ["interaction"],
+  "timeLimit": 30
+},
+{
+  "id": 21,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Which type of reward encourages an agent to repeat an action?",
+  "options": [
+    "Positive reward",
+    "Negative reward",
+    "Zero reward",
+    "Random reward"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Positive rewards reinforce desirable actions.",
+  "points": 10,
+  "tags": ["positive-reward"],
+  "timeLimit": 30
+},
+{
+  "id": 22,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Negative rewards are often called:",
+  "options": [
+    "Penalties",
+    "Bonuses",
+    "Labels",
+    "Features"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Penalties discourage undesirable actions.",
+  "points": 10,
+  "tags": ["penalty"],
+  "timeLimit": 30
+},
+{
+  "id": 23,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "Which famous OpenAI project demonstrated RL by playing Dota 2?",
+  "options": [
+    "OpenAI Five",
+    "GPT-4",
+    "CLIP",
+    "Whisper"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenAI Five used reinforcement learning to play Dota 2.",
+  "points": 10,
+  "tags": ["openai-five"],
+  "timeLimit": 30
+},
+{
+  "id": 24,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "An RL environment provides the agent with:",
+  "options": [
+    "States and rewards",
+    "Only labels",
+    "Only datasets",
+    "Only source code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The environment returns observations and rewards after each action.",
+  "points": 10,
+  "tags": ["environment"],
+  "timeLimit": 30
+},
+{
+  "id": 25,
+  "category": "reinforcement-learning",
+  "difficulty": "easy",
+  "question": "The goal of reinforcement learning is best summarized as:",
+  "options": [
+    "Learning the best sequence of actions through interaction",
+    "Finding duplicate files",
+    "Compressing datasets",
+    "Training only image classifiers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL learns policies that maximize long-term cumulative rewards.",
+  "points": 10,
+  "tags": ["goal"],
+  "timeLimit": 30
+},
+{
+  "id": 26,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "MDP stands for:",
+  "options": [
+    "Markov Decision Process",
+    "Machine Decision Program",
+    "Model Data Pipeline",
+    "Markov Distribution Policy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An MDP provides the mathematical framework for reinforcement learning problems.",
+  "points": 20,
+  "tags": ["mdp"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "A Markov Decision Process consists of states, actions, rewards, and:",
+  "options": [
+    "Transition probabilities",
+    "Datasets",
+    "Decision trees",
+    "Activation functions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Transition probabilities describe how actions move the agent between states.",
+  "points": 20,
+  "tags": ["mdp"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "The Markov property states that the future depends only on:",
+  "options": [
+    "The current state",
+    "The entire history",
+    "The reward only",
+    "The first action"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The Markov assumption states that the current state contains all relevant information.",
+  "points": 20,
+  "tags": ["markov"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "The transition probability represents:",
+  "options": [
+    "The likelihood of moving to the next state",
+    "The learning rate",
+    "The optimizer value",
+    "The reward function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "It specifies the probability of reaching a new state after taking an action.",
+  "points": 20,
+  "tags": ["transition"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "The discount factor is commonly represented by:",
+  "options": [
+    "γ (gamma)",
+    "α (alpha)",
+    "β (beta)",
+    "λ (lambda)"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gamma controls the importance of future rewards.",
+  "points": 20,
+  "tags": ["gamma"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "A discount factor close to 1 means the agent:",
+  "options": [
+    "Values future rewards highly",
+    "Ignores future rewards",
+    "Stops learning",
+    "Always explores"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher gamma encourages long-term planning.",
+  "points": 20,
+  "tags": ["discount-factor"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "The return in reinforcement learning is:",
+  "options": [
+    "The cumulative discounted reward",
+    "The current reward only",
+    "The loss function",
+    "The policy value"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Return is the total discounted reward accumulated over time.",
+  "points": 20,
+  "tags": ["return"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "A state-value function is commonly written as:",
+  "options": [
+    "V(s)",
+    "Q(s,a)",
+    "R(s)",
+    "π(s)"
+  ],
+  "correctAnswer": 0,
+  "explanation": "V(s) estimates the expected return from a state.",
+  "points": 20,
+  "tags": ["value-function"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "The action-value function is represented as:",
+  "options": [
+    "Q(s,a)",
+    "V(s)",
+    "R(a)",
+    "P(s)"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Q-values estimate the expected return for a state-action pair.",
+  "points": 20,
+  "tags": ["q-value"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "The Bellman equation is mainly used to:",
+  "options": [
+    "Relate current and future value estimates",
+    "Create neural networks",
+    "Normalize rewards",
+    "Shuffle datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Bellman equations recursively define optimal value functions.",
+  "points": 20,
+  "tags": ["bellman"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "The exploration-exploitation dilemma refers to:",
+  "options": [
+    "Choosing between trying new actions and using known good actions",
+    "Selecting datasets",
+    "Increasing batch size",
+    "Optimizing GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL agents must balance discovering new strategies and exploiting existing knowledge.",
+  "points": 20,
+  "tags": ["exploration"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Which strategy randomly explores with probability ε?",
+  "options": [
+    "ε-greedy",
+    "Greedy search",
+    "Beam search",
+    "DFS"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The ε-greedy policy explores randomly with probability ε.",
+  "points": 20,
+  "tags": ["epsilon-greedy"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "When ε = 0 in ε-greedy, the agent:",
+  "options": [
+    "Always exploits",
+    "Always explores",
+    "Stops learning",
+    "Chooses random actions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "With ε = 0, only the best-known action is selected.",
+  "points": 20,
+  "tags": ["epsilon-greedy"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Dynamic Programming requires:",
+  "options": [
+    "A complete model of the environment",
+    "A neural network",
+    "A replay buffer",
+    "No environment model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dynamic Programming assumes the transition model is known.",
+  "points": 20,
+  "tags": ["dynamic-programming"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Monte Carlo methods learn from:",
+  "options": [
+    "Complete episodes",
+    "Single transitions only",
+    "Static datasets",
+    "Random labels"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Monte Carlo methods estimate returns after an episode finishes.",
+  "points": 20,
+  "tags": ["monte-carlo"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Temporal Difference (TD) learning updates values:",
+  "options": [
+    "Before an episode finishes",
+    "Only after complete episodes",
+    "Only at terminal states",
+    "Without rewards"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TD methods learn incrementally from partial experience.",
+  "points": 20,
+  "tags": ["td-learning"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Which algorithm combines Monte Carlo ideas with Dynamic Programming?",
+  "options": [
+    "Temporal Difference Learning",
+    "Backpropagation",
+    "K-Means",
+    "Naive Bayes"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TD learning updates estimates using other learned estimates.",
+  "points": 20,
+  "tags": ["td-learning"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "SARSA is classified as a:",
+  "options": [
+    "On-policy algorithm",
+    "Off-policy algorithm",
+    "Supervised algorithm",
+    "Unsupervised algorithm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SARSA updates values using the action actually selected by the current policy.",
+  "points": 20,
+  "tags": ["sarsa"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Q-Learning is considered a:",
+  "options": [
+    "Off-policy algorithm",
+    "On-policy algorithm",
+    "Supervised algorithm",
+    "Model-based algorithm"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Q-Learning learns the optimal policy independently of the agent's behaviour.",
+  "points": 20,
+  "tags": ["q-learning"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Which algorithm usually updates using the maximum future Q-value?",
+  "options": [
+    "Q-Learning",
+    "SARSA",
+    "Monte Carlo",
+    "Policy Gradient"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Q-Learning uses the maximum estimated future action value.",
+  "points": 20,
+  "tags": ["q-learning"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Policy evaluation estimates:",
+  "options": [
+    "The value of following a policy",
+    "The reward function only",
+    "The learning rate",
+    "The replay buffer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Policy evaluation computes the expected return of a policy.",
+  "points": 20,
+  "tags": ["policy-evaluation"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Policy improvement aims to:",
+  "options": [
+    "Produce a better policy using value estimates",
+    "Reduce dataset size",
+    "Increase RAM",
+    "Normalize rewards"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Policy improvement creates improved action choices from evaluated policies.",
+  "points": 20,
+  "tags": ["policy-improvement"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Policy Iteration alternates between:",
+  "options": [
+    "Policy evaluation and policy improvement",
+    "Training and testing",
+    "Exploration and deployment",
+    "Sampling and pruning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Policy Iteration repeatedly evaluates and improves policies until convergence.",
+  "points": 20,
+  "tags": ["policy-iteration"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Value Iteration repeatedly applies:",
+  "options": [
+    "The Bellman optimality update",
+    "Gradient descent",
+    "Backpropagation",
+    "Replay sampling"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Value Iteration directly computes optimal state values using Bellman updates.",
+  "points": 20,
+  "tags": ["value-iteration"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "reinforcement-learning",
+  "difficulty": "medium",
+  "question": "Gridworld is commonly used in reinforcement learning because it:",
+  "options": [
+    "Provides a simple environment for testing RL algorithms",
+    "Requires large GPUs",
+    "Needs labeled datasets",
+    "Is used only for image classification"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gridworld is a classic benchmark for demonstrating reinforcement learning concepts.",
+  "points": 20,
+  "tags": ["gridworld"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Deep Reinforcement Learning combines reinforcement learning with:",
+  "options": [
+    "Deep neural networks",
+    "Decision trees",
+    "Linear regression",
+    "K-means clustering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deep RL uses neural networks to approximate value functions or policies.",
+  "points": 30,
+  "tags": ["deep-rl"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Deep Q-Network (DQN) was introduced to solve:",
+  "options": [
+    "Large state-space problems",
+    "SQL optimization",
+    "Sorting algorithms",
+    "Database indexing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DQN replaces Q-tables with deep neural networks for complex environments.",
+  "points": 30,
+  "tags": ["dqn"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "In DQN, the neural network approximates the:",
+  "options": [
+    "Q-value function",
+    "Reward function",
+    "Transition matrix",
+    "Loss function"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The network predicts Q-values for different actions in a given state.",
+  "points": 30,
+  "tags": ["q-network"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Experience Replay improves training by:",
+  "options": [
+    "Randomly sampling past experiences",
+    "Increasing rewards",
+    "Reducing batch size",
+    "Removing exploration"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Replay buffers reduce correlation between consecutive experiences.",
+  "points": 30,
+  "tags": ["experience-replay"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "The replay buffer stores:",
+  "options": [
+    "Past state-action-reward transitions",
+    "Only rewards",
+    "Only actions",
+    "Only model weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Replay memory stores experiences for later training.",
+  "points": 30,
+  "tags": ["replay-buffer"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "The purpose of a target network in DQN is to:",
+  "options": [
+    "Stabilize training",
+    "Increase exploration",
+    "Reduce memory usage",
+    "Generate rewards"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A separate target network reduces instability during learning.",
+  "points": 30,
+  "tags": ["target-network"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Double DQN primarily reduces:",
+  "options": [
+    "Q-value overestimation",
+    "Memory usage",
+    "Training data",
+    "Policy size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Double DQN separates action selection from evaluation.",
+  "points": 30,
+  "tags": ["double-dqn"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Dueling DQN separates estimation of:",
+  "options": [
+    "State value and action advantage",
+    "Rewards and actions",
+    "Policies and datasets",
+    "States and observations"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dueling architectures independently estimate value and advantage.",
+  "points": 30,
+  "tags": ["dueling-dqn"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Prioritized Experience Replay samples experiences based on:",
+  "options": [
+    "Their learning importance",
+    "Their age",
+    "Random timestamps",
+    "Episode length"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Important experiences are replayed more frequently.",
+  "points": 30,
+  "tags": ["prioritized-replay"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Policy Gradient methods directly learn:",
+  "options": [
+    "A policy",
+    "A Q-table",
+    "A transition matrix",
+    "A replay buffer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Policy Gradient algorithms optimize policies directly.",
+  "points": 30,
+  "tags": ["policy-gradient"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "REINFORCE is an example of:",
+  "options": [
+    "A policy gradient algorithm",
+    "A value iteration algorithm",
+    "A clustering algorithm",
+    "A supervised learning method"
+  ],
+  "correctAnswer": 0,
+  "explanation": "REINFORCE is one of the earliest policy gradient methods.",
+  "points": 30,
+  "tags": ["reinforce"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Actor-Critic methods combine:",
+  "options": [
+    "Policy and value learning",
+    "CNNs and RNNs",
+    "Decision trees and SVMs",
+    "GANs and VAEs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The actor selects actions while the critic evaluates them.",
+  "points": 30,
+  "tags": ["actor-critic"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "In Actor-Critic methods, the actor is responsible for:",
+  "options": [
+    "Choosing actions",
+    "Computing rewards",
+    "Updating datasets",
+    "Managing replay memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The actor learns the policy used to select actions.",
+  "points": 30,
+  "tags": ["actor"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "The critic estimates:",
+  "options": [
+    "The value of states or actions",
+    "Only rewards",
+    "Only observations",
+    "Only actions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The critic evaluates how good actions or states are.",
+  "points": 30,
+  "tags": ["critic"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Advantage Actor-Critic (A2C) uses the concept of:",
+  "options": [
+    "Advantage estimation",
+    "Replay compression",
+    "Gradient clipping",
+    "Decision forests"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Advantage functions reduce variance in policy updates.",
+  "points": 30,
+  "tags": ["a2c"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "A3C stands for:",
+  "options": [
+    "Asynchronous Advantage Actor-Critic",
+    "Adaptive Advantage Action Control",
+    "Advanced Asynchronous Control",
+    "Automatic Actor Coordination"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A3C trains multiple agents asynchronously.",
+  "points": 30,
+  "tags": ["a3c"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "PPO stands for:",
+  "options": [
+    "Proximal Policy Optimization",
+    "Parallel Policy Operator",
+    "Predictive Policy Optimizer",
+    "Policy Probability Optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PPO is one of the most widely used reinforcement learning algorithms.",
+  "points": 30,
+  "tags": ["ppo"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "PPO is popular because it:",
+  "options": [
+    "Provides stable and efficient policy updates",
+    "Needs no rewards",
+    "Requires no exploration",
+    "Works only for games"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PPO balances performance and implementation simplicity.",
+  "points": 30,
+  "tags": ["ppo"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Continuous action spaces are commonly handled by:",
+  "options": [
+    "DDPG",
+    "Q-Learning",
+    "Value Iteration",
+    "SARSA"
+  ],
+  "correctAnswer": 0,
+  "explanation": "DDPG is designed for continuous control problems.",
+  "points": 30,
+  "tags": ["ddpg"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Twin Delayed Deep Deterministic Policy Gradient is abbreviated as:",
+  "options": [
+    "TD3",
+    "A3C",
+    "TRPO",
+    "SAC2"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TD3 improves DDPG by reducing value overestimation.",
+  "points": 30,
+  "tags": ["td3"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Soft Actor-Critic is abbreviated as:",
+  "options": [
+    "SAC",
+    "SAR",
+    "SAT",
+    "SOC"
+  ],
+  "correctAnswer": 0,
+  "explanation": "SAC is an off-policy algorithm based on maximum entropy reinforcement learning.",
+  "points": 30,
+  "tags": ["sac"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Entropy regularization encourages:",
+  "options": [
+    "Exploration",
+    "Overfitting",
+    "Lower rewards",
+    "Deterministic datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Entropy encourages policies to remain sufficiently exploratory.",
+  "points": 30,
+  "tags": ["entropy"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Which benchmark is widely used for Atari-based Deep RL research?",
+  "options": [
+    "Arcade Learning Environment (ALE)",
+    "ImageNet",
+    "COCO",
+    "MNIST"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ALE provides Atari games for evaluating reinforcement learning algorithms.",
+  "points": 30,
+  "tags": ["ale"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "OpenAI Gym is primarily used to:",
+  "options": [
+    "Provide standardized reinforcement learning environments",
+    "Train CNNs",
+    "Store datasets",
+    "Deploy models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gym offers benchmark environments for reinforcement learning research.",
+  "points": 30,
+  "tags": ["gym"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "reinforcement-learning",
+  "difficulty": "hard",
+  "question": "Gymnasium is best described as:",
+  "options": [
+    "The maintained successor to OpenAI Gym",
+    "A reinforcement learning optimizer",
+    "A neural network library",
+    "A robotics simulator"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gymnasium continues development of the original OpenAI Gym API.",
+  "points": 30,
+  "tags": ["gymnasium"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "MuJoCo is primarily used for:",
+  "options": [
+    "Physics-based robot simulation",
+    "Image classification",
+    "Database management",
+    "Speech recognition"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MuJoCo is a high-performance physics simulator widely used for continuous-control reinforcement learning.",
+  "points": 40,
+  "tags": ["mujoco"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Isaac Gym, developed by NVIDIA, is mainly designed for:",
+  "options": [
+    "GPU-accelerated robot simulation",
+    "Natural language processing",
+    "Web development",
+    "Database optimization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Isaac Gym enables large-scale reinforcement learning simulations directly on GPUs.",
+  "points": 40,
+  "tags": ["isaac-gym"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Unity ML-Agents is primarily used to:",
+  "options": [
+    "Train intelligent agents in Unity environments",
+    "Manage cloud storage",
+    "Build databases",
+    "Perform supervised classification"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Unity ML-Agents provides reinforcement learning environments within the Unity game engine.",
+  "points": 40,
+  "tags": ["unity-ml-agents"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Multi-Agent Reinforcement Learning (MARL) studies:",
+  "options": [
+    "Multiple interacting learning agents",
+    "Multiple neural networks only",
+    "Distributed databases",
+    "Image segmentation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MARL focuses on cooperation and competition among several agents.",
+  "points": 40,
+  "tags": ["marl"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Self-play is a training strategy where:",
+  "options": [
+    "An agent learns by playing against itself",
+    "Humans provide labels",
+    "Two datasets are merged",
+    "Rewards are manually assigned"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Self-play enabled systems like AlphaGo Zero and AlphaZero to reach superhuman performance.",
+  "points": 40,
+  "tags": ["self-play"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "AlphaGo combined deep reinforcement learning with:",
+  "options": [
+    "Monte Carlo Tree Search",
+    "K-Means",
+    "Decision Trees",
+    "Linear Regression"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AlphaGo combined neural networks with Monte Carlo Tree Search (MCTS).",
+  "points": 40,
+  "tags": ["alphago", "mcts"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "AlphaZero differs from AlphaGo because it:",
+  "options": [
+    "Learns entirely through self-play",
+    "Uses supervised learning only",
+    "Requires human demonstrations",
+    "Cannot play chess"
+  ],
+  "correctAnswer": 0,
+  "explanation": "AlphaZero learned without human game records using reinforcement learning and self-play.",
+  "points": 40,
+  "tags": ["alphazero"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "MuZero differs from AlphaZero because it:",
+  "options": [
+    "Learns a model of the environment instead of knowing the rules",
+    "Uses supervised learning",
+    "Requires labeled datasets",
+    "Does not use reinforcement learning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MuZero learns environment dynamics while optimizing its policy.",
+  "points": 40,
+  "tags": ["muzero"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "RLHF stands for:",
+  "options": [
+    "Reinforcement Learning from Human Feedback",
+    "Reinforcement Learning for Hybrid Frameworks",
+    "Recursive Learning with Human Features",
+    "Reward Learning from Hidden Functions"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RLHF aligns AI models using preferences provided by human evaluators.",
+  "points": 40,
+  "tags": ["rlhf"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "In RLHF, human feedback is mainly used to:",
+  "options": [
+    "Train a reward model",
+    "Generate datasets only",
+    "Replace neural networks",
+    "Optimize GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Human preferences are used to train a reward model that guides policy optimization.",
+  "points": 40,
+  "tags": ["reward-model"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Offline Reinforcement Learning learns from:",
+  "options": [
+    "Previously collected datasets without further interaction",
+    "Only online games",
+    "Streaming video",
+    "Cloud storage"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Offline RL trains entirely from fixed datasets of past experience.",
+  "points": 40,
+  "tags": ["offline-rl"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Inverse Reinforcement Learning attempts to recover:",
+  "options": [
+    "The reward function from expert behaviour",
+    "The optimizer",
+    "The neural network architecture",
+    "The replay buffer"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Inverse RL infers the underlying reward function from demonstrations.",
+  "points": 40,
+  "tags": ["inverse-rl"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Model-Based Reinforcement Learning explicitly learns or uses:",
+  "options": [
+    "A model of the environment",
+    "Only replay buffers",
+    "Decision trees",
+    "Image augmentations"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model-based methods use environment dynamics for planning.",
+  "points": 40,
+  "tags": ["model-based-rl"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Safe Reinforcement Learning focuses on:",
+  "options": [
+    "Learning while satisfying safety constraints",
+    "Increasing GPU utilization",
+    "Compressing datasets",
+    "Reducing image resolution"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Safe RL aims to minimize unsafe actions during learning and deployment.",
+  "points": 40,
+  "tags": ["safe-rl"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Which industry commonly uses reinforcement learning for robotic manipulation?",
+  "options": [
+    "Manufacturing",
+    "Publishing",
+    "Accounting",
+    "Word processing"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Industrial robotics frequently uses RL for grasping and manipulation tasks.",
+  "points": 40,
+  "tags": ["robotics"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Reinforcement learning has been explored in autonomous driving for:",
+  "options": [
+    "Decision-making and vehicle control",
+    "Database indexing",
+    "Image compression",
+    "Spreadsheet analysis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL helps autonomous vehicles learn navigation and driving policies.",
+  "points": 40,
+  "tags": ["autonomous-driving"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Financial trading systems may use reinforcement learning to:",
+  "options": [
+    "Optimize sequential trading decisions",
+    "Design web pages",
+    "Create operating systems",
+    "Compile code"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL can optimize long-term investment and trading strategies.",
+  "points": 40,
+  "tags": ["finance"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Recommendation systems can apply reinforcement learning to:",
+  "options": [
+    "Optimize long-term user engagement",
+    "Compress videos",
+    "Translate documents",
+    "Build databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RL considers long-term user satisfaction rather than immediate clicks.",
+  "points": 40,
+  "tags": ["recommendation-systems"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Large Language Models commonly use RLHF to:",
+  "options": [
+    "Align model responses with human preferences",
+    "Generate larger datasets",
+    "Reduce GPU memory usage",
+    "Replace transformers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RLHF helps improve helpfulness, honesty, and safety of LLM outputs.",
+  "points": 40,
+  "tags": ["llm", "rlhf"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "A reward model in RLHF predicts:",
+  "options": [
+    "Human preference scores",
+    "The next token directly",
+    "GPU utilization",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reward models estimate which responses humans are likely to prefer.",
+  "points": 40,
+  "tags": ["reward-model"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "One major challenge in reinforcement learning is:",
+  "options": [
+    "Balancing exploration and exploitation",
+    "Converting images to PDF",
+    "Creating SQL queries",
+    "Managing spreadsheets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Agents must discover new strategies while using existing knowledge effectively.",
+  "points": 40,
+  "tags": ["exploration"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Sparse rewards make reinforcement learning difficult because:",
+  "options": [
+    "Useful feedback is received infrequently",
+    "The environment becomes deterministic",
+    "The dataset becomes too large",
+    "The neural network stops training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sparse rewards provide little guidance for learning good policies.",
+  "points": 40,
+  "tags": ["sparse-rewards"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Sample efficiency refers to:",
+  "options": [
+    "Learning effectively from fewer interactions",
+    "Using fewer GPUs",
+    "Reducing dataset storage",
+    "Compressing model weights"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Efficient RL algorithms require fewer environment interactions.",
+  "points": 40,
+  "tags": ["sample-efficiency"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "Which field has recently driven renewed interest in reinforcement learning?",
+  "options": [
+    "Large Language Model alignment",
+    "Spreadsheet software",
+    "Relational databases",
+    "Operating systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "RLHF for LLM alignment has significantly increased interest in reinforcement learning.",
+  "points": 40,
+  "tags": ["llm-alignment"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "reinforcement-learning",
+  "difficulty": "expert",
+  "question": "The ultimate goal of reinforcement learning is to:",
+  "options": [
+    "Learn an optimal policy that maximizes long-term cumulative reward",
+    "Minimize dataset size",
+    "Increase CPU clock speed",
+    "Reduce neural network depth"
+  ],
+  "correctAnswer": 0,
+  "explanation": "An optimal policy enables an agent to achieve the highest expected long-term reward.",
+  "points": 40,
+  "tags": ["optimal-policy"],
+  "timeLimit": 75
+}
+
+]

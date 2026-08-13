@@ -1,0 +1,488 @@
+export type ProjectMetric = {
+  value: string;
+  label: string;
+  detail: string;
+};
+
+export type ProjectSection = {
+  id: string;
+  eyebrow: string;
+  title: string;
+  body: string[];
+  bullets?: string[];
+  code?: string;
+};
+
+export type ProjectMedia = {
+  type: "image" | "video" | "placeholder";
+  src?: string;
+  poster?: string;
+  title: string;
+  caption: string;
+};
+
+export interface Project {
+  slug: string;
+  title: string;
+  shortTitle: string;
+  category: string;
+  status: string;
+  featured?: boolean;
+  year: string;
+  tagline: string;
+  description: string;
+  heroLabel: string;
+  tech: string[];
+  github?: string;
+  demo?: string;
+  metrics: ProjectMetric[];
+  pipeline: string[];
+  sections: ProjectSection[];
+  media: ProjectMedia[];
+  challenges: string[];
+}
+
+export const projects: Project[] = [
+  {
+    slug: "cartoonix",
+    title: "CARTOONIX — Prompt-to-Cartoon Generation",
+    shortTitle: "CARTOONIX",
+    category: "Generative AI",
+    status: "Active / Iterative",
+    featured: true,
+    year: "2025–Present",
+    tagline: "A local generative image pipeline for cartoon, sketch, pixel-art and comic-style creation.",
+    description:
+      "CARTOONIX combines a Stable Diffusion workflow, custom LoRA fine-tuning, ControlNet guidance and local Gradio applications to turn prompts or source images into stylized artwork.",
+    heroLabel: "TEXT / IMAGE → STYLE CONTROL → GENERATED ART",
+    tech: ["Python", "PyTorch", "DreamShaper v8", "Stable Diffusion", "LoRA", "ControlNet", "OpenCV", "Diffusers", "Gradio", "CUDA"],
+    github: "https://github.com/abhinands105/prompt-to-cartoon",
+    metrics: [
+      { value: "6K+", label: "training images", detail: "Curated and captioned across 20+ artistic styles." },
+      { value: "20+", label: "style families", detail: "Dataset coverage for custom style learning." },
+      { value: "6 GB", label: "GPU target", detail: "Designed to run locally on an RTX 3050 Laptop GPU." },
+      { value: "2", label: "generation modes", detail: "Text-to-image and image-to-image workflows." },
+    ],
+    pipeline: ["Collect", "Clean", "Caption", "Validate", "LoRA train", "Generate", "Evaluate"],
+    sections: [
+      {
+        id: "overview",
+        eyebrow: "01 / OVERVIEW",
+        title: "What was actually built",
+        body: [
+          "The project is more than a prompt UI. It is an end-to-end dataset-to-inference workflow for learning controllable visual styles locally.",
+          "The portfolio case study exposes the dataset work, model choices, training configuration, conditioning experiments and generated results so the output can be evaluated against the engineering process behind it.",
+        ],
+        bullets: ["Local inference", "Custom LoRA style adapters", "ControlNet structural guidance", "Prompt-to-image and image-to-image generation"],
+      },
+      {
+        id: "dataset",
+        eyebrow: "02 / DATA ENGINEERING",
+        title: "Dataset collection → training-ready data",
+        body: [
+          "The dataset was curated for style learning rather than simply collected and passed into training. Images were organized, cleaned, captioned and validated before fine-tuning.",
+          "The source notes document a 6,000+ image dataset spanning 20+ artistic styles. The project page therefore treats dataset engineering as a first-class part of the model, not a hidden preprocessing step.",
+        ],
+        bullets: ["Image collection", "Duplicate and quality filtering", "Caption generation", "Image-caption validation", "Style-balanced organization"],
+        code: "RAW IMAGES → CLEANING → CAPTIONS → VALIDATION → LoRA DATASET",
+      },
+      {
+        id: "training",
+        eyebrow: "03 / MODEL TRAINING",
+        title: "LoRA fine-tuning for style control",
+        body: [
+          "A Stable Diffusion / DreamShaper-based pipeline was adapted with LoRA so the learned style can be loaded as a lightweight adapter instead of replacing the complete base model.",
+          "The training workflow is presented as an experiment: dataset version, resolution, adapter settings, samples and final checkpoints can be attached to each run as evidence.",
+        ],
+        bullets: ["Stable Diffusion / DreamShaper base", "LoRA adapter training", "Diffusers-based workflow", "CUDA / mixed-precision local execution"],
+      },
+      {
+        id: "control",
+        eyebrow: "04 / CONDITIONING",
+        title: "ControlNet + edge guidance",
+        body: [
+          "ControlNet and OpenCV edge guidance were used to improve structural consistency, especially for sketch-like outputs. This lets the project separate style transfer from composition control.",
+        ],
+        bullets: ["Source image", "OpenCV edge extraction", "Control signal", "Styled generation", "Final artwork"],
+      },
+      {
+        id: "results",
+        eyebrow: "05 / RESULTS",
+        title: "Compare the base model with the trained style",
+        body: [
+          "The results section is intentionally designed for side-by-side evidence: the same prompt can be shown before and after the LoRA is enabled, followed by a gallery of representative outputs.",
+        ],
+      },
+    ],
+    media: [
+      { type: "placeholder", title: "Hero generation reel", caption: "Add a 10–20 second CARTOONIX screen recording or best-output montage.", src: "/projects/cartoonix/hero.mp4" },
+      { type: "placeholder", title: "Dataset overview", caption: "Add a screenshot of the cleaned dataset and caption structure.", src: "/projects/cartoonix/dataset-overview.png" },
+      { type: "placeholder", title: "Base vs LoRA", caption: "Add matched-prompt comparison outputs.", src: "/projects/cartoonix/base-vs-lora.png" },
+      { type: "placeholder", title: "Generated outputs", caption: "Add the strongest final generations here.", src: "/projects/cartoonix/output-01.png" },
+      { type: "placeholder", title: "ControlNet result", caption: "Add source → edge map → final generation comparison.", src: "/projects/cartoonix/controlnet.png" },
+    ],
+    challenges: [
+      "Running diffusion inference and fine-tuning on a 6 GB laptop GPU required memory-aware settings.",
+      "Style datasets need careful curation because visually similar but semantically different images can weaken the learned style.",
+      "ControlNet adds another conditioning path, so results need to be evaluated for both structure and style fidelity.",
+    ],
+  },
+  {
+    slug: "spiderverse",
+    title: "SpiderVerse Video LoRA — Wan 2.1",
+    shortTitle: "SPIDERVERSE VIDEO LoRA",
+    category: "Video Generation",
+    status: "Active Research",
+    featured: true,
+    year: "2026–Present",
+    tagline: "A dataset-driven video style-transfer pipeline for Wan 2.1 T2V 1.3B.",
+    description:
+      "A full video dataset and LoRA workflow covering clip cleaning, frame extraction, multimodal labeling, dataset engineering, Wan 2.1 fine-tuning and local ComfyUI inference.",
+    heroLabel: "VIDEO → CLIPS → FRAMES → LABELS → WAN LoRA → VIDEO",
+    tech: ["Python", "OpenCV", "Qwen2.5-VL", "FAISS", "Pillow", "Wan 2.1", "AI Toolkit", "LoRA", "ComfyUI", "CUDA"],
+    github: "https://github.com/abhinands105",
+    metrics: [
+      { value: "1,239", label: "cleaned clips", detail: "After the video dataset cleanup stage." },
+      { value: "8,969", label: "extracted frames", detail: "Frame-level training material documented in the CV." },
+      { value: "1.24 h", label: "source video", detail: "Approximately 1.24 hours in the cleaned collection." },
+      { value: "6 GB", label: "GPU memory", detail: "Training and inference optimized for an RTX 3050 Laptop GPU." },
+    ],
+    pipeline: ["Collect videos", "Clean clips", "Extract frames", "Caption / label", "Index metadata", "Train LoRA", "Generate video"],
+    sections: [
+      {
+        id: "overview",
+        eyebrow: "01 / VIDEO R&D",
+        title: "From raw footage to a trainable video dataset",
+        body: [
+          "The project treats video generation as a data-engineering problem first. Movie footage was converted into usable clips, cleaned, sampled into frames and enriched with captions and character metadata.",
+          "The documented pipeline contains 1,239 cleaned clips and 8,969 extracted frames, making the dataset itself a visible artifact of the project.",
+        ],
+      },
+      {
+        id: "cleaning",
+        eyebrow: "02 / DATA CLEANING",
+        title: "Clip filtering and frame extraction",
+        body: [
+          "The cleanup stage removes material that is likely to add noise to style learning, including duplicates, credits, static shots and low-quality content. The cleaned clips are then converted into frame-level training material.",
+        ],
+        bullets: ["Duplicate removal", "Credit / title filtering", "Static-shot filtering", "Black-frame checks", "Frame extraction", "Dataset organization"],
+        code: "RAW VIDEOS → CLEAN CLIPS → FRAME SAMPLING → TRAINING DATA",
+      },
+      {
+        id: "labeling",
+        eyebrow: "03 / MULTIMODAL LABELING",
+        title: "Vision-language metadata for character and scene understanding",
+        body: [
+          "Qwen2.5-VL was used in the dataset workflow for visual labeling. Character and scene metadata can then be attached to frames and retrieved through the project’s vector-search layer.",
+        ],
+        bullets: ["Frame understanding", "Character metadata", "Scene descriptions", "Semantic embeddings", "FAISS retrieval"],
+      },
+      {
+        id: "training",
+        eyebrow: "04 / WAN LoRA",
+        title: "Fine-tuning Wan 2.1 T2V 1.3B",
+        body: [
+          "The project fine-tunes a Wan 2.1 text-to-video model with a custom LoRA using AI Toolkit. The documented training setup uses FP16 mixed precision, AdamW8Bit, FlowMatch scheduling and gradient checkpointing to fit the workflow into limited VRAM.",
+        ],
+        bullets: ["Wan 2.1 T2V 1.3B", "LoRA rank 32", "512 resolution target", "Batch size 1", "5,000-step training experiment"],
+      },
+      {
+        id: "style",
+        eyebrow: "05 / LEARNED STYLE",
+        title: "What the model is being trained to reproduce",
+        body: [
+          "The documented target characteristics include comic-book rendering, halftone textures, painterly shading, stylized lighting, vibrant palettes and dynamic cinematic compositions.",
+        ],
+      },
+      {
+        id: "inference",
+        eyebrow: "06 / LOCAL INFERENCE",
+        title: "ComfyUI + quantized local workflow",
+        body: [
+          "The trained adapter is integrated into a local ComfyUI workflow, including GGUF-quantized Wan models for memory-aware inference and prompt-controlled video generation.",
+        ],
+      },
+    ],
+    media: [
+      { type: "placeholder", title: "Video demo reel", caption: "Add the best 10–30 second generated video montage.", src: "/projects/spiderverse/hero.mp4" },
+      { type: "placeholder", title: "Dataset pipeline", caption: "Add a visual showing raw clips → cleaned clips → frames.", src: "/projects/spiderverse/dataset-pipeline.png" },
+      { type: "placeholder", title: "Frame labeling", caption: "Add Qwen2.5-VL labeling examples and metadata.", src: "/projects/spiderverse/labeling.png" },
+      { type: "placeholder", title: "Wan training", caption: "Add training console/configuration screenshots.", src: "/projects/spiderverse/training.png" },
+      { type: "placeholder", title: "Generated videos", caption: "Add final generation clips.", src: "/projects/spiderverse/output-01.mp4" },
+    ],
+    challenges: [
+      "Video models are significantly more memory-intensive than image models, making 6 GB VRAM a major systems constraint.",
+      "Poor clips can teach unwanted camera motion, compression artifacts or static frames, so dataset filtering directly affects model behavior.",
+      "Character consistency and temporal quality require evaluation beyond a single good-looking frame.",
+    ],
+  },
+  {
+    slug: "pixellora",
+    title: "PixelLoRA — Pixel Art Style Learning",
+    shortTitle: "PIXELLORA",
+    category: "Diffusion / LoRA",
+    status: "Completed Experiment",
+    year: "2026",
+    tagline: "A focused LoRA training pipeline for pixel-art generation with a curated image-caption dataset.",
+    description:
+      "A practical diffusion fine-tuning experiment covering dataset cleaning, caption validation, LoRA training and reproducible generation settings for a 6 GB laptop GPU.",
+    heroLabel: "PIXEL DATASET → LoRA → CONTROLLED GENERATION",
+    tech: ["Python", "PyTorch", "Stable Diffusion 1.5", "DreamShaper 8", "LoRA", "Kohya SS", "CUDA"],
+    github: "https://github.com/abhinands105/image-gen-pipeline",
+    metrics: [
+      { value: "2,186", label: "scanned images", detail: "Initial dataset scan." },
+      { value: "2,001", label: "clean images", detail: "Final image-caption dataset." },
+      { value: "2,001", label: "captions", detail: "Validated one-to-one caption coverage." },
+      { value: "512²", label: "training resolution", detail: "Memory-aware training target." },
+    ],
+    pipeline: ["Scan", "Deduplicate", "Quality filter", "Caption", "Validate", "Train LoRA", "Generate"],
+    sections: [
+      {
+        id: "dataset",
+        eyebrow: "01 / DATASET",
+        title: "2,186 images → 2,001 clean training pairs",
+        body: [
+          "The dataset workflow documented 2,186 scanned images, 164 duplicates moved out, 2,022 unique images and a final cleaned set of 2,001 images after quality filtering.",
+          "Caption validation reached 2,001 images and 2,001 captions with zero missing captions; duplicate captions were also detected as a quality signal.",
+        ],
+        code: "2,186 SCANNED → 164 DUPLICATES → QUALITY FILTER → 2,001 IMAGE/CAPTION PAIRS",
+      },
+      {
+        id: "training",
+        eyebrow: "02 / TRAINING",
+        title: "LoRA under laptop-GPU constraints",
+        body: [
+          "The training workflow uses a small batch size and low-resolution target to make style fine-tuning practical on an RTX 3050 Laptop GPU.",
+        ],
+        bullets: ["Resolution: 512 × 512", "Batch size: 1", "LoRA rank: 32", "LoRA alpha: 16", "FP16 inference"],
+      },
+      {
+        id: "validation",
+        eyebrow: "03 / VALIDATION",
+        title: "Dataset integrity before model training",
+        body: [
+          "The validation stage checks image/caption coverage, duplicate captions and dataset organization before a training run begins. This turns the dataset into a measurable artifact instead of an opaque folder of files.",
+        ],
+      },
+      {
+        id: "results",
+        eyebrow: "04 / RESULTS",
+        title: "Reproducible generation settings",
+        body: [
+          "The project documents practical generation settings for the constrained hardware: 512 × 512, around 30–35 steps, CFG around 6–6.5 and a LoRA scale around 0.85–0.90.",
+        ],
+      },
+    ],
+    media: [
+      { type: "placeholder", title: "Dataset audit", caption: "Add the scan / cleaning report screenshot.", src: "/projects/pixellora/dataset-audit.png" },
+      { type: "placeholder", title: "Caption validation", caption: "Add the final image-caption validation output.", src: "/projects/pixellora/caption-validation.png" },
+      { type: "placeholder", title: "Training run", caption: "Add Kohya / training screenshots and loss curve.", src: "/projects/pixellora/training.png" },
+      { type: "placeholder", title: "Output gallery", caption: "Add your strongest PixelLoRA generations.", src: "/projects/pixellora/output-01.png" },
+    ],
+    challenges: [
+      "Small VRAM makes batch size and resolution important trade-offs.",
+      "Duplicate and low-quality images can cause wasted training capacity and inconsistent style learning.",
+      "Caption quality directly affects the relationship between prompts and learned visual concepts.",
+    ],
+  },
+  {
+    slug: "violence-detection",
+    title: "Violence Detection — CNN + LSTM",
+    shortTitle: "VIOLENCE DETECTION",
+    category: "Computer Vision",
+    status: "Completed",
+    year: "2024–2025",
+    tagline: "Spatio-temporal violence classification with real-time video inference and alerts.",
+    description:
+      "A CNN + LSTM video-analysis system trained on RWF-2000 for violence classification, with OpenCV real-time inference and automated Telegram alerts.",
+    heroLabel: "VIDEO → FRAMES → CNN FEATURES → LSTM → ALERT",
+    tech: ["Python", "TensorFlow", "CNN", "LSTM", "OpenCV", "RWF-2000", "Telegram"],
+    github: "https://github.com/abhinands105/violence-detection-cnn-lstm",
+    metrics: [
+      { value: "92%", label: "classification accuracy", detail: "Reported result on the RWF-2000 dataset." },
+      { value: "CNN", label: "spatial encoder", detail: "Extracts visual features from video frames." },
+      { value: "LSTM", label: "temporal model", detail: "Models frame-to-frame sequence information." },
+      { value: "3", label: "robustness tests", detail: "Lighting, motion blur and playback-speed variations." },
+    ],
+    pipeline: ["Video", "Frame extraction", "CNN", "Sequence", "LSTM", "Classification", "Alert"],
+    sections: [
+      {
+        id: "architecture",
+        eyebrow: "01 / MODEL",
+        title: "Spatial + temporal video understanding",
+        body: [
+          "The CNN extracts spatial features from video frames while the LSTM models temporal relationships across the sequence. This hybrid design lets the classifier reason about motion patterns instead of treating each frame independently.",
+        ],
+        code: "VIDEO → FRAME SEQUENCE → CNN FEATURES → LSTM → VIOLENCE / NON-VIOLENCE",
+      },
+      {
+        id: "dataset",
+        eyebrow: "02 / DATA",
+        title: "RWF-2000 training and evaluation",
+        body: [
+          "The system was trained on the RWF-2000 dataset and evaluated for robustness under changes that can occur in real video streams.",
+        ],
+        bullets: ["Frame extraction", "Sequence construction", "Training / validation", "Real-time inference"],
+      },
+      {
+        id: "robustness",
+        eyebrow: "03 / ROBUSTNESS",
+        title: "Testing beyond the clean dataset",
+        body: [
+          "The project explicitly evaluated lighting variation, motion blur and playback-speed changes to test whether the classifier remained useful outside a single controlled condition.",
+        ],
+      },
+      {
+        id: "deployment",
+        eyebrow: "04 / APPLICATION",
+        title: "Real-time inference and alerting",
+        body: [
+          "OpenCV provides the live video inference path, while Telegram alerts convert a model prediction into an actionable notification.",
+        ],
+      },
+    ],
+    media: [
+      { type: "placeholder", title: "Architecture", caption: "Add CNN → LSTM architecture diagram.", src: "/projects/violence-detection/architecture.png" },
+      { type: "placeholder", title: "Inference demo", caption: "Add a screen recording of real-time detection.", src: "/projects/violence-detection/demo.mp4" },
+      { type: "placeholder", title: "Robustness tests", caption: "Add examples for lighting, blur and playback-speed tests.", src: "/projects/violence-detection/robustness.png" },
+    ],
+    challenges: [
+      "Video classification needs both spatial and temporal representations.",
+      "Real-world video quality differs from benchmark conditions.",
+      "A useful deployment needs an alerting path, not only a model score.",
+    ],
+  },
+  {
+    slug: "rag-chatbot",
+    title: "Local RAG Chatbot — Qwen 3B + FAISS",
+    shortTitle: "LOCAL RAG",
+    category: "LLM / RAG",
+    status: "Active Development",
+    year: "2026–Present",
+    tagline: "A fully local document-aware assistant with PDF parsing, semantic retrieval and grounded generation.",
+    description:
+      "A local RAG application that parses PDFs, creates semantic chunks and embeddings, retrieves top-k context with FAISS and injects that context into a local Qwen 3B model.",
+    heroLabel: "PDF → PARSE → CHUNK → EMBED → FAISS → QWEN",
+    tech: ["Python", "Qwen 3B", "FAISS", "Sentence Transformers", "PyMuPDF", "Streamlit", "CUDA"],
+    github: "https://github.com/abhinands105",
+    metrics: [
+      { value: "100%", label: "local inference", detail: "Designed without dependency on cloud LLM APIs." },
+      { value: "PDF", label: "document input", detail: "PyMuPDF parsing and metadata extraction." },
+      { value: "Top-k", label: "retrieval", detail: "Relevant chunks are injected into the generation prompt." },
+      { value: "FAISS", label: "vector index", detail: "Dense semantic retrieval layer." },
+    ],
+    pipeline: ["Upload PDF", "Parse", "Chunk", "Embed", "FAISS search", "Prompt context", "Qwen response"],
+    sections: [
+      {
+        id: "ingestion",
+        eyebrow: "01 / INGESTION",
+        title: "Documents become searchable knowledge",
+        body: [
+          "PDFs are parsed with PyMuPDF, transformed into semantic chunks and enriched with metadata before embedding. The vector index becomes the retrieval layer for later questions.",
+        ],
+        code: "PDF → TEXT → SEMANTIC CHUNKS → EMBEDDINGS → FAISS INDEX",
+      },
+      {
+        id: "retrieval",
+        eyebrow: "02 / RETRIEVAL",
+        title: "Retrieve before generating",
+        body: [
+          "A user question is embedded and compared with the document index. The highest-ranked chunks are inserted into the local model context so answers are grounded in the uploaded material.",
+        ],
+        bullets: ["Semantic search", "Top-k retrieval", "Context injection", "Grounded generation"],
+      },
+      {
+        id: "local",
+        eyebrow: "03 / LOCAL AI",
+        title: "Offline-first inference",
+        body: [
+          "The application keeps the model and retrieval pipeline local, which is useful for privacy-sensitive documents and experiments where external LLM APIs are not desired.",
+        ],
+      },
+      {
+        id: "ui",
+        eyebrow: "04 / APPLICATION",
+        title: "Streamlit document chat",
+        body: [
+          "The application provides PDF upload, semantic search and conversational document querying through a Streamlit interface.",
+        ],
+      },
+    ],
+    media: [
+      { type: "placeholder", title: "RAG architecture", caption: "Add ingestion → retrieval → generation architecture diagram.", src: "/projects/rag-chatbot/architecture.png" },
+      { type: "placeholder", title: "Document chat", caption: "Add Streamlit UI screenshot.", src: "/projects/rag-chatbot/ui.png" },
+      { type: "placeholder", title: "Retrieval evidence", caption: "Add an example showing retrieved chunks beside the answer.", src: "/projects/rag-chatbot/retrieval.png" },
+    ],
+    challenges: [
+      "Chunking must preserve enough context without making retrieval too broad.",
+      "Local models require memory-aware inference and careful model selection.",
+      "RAG quality depends on retrieval quality as much as generation quality.",
+    ],
+  },
+  {
+    slug: "ai-model-management",
+    title: "AI Model Management Platform",
+    shortTitle: "AI MODEL PLATFORM",
+    category: "AI Infrastructure",
+    status: "Active Development",
+    year: "2026–Present",
+    tagline: "A Spring Boot control layer for models, datasets, training jobs, checkpoints and inference services.",
+    description:
+      "A modular backend architecture for orchestrating image generation, video generation, computer vision and document-intelligence services through REST APIs.",
+    heroLabel: "MODELS + DATASETS + JOBS + CHECKPOINTS + INFERENCE",
+    tech: ["Java", "Spring Boot", "REST APIs", "Python", "Stable Diffusion", "Wan 2.1", "RAG"],
+    metrics: [
+      { value: "REST", label: "service layer", detail: "Model and experiment management APIs." },
+      { value: "4", label: "AI domains", detail: "Image, video, computer vision and document intelligence." },
+      { value: "Versioned", label: "model metadata", detail: "Registration, versioning and checkpoint management." },
+      { value: "Modular", label: "architecture", detail: "Python AI services orchestrated behind a backend layer." },
+    ],
+    pipeline: ["Register model", "Version", "Create job", "Track checkpoint", "Run inference", "Store metadata", "Evaluate"],
+    sections: [
+      {
+        id: "architecture",
+        eyebrow: "01 / ARCHITECTURE",
+        title: "Backend orchestration for AI workflows",
+        body: [
+          "The platform separates the application control plane from Python-based model services. Spring Boot exposes REST APIs for lifecycle management while the AI services handle model-specific inference and training.",
+        ],
+        code: "SPRING BOOT → REST → PYTHON AI SERVICES → MODELS / DATA / CHECKPOINTS",
+      },
+      {
+        id: "models",
+        eyebrow: "02 / MODEL MANAGEMENT",
+        title: "Registration, versioning and checkpoints",
+        body: [
+          "The backend is designed to track models, versions and checkpoints so AI experiments can move toward a more reproducible engineering workflow.",
+        ],
+      },
+      {
+        id: "orchestration",
+        eyebrow: "03 / ORCHESTRATION",
+        title: "One control layer across multiple AI systems",
+        body: [
+          "The architecture integrates Stable Diffusion, Wan 2.1 and local RAG services through REST APIs, creating a common interface for different AI workloads.",
+        ],
+      },
+      {
+        id: "evaluation",
+        eyebrow: "04 / METADATA",
+        title: "Track datasets, outputs and evaluation",
+        body: [
+          "Generated outputs and model-performance metadata are treated as first-class records, enabling later comparison between experiments and versions.",
+        ],
+      },
+    ],
+    media: [
+      { type: "placeholder", title: "Platform architecture", caption: "Add a diagram of Spring Boot → Python AI services.", src: "/projects/model-management/architecture.png" },
+      { type: "placeholder", title: "API / dashboard", caption: "Add a screenshot of model or job management UI when available.", src: "/projects/model-management/dashboard.png" },
+    ],
+    challenges: [
+      "Different AI models have different resource and inference requirements.",
+      "Model versions and checkpoints need explicit metadata to remain reproducible.",
+      "The control plane must stay modular so new AI services can be added without rewriting the platform.",
+    ],
+  },
+];
+
+export const projectCategories = ["All", "Generative AI", "Video Generation", "Diffusion / LoRA", "Computer Vision", "LLM / RAG", "AI Infrastructure"];

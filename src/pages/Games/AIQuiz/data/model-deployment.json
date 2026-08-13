@@ -1,0 +1,1703 @@
+[
+  {
+    "id": 1,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "What is model deployment?",
+    "options": [
+      "Making a trained model available for real-world use",
+      "Training a new model",
+      "Collecting datasets",
+      "Labeling images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Model deployment is the process of making a trained machine learning model available to users or applications for inference.",
+    "points": 10,
+    "tags": ["deployment", "fundamentals"],
+    "timeLimit": 30
+  },
+  {
+    "id": 2,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Why is model deployment important?",
+    "options": [
+      "It allows models to solve real-world problems",
+      "It increases GPU memory",
+      "It replaces training",
+      "It labels datasets automatically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Without deployment, trained models cannot be used in production applications.",
+    "points": 10,
+    "tags": ["deployment"],
+    "timeLimit": 30
+  },
+  {
+    "id": 3,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "A production environment is:",
+    "options": [
+      "The environment where users access deployed models",
+      "A local testing folder",
+      "A training dataset",
+      "A GPU benchmark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Production is the live environment where applications and users interact with deployed models.",
+    "points": 10,
+    "tags": ["production"],
+    "timeLimit": 30
+  },
+  {
+    "id": 4,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Inference refers to:",
+    "options": [
+      "Using a trained model to make predictions",
+      "Training a model",
+      "Collecting data",
+      "Optimizing hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inference is the prediction phase after a model has been trained.",
+    "points": 10,
+    "tags": ["inference"],
+    "timeLimit": 30
+  },
+  {
+    "id": 5,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Offline inference is also known as:",
+    "options": [
+      "Batch inference",
+      "Streaming inference",
+      "Interactive inference",
+      "Edge inference"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Offline inference processes large batches of data at scheduled intervals.",
+    "points": 10,
+    "tags": ["batch-inference"],
+    "timeLimit": 30
+  },
+  {
+    "id": 6,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Online inference processes:",
+    "options": [
+      "Individual requests as they arrive",
+      "Only training data",
+      "Only images",
+      "Only videos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Online inference serves predictions immediately after receiving requests.",
+    "points": 10,
+    "tags": ["online-inference"],
+    "timeLimit": 30
+  },
+  {
+    "id": 7,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Real-time inference emphasizes:",
+    "options": [
+      "Very low response latency",
+      "Large datasets",
+      "Long training sessions",
+      "Model compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Real-time systems require predictions within milliseconds or seconds.",
+    "points": 10,
+    "tags": ["real-time"],
+    "timeLimit": 30
+  },
+  {
+    "id": 8,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Batch inference is best suited for:",
+    "options": [
+      "Processing many records together",
+      "Live chatbots",
+      "Voice assistants",
+      "Interactive gaming"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Batch inference is commonly used for reports and large-scale predictions.",
+    "points": 10,
+    "tags": ["batch"],
+    "timeLimit": 30
+  },
+  {
+    "id": 9,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "REST stands for:",
+    "options": [
+      "Representational State Transfer",
+      "Remote State Training",
+      "Real-time Service Technology",
+      "Resource System Transfer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "REST is a widely used architectural style for web APIs.",
+    "points": 10,
+    "tags": ["rest-api"],
+    "timeLimit": 30
+  },
+  {
+    "id": 10,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "An API endpoint is:",
+    "options": [
+      "A URL where clients access a service",
+      "A GPU server",
+      "A Docker image",
+      "A database table"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Endpoints define where API requests are sent.",
+    "points": 10,
+    "tags": ["api"],
+    "timeLimit": 30
+  },
+  {
+    "id": 11,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "In an API, a request is:",
+    "options": [
+      "Data sent from a client to a server",
+      "A trained model",
+      "A GPU process",
+      "A log file"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clients send requests to APIs asking for predictions or other services.",
+    "points": 10,
+    "tags": ["request"],
+    "timeLimit": 30
+  },
+  {
+    "id": 12,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "An API response contains:",
+    "options": [
+      "The server's returned data",
+      "Only source code",
+      "Training datasets",
+      "Docker containers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Responses typically include predictions or requested information.",
+    "points": 10,
+    "tags": ["response"],
+    "timeLimit": 30
+  },
+  {
+    "id": 13,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "JSON is primarily used for:",
+    "options": [
+      "Exchanging structured data",
+      "GPU optimization",
+      "Image compression",
+      "Database indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JSON is the most common data format for REST APIs.",
+    "points": 10,
+    "tags": ["json"],
+    "timeLimit": 30
+  },
+  {
+    "id": 14,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Serialization means:",
+    "options": [
+      "Converting an object into a transferable format",
+      "Training multiple models",
+      "Compressing GPUs",
+      "Scaling servers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Serialization converts data structures into formats like JSON or binary.",
+    "points": 10,
+    "tags": ["serialization"],
+    "timeLimit": 30
+  },
+  {
+    "id": 15,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Deserialization is:",
+    "options": [
+      "Converting serialized data back into objects",
+      "Deleting JSON files",
+      "Training neural networks",
+      "Deploying Docker images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Applications deserialize incoming JSON before processing it.",
+    "points": 10,
+    "tags": ["deserialization"],
+    "timeLimit": 30
+  },
+  {
+    "id": 16,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "FastAPI is a:",
+    "options": [
+      "Modern Python framework for building APIs",
+      "GPU driver",
+      "Database engine",
+      "Machine learning library"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FastAPI is widely used for serving machine learning models.",
+    "points": 10,
+    "tags": ["fastapi"],
+    "timeLimit": 30
+  },
+  {
+    "id": 17,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Flask is commonly used to:",
+    "options": [
+      "Build lightweight Python web applications and APIs",
+      "Train transformers",
+      "Optimize GPUs",
+      "Manage databases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flask is a lightweight web framework suitable for simple deployment projects.",
+    "points": 10,
+    "tags": ["flask"],
+    "timeLimit": 30
+  },
+  {
+    "id": 18,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Docker is mainly used for:",
+    "options": [
+      "Packaging applications with their dependencies",
+      "Labeling datasets",
+      "Training models",
+      "Managing SQL databases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Docker ensures applications run consistently across environments.",
+    "points": 10,
+    "tags": ["docker"],
+    "timeLimit": 30
+  },
+  {
+    "id": 19,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "A Docker container is:",
+    "options": [
+      "A running instance of a Docker image",
+      "A compressed dataset",
+      "A virtual GPU",
+      "An API endpoint"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Containers execute applications packaged inside Docker images.",
+    "points": 10,
+    "tags": ["container"],
+    "timeLimit": 30
+  },
+  {
+    "id": 20,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "A Docker image is:",
+    "options": [
+      "A template used to create containers",
+      "A running process",
+      "A deployed model",
+      "A Python package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Images contain application code, dependencies, and configuration.",
+    "points": 10,
+    "tags": ["docker-image"],
+    "timeLimit": 30
+  },
+  {
+    "id": 21,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "A deployment pipeline automates:",
+    "options": [
+      "Building, testing, and releasing applications",
+      "Collecting datasets",
+      "Training datasets",
+      "GPU manufacturing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deployment pipelines reduce manual work and improve reliability.",
+    "points": 10,
+    "tags": ["deployment-pipeline"],
+    "timeLimit": 30
+  },
+  {
+    "id": 22,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "CI/CD helps teams by:",
+    "options": [
+      "Automating software integration and deployment",
+      "Replacing APIs",
+      "Increasing model size",
+      "Compressing datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CI/CD accelerates reliable software and model releases.",
+    "points": 10,
+    "tags": ["ci-cd"],
+    "timeLimit": 30
+  },
+  {
+    "id": 23,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "A health check endpoint is used to:",
+    "options": [
+      "Verify that an application is running correctly",
+      "Train models",
+      "Label data",
+      "Optimize hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Monitoring systems use health endpoints to detect service availability.",
+    "points": 10,
+    "tags": ["health-check"],
+    "timeLimit": 30
+  },
+  {
+    "id": 24,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "API documentation helps developers:",
+    "options": [
+      "Understand how to use an API",
+      "Improve GPU performance",
+      "Reduce dataset size",
+      "Train neural networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Documentation explains endpoints, request formats, and responses.",
+    "points": 10,
+    "tags": ["api-docs"],
+    "timeLimit": 30
+  },
+  {
+    "id": 25,
+    "category": "model-deployment",
+    "difficulty": "easy",
+    "question": "Swagger/OpenAPI is mainly used to:",
+    "options": [
+      "Generate and display interactive API documentation",
+      "Train machine learning models",
+      "Deploy Kubernetes clusters",
+      "Compress Docker images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FastAPI automatically generates interactive Swagger and OpenAPI documentation.",
+    "points": 10,
+    "tags": ["swagger", "openapi"],
+    "timeLimit": 30
+  },
+{
+  "id": 26,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "What is model serving?",
+  "options": [
+    "Making trained models available for inference",
+    "Training multiple models",
+    "Cleaning datasets",
+    "Compressing images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Model serving exposes trained models through APIs or inference servers for predictions.",
+  "points": 20,
+  "tags": ["model-serving"],
+  "timeLimit": 45
+},
+{
+  "id": 27,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "TensorFlow Serving is designed to:",
+  "options": [
+    "Serve TensorFlow models in production",
+    "Train TensorFlow models",
+    "Manage Docker containers",
+    "Build datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorFlow Serving is Google's production inference system for TensorFlow models.",
+  "points": 20,
+  "tags": ["tensorflow-serving"],
+  "timeLimit": 45
+},
+{
+  "id": 28,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "TorchServe is primarily used for:",
+  "options": [
+    "Serving PyTorch models",
+    "Training ONNX models",
+    "Managing Kubernetes",
+    "Building APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TorchServe is Meta's model serving framework for PyTorch.",
+  "points": 20,
+  "tags": ["torchserve"],
+  "timeLimit": 45
+},
+{
+  "id": 29,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "NVIDIA Triton Inference Server supports:",
+  "options": [
+    "Multiple machine learning frameworks",
+    "Only TensorFlow",
+    "Only PyTorch",
+    "Only ONNX"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Triton supports TensorFlow, PyTorch, ONNX, TensorRT and other frameworks.",
+  "points": 20,
+  "tags": ["triton"],
+  "timeLimit": 45
+},
+{
+  "id": 30,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "BentoML is mainly used to:",
+  "options": [
+    "Package and deploy ML models",
+    "Train neural networks",
+    "Label datasets",
+    "Monitor GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "BentoML simplifies packaging and serving machine learning models.",
+  "points": 20,
+  "tags": ["bentoml"],
+  "timeLimit": 45
+},
+{
+  "id": 31,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "KServe is built on top of:",
+  "options": [
+    "Kubernetes",
+    "Windows Server",
+    "Apache Spark",
+    "Redis"
+  ],
+  "correctAnswer": 0,
+  "explanation": "KServe provides serverless model serving on Kubernetes.",
+  "points": 20,
+  "tags": ["kserve"],
+  "timeLimit": 45
+},
+{
+  "id": 32,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "Seldon Core is primarily used for:",
+  "options": [
+    "Deploying ML models on Kubernetes",
+    "Training transformers",
+    "Data cleaning",
+    "Model annotation"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Seldon Core enables scalable model deployment on Kubernetes.",
+  "points": 20,
+  "tags": ["seldon-core"],
+  "timeLimit": 45
+},
+{
+  "id": 33,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "Ray Serve is designed for:",
+  "options": [
+    "Scalable model serving using Ray",
+    "GPU manufacturing",
+    "Image compression",
+    "Database tuning"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Ray Serve supports scalable distributed inference applications.",
+  "points": 20,
+  "tags": ["ray-serve"],
+  "timeLimit": 45
+},
+{
+  "id": 34,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "MLServer is:",
+  "options": [
+    "An open-source inference server",
+    "A database engine",
+    "A dataset format",
+    "A compiler"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MLServer is an inference server compatible with KServe.",
+  "points": 20,
+  "tags": ["mlserver"],
+  "timeLimit": 45
+},
+{
+  "id": 35,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "ONNX Runtime is mainly used for:",
+  "options": [
+    "Fast inference of ONNX models",
+    "Training datasets",
+    "GPU scheduling",
+    "Managing APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "ONNX Runtime provides optimized inference across multiple hardware platforms.",
+  "points": 20,
+  "tags": ["onnx-runtime"],
+  "timeLimit": 45
+},
+{
+  "id": 36,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "TensorRT is optimized for:",
+  "options": [
+    "High-performance NVIDIA GPU inference",
+    "CPU scheduling",
+    "Image editing",
+    "Database replication"
+  ],
+  "correctAnswer": 0,
+  "explanation": "TensorRT accelerates inference through graph optimization and reduced precision.",
+  "points": 20,
+  "tags": ["tensorrt"],
+  "timeLimit": 45
+},
+{
+  "id": 37,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "OpenVINO primarily targets:",
+  "options": [
+    "Optimized inference on Intel hardware",
+    "NVIDIA GPUs only",
+    "AMD GPUs only",
+    "Apple GPUs only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenVINO accelerates inference on Intel CPUs, GPUs, VPUs, and NPUs.",
+  "points": 20,
+  "tags": ["openvino"],
+  "timeLimit": 45
+},
+{
+  "id": 38,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "Intel Neural Compressor is used for:",
+  "options": [
+    "Model optimization techniques like quantization",
+    "Image enhancement",
+    "API routing",
+    "Training GANs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Intel Neural Compressor simplifies quantization and pruning workflows.",
+  "points": 20,
+  "tags": ["intel-neural-compressor"],
+  "timeLimit": 45
+},
+{
+  "id": 39,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "Dynamic batching improves inference by:",
+  "options": [
+    "Combining multiple requests into one batch",
+    "Training several models",
+    "Compressing models",
+    "Deleting cache"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dynamic batching increases GPU utilization and throughput.",
+  "points": 20,
+  "tags": ["dynamic-batching"],
+  "timeLimit": 45
+},
+{
+  "id": 40,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "A request queue helps:",
+  "options": [
+    "Manage incoming inference requests efficiently",
+    "Train models faster",
+    "Increase dataset size",
+    "Replace APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Queues prevent servers from being overwhelmed by bursts of traffic.",
+  "points": 20,
+  "tags": ["request-queue"],
+  "timeLimit": 45
+},
+{
+  "id": 41,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "A load balancer distributes:",
+  "options": [
+    "Traffic across multiple servers",
+    "Training data",
+    "Docker images",
+    "GPU drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Load balancers improve availability and scalability.",
+  "points": 20,
+  "tags": ["load-balancer"],
+  "timeLimit": 45
+},
+{
+  "id": 42,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "A reverse proxy typically sits:",
+  "options": [
+    "Between clients and backend servers",
+    "Inside the GPU",
+    "Inside Docker images",
+    "Inside datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Reverse proxies improve security, caching, and traffic routing.",
+  "points": 20,
+  "tags": ["reverse-proxy"],
+  "timeLimit": 45
+},
+{
+  "id": 43,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "NGINX is commonly used as a:",
+  "options": [
+    "Reverse proxy and web server",
+    "Training framework",
+    "Feature store",
+    "Vector database"
+  ],
+  "correctAnswer": 0,
+  "explanation": "NGINX routes incoming requests to backend applications efficiently.",
+  "points": 20,
+  "tags": ["nginx"],
+  "timeLimit": 45
+},
+{
+  "id": 44,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "Gunicorn is a:",
+  "options": [
+    "Python WSGI application server",
+    "GPU optimizer",
+    "Database engine",
+    "ML framework"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Gunicorn runs Python web applications in production.",
+  "points": 20,
+  "tags": ["gunicorn"],
+  "timeLimit": 45
+},
+{
+  "id": 45,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "Uvicorn is an:",
+  "options": [
+    "ASGI server for modern Python web applications",
+    "Database",
+    "Inference accelerator",
+    "Docker alternative"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Uvicorn is commonly paired with FastAPI for high-performance APIs.",
+  "points": 20,
+  "tags": ["uvicorn"],
+  "timeLimit": 45
+},
+{
+  "id": 46,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "gRPC communicates using:",
+  "options": [
+    "Protocol Buffers",
+    "CSV",
+    "XML only",
+    "HTML"
+  ],
+  "correctAnswer": 0,
+  "explanation": "gRPC uses Protocol Buffers for efficient binary communication.",
+  "points": 20,
+  "tags": ["grpc"],
+  "timeLimit": 45
+},
+{
+  "id": 47,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "Compared to REST, gRPC is generally:",
+  "options": [
+    "Faster and more efficient for service-to-service communication",
+    "Always slower",
+    "Only for browsers",
+    "Limited to Java"
+  ],
+  "correctAnswer": 0,
+  "explanation": "gRPC provides lower latency and smaller payloads using binary serialization.",
+  "points": 20,
+  "tags": ["grpc", "rest"],
+  "timeLimit": 45
+},
+{
+  "id": 48,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "WebSockets differ from HTTP because they:",
+  "options": [
+    "Provide persistent two-way communication",
+    "Only support GET requests",
+    "Cannot send binary data",
+    "Require FTP"
+  ],
+  "correctAnswer": 0,
+  "explanation": "WebSockets enable continuous bidirectional communication between client and server.",
+  "points": 20,
+  "tags": ["websocket"],
+  "timeLimit": 45
+},
+{
+  "id": 49,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "An API Gateway primarily:",
+  "options": [
+    "Routes and manages API requests",
+    "Trains neural networks",
+    "Stores datasets",
+    "Creates Docker images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "API gateways provide authentication, routing, monitoring, and rate limiting.",
+  "points": 20,
+  "tags": ["api-gateway"],
+  "timeLimit": 45
+},
+{
+  "id": 50,
+  "category": "model-deployment",
+  "difficulty": "medium",
+  "question": "A service mesh mainly manages:",
+  "options": [
+    "Communication between microservices",
+    "Training datasets",
+    "GPU memory",
+    "Feature engineering"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Service meshes provide traffic management, security, and observability for microservices.",
+  "points": 20,
+  "tags": ["service-mesh"],
+  "timeLimit": 45
+},
+{
+  "id": 51,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Horizontal scaling means:",
+  "options": [
+    "Adding more servers or instances",
+    "Increasing RAM in one server",
+    "Using a larger GPU",
+    "Compressing the model"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Horizontal scaling improves capacity by adding additional application instances.",
+  "points": 30,
+  "tags": ["horizontal-scaling"],
+  "timeLimit": 60
+},
+{
+  "id": 52,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Vertical scaling refers to:",
+  "options": [
+    "Increasing resources of an existing server",
+    "Adding more servers",
+    "Deploying another API",
+    "Reducing batch size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vertical scaling upgrades CPU, RAM, or GPU resources of a single machine.",
+  "points": 30,
+  "tags": ["vertical-scaling"],
+  "timeLimit": 60
+},
+{
+  "id": 53,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Auto Scaling automatically:",
+  "options": [
+    "Adjusts computing resources according to workload",
+    "Retrains models every hour",
+    "Deletes old models",
+    "Compresses datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Auto Scaling increases or decreases infrastructure based on demand.",
+  "points": 30,
+  "tags": ["autoscaling"],
+  "timeLimit": 60
+},
+{
+  "id": 54,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "A Kubernetes Deployment manages:",
+  "options": [
+    "The lifecycle of application pods",
+    "Only Docker images",
+    "Training datasets",
+    "GPU drivers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Deployments ensure the desired number of application replicas are running.",
+  "points": 30,
+  "tags": ["kubernetes"],
+  "timeLimit": 60
+},
+{
+  "id": 55,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "A Rolling Update strategy:",
+  "options": [
+    "Gradually replaces old application instances with new ones",
+    "Stops all services before deployment",
+    "Deletes old models permanently",
+    "Retrains the model automatically"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rolling updates minimize downtime during deployments.",
+  "points": 30,
+  "tags": ["rolling-update"],
+  "timeLimit": 60
+},
+{
+  "id": 56,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Blue-Green deployment uses:",
+  "options": [
+    "Two production environments for seamless switching",
+    "Two GPUs",
+    "Two datasets",
+    "Two Dockerfiles"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Traffic switches from the old environment to the new one after validation.",
+  "points": 30,
+  "tags": ["blue-green"],
+  "timeLimit": 60
+},
+{
+  "id": 57,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Canary deployment sends new versions to:",
+  "options": [
+    "A small percentage of users first",
+    "All users immediately",
+    "Only developers",
+    "Offline servers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Canary releases reduce deployment risk by limiting exposure.",
+  "points": 30,
+  "tags": ["canary"],
+  "timeLimit": 60
+},
+{
+  "id": 58,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Shadow deployment is used to:",
+  "options": [
+    "Test a model with live traffic without affecting users",
+    "Replace the production model immediately",
+    "Delete old deployments",
+    "Reduce GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Shadow deployments evaluate new models using real traffic while serving predictions from the existing model.",
+  "points": 30,
+  "tags": ["shadow-deployment"],
+  "timeLimit": 60
+},
+{
+  "id": 59,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Load testing evaluates:",
+  "options": [
+    "System performance under expected traffic",
+    "Training accuracy",
+    "Image quality",
+    "Dataset size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Load testing verifies that the system can handle anticipated workloads.",
+  "points": 30,
+  "tags": ["load-testing"],
+  "timeLimit": 60
+},
+{
+  "id": 60,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Stress testing determines:",
+  "options": [
+    "How a system behaves beyond its normal capacity",
+    "Model accuracy",
+    "Dataset quality",
+    "Learning rate"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Stress testing identifies breaking points and recovery behaviour.",
+  "points": 30,
+  "tags": ["stress-testing"],
+  "timeLimit": 60
+},
+{
+  "id": 61,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Latency is:",
+  "options": [
+    "The time taken to respond to a request",
+    "The number of requests processed",
+    "Model size",
+    "GPU memory"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Lower latency generally provides a better user experience.",
+  "points": 30,
+  "tags": ["latency"],
+  "timeLimit": 60
+},
+{
+  "id": 62,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Throughput measures:",
+  "options": [
+    "Requests processed per unit time",
+    "Training epochs",
+    "Dataset size",
+    "GPU clock speed"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Higher throughput indicates greater system capacity.",
+  "points": 30,
+  "tags": ["throughput"],
+  "timeLimit": 60
+},
+{
+  "id": 63,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Concurrency refers to:",
+  "options": [
+    "Handling multiple requests at the same time",
+    "Training multiple models",
+    "Using multiple datasets",
+    "Deploying multiple APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Concurrent request handling improves scalability.",
+  "points": 30,
+  "tags": ["concurrency"],
+  "timeLimit": 60
+},
+{
+  "id": 64,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Rate limiting helps:",
+  "options": [
+    "Prevent excessive API usage",
+    "Improve training accuracy",
+    "Increase dataset size",
+    "Compress Docker images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rate limiting protects services against abuse and overload.",
+  "points": 30,
+  "tags": ["rate-limiting"],
+  "timeLimit": 60
+},
+{
+  "id": 65,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Caching improves performance by:",
+  "options": [
+    "Storing frequently accessed results",
+    "Training larger models",
+    "Deleting logs",
+    "Compressing APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Caching reduces computation by reusing previous results.",
+  "points": 30,
+  "tags": ["caching"],
+  "timeLimit": 60
+},
+{
+  "id": 66,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Redis is commonly used for:",
+  "options": [
+    "High-speed in-memory caching",
+    "GPU scheduling",
+    "Training models",
+    "Feature extraction"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Redis provides fast access to cached data and session information.",
+  "points": 30,
+  "tags": ["redis"],
+  "timeLimit": 60
+},
+{
+  "id": 67,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "GPU inference is preferred when:",
+  "options": [
+    "Running computationally intensive deep learning models",
+    "Serving HTML pages",
+    "Editing images",
+    "Managing databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPUs provide high parallel processing capabilities for neural network inference.",
+  "points": 30,
+  "tags": ["gpu-inference"],
+  "timeLimit": 60
+},
+{
+  "id": 68,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "CPU inference is often preferred for:",
+  "options": [
+    "Lightweight models and cost-sensitive deployments",
+    "Large transformer training",
+    "GPU benchmarking",
+    "Distributed training"
+  ],
+  "correctAnswer": 0,
+  "explanation": "CPUs are economical for smaller models and lower traffic workloads.",
+  "points": 30,
+  "tags": ["cpu-inference"],
+  "timeLimit": 60
+},
+{
+  "id": 69,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Multi-GPU serving is primarily used to:",
+  "options": [
+    "Increase inference capacity and throughput",
+    "Reduce dataset size",
+    "Replace Docker",
+    "Compress APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Multiple GPUs can process more requests simultaneously.",
+  "points": 30,
+  "tags": ["multi-gpu"],
+  "timeLimit": 60
+},
+{
+  "id": 70,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Distributed inference involves:",
+  "options": [
+    "Serving predictions across multiple machines",
+    "Using one CPU only",
+    "Training a model",
+    "Compressing datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Distributed inference improves scalability and availability.",
+  "points": 30,
+  "tags": ["distributed-inference"],
+  "timeLimit": 60
+},
+{
+  "id": 71,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Model versioning enables:",
+  "options": [
+    "Managing multiple versions of deployed models",
+    "Increasing GPU memory",
+    "Compressing APIs",
+    "Training datasets"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Versioning allows rollback, comparison, and reproducibility.",
+  "points": 30,
+  "tags": ["model-versioning"],
+  "timeLimit": 60
+},
+{
+  "id": 72,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "A/B testing compares:",
+  "options": [
+    "Two model versions using live traffic",
+    "Two datasets",
+    "Two Docker images",
+    "Two GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "A/B testing helps identify the better-performing deployment.",
+  "points": 30,
+  "tags": ["ab-testing"],
+  "timeLimit": 60
+},
+{
+  "id": 73,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Rollback is used when:",
+  "options": [
+    "A deployment causes problems and a previous version must be restored",
+    "Training begins",
+    "Datasets are updated",
+    "APIs are documented"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Rollback restores a stable deployment after failures.",
+  "points": 30,
+  "tags": ["rollback"],
+  "timeLimit": 60
+},
+{
+  "id": 74,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Deployment monitoring helps detect:",
+  "options": [
+    "Performance issues and service failures",
+    "Dataset labels",
+    "Training epochs",
+    "Programming syntax"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Monitoring provides visibility into production system health.",
+  "points": 30,
+  "tags": ["monitoring"],
+  "timeLimit": 60
+},
+{
+  "id": 75,
+  "category": "model-deployment",
+  "difficulty": "hard",
+  "question": "Application logging is mainly used to:",
+  "options": [
+    "Record events for debugging and auditing",
+    "Train models",
+    "Compress datasets",
+    "Generate Docker images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Logs help diagnose issues, monitor applications, and investigate failures.",
+  "points": 30,
+  "tags": ["logging"],
+  "timeLimit": 60
+},
+{
+  "id": 76,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "LLM deployment primarily involves:",
+  "options": [
+    "Serving Large Language Models in production",
+    "Training CNNs",
+    "Building datasets",
+    "Creating APIs only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LLM deployment focuses on serving foundation models efficiently and reliably in production.",
+  "points": 40,
+  "tags": ["llm-deployment"],
+  "timeLimit": 75
+},
+{
+  "id": 77,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Quantized model deployment mainly reduces:",
+  "options": [
+    "Memory usage and inference latency",
+    "Dataset size",
+    "Training data",
+    "API endpoints"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Quantization converts model weights to lower precision, enabling faster and more memory-efficient inference.",
+  "points": 40,
+  "tags": ["quantization"],
+  "timeLimit": 75
+},
+{
+  "id": 78,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "LoRA adapter serving allows:",
+  "options": [
+    "Loading lightweight adapters with a base model",
+    "Replacing GPUs",
+    "Compressing datasets",
+    "Removing APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "LoRA adapters modify a base model without requiring multiple full model copies.",
+  "points": 40,
+  "tags": ["lora"],
+  "timeLimit": 75
+},
+{
+  "id": 79,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "PEFT deployment refers to:",
+  "options": [
+    "Deploying parameter-efficient fine-tuned models",
+    "Deploying only CNN models",
+    "Training with larger datasets",
+    "Running Docker on GPUs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "PEFT enables efficient deployment of adapted foundation models.",
+  "points": 40,
+  "tags": ["peft"],
+  "timeLimit": 75
+},
+{
+  "id": 80,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Multi-model serving enables:",
+  "options": [
+    "Serving several models from one deployment",
+    "Training multiple datasets",
+    "Using one GPU only",
+    "Running multiple operating systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Inference servers can host multiple models simultaneously.",
+  "points": 40,
+  "tags": ["multi-model"],
+  "timeLimit": 75
+},
+{
+  "id": 81,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Dynamic model loading helps by:",
+  "options": [
+    "Loading models into memory only when needed",
+    "Increasing dataset size",
+    "Deleting model weights",
+    "Replacing APIs"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dynamic loading reduces memory usage while supporting many deployed models.",
+  "points": 40,
+  "tags": ["dynamic-loading"],
+  "timeLimit": 75
+},
+{
+  "id": 82,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Serverless deployment allows:",
+  "options": [
+    "Running applications without managing servers directly",
+    "Running only on GPUs",
+    "Removing APIs",
+    "Training models faster"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Cloud providers automatically manage infrastructure for serverless applications.",
+  "points": 40,
+  "tags": ["serverless"],
+  "timeLimit": 75
+},
+{
+  "id": 83,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Edge deployment places AI models:",
+  "options": [
+    "On devices near where data is generated",
+    "Only in cloud servers",
+    "Only inside browsers",
+    "Only on databases"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Edge AI reduces latency and network dependency by processing data locally.",
+  "points": 40,
+  "tags": ["edge-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 84,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Mobile deployment targets:",
+  "options": [
+    "Smartphones and tablets",
+    "Desktop servers only",
+    "Cloud databases",
+    "Network routers"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Frameworks like TensorFlow Lite and Core ML enable AI on mobile devices.",
+  "points": 40,
+  "tags": ["mobile-ai"],
+  "timeLimit": 75
+},
+{
+  "id": 85,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Browser AI commonly uses:",
+  "options": [
+    "WebGPU and WebAssembly",
+    "CUDA only",
+    "OpenCL only",
+    "DirectX only"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern browsers can execute AI models using WebGPU and WebAssembly technologies.",
+  "points": 40,
+  "tags": ["webgpu", "wasm"],
+  "timeLimit": 75
+},
+{
+  "id": 86,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "A vector database is mainly used for:",
+  "options": [
+    "Semantic similarity search",
+    "Image editing",
+    "GPU scheduling",
+    "Container management"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Vector databases store embeddings for efficient semantic retrieval.",
+  "points": 40,
+  "tags": ["vector-db"],
+  "timeLimit": 75
+},
+{
+  "id": 87,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "RAG deployment combines:",
+  "options": [
+    "Retrieval systems with language models",
+    "CNNs with GANs",
+    "Docker with Kubernetes only",
+    "REST with FTP"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Retrieval-Augmented Generation retrieves relevant documents before generating responses.",
+  "points": 40,
+  "tags": ["rag"],
+  "timeLimit": 75
+},
+{
+  "id": 88,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Streaming responses improve user experience by:",
+  "options": [
+    "Sending generated output incrementally",
+    "Training models continuously",
+    "Reducing dataset size",
+    "Compressing models"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Streaming allows users to receive generated content immediately rather than waiting for completion.",
+  "points": 40,
+  "tags": ["streaming"],
+  "timeLimit": 75
+},
+{
+  "id": 89,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Token streaming means:",
+  "options": [
+    "Sending generated tokens as they are produced",
+    "Compressing prompts",
+    "Training transformer layers",
+    "Deleting tokens"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Token streaming provides faster perceived response times in LLM applications.",
+  "points": 40,
+  "tags": ["token-streaming"],
+  "timeLimit": 75
+},
+{
+  "id": 90,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Async inference allows:",
+  "options": [
+    "Processing requests without blocking other operations",
+    "Training faster",
+    "Removing queues",
+    "Reducing model size"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Asynchronous inference improves throughput and scalability.",
+  "points": 40,
+  "tags": ["async"],
+  "timeLimit": 75
+},
+{
+  "id": 91,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "GPU scheduling optimizes:",
+  "options": [
+    "Allocation of GPU resources among workloads",
+    "Image quality",
+    "Dataset size",
+    "Programming languages"
+  ],
+  "correctAnswer": 0,
+  "explanation": "GPU scheduling improves utilization and fairness across workloads.",
+  "points": 40,
+  "tags": ["gpu-scheduling"],
+  "timeLimit": 75
+},
+{
+  "id": 92,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Cost optimization aims to:",
+  "options": [
+    "Reduce infrastructure costs while maintaining performance",
+    "Increase model size",
+    "Remove monitoring",
+    "Duplicate deployments"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Efficient resource usage lowers operational costs without sacrificing service quality.",
+  "points": 40,
+  "tags": ["cost-optimization"],
+  "timeLimit": 75
+},
+{
+  "id": 93,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "High Availability (HA) ensures:",
+  "options": [
+    "Services remain operational despite failures",
+    "Faster model training",
+    "Smaller datasets",
+    "Lower learning rates"
+  ],
+  "correctAnswer": 0,
+  "explanation": "HA architectures minimize downtime using redundancy and failover mechanisms.",
+  "points": 40,
+  "tags": ["high-availability"],
+  "timeLimit": 75
+},
+{
+  "id": 94,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Fault tolerance enables a system to:",
+  "options": [
+    "Continue operating despite component failures",
+    "Increase GPU memory",
+    "Delete corrupted datasets",
+    "Train faster"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Fault-tolerant systems maintain service even when hardware or software components fail.",
+  "points": 40,
+  "tags": ["fault-tolerance"],
+  "timeLimit": 75
+},
+{
+  "id": 95,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Disaster recovery primarily focuses on:",
+  "options": [
+    "Restoring services after major failures",
+    "Optimizing datasets",
+    "Improving latency",
+    "Increasing GPU utilization"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Disaster recovery includes backups, replication, and recovery procedures.",
+  "points": 40,
+  "tags": ["disaster-recovery"],
+  "timeLimit": 75
+},
+{
+  "id": 96,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "OpenTelemetry is used for:",
+  "options": [
+    "Collecting logs, metrics, and traces",
+    "Training neural networks",
+    "Building datasets",
+    "Serving Docker images"
+  ],
+  "correctAnswer": 0,
+  "explanation": "OpenTelemetry is an industry standard for observability instrumentation.",
+  "points": 40,
+  "tags": ["opentelemetry"],
+  "timeLimit": 75
+},
+{
+  "id": 97,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "Observability combines:",
+  "options": [
+    "Metrics, logs, and traces",
+    "Training and testing",
+    "REST and GraphQL",
+    "GPU and CPU"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Observability helps engineers understand distributed production systems.",
+  "points": 40,
+  "tags": ["observability"],
+  "timeLimit": 75
+},
+{
+  "id": 98,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "A key security practice for model APIs is:",
+  "options": [
+    "Authentication and authorization",
+    "Removing HTTPS",
+    "Disabling logging",
+    "Ignoring rate limits"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Secure authentication, authorization, encryption, and rate limiting protect deployed AI services.",
+  "points": 40,
+  "tags": ["security", "api-security"],
+  "timeLimit": 75
+},
+{
+  "id": 99,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "An enterprise deployment best practice is to:",
+  "options": [
+    "Automate testing, monitoring, scaling, and rollback",
+    "Deploy without monitoring",
+    "Avoid version control",
+    "Disable backups"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Automation and observability improve reliability, scalability, and maintainability.",
+  "points": 40,
+  "tags": ["best-practices"],
+  "timeLimit": 75
+},
+{
+  "id": 100,
+  "category": "model-deployment",
+  "difficulty": "expert",
+  "question": "The future of AI model deployment is expected to emphasize:",
+  "options": [
+    "Automated, scalable, multi-model, cloud-edge AI systems",
+    "Manual deployment only",
+    "Removing monitoring tools",
+    "Avoiding distributed systems"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Modern deployment trends include LLM serving, edge AI, automation, observability, and intelligent infrastructure management.",
+  "points": 40,
+  "tags": ["future", "deployment"],
+  "timeLimit": 75
+}
+
+]
