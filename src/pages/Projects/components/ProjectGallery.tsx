@@ -13,6 +13,34 @@ type GalleryItem = {
   kind: "dataset" | "output" | "training";
 };
 
+const TRAINING_ITEMS: GalleryItem[] = [
+  {
+    src: "/projects/cartoonix/training/training-run.png",
+    title: "Training Run",
+    category: "Training",
+    kind: "training",
+  },
+  {
+    src: "/projects/cartoonix/training/training-config.png",
+    title: "Training Configuration",
+    category: "Training",
+    kind: "training",
+  },
+  {
+    src: "/projects/cartoonix/training/training-run-details.png",
+    title: "Training Run Details",
+    category: "Training",
+    kind: "training",
+  },
+  {
+    src: "/projects/cartoonix/training/training-progress.png",
+    title: "Training Progress",
+    category: "Training",
+    kind: "training",
+  },
+];
+
+
 type GalleryManifest = {
   generatedAt?: string;
   datasetCount?: number;
@@ -335,17 +363,13 @@ function Gallery({
   );
 }
 
-function TrainingGallery({
-  items,
-}: {
-  items: GalleryItem[];
-}) {
+function TrainingGallery() {
   return (
     <Gallery
       id="training-gallery"
       title="TRAINING EVIDENCE"
-      description="Dataset preparation, training configuration and training progress evidence for this project."
-      items={items}
+      description="Dataset preparation, training configuration, training progress and recorded LoRA training evidence."
+      items={TRAINING_ITEMS}
       emptyText="No training evidence has been added yet."
     />
   );
@@ -500,7 +524,7 @@ export default function ProjectGallery({
             <span>02</span>
             TRAINING
             <small>
-              {(manifest.training?.length ?? 0)} evidence assets
+              {TRAINING_ITEMS.length} evidence assets
             </small>
           </button>
 
@@ -562,9 +586,7 @@ export default function ProjectGallery({
         )}
 
         {activeView === "training" && (
-          <TrainingGallery
-            items={manifest.training ?? []}
-          />
+          <TrainingGallery />
         )}
 
       </div>

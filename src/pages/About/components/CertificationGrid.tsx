@@ -240,7 +240,7 @@ export default function CertificationGrid() {
                   </small>
                 )}
 
-                {cert.image && (
+                {cert.image && !cert.credentialUrl && (
                   <small className="credential-link">
                     View certificate →
                   </small>
@@ -250,10 +250,10 @@ export default function CertificationGrid() {
             </>
           );
 
-          return cert.credentialUrl ? (
+          return cert.credentialUrl || cert.image ? (
             <a
               key={cert.title}
-              href={cert.credentialUrl}
+              href={cert.credentialUrl || cert.image}
               target="_blank"
               rel="noopener noreferrer"
               className="glass certification-card certification-link-card"

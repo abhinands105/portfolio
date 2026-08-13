@@ -115,11 +115,36 @@ export const projects: Project[] = [
       },
     ],
     media: [
-      { type: "placeholder", title: "Hero generation reel", caption: "Add a 10–20 second CARTOONIX screen recording or best-output montage.", src: "/projects/cartoonix/hero.mp4" },
-      { type: "placeholder", title: "Dataset overview", caption: "Add a screenshot of the cleaned dataset and caption structure.", src: "/projects/cartoonix/dataset-overview.png" },
-      { type: "placeholder", title: "Base vs LoRA", caption: "Add matched-prompt comparison outputs.", src: "/projects/cartoonix/base-vs-lora.png" },
-      { type: "placeholder", title: "Generated outputs", caption: "Add the strongest final generations here.", src: "/projects/cartoonix/output-01.png" },
-      { type: "placeholder", title: "ControlNet result", caption: "Add source → edge map → final generation comparison.", src: "/projects/cartoonix/controlnet.png" },
+      {
+        type: "video",
+        title: "CARTOONIX Generation Reel",
+        caption: "Short overview of the local CARTOONIX generation workflow.",
+        src: "/projects/cartoonix/videos/hero.mp4",
+      },
+      {
+        type: "image",
+        title: "Dataset Overview",
+        caption: "Training dataset organization and visual coverage.",
+        src: "/projects/cartoonix/training/dataset-overview.webp",
+      },
+      {
+        type: "image",
+        title: "Base vs LoRA",
+        caption: "Comparison between the base model and trained LoRA adapter.",
+        src: "/projects/cartoonix/training/base-vs-lora.webp",
+      },
+      {
+        type: "image",
+        title: "Training Progress",
+        caption: "LoRA training progress and experiment evidence.",
+        src: "/projects/cartoonix/training/training-progress.webp",
+      },
+      {
+        type: "image",
+        title: "ControlNet",
+        caption: "Structural conditioning and controlled generation.",
+        src: "/projects/cartoonix/training/controlnet.webp",
+      },
     ],
     challenges: [
       "Running diffusion inference and fine-tuning on a 6 GB laptop GPU required memory-aware settings.",
@@ -140,7 +165,7 @@ export const projects: Project[] = [
       "A full video dataset and LoRA workflow covering clip cleaning, frame extraction, multimodal labeling, dataset engineering, Wan 2.1 fine-tuning and local ComfyUI inference.",
     heroLabel: "VIDEO → CLIPS → FRAMES → LABELS → WAN LoRA → VIDEO",
     tech: ["Python", "OpenCV", "Qwen2.5-VL", "FAISS", "Pillow", "Wan 2.1", "AI Toolkit", "LoRA", "ComfyUI", "CUDA"],
-    github: "https://github.com/abhinands105",
+    github: "https://github.com/abhinands105/spiderverse-video-lora",
     metrics: [
       { value: "1,239", label: "cleaned clips", detail: "After the video dataset cleanup stage." },
       { value: "8,969", label: "extracted frames", detail: "Frame-level training material documented in the CV." },
@@ -204,11 +229,30 @@ export const projects: Project[] = [
       },
     ],
     media: [
-      { type: "placeholder", title: "Video demo reel", caption: "Add the best 10–30 second generated video montage.", src: "/projects/spiderverse/hero.mp4" },
-      { type: "placeholder", title: "Dataset pipeline", caption: "Add a visual showing raw clips → cleaned clips → frames.", src: "/projects/spiderverse/dataset-pipeline.png" },
-      { type: "placeholder", title: "Frame labeling", caption: "Add Qwen2.5-VL labeling examples and metadata.", src: "/projects/spiderverse/labeling.png" },
-      { type: "placeholder", title: "Wan training", caption: "Add training console/configuration screenshots.", src: "/projects/spiderverse/training.png" },
-      { type: "placeholder", title: "Generated videos", caption: "Add final generation clips.", src: "/projects/spiderverse/output-01.mp4" },
+      {
+        type: "image",
+        title: "ComfyUI Workflow",
+        caption: "Wan 2.1 local ComfyUI inference workflow.",
+        src: "/projects/spiderverse/training/comfyui-workflow.png",
+      },
+      {
+        type: "image",
+        title: "Generation Configuration",
+        caption: "Generation configuration used for local video inference.",
+        src: "/projects/spiderverse/training/generation-config.png",
+      },
+      {
+        type: "image",
+        title: "Dataset Frames",
+        caption: "Extracted frames from the cleaned SpiderVerse video dataset.",
+        src: "/projects/spiderverse/training/dataset-frames.png",
+      },
+      {
+        type: "image",
+        title: "Training Configuration",
+        caption: "Wan 2.1 LoRA training configuration.",
+        src: "/projects/spiderverse/training/training-config.png",
+      },
     ],
     challenges: [
       "Video models are significantly more memory-intensive than image models, making 6 GB VRAM a major systems constraint.",
@@ -228,7 +272,7 @@ export const projects: Project[] = [
       "A practical diffusion fine-tuning experiment covering dataset cleaning, caption validation, LoRA training and reproducible generation settings for a 6 GB laptop GPU.",
     heroLabel: "PIXEL DATASET → LoRA → CONTROLLED GENERATION",
     tech: ["Python", "PyTorch", "Stable Diffusion 1.5", "DreamShaper 8", "LoRA", "Kohya SS", "CUDA"],
-    github: "https://github.com/abhinands105/image-gen-pipeline",
+    github: "https://github.com/abhinands105/pixellora",
     metrics: [
       { value: "2,186", label: "scanned images", detail: "Initial dataset scan." },
       { value: "2,001", label: "clean images", detail: "Final image-caption dataset." },
@@ -274,10 +318,24 @@ export const projects: Project[] = [
       },
     ],
     media: [
-      { type: "placeholder", title: "Dataset audit", caption: "Add the scan / cleaning report screenshot.", src: "/projects/pixellora/dataset-audit.png" },
-      { type: "placeholder", title: "Caption validation", caption: "Add the final image-caption validation output.", src: "/projects/pixellora/caption-validation.png" },
-      { type: "placeholder", title: "Training run", caption: "Add Kohya / training screenshots and loss curve.", src: "/projects/pixellora/training.png" },
-      { type: "placeholder", title: "Output gallery", caption: "Add your strongest PixelLoRA generations.", src: "/projects/pixellora/output-01.png" },
+      {
+        type: "image",
+        title: "Dataset Overview",
+        caption: "PixelLoRA dataset cleaning and training-data overview.",
+        src: "/projects/pixellora/training/dataset-overview.png",
+      },
+      {
+        type: "image",
+        title: "Training Configuration",
+        caption: "PixelLoRA LoRA training configuration.",
+        src: "/projects/pixellora/training/training-config.png",
+      },
+      {
+        type: "image",
+        title: "Training Progress",
+        caption: "Training progress from the PixelLoRA experiment.",
+        src: "/projects/pixellora/training/training-progress.png",
+      },
     ],
     challenges: [
       "Small VRAM makes batch size and resolution important trade-offs.",
@@ -364,7 +422,7 @@ export const projects: Project[] = [
       "A local RAG application that parses PDFs, creates semantic chunks and embeddings, retrieves top-k context with FAISS and injects that context into a local Qwen 3B model.",
     heroLabel: "PDF → PARSE → CHUNK → EMBED → FAISS → QWEN",
     tech: ["Python", "Qwen 3B", "FAISS", "Sentence Transformers", "PyMuPDF", "Streamlit", "CUDA"],
-    github: "https://github.com/abhinands105",
+    github: "https://github.com/abhinands105/local-rag-chatbot",
     metrics: [
       { value: "100%", label: "local inference", detail: "Designed without dependency on cloud LLM APIs." },
       { value: "PDF", label: "document input", detail: "PyMuPDF parsing and metadata extraction." },
@@ -431,6 +489,7 @@ export const projects: Project[] = [
       "A modular backend architecture for orchestrating image generation, video generation, computer vision and document-intelligence services through REST APIs.",
     heroLabel: "MODELS + DATASETS + JOBS + CHECKPOINTS + INFERENCE",
     tech: ["Java", "Spring Boot", "REST APIs", "Python", "Stable Diffusion", "Wan 2.1", "RAG"],
+    github: "https://github.com/abhinands105/ai-model-management-platform",
     metrics: [
       { value: "REST", label: "service layer", detail: "Model and experiment management APIs." },
       { value: "4", label: "AI domains", detail: "Image, video, computer vision and document intelligence." },

@@ -111,9 +111,17 @@ function MediaCard({
         ) : null}
 
         <div className="media-fallback">
-          <span>MEDIA SLOT</span>
+          <span>
+            {src ? "MEDIA UNAVAILABLE" : "MEDIA SLOT"}
+          </span>
+
           <strong>{title}</strong>
-          <small>{src ?? "Add project media"}</small>
+
+          <small>
+            {src
+              ? "The project asset could not be loaded."
+              : "Project media will be added here."}
+          </small>
         </div>
       </div>
 
