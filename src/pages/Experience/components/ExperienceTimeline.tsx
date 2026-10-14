@@ -17,6 +17,7 @@ export default function ExperienceTimeline() {
             duration={experience.duration}
             location={experience.location}
             type={experience.type}
+            logo={experience.logo}
             description={experience.description}
             achievements={experience.achievements}
             technologies={experience.technologies}

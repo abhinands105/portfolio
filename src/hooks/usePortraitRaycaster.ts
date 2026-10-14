@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef } from "react";
 import type { RefObject } from "react";
-import { Points, Raycaster, Vector2 } from "three";
+import { Plane, Raycaster, Vector2, Vector3 } from "three";
 import { useThree } from "@react-three/fiber";
 
 export interface PortraitHoverState {
@@ -12,12 +12,17 @@ export interface PortraitHoverState {
 }
 
 export function usePortraitRaycaster(
-  pointsRef: RefObject<Points | null>
+  _pointsRef: RefObject<Points | null>
 ) {
   const { camera, gl } = useThree();
 
   const raycaster = useMemo(() => new Raycaster(), []);
   const pointer = useMemo(() => new Vector2(), []);
+  const interactionPlane = useMemo(
+    () => new Plane(new Vector3(0, 0, 1), 0),
+    []
+  );
+  const intersection = useMemo(() => new Vector3(), []);
 
   const hover = useRef<PortraitHoverState>({
     active: false,
@@ -39,27 +44,15 @@ export function usePortraitRaycaster(
 
       raycaster.setFromCamera(pointer, camera);
 
-      if (!pointsRef.current) {
-        hover.current.active = false;
-        return;
-      }
-
-      const intersects = raycaster.intersectObject(
-        pointsRef.current,
-        false
-      );
-
-      if (intersects.length === 0) {
+      if (!raycaster.ray.intersectPlane(interactionPlane, intersection)) {
         hover.current.active = false;
         return;
       }
 
       hover.current.active = true;
 
-      const hit = intersects[0];
-
-      hover.current.x = hit.point.x;
-      hover.current.y = hit.point.y;
+      hover.current.x = intersection.x - 0.15;
+      hover.current.y = intersection.y + 0.05;
     }
 
     function onPointerLeave() {
@@ -79,7 +72,7 @@ export function usePortraitRaycaster(
         onPointerLeave
       );
     };
-  }, [camera, gl, pointsRef, pointer, raycaster]);
+  }, [camera, gl, interactionPlane, intersection, pointer, raycaster]);
 
   return hover;
 }

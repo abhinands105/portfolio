@@ -4,6 +4,7 @@ interface ExperienceCardProps {
   duration: string;
   location: string;
   type: string;
+  logo: string;
   description: string;
   achievements: string[];
   technologies: string[];
@@ -15,6 +16,7 @@ export default function ExperienceCard({
   duration,
   location,
   type,
+  logo,
   description,
   achievements,
   technologies,
@@ -22,9 +24,16 @@ export default function ExperienceCard({
   return (
     <article className="experience-card">
       <div className="experience-header">
-        <div>
-          <h3>{role}</h3>
-          <h4>{company}</h4>
+        <div className="experience-title-group">
+          <img
+            className="experience-logo"
+            src={`${import.meta.env.BASE_URL}${logo}`}
+            alt={`${company} logo`}
+          />
+          <div>
+            <h3>{role}</h3>
+            <h4>{company}</h4>
+          </div>
         </div>
 
         <span className="experience-type">

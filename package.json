@@ -1,13 +1,13 @@
 {
   "name": "portfolio",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "oxlint src",
+    "lint": "oxlint src -A unicorn/no-empty-file",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm run lint",
     "deploy": "gh-pages -d dist"

@@ -5,6 +5,7 @@ export interface Experience {
   duration: string;
   location: string;
   type: string;
+  logo: string;
   description: string;
   achievements: string[];
   technologies: string[];
@@ -13,11 +14,39 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: 1,
+    company: "Detect Technologies",
+    role: "AI Engineering Intern",
+    duration: "Sep 2026 – Present",
+    location: "Chennai, Tamil Nadu, India",
+    type: "Full-time",
+    logo: "experience/detect-technologies.png",
+    description:
+      "Contributing to AI engineering initiatives for industrial computer-vision workflows, with a focus on reliable visual intelligence, model evaluation, and production-oriented experimentation.",
+    achievements: [
+      "Developing and evaluating YOLO-based object detection workflows.",
+      "Exploring multimodal LLM approaches for visual understanding and reasoning.",
+      "Working with computer-vision datasets, annotations, and model-performance analysis.",
+      "Supporting robust AI solutions for real-world visual inspection use cases.",
+    ],
+    technologies: [
+      "Python",
+      "Computer Vision",
+      "YOLO",
+      "Multimodal LLMs",
+      "OpenCV",
+      "Deep Learning",
+      "Model Evaluation",
+    ],
+  },
+
+  {
+    id: 2,
     company: "Agratas Academy Pvt. Ltd.",
     role: "Artificial Intelligence Intern",
     duration: "Jul 2024 – Sep 2024",
     location: "India",
     type: "Internship",
+    logo: "experience/agratas-academy.png",
 
     description:
       "Completed industry-oriented Artificial Intelligence and Machine Learning training focused on practical AI development and deployment.",
@@ -41,12 +70,13 @@ export const experiences: Experience[] = [
   },
 
   {
-    id: 2,
+    id: 3,
     company: "MES College of Engineering",
     role: "AI & Data Science Engineer (Academic Projects)",
     duration: "Oct 2022 – Present",
     location: "Kerala, India",
     type: "Academic",
+    logo: "experience/mes-college.png",
 
     description:
       "Developing AI, Deep Learning, Computer Vision, and Generative AI systems through academic and personal projects.",

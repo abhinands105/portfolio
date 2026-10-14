@@ -3,7 +3,6 @@ import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
 import profile from "../../assets/profile.png";
-import particleTexture from "../../assets/textures/particle.png";
 
 import { usePortraitRaycaster } from "../../hooks/usePortraitRaycaster";
 
@@ -21,18 +20,6 @@ export default function ParticlePortrait() {
     
 
     const hover = usePortraitRaycaster(pointsRef);
-
-    const texture = useMemo(() => {
-      const tex = new THREE.TextureLoader().load(particleTexture);
-
-      tex.colorSpace = THREE.SRGBColorSpace;
-      tex.generateMipmaps = true;
-      tex.minFilter = THREE.LinearFilter;
-      tex.magFilter = THREE.LinearFilter;
-      tex.generateMipmaps = false;
-
-      return tex;
-    }, []);
 
     const [imageData,setImageData] =
         useState<ImageData|null>(null);
@@ -158,17 +145,19 @@ export default function ParticlePortrait() {
 
     const dist = Math.sqrt(dx * dx + dy * dy);
 
-    const radius = 0.58;
+    const radius = 0.82;
 
     if (dist < radius) {
+      const influence = 1 - dist / radius;
+      const force = influence * influence;
+      const ripple = Math.sin(clock.elapsedTime * 14 - dist * 20) * force;
+      const safeDistance = Math.max(dist, 0.001);
+      const outwardX = dx / safeDistance;
+      const outwardY = dy / safeDistance;
 
-      const force =
-        ((radius - dist) / radius) *
-        ((radius - dist) / radius);
-
-      vel[i] += dx * force * 0.040;
-      vel[i + 1] += dy * force * 0.040;
-      vel[i + 2] += force * 0.012;
+      vel[i] += (outwardX * 0.028 - outwardY * 0.022) * force;
+      vel[i + 1] += (outwardY * 0.028 + outwardX * 0.022) * force;
+      vel[i + 2] += force * 0.012 + ripple * 0.014;
     }
 
     vel[i] += (org[i] - pos[i]) * 0.040;
@@ -182,6 +171,22 @@ export default function ParticlePortrait() {
     pos[i] += vel[i];
     pos[i + 1] += vel[i + 1];
     pos[i + 2] += vel[i + 2];
+
+    const offsetX = pos[i] - org[i];
+    const offsetY = pos[i + 1] - org[i + 1];
+    const offsetZ = pos[i + 2] - org[i + 2];
+    const offsetLength = Math.hypot(offsetX, offsetY, offsetZ);
+    const maxDisplacement = 0.075;
+
+    if (offsetLength > maxDisplacement) {
+      const scale = maxDisplacement / offsetLength;
+      pos[i] = org[i] + offsetX * scale;
+      pos[i + 1] = org[i + 1] + offsetY * scale;
+      pos[i + 2] = org[i + 2] + offsetZ * scale;
+      vel[i] *= 0.35;
+      vel[i + 1] *= 0.35;
+      vel[i + 2] *= 0.35;
+    }
   }
 
     const attribute = geometryRef.current.getAttribute(
@@ -198,18 +203,23 @@ export default function ParticlePortrait() {
 
     pointsRef.current.position.set(
       0.15,
-      -0.05,
+      -0.05 + Math.sin(clock.elapsedTime * 0.55) * 0.035,
       0
     );
     
 
     pointsRef.current.rotation.y =
-      Math.sin(clock.elapsedTime * 0.22) * 0.06;
+      Math.sin(clock.elapsedTime * 0.28) * 0.1;
 
     pointsRef.current.rotation.x =
-      Math.cos(clock.elapsedTime * 0.16) * 0.025;
+      Math.cos(clock.elapsedTime * 0.2) * 0.04;
 
-    pointsRef.current.scale.setScalar(0.9);
+    pointsRef.current.rotation.z =
+      Math.sin(clock.elapsedTime * 0.35) * 0.015;
+
+    pointsRef.current.scale.setScalar(
+      0.9 + Math.sin(clock.elapsedTime * 0.75) * 0.008
+    );
 
     
     });
@@ -240,10 +250,10 @@ return (
     </bufferGeometry>
 
     <pointsMaterial
-      size={0.022}
+      size={0.019}
       sizeAttenuation
       transparent
-      opacity={1.35}
+      opacity={0.34}
       alphaTest={0.001}
       vertexColors
       color={0xffffff}

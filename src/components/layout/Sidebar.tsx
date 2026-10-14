@@ -14,6 +14,7 @@ import {
 } from "react-icons/fi";
 
 import { IoGameControllerOutline } from "react-icons/io5";
+import "./Sidebar.css";
 
 const menuItems = [
   { name: "HOME", path: "/", icon: <FiHome size={22} /> },
@@ -28,101 +29,38 @@ const menuItems = [
 
 export default function Sidebar() {
   return (
-    <aside
-      style={{
-        width: "88px",
-        height: "100dvh",
-        position: "fixed",
-        left: 0,
-        top: 0,
-        background: "#050510",
-        borderRight: "1px solid rgba(157,78,221,0.15)",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        zIndex: 999,
-      }}
-    >
+    <aside className="sidebar">
       {/* Logo */}
-      <div
-        style={{
-          marginTop: "18px",
-          marginBottom: "30px",
-          fontSize: "48px",
-          fontWeight: 800,
-          color: "#9d4edd",
-          textShadow: "0 0 20px rgba(157,78,221,.7)",
-        }}
-      >
+      <div className="sidebar-logo">
         A
       </div>
 
       {/* Menu */}
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "10px",
-          alignItems: "center",
-        }}
-      >
+      <nav className="sidebar-menu" aria-label="Primary navigation">
         {menuItems.map((item) => (
           <NavLink
             key={item.path}
             to={item.path}
-            style={({ isActive }) => ({
-              width: "64px",
-              height: "58px",
-              borderRadius: "16px",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              gap: "5px",
-              textDecoration: "none",
-              color: isActive ? "#ffffff" : "#bcbcbc",
-              border: isActive
-                ? "1px solid rgba(157,78,221,.8)"
-                : "1px solid rgba(255,255,255,.05)",
-              background: isActive
-                ? "rgba(157,78,221,.15)"
-                : "transparent",
-              boxShadow: isActive
-                ? "0 0 20px rgba(157,78,221,.25)"
-                : "none",
-              transition: "all .25s ease",
-            })}
+            className={({ isActive }) =>
+              `sidebar-item${isActive ? " sidebar-item--active" : ""}`
+            }
           >
             {item.icon}
 
-            <span
-              style={{
-                fontSize: "9px",
-                letterSpacing: ".5px",
-                fontWeight: 600,
-              }}
-            >
+            <span>
               {item.name}
             </span>
           </NavLink>
         ))}
-      </div>
+      </nav>
 
       {/* Socials */}
-      <div
-        style={{
-          marginTop: "auto",
-          display: "flex",
-          flexDirection: "column",
-          gap: "14px",
-          marginBottom: "25px",
-        }}
-      >
+      <div className="sidebar-socials">
         <a
           href="https://github.com/abhinands105"
           target="_blank"
           rel="noreferrer"
-          style={{ color: "#9d4edd" }}
+          className="sidebar-social-link"
         >
           <FiGithub size={22} />
         </a>
@@ -131,39 +69,28 @@ export default function Sidebar() {
           href="https://linkedin.com"
           target="_blank"
           rel="noreferrer"
-          style={{ color: "#9d4edd" }}
+          className="sidebar-social-link"
         >
           <FiLinkedin size={22} />
         </a>
 
         <a
           href="#"
-          style={{ color: "#9d4edd" }}
+          className="sidebar-social-link"
         >
           <FiTwitter size={22} />
         </a>
 
         <a
           href="mailto:abhinands105@gmail.com"
-          style={{ color: "#9d4edd" }}
+          className="sidebar-social-link"
         >
           <FiMail size={22} />
         </a>
       </div>
 
       {/* Theme Button */}
-      <button
-        style={{
-          marginBottom: "20px",
-          width: "54px",
-          height: "54px",
-          borderRadius: "50%",
-          border: "1px solid rgba(157,78,221,.4)",
-          background: "rgba(157,78,221,.08)",
-          color: "#9d4edd",
-          cursor: "pointer",
-        }}
-      >
+      <button className="sidebar-theme-button" aria-label="Theme settings">
         <FiSun size={22} />
       </button>
     </aside>
