@@ -19,7 +19,7 @@ export default function ParticlePortrait() {
 
     
 
-    const hover = usePortraitRaycaster(pointsRef);
+    const hover = usePortraitRaycaster();
 
     const [imageData,setImageData] =
         useState<ImageData|null>(null);

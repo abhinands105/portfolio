@@ -68,12 +68,18 @@
     max-height: none;
     overflow-x: auto;
     overflow-y: hidden;
+    align-items: stretch;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    touch-action: pan-x;
     border-top: 1px solid rgba(157, 78, 221, 0.2);
     border-right: 0;
     background: rgba(5, 5, 16, 0.96);
     backdrop-filter: blur(14px);
   }
 
-  .sidebar-menu { width: max-content; min-width: 100%; flex-direction: row; justify-content: center; gap: 6px; padding: 7px 10px; }
+  .sidebar::-webkit-scrollbar { display: none; }
+  .sidebar-menu { width: max-content; min-width: max-content; flex-direction: row; justify-content: flex-start; gap: 6px; padding: 7px 10px; }
   .sidebar-item { width: 48px; height: 48px; min-width: 48px; border-radius: 12px; }
 }

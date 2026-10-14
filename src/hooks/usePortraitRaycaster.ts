@@ -1,7 +1,6 @@
 // src/hooks/usePortraitRaycaster.ts
 
 import { useEffect, useMemo, useRef } from "react";
-import type { RefObject } from "react";
 import { Plane, Raycaster, Vector2, Vector3 } from "three";
 import { useThree } from "@react-three/fiber";
 
@@ -11,9 +10,7 @@ export interface PortraitHoverState {
   y: number;
 }
 
-export function usePortraitRaycaster(
-  _pointsRef: RefObject<Points | null>
-) {
+export function usePortraitRaycaster() {
   const { camera, gl } = useThree();
 
   const raycaster = useMemo(() => new Raycaster(), []);
@@ -33,7 +30,7 @@ export function usePortraitRaycaster(
   useEffect(() => {
     const canvas = gl.domElement;
 
-    function onPointerMove(event: PointerEvent) {
+    function updatePointer(event: PointerEvent) {
       const rect = canvas.getBoundingClientRect();
 
       pointer.x =
@@ -55,22 +52,37 @@ export function usePortraitRaycaster(
       hover.current.y = intersection.y + 0.05;
     }
 
-    function onPointerLeave() {
+    function onPointerDown(event: PointerEvent) {
+      canvas.setPointerCapture?.(event.pointerId);
+      updatePointer(event);
+    }
+
+    function onPointerMove(event: PointerEvent) {
+      updatePointer(event);
+    }
+
+    function onPointerLeave(event: PointerEvent) {
+      if (event.pointerType !== "mouse") return;
       hover.current.active = false;
     }
 
+    function onPointerUp(event: PointerEvent) {
+      canvas.releasePointerCapture?.(event.pointerId);
+      hover.current.active = false;
+    }
+
+    canvas.addEventListener("pointerdown", onPointerDown);
     canvas.addEventListener("pointermove", onPointerMove);
     canvas.addEventListener("pointerleave", onPointerLeave);
+    canvas.addEventListener("pointerup", onPointerUp);
+    canvas.addEventListener("pointercancel", onPointerUp);
 
     return () => {
-      canvas.removeEventListener(
-        "pointermove",
-        onPointerMove
-      );
-      canvas.removeEventListener(
-        "pointerleave",
-        onPointerLeave
-      );
+      canvas.removeEventListener("pointerdown", onPointerDown);
+      canvas.removeEventListener("pointermove", onPointerMove);
+      canvas.removeEventListener("pointerleave", onPointerLeave);
+      canvas.removeEventListener("pointerup", onPointerUp);
+      canvas.removeEventListener("pointercancel", onPointerUp);
     };
   }, [camera, gl, interactionPlane, intersection, pointer, raycaster]);
 

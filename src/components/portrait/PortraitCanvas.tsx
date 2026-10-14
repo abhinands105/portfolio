@@ -22,6 +22,7 @@ export default function PortraitCanvas() {
       <Canvas
         style={{
           background: "transparent",
+          touchAction: "none",
         }}
         dpr={[1, 2]}
         camera={{
